@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "skill_name": "research-question-audit",
+    "skill_path": "D:\\github-repo\\mis-thesis-skills\\plugins\\thesis-toolkit\\skills\\research-question-audit",
+    "executor_model": "claude-sonnet-5",
+    "analyzer_model": "claude-sonnet-5",
+    "timestamp": "2026-09-06T09:45:00Z",
+    "evals_run": [1, 2],
+    "runs_per_configuration": 1,
+    "note": "time_seconds/tokens 未系統性擷取（評分流程因subagent session limit改為主對話手動讀檔評分，非自動化executor流程），下方兩欄為0，不代表真實耗時為0"
+  },
+  "runs": [
+    {"eval_id": 1, "eval_name": "bad-title-no-dv", "configuration": "with_skill", "run_number": 1,
+     "result": {"pass_rate": 1.00, "passed": 4, "failed": 0, "total": 4, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}},
+    {"eval_id": 1, "eval_name": "bad-title-no-dv", "configuration": "without_skill", "run_number": 1,
+     "result": {"pass_rate": 0.75, "passed": 3, "failed": 1, "total": 4, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}},
+    {"eval_id": 2, "eval_name": "too-many-dvs", "configuration": "with_skill", "run_number": 1,
+     "result": {"pass_rate": 1.00, "passed": 4, "failed": 0, "total": 4, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}},
+    {"eval_id": 2, "eval_name": "too-many-dvs", "configuration": "without_skill", "run_number": 1,
+     "result": {"pass_rate": 0.75, "passed": 3, "failed": 1, "total": 4, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}}
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {"mean": 1.00, "stddev": 0.00, "min": 1.00, "max": 1.00},
+      "time_seconds": {"mean": 0, "stddev": 0, "min": 0, "max": 0},
+      "tokens": {"mean": 0, "stddev": 0, "min": 0, "max": 0}
+    },
+    "without_skill": {
+      "pass_rate": {"mean": 0.75, "stddev": 0.00, "min": 0.75, "max": 0.75},
+      "time_seconds": {"mean": 0, "stddev": 0, "min": 0, "max": 0},
+      "tokens": {"mean": 0, "stddev": 0, "min": 0, "max": 0}
+    },
+    "delta": {"pass_rate": "+0.25", "time_seconds": "+0", "tokens": "+0"}
+  },
+  "notes": [
+    "只跑1輪（非建議的3輪重複），delta數字僅供方向參考，樣本量太小不能視為統計上穩健的結論",
+    "唯一在兩個eval都失守的assertion：baseline未使用『依變數』這個精確詞彙／未辨識是非問句要改寫成量化句型——這兩點是SKILL目前展現出的主要差異化價值，其餘大部分內容baseline本身就答得到，Sonnet 5的基礎能力本來就不弱",
+    "eval-1的『提出具體修改方向或範例』這條，baseline反而給了比with-skill更具體的4個改寫後題目範例，SKILL在這點上沒有明顯優勢"
+  ]
+}

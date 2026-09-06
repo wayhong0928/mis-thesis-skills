@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mis-thesis-skills",
+  "owner": { "name": "wayhong0928" },
+  "description": "研究方法與論文寫作的稽核工具組，配合 mis-thesis-guide 網站使用",
+  "plugins": [
+    {
+      "name": "thesis-toolkit",
+      "source": "./plugins/thesis-toolkit",
+      "description": "論文 0→1 各階段的研究設計與學術寫作稽核"
+    }
+  ]
+}

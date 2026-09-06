@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "skill_name": "academic-writing-discipline",
+    "skill_path": "D:\\github-repo\\mis-thesis-skills\\plugins\\thesis-toolkit\\skills\\academic-writing-discipline",
+    "executor_model": "claude-sonnet-5",
+    "analyzer_model": "claude-sonnet-5",
+    "timestamp": "2026-09-06T09:45:00Z",
+    "evals_run": [1, 2],
+    "runs_per_configuration": 1,
+    "note": "time_seconds/tokens 未系統性擷取（評分流程因subagent session limit改為主對話手動讀檔評分，非自動化executor流程），下方兩欄為0，不代表真實耗時為0。因果動詞相關assertion依使用者裁示（橫斷面研究寫『影響』在實務上是可接受慣例）採寬鬆認定，兩邊都不因此扣分"
+  },
+  "runs": [
+    {"eval_id": 1, "eval_name": "causal-verb-and-existence-abuse", "configuration": "with_skill", "run_number": 1,
+     "result": {"pass_rate": 0.80, "passed": 4, "failed": 1, "total": 5, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}},
+    {"eval_id": 1, "eval_name": "causal-verb-and-existence-abuse", "configuration": "without_skill", "run_number": 1,
+     "result": {"pass_rate": 0.80, "passed": 4, "failed": 1, "total": 5, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}},
+    {"eval_id": 2, "eval_name": "bloated-middle-sentence", "configuration": "with_skill", "run_number": 1,
+     "result": {"pass_rate": 1.00, "passed": 5, "failed": 0, "total": 5, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}},
+    {"eval_id": 2, "eval_name": "bloated-middle-sentence", "configuration": "without_skill", "run_number": 1,
+     "result": {"pass_rate": 0.80, "passed": 4, "failed": 1, "total": 5, "time_seconds": 0, "tokens": 0, "tool_calls": 0, "errors": 0}}
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {"mean": 0.90, "stddev": 0.10, "min": 0.80, "max": 1.00},
+      "time_seconds": {"mean": 0, "stddev": 0, "min": 0, "max": 0},
+      "tokens": {"mean": 0, "stddev": 0, "min": 0, "max": 0}
+    },
+    "without_skill": {
+      "pass_rate": {"mean": 0.80, "stddev": 0.00, "min": 0.80, "max": 0.80},
+      "time_seconds": {"mean": 0, "stddev": 0, "min": 0, "max": 0},
+      "tokens": {"mean": 0, "stddev": 0, "min": 0, "max": 0}
+    },
+    "delta": {"pass_rate": "+0.10", "time_seconds": "+0", "tokens": "+0"}
+  },
+  "notes": [
+    "只跑1輪（非建議的3輪重複），delta數字僅供方向參考，樣本量太小不能視為統計上穩健的結論",
+    "with-skill在eval-1漏掉『整合成一個完整修改句』（只給逐條局部修法），baseline反而有給完整改寫句——這是一個真實、可修的產品缺口，不是評分誤差",
+    "with-skill與baseline在『中間肥大』『存在濫用』等具體規則辨識上互有勝負，顯示Sonnet 5基礎模型本身對中文歐化語法已有不錯的敏感度，SKILL的價值更多在於系統性/一致性/精確對應規則庫，而非解鎖baseline做不到的能力"
+  ]
+}
