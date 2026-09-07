@@ -1,5 +1,5 @@
 {
   "name": "thesis-toolkit",
-  "description": "論文 0→1 各階段的研究設計與學術寫作稽核，取材自 mis-thesis-guide 網站的公開內容",
-  "version": "0.1.0"
+  "description": "論文 0→1 三階段的稽核工具：找研究方向、稽核研究問題、稽核學術寫作，取材自 mis-thesis-guide 網站的公開內容",
+  "version": "0.2.0"
 }

@@ -2,16 +2,17 @@
 
 論文研究方法與學術寫作的稽核工具組，把 [mis-thesis-guide](https://github.com/wayhong0928/mis-thesis-guide) 網站的部分內容做成可安裝的 Claude Code SKILL，取代同學自己複製貼上提示詞的方式。
 
-這是一個 [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)，收錄一個 plugin（`thesis-toolkit`），裡面包含兩個 SKILL：
+這是一個 [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)，收錄一個 plugin（`thesis-toolkit`），裡面包含三個 SKILL，對應論文 0→1 的三個階段：
 
 ## 內含的 SKILL
 
 | SKILL | 管什麼 | 不管什麼 |
 |---|---|---|
+| `research-direction-finding` | 完全沒有研究方向、或只有一個大到不能當題目的領域興趣時，用起步策略與收斂漏斗（領域→主題→子題→題目→研究問題）一次推進一層，收出一句話的研究想法；每輪寫進度筆記 | 不稽核收出來的題目站不站得住腳（那是下一個 SKILL）；不代替使用者讀文獻 |
 | `research-question-audit` | 稽核已經想出來的研究問題／研究想法，抓邏輯、方法論、可行性上的漏洞；跑完稽核後可進入逐項引導模式，一項一項幫你想清楚該怎麼回答 | 不會替你從零發想題目；不涉及問卷題項編寫、統計分析實跑等執行細節 |
 | `academic-writing-discipline` | 稽核一段中文學術論述的文字與論證品質：因果動詞紀律、構句原則、台灣學術用語、APA 7、去 AI 感、文獻是否真的對話（而非只是並列）、章節結構寫法 | 不處理研究設計邏輯（那是上面那個 SKILL 的範圍） |
 
-兩者的判準都可獨立溯源於公開學術方法學資源（詳見各 SKILL 的 `references/` 與 [mis-thesis-guide](https://github.com/wayhong0928/mis-thesis-guide) 網站上的 [「把教材做成可安裝的 SKILL」](https://github.com/wayhong0928/mis-thesis-guide) 一文，記錄了完整的設計與提煉過程）。
+三者的判準都可獨立溯源於公開學術方法學資源（詳見各 SKILL 的 `references/` 與 [mis-thesis-guide](https://github.com/wayhong0928/mis-thesis-guide) 網站上的 [「把教材做成可安裝的 SKILL」](https://github.com/wayhong0928/mis-thesis-guide) 一文，記錄了完整的設計與提煉過程）。
 
 ## 安裝方式
 
@@ -36,7 +37,7 @@ Codex 也支援開放的 [Agent Skills](https://agentskills.io/) 格式，讀取
 
 ## 評測
 
-兩個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過完整評測（設計測試案例、平行比較「有無 SKILL」的輸出差異、量化評分），過程與誠實的發現（包括一次「SKILL 反而漏抓 baseline 抓到的問題」的真實案例）記錄在 [`evals/`](evals/) 目錄與網站的實作紀錄文章裡。
+`research-question-audit` 與 `academic-writing-discipline` 兩個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過完整評測（設計測試案例、平行比較「有無 SKILL」的輸出差異、量化評分），過程與誠實的發現（包括一次「SKILL 反而漏抓 baseline 抓到的問題」的真實案例）記錄在 [`evals/`](evals/) 目錄與網站的實作紀錄文章裡。`research-direction-finding` 於 2026-09-07 新增，測試案例已定義在該 SKILL 的 `evals/evals.json`，但**尚未實際跑過評測**。
 
 ## 授權
 
