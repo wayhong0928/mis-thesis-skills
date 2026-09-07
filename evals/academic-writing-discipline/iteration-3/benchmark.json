@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "skill_name": "academic-writing-discipline",
+    "skill_path": "D:\\github-repo\\mis-thesis-skills\\plugins\\thesis-toolkit\\skills\\academic-writing-discipline",
+    "executor_model": "claude-sonnet-5",
+    "analyzer_model": "claude-sonnet-5 (self-graded inline, no separate grader subagent spawned)",
+    "timestamp": "2026-09-07T00:00:00Z",
+    "evals_run": [1, 2, 3],
+    "runs_per_configuration": 1,
+    "note_on_runs_per_configuration": "只跑 1 次（非官方建議的 3 次），因任務有中斷風險，優先確保 3 個 case 都跑完。stddev 因此無法從重複跑跑出，本檔的 stddev 是跨『不同 case』算出來的離散度，不是同一 case 重跑的穩定度，見 RUBRIC.md 第5節。"
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "eval_name": "causal-verb-and-existence-abuse",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.8, "passed": 4, "failed": 1, "total": 5, "time_seconds": 104.0, "tokens": 73491, "tool_calls": 2, "errors": 0},
+      "expectations": [
+        {"text": "指出橫斷面研究不能用『具有顯著之影響』，建議改為『正向預測』或『相關』", "passed": true, "evidence": "回應依研究設計條件分岔給出相關語言版本"},
+        {"text": "指出『存在正向關係』屬於『存在』濫用，建議改寫", "passed": false, "evidence": "只當作因果/相關不一致處理，未點名為『存在』弱動詞濫用"},
+        {"text": "指出『人工智能』為大陸用語，建議改為『人工智慧』", "passed": true, "evidence": "明確列出並改寫"},
+        {"text": "提供一個修改後的完整句子範例", "passed": true, "evidence": "整合修改版給出兩個完整版本"},
+        {"text": "沒有出現任何版權排除清單的詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "causal-verb-and-existence-abuse",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.6, "passed": 3, "failed": 2, "total": 5, "time_seconds": 35.4, "tokens": 63644, "tool_calls": 1, "errors": 0},
+      "expectations": [
+        {"text": "指出橫斷面研究不能用『具有顯著之影響』，建議改為『正向預測』或『相關』", "passed": true, "evidence": "依研究設計分岔給出相關版本"},
+        {"text": "指出『存在正向關係』屬於『存在』濫用，建議改寫", "passed": false, "evidence": "只從推論跳躍角度處理，未點名存在濫用"},
+        {"text": "指出『人工智能』為大陸用語，建議改為『人工智慧』", "passed": false, "evidence": "全文未提及，自己給的修改句仍用『人工智能』"},
+        {"text": "提供一個修改後的完整句子範例", "passed": true, "evidence": "給出兩版修改句"},
+        {"text": "沒有出現任何版權排除清單的詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "bloated-middle-sentence",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.8, "passed": 4, "failed": 1, "total": 5, "time_seconds": 153.8, "tokens": 86869, "tool_calls": 6, "errors": 0},
+      "expectations": [
+        {"text": "辨識出『由於……因此』易爆句型且子句過長", "passed": true, "evidence": "開頭即點名"},
+        {"text": "建議拆成兩句的具體修法", "passed": true, "evidence": "整合修改版拆成兩句"},
+        {"text": "指出『對於……的』易爆句型", "passed": true, "evidence": "點名並給修法"},
+        {"text": "指出『造成什麼樣的影響』的因果動詞問題", "passed": false, "evidence": "回應主動論證此處不構成越線（研究目的句非因果宣稱）——可能是規則改寫後的合理判斷而非退步，見 grading.json 詳細註記"},
+        {"text": "沒有出現任何版權排除清單的詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["a4 這條 assertion 沿用舊版判準，sentence-and-causal.md 改版後可能已不適用於研究目的句情境，建議下次改版評測時重新設計"]
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "bloated-middle-sentence",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.8, "passed": 4, "failed": 1, "total": 5, "time_seconds": 48.7, "tokens": 64898, "tool_calls": 2, "errors": 0},
+      "expectations": [
+        {"text": "辨識出『由於……因此』易爆句型且子句過長", "passed": true, "evidence": "明確點名"},
+        {"text": "建議拆成兩句的具體修法", "passed": true, "evidence": "拆成三句，效果相同"},
+        {"text": "指出『對於……的』易爆句型", "passed": true, "evidence": "結構拆解時明確點名"},
+        {"text": "指出『造成什麼樣的影響』的因果動詞問題", "passed": false, "evidence": "全文未觸及因果動詞面向"},
+        {"text": "沒有出現任何版權排除清單的詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["本案例 with/without 打平（0.8/0.8），a4 對兩邊都不構成鑑別度，真正的構句判準（a1-a3）兩邊表現相近"]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "good-lit-review-false-positive-check",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5, "time_seconds": 236.2, "tokens": 83985, "tool_calls": 4, "errors": 0},
+      "expectations": [
+        {"text": "未把理論機制描述誤判為致命因果越線", "passed": true, "evidence": "致命：未發現，理由充分"},
+        {"text": "正確核對 APA 格式（等人/與）", "passed": true, "evidence": "通過項目明確列出"},
+        {"text": "有執行關係詞測試，指出兩篇文獻的互補關係", "passed": true, "evidence": "關係詞測試判定互補關係並通過"},
+        {"text": "沒有出現版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"},
+        {"text": "整體判斷為可用，未錯誤升級為需大幅修改", "passed": true, "evidence": "一句話總結：可用，僅1處格式錯誤+2處風格瑕疵"}
+      ],
+      "notes": ["重要質性發現：without_skill 獨立抓到一個本案例可能真實存在的論證缺口（迴避因應鋪陳未回扣到新變項分類），with_skill 的伏筆兌現檢查因為只看單一段落而判定無法定論、給了通過。這代表本案例的『假陽性防呆』測試前提可能不完全成立，delta 解讀需保留，詳見 grading.json 的 eval_feedback。"]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "good-lit-review-false-positive-check",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.6, "passed": 3, "failed": 2, "total": 5, "time_seconds": 112.9, "tokens": 68857, "tool_calls": 2, "errors": 0},
+      "expectations": [
+        {"text": "未把理論機制描述誤判為致命因果越線", "passed": true, "evidence": "未判為越線，甚至稱讚用詞保守"},
+        {"text": "正確核對 APA 格式（等人/與）", "passed": true, "evidence": "肯定格式正確"},
+        {"text": "有執行關係詞測試，指出兩篇文獻的互補關係", "passed": false, "evidence": "把兩篇文獻視為同質、證據力不足的並列證據，而非互補關係"},
+        {"text": "沒有出現版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"},
+        {"text": "整體判斷為可用，未錯誤升級為需大幅修改", "passed": false, "evidence": "把論證鏈跳躍列為優先處理項——但這可能是準確的批評而非過度反應，見 grading.json 詳細註記"}
+      ],
+      "notes": ["本案例 delta（+0.4）需保留解讀：without_skill 找到的問題很可能是重建 prompt 時留下的真實缺口，不是無中生有，不宜直接當作『without_skill 表現差』的證據"]
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {"mean": 0.8667, "stddev": 0.1155, "min": 0.8, "max": 1.0},
+      "time_seconds": {"mean": 164.67, "stddev": 66.77, "min": 104.0, "max": 236.2},
+      "tokens": {"mean": 81448.3, "stddev": 7040.2, "min": 73491, "max": 86869}
+    },
+    "without_skill": {
+      "pass_rate": {"mean": 0.6667, "stddev": 0.1155, "min": 0.6, "max": 0.8},
+      "time_seconds": {"mean": 65.67, "stddev": 41.44, "min": 35.4, "max": 112.9},
+      "tokens": {"mean": 65799.7, "stddev": 2721.0, "min": 63644, "max": 68857}
+    },
+    "delta": {
+      "pass_rate": "+0.20",
+      "time_seconds": "+99.0",
+      "tokens": "+15648.7"
+    }
+  },
+  "notes": [
+    "n=3 個 case，每個 case 只跑 1 次（非 3 次重跑），樣本數遠低於能做統計推論的規模，delta 只能當方向性觀察，不是穩定估計值。",
+    "版權排除清單檢查（a5/a4，視 case 而定）在全部 6 次跑（3 with + 3 without）都通過，顯示這條紅線在當前版本很穩固，未觀察到洩漏風險。",
+    "eval-1（因果動詞/存在濫用）與 eval-3（好文獻回顧假陽性測試）的差異主要來自『台灣用語替換』與『APA格式/文獻對話』這類 skill 明文規則帶來的邊際價值，而不是通用寫作判斷力的差距——baseline（Sonnet 本身）在構句分析、因果推論邏輯上已經相當強，delta 的來源更多是『skill 教了 baseline 不知道的具體規則』而非『skill 讓模型變聰明』。",
+    "eval-2 的 delta 為 0（0.8 vs 0.8），原因是舊版 a4 assertion 在 sentence-and-causal.md 改寫後可能已經過時（研究目的句的『造成什麼樣的影響』不構成因果越線），建議下次評測重新設計此 assertion，不要直接沿用 iteration-1 版本。",
+    "eval-3 的 delta（+0.4）不宜直接解讀為『with_skill 較優』：without_skill 找到的論證鏈缺口（迴避因應鋪陳未回扣）看起來是本案例重建文字本身的真實瑕疵，而非幻覺，若屬實則代表 with_skill 的伏筆兌現檢查在單段落情境下可能不夠敏感，這是後續優化的潛在材料，本輪任務範圍不含修改 SKILL。"
+  ]
+}

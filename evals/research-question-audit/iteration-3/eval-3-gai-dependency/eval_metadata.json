@@ -1,0 +1,13 @@
+{
+  "eval_id": 3,
+  "eval_name": "gai-dependency-vague-dv",
+  "source": "沿用 iteration-2 eval-3-gai-dependency 的 prompt（該 prompt 從 iteration-2 with_skill 的對話記錄逐字還原，原始 evals.json/eval_metadata.json 從未建立），這次補上正式 assertions 並跑 without_skill 對照組",
+  "prompt": "我的研究主題是探討學生學習程式設計時對GAI依賴的情形，這樣可以嗎？",
+  "assertions": [
+    {"text": "檢查點A判定研究缺口分類未通過，理由是只有現象描述、未指出五種缺口之一", "id": "a1"},
+    {"text": "檢查點C第4項指出依變數不清楚（『依賴的情形』不是可測量的依變數）", "id": "a2"},
+    {"text": "檢查點D命中至少一種壞題目長相（例如沒有清楚依變數的『之研究』或戰線過長類），且具體指出命中原因而非只說『像第X種』", "id": "a3"},
+    {"text": "報告結尾因為有不通過項目，主動提供『逐項引導完成』的邀請句", "id": "a4"},
+    {"text": "沒有出現版權排除清單詞彙（舊瓶新酒/新瓶舊酒/雁行/七項要件/貢獻三角度/深而窄/彭明輝等）", "id": "a5"}
+  ]
+}

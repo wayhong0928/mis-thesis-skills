@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "指出這個題目缺少明確依變數（『……之研究』的壞題目長相）",
+      "passed": true,
+      "evidence": "『這是最核心的問題：題目裡沒有依變數(dependent variable)，也就是「你到底想解釋或預測什麼結果」』。"
+    },
+    {
+      "text": "有引導使用者回答『依變數是什麼』這一類具體問題，而非只給籠統評語",
+      "passed": true,
+      "evidence": "『建議怎麼收斂』區塊用具體問題引導：『1. 你比較關心「導入前」還是「導入後」？』等，功能上等同引導使用者定義依變數。"
+    },
+    {
+      "text": "提出至少一個具體的修改方向或改寫後的題目範例",
+      "passed": true,
+      "evidence": "直接給出三個完整改寫後的題目範例（『台灣中小企業導入生成式AI客服系統之採用意圖研究：以TOE框架為基礎』等），比 with_skill 更直接具體。"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙",
+      "passed": true,
+      "evidence": "通篇未出現版權排除清單詞彙。"
+    }
+  ],
+  "summary": {"passed": 4, "failed": 0, "total": 4, "pass_rate": 1.0},
+  "timing": {"total_duration_seconds": 66.7},
+  "eval_feedback": {
+    "overall": "baseline 在這 4 條 assertion 上與 with_skill 打平，且在『給出具體改寫範例』這一點做得比 with_skill 更直接（給了 3 個完整題目，而 with_skill 依 SKILL.md『不替使用者發想題目』的原則只給方向不給範例）。但 baseline 完全沒有觸及『情境缺口紅線』的兩欄判準框架，只在『研究貢獻(gap)在哪裡不清楚』一段用籠統語氣帶過，這是它與 with_skill 真正的差距所在，只是不在這 4 條舊 assertion 的測量範圍內。"
+  }
+}

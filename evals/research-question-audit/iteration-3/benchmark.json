@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "skill_name": "research-question-audit",
+    "skill_path": "D:\\github-repo\\mis-thesis-skills\\plugins\\thesis-toolkit\\skills\\research-question-audit",
+    "executor_model": "claude-sonnet-5",
+    "analyzer_model": "claude-sonnet-5 (self-graded inline, no separate grader subagent spawned)",
+    "timestamp": "2026-09-07T00:00:00Z",
+    "evals_run": [1, 2, 3, 4],
+    "runs_per_configuration": 1,
+    "note_on_runs_per_configuration": "只跑 1 次（非官方建議的 3 次），因任務有中斷風險，優先確保 4 個 case 都跑完。stddev 因此是跨案例離散度，不是同案例重跑穩定度，見 RUBRIC.md 第5節。"
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "eval_name": "bad-title-no-dv",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 1.0, "passed": 4, "failed": 0, "total": 4, "time_seconds": 129.9, "tokens": 83069, "tool_calls": 7, "errors": 0},
+      "expectations": [
+        {"text": "指出題目缺少明確依變數", "passed": true, "evidence": "檢查點D命中①"},
+        {"text": "引導使用者回答依變數是什麼", "passed": true, "evidence": "檢查點C-4與質詢清單"},
+        {"text": "提出具體修改方向或範例", "passed": true, "evidence": "三條收斂路徑+對應理論"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["這4條assertion鑑別力有限，with/without都拿滿分，真正差異在情境缺口紅線兩欄判準（未列入assertion）"]
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "bad-title-no-dv",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 1.0, "passed": 4, "failed": 0, "total": 4, "time_seconds": 66.7, "tokens": 65406, "tool_calls": 3, "errors": 0},
+      "expectations": [
+        {"text": "指出題目缺少明確依變數", "passed": true, "evidence": "明確指出"},
+        {"text": "引導使用者回答依變數是什麼", "passed": true, "evidence": "用具體問題引導收斂"},
+        {"text": "提出具體修改方向或範例", "passed": true, "evidence": "給出3個完整改寫題目，比with_skill更直接"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["baseline在給範例上甚至比with_skill更直接，但完全沒有觸及情境缺口紅線兩欄判準框架"]
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "too-many-dvs",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 1.0, "passed": 4, "failed": 0, "total": 4, "time_seconds": 200.0, "tokens": 87835, "tool_calls": 7, "errors": 0},
+      "expectations": [
+        {"text": "明確指出依變數過多(4個)", "passed": true, "evidence": "檢查點D命中②戰線過長"},
+        {"text": "建議收斂成單一或少數依變數", "passed": true, "evidence": "多處建議先選核心依變數"},
+        {"text": "指出是非問句需改成量化句型", "passed": true, "evidence": "檢查點E給出具體改寫範例"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "too-many-dvs",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.75, "passed": 3, "failed": 1, "total": 4, "time_seconds": 52.2, "tokens": 64641, "tool_calls": 2, "errors": 0},
+      "expectations": [
+        {"text": "明確指出依變數過多(4個)", "passed": true, "evidence": "明確列出四個依變項"},
+        {"text": "建議收斂成單一或少數依變數", "passed": true, "evidence": "三條收斂路徑A/B/C"},
+        {"text": "指出是非問句需改成量化句型", "passed": false, "evidence": "全文未討論是非問句結構問題，只討論因果動詞強度"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["delta乾淨落在是非問句紅線這條skill特有結構規則上，非通用學術寫作常識"]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "gai-dependency-vague-dv",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 1.0, "passed": 5, "failed": 0, "total": 5, "time_seconds": 158.4, "tokens": 86523, "tool_calls": 5, "errors": 0},
+      "expectations": [
+        {"text": "檢查點A判定缺口分類未通過", "passed": true, "evidence": "明確判定並說明理由"},
+        {"text": "檢查點C-4指出依變數不清楚", "passed": true, "evidence": "明確判定不通過"},
+        {"text": "檢查點D命中壞題目長相且具體說明", "passed": true, "evidence": "命中①並具體說明"},
+        {"text": "結尾主動提供逐項引導邀請句", "passed": true, "evidence": "固定邀請句出現"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "gai-dependency-vague-dv",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.4, "passed": 2, "failed": 3, "total": 5, "time_seconds": 71.2, "tokens": 65734, "tool_calls": 4, "errors": 0},
+      "expectations": [
+        {"text": "檢查點A判定缺口分類未通過", "passed": false, "evidence": "未使用五種缺口框架"},
+        {"text": "檢查點C-4指出依變數不清楚", "passed": true, "evidence": "實質等同指出"},
+        {"text": "檢查點D命中壞題目長相且具體說明", "passed": false, "evidence": "未使用六種長相具名框架"},
+        {"text": "結尾主動提供逐項引導邀請句", "passed": false, "evidence": "開放式邀請，非結構化逐項引導"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["本輪delta最大的案例(+0.6)，差距集中在三個SKILL明文規定的結構化機制（五缺口框架/六長相框架/逐項引導邀請），這些是規則性任務，skill的差異化價值在此最明顯"]
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "mature-thesis-false-positive-check",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.833, "passed": 5, "failed": 1, "total": 6, "time_seconds": 346.5, "tokens": 100144, "tool_calls": 6, "errors": 0},
+      "expectations": [
+        {"text": "依變數清楚正確判通過", "passed": true, "evidence": "C-4通過"},
+        {"text": "正確判為理論缺口並列兩欄", "passed": false, "evidence": "重分類為情境缺口，理由充分但與我設計的assertion預期不符，屬test case設計問題非skill缺陷，詳見grading.json"},
+        {"text": "正確命中是非問句紅線", "passed": true, "evidence": "E檢查點明確命中並給改寫範例"},
+        {"text": "可行性與降級方案正確判通過", "passed": true, "evidence": "C-6/G-4皆通過"},
+        {"text": "沒有無中生有發明問題(假陽性檢查)", "passed": true, "evidence": "所有不通過項目皆有具體文字依據，含意外抓到的真實班級混淆問題"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["本案例最大意外發現：with_skill額外抓出我設計prompt時未刻意植入、但確實存在的兩個真實破綻（標題調節效果與設計不符、k=2班級層級混淆），顯示方法論審計比預期更嚴謹"]
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "mature-thesis-false-positive-check",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {"pass_rate": 0.667, "passed": 4, "failed": 2, "total": 6, "time_seconds": 123.1, "tokens": 69354, "tool_calls": 2, "errors": 0},
+      "expectations": [
+        {"text": "依變數清楚正確判通過", "passed": true, "evidence": "未誤判為不清楚"},
+        {"text": "正確判為理論缺口並列兩欄", "passed": false, "evidence": "接受理論缺口標籤但未做兩欄拆解框架"},
+        {"text": "正確命中是非問句紅線", "passed": false, "evidence": "只談因果動詞強度，未觸及是非問句結構規則"},
+        {"text": "可行性與降級方案正確判通過", "passed": true, "evidence": "肯定退階方案存在"},
+        {"text": "沒有無中生有發明問題(假陽性檢查)", "passed": true, "evidence": "六點批評皆緊扣原文，含獨立抓到的班級層級混淆"},
+        {"text": "沒有版權排除清單詞彙", "passed": true, "evidence": "通篇未出現"}
+      ],
+      "notes": ["baseline在此案例表現是全場最強的baseline之一，獨立抓到班級層級混淆這個專業方法論問題，skill的邊際價值主要在情境缺口兩欄框架與是非問句規則這兩條明文規則上"]
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {"mean": 0.9583, "stddev": 0.0833, "min": 0.833, "max": 1.0},
+      "time_seconds": {"mean": 208.7, "stddev": 96.27, "min": 129.9, "max": 346.5},
+      "tokens": {"mean": 89392.75, "stddev": 7444.0, "min": 83069, "max": 100144}
+    },
+    "without_skill": {
+      "pass_rate": {"mean": 0.7042, "stddev": 0.2473, "min": 0.4, "max": 1.0},
+      "time_seconds": {"mean": 78.3, "stddev": 30.95, "min": 52.2, "max": 123.1},
+      "tokens": {"mean": 66283.75, "stddev": 2097.4, "min": 64641, "max": 69354}
+    },
+    "delta": {
+      "pass_rate": "+0.25",
+      "time_seconds": "+130.4",
+      "tokens": "+23109.0"
+    }
+  },
+  "notes": [
+    "n=4 個 case，每個 case 只跑 1 次，樣本數遠低於能做統計推論的規模，delta 只能當方向性觀察。",
+    "without_skill 的 pass_rate 變異度（stddev 0.247）明顯高於 with_skill（0.083）——這代表 baseline（一般 Sonnet 知識）在不同案例上的表現很不穩定（從 1.0 到 0.4 都有），而 skill 提供的結構化流程讓表現穩定在 0.83-1.0 之間。這比單看平均delta更能說明 skill 的價值：不是讓每次都變好一點，而是把『表現隨案例大幅波動』收斂成穩定的高水準輸出。",
+    "版權排除清單檢查在全部 8 次跑（4 with + 4 without）都通過，這條紅線在當前版本很穩固。",
+    "eval-1（bad-title-no-dv）的4條舊assertion鑑別力最弱（with/without都拿滿分），真正的skill差異化價值（情境缺口紅線兩欄判準）沒有被這組舊assertion測到，建議下次改版評測時針對這點設計新assertion。",
+    "eval-3（gai-dependency）與 eval-4（mature-thesis）顯示的模式一致：skill 的邊際價值主要來自三個『SKILL.md明文規定、需要照框架跑一遍』的結構化機制——五種缺口分類、六種壞題目長相具名比對、是非問句紅線——這些都是規則性強、baseline較難自發產生的判準，而不是抽象的『研究方法論sense』（這方面baseline本身已經很強，eval-4甚至獨立抓到專業的班級層級混淆問題）。",
+    "eval-4 的『理論缺口 vs 情境缺口』assertion判定不通過，經覆核判斷是我設計test case時對gap-and-innovation.md定義理解有誤（我寫的情境更貼近情境缺口的教科書定義），with_skill的重分類反而是嚴謹遵照references文件的正確行為，不應解讀為skill表現不佳，詳見該案例grading.json。"
+  ]
+}
