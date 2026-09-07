@@ -1,0 +1,28 @@
+{
+  "eval_id": 4,
+  "eval_name": "already-has-idea-boundary-test",
+  "source": "本 skill 從未跑過評測；本案例從 evals/evals.json 的 eval id 4（expected_output 自由敘述）轉寫為 eval_metadata.json 格式，prompt 原樣沿用。這是邊界測試：本 SKILL 不該越界去做題目稽核。",
+  "prompt": "我想研究生成式 AI 素養如何影響大學生在程式設計課程的學習績效，這個方向你覺得可以嗎？",
+  "assertions": [
+    {
+      "text": "正確辨認使用者已經有一句話寫得出來的研究想法，已超出本 SKILL（從零收斂）的範圍",
+      "id": "a1",
+      "based_on": "SKILL.md §0 套用範圍與定位（description：已經寫得出一句話研究想法的人，請改用 research-question-audit）"
+    },
+    {
+      "text": "不跑收斂漏斗（不問領域/主題/子題等五層問題）",
+      "id": "a2",
+      "based_on": "SKILL.md §0／§5 什麼時候停下來，交給誰"
+    },
+    {
+      "text": "明確說明並交棒給 research-question-audit 做稽核，而非自己嘗試判斷這個題目好不好",
+      "id": "a3",
+      "based_on": "SKILL.md §5 什麼時候停下來，交給誰"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "id": "a4",
+      "based_on": "SKILL.md 開頭聲明"
+    }
+  ]
+}

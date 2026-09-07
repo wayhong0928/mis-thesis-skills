@@ -1,0 +1,28 @@
+{
+  "eval_id": 2,
+  "eval_name": "too-many-dvs",
+  "source": "沿用 iteration-1 eval-2，原樣重跑於當前版本 SKILL.md，供新舊版本比較",
+  "prompt": "我想研究生成式AI對大學生學習動機的影響，同時也想看它對學習成效、批判思考能力、還有未來就業意願的影響，這樣的研究問題可以嗎？",
+  "assertions": [
+    {
+      "text": "明確指出依變數數量過多（4個：學習動機/學習成效/批判思考能力/就業意願）",
+      "id": "a1",
+      "based_on": "references/audit-checklist.md §二 六種壞題目長相（戰線過長／依變數過多類）"
+    },
+    {
+      "text": "建議收斂成單一或少數依變數，而非照單全收",
+      "id": "a2",
+      "based_on": "SKILL.md 檢查點 B：收斂程度（五層收斂漏斗）"
+    },
+    {
+      "text": "指出目前是非問句『可以嗎』的寫法需要改成量化研究問題句型（如正向預測）",
+      "id": "a3",
+      "based_on": "references/question-forms.md §四 紅線：研究問題不能用是非問句寫"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙",
+      "id": "a4",
+      "based_on": "SKILL.md 重要聲明"
+    }
+  ]
+}

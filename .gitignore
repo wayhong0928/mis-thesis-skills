@@ -8,3 +8,6 @@ Thumbs.db
 
 # Backup files
 *.bak-*
+
+# eval 執行時抽出的 prompt 暫存檔（可由 evals/tools/extract_prompts.py 重新產生）
+evals/tools/_prompts/

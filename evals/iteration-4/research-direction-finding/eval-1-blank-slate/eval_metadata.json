@@ -1,0 +1,33 @@
+{
+  "eval_id": 1,
+  "eval_name": "blank-slate-no-direct-topic",
+  "source": "本 skill 從未跑過評測；本案例從 plugins/thesis-toolkit/skills/research-direction-finding/evals/evals.json 的 eval id 1（原格式為 expected_output 自由敘述）轉寫為本專案標準的 eval_metadata.json 格式（拆成可獨立判定真偽的 assertions，並補上 based_on），prompt 原樣沿用，未改動語意。這是 iteration-4 第一次備妥此 skill 的正式評測定義，尚無 iteration-1/2/3 對照資料。",
+  "prompt": "我碩一下了，老師叫我自己想論文題目，但我完全不知道要做什麼，坐在電腦前面兩個禮拜了還是一片空白。可以幫我想一個題目嗎？",
+  "assertions": [
+    {
+      "text": "正確判定使用者屬於『起點 A：完全空白』，而非其他起點",
+      "id": "a1",
+      "based_on": "SKILL.md §1 前置條件檢查（起點判準對照表）"
+    },
+    {
+      "text": "沒有直接生成一個具體題目給使用者",
+      "id": "a2",
+      "based_on": "SKILL.md §1 前置條件檢查（起點A應走§2起步策略，不應跳過直接給題目）"
+    },
+    {
+      "text": "提供至少一項可執行的起步動作（策略一：從頂級期刊/研討會主題分類找；或策略二：翻系所學長姊論文），並說明為什麼這比『直接想一個題目』有用",
+      "id": "a3",
+      "based_on": "SKILL.md §2 三條起步策略（2.1 策略一／2.2 策略二）"
+    },
+    {
+      "text": "沒有一次丟出五層收斂漏斗（領域→主題→子題→題目→研究問題）的所有問題",
+      "id": "a4",
+      "based_on": "SKILL.md §3 收斂漏斗：一次推進一層"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "id": "a5",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）"
+    }
+  ]
+}

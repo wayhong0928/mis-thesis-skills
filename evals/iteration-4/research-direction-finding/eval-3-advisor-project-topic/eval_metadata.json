@@ -1,0 +1,33 @@
+{
+  "eval_id": 3,
+  "eval_name": "advisor-project-topic-no-funnel",
+  "source": "本 skill 從未跑過評測；本案例從 evals/evals.json 的 eval id 3（expected_output 自由敘述）轉寫為 eval_metadata.json 格式，prompt 原樣沿用。",
+  "prompt": "我指導教授接了一個智慧製造的科技部計畫，他叫我從這個計畫裡面找一個題目來做碩論。我該怎麼開始？",
+  "assertions": [
+    {
+      "text": "正確判定使用者屬於『起點 C：題目來自老師的計畫』",
+      "id": "a1",
+      "based_on": "SKILL.md §1 前置條件檢查（起點判準對照表）"
+    },
+    {
+      "text": "明確指出這一類不走收斂漏斗，因為題目範圍已被計畫框住",
+      "id": "a2",
+      "based_on": "SKILL.md §2.3 策略三：從老師的計畫延伸（性質不同，獨立處理，不要用收斂漏斗）"
+    },
+    {
+      "text": "正確重新定位真正要判斷的問題：不是『我想做什麼』，而是『這個計畫裡哪一塊能單獨撐起一篇碩士論文』（可行性與獨立貢獻的判斷）",
+      "id": "a3",
+      "based_on": "SKILL.md §2.3 策略三"
+    },
+    {
+      "text": "引導使用者把計畫目標與自己負責的部分寫成一句話研究想法，並交棒給 research-question-audit 稽核",
+      "id": "a4",
+      "based_on": "SKILL.md §5 什麼時候停下來，交給誰"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "id": "a5",
+      "based_on": "SKILL.md 開頭聲明"
+    }
+  ]
+}

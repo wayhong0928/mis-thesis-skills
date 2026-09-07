@@ -1,0 +1,38 @@
+{
+  "eval_id": 5,
+  "eval_name": "insufficient-information-handoff-to-literature",
+  "source": "本 skill 從未跑過評測；本案例從 evals/evals.json 的 eval id 5（expected_output 自由敘述）轉寫為 eval_metadata.json 格式，prompt 原樣沿用（承接第二輪對話的情境設定保留）。",
+  "prompt": "（承接第二輪對話）我想做金融科技，主題大概是行動支付。但你問我覺得跟什麼有關，我真的不知道耶，我沒讀過這方面的論文。",
+  "assertions": [
+    {
+      "text": "判定為資訊不足，而非繼續追問或換句話再問一次同樣的問題",
+      "id": "a1",
+      "based_on": "references/handoff-to-literature.md 判斷時機（答不出『跟什麼有關』——這幾乎一定是文獻讀太少，不是想得不夠久）"
+    },
+    {
+      "text": "明確停下引導，把文獻檢索工作交回使用者",
+      "id": "a2",
+      "based_on": "references/handoff-to-literature.md 為什麼需要這一節（正確的動作是停下來，送他去讀文獻）"
+    },
+    {
+      "text": "給出具體要查什麼（例如行動支付採用的前因研究，看別人放了哪些自變數），而非空泛地說『去多讀點文獻』",
+      "id": "a3",
+      "based_on": "references/handoff-to-literature.md 交出去的時候要給他三樣東西之1：具體要查什麼"
+    },
+    {
+      "text": "提供可用的檢索協助（mis-thesis-guide 網站兩段式人工接力範本：AI先產出檢索式、使用者自己去跑、AI再幫忙分類），且不假裝自己已經搜尋過文獻",
+      "id": "a4",
+      "based_on": "references/handoff-to-literature.md 交出去的時候要給他三樣東西之2：檢索工具與檢索式（本 SKILL 沒有連線搜尋能力，不會替使用者查文獻，也不要假裝查過）"
+    },
+    {
+      "text": "明確告知回來時要帶什麼（3-5篇最相關論文各一句話關係說明、原本以為X讀完發現Y的轉變、還沒找到答案的問題）",
+      "id": "a5",
+      "based_on": "references/handoff-to-literature.md 交出去的時候要給他三樣東西之3：回來的時候要帶什麼"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "id": "a6",
+      "based_on": "SKILL.md 開頭聲明"
+    }
+  ]
+}

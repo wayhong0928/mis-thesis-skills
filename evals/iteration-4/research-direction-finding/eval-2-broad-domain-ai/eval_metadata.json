@@ -1,0 +1,38 @@
+{
+  "eval_id": 2,
+  "eval_name": "broad-domain-ai-narrowing",
+  "source": "本 skill 從未跑過評測；本案例從 evals/evals.json 的 eval id 2（expected_output 自由敘述）轉寫為 eval_metadata.json 格式，prompt 原樣沿用。",
+  "prompt": "我想做 AI 相關的研究，但這個範圍太大了不知道怎麼縮小。",
+  "assertions": [
+    {
+      "text": "正確判定使用者屬於『起點 B：有領域興趣』",
+      "id": "a1",
+      "based_on": "SKILL.md §1 前置條件檢查（起點判準對照表）"
+    },
+    {
+      "text": "直接從收斂漏斗第二層（主題）開始收，不重新處理第一層（領域）",
+      "id": "a2",
+      "based_on": "SKILL.md §1（起點B：直接進第3節漏斗，從第二層開始收）"
+    },
+    {
+      "text": "一輪只推進一層，問出『這個子領域最近在討論什麼』或『有沒有相關經驗觀察』這類具體問題",
+      "id": "a3",
+      "based_on": "SKILL.md §3 收斂漏斗：一次推進一層"
+    },
+    {
+      "text": "該輪結束時產出可以寫進進度筆記的具體結論，再詢問是否要繼續下一層",
+      "id": "a4",
+      "based_on": "SKILL.md §4 進度筆記"
+    },
+    {
+      "text": "沒有一次問完領域到研究問題五層的所有問題",
+      "id": "a5",
+      "based_on": "SKILL.md §3 收斂漏斗：一次推進一層"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "id": "a6",
+      "based_on": "SKILL.md 開頭聲明"
+    }
+  ]
+}
