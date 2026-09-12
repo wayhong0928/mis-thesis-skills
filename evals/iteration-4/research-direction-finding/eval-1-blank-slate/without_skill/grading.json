@@ -1,0 +1,32 @@
+{
+  "expectations": [
+    {
+      "text": "正確判定使用者屬於『起點 A：完全空白』，而非其他起點",
+      "passed": true,
+      "evidence": "全篇以『完全空白』為預設前提展開（『三個圈』模型與五題提問），未曾考慮或誤判為起點B/C。"
+    },
+    {
+      "text": "沒有直接生成一個具體題目給使用者",
+      "passed": true,
+      "evidence": "『我不會直接丟一個題目給你』，全篇未出現具體論文題目。"
+    },
+    {
+      "text": "提供至少一項可執行的起步動作（策略一：從頂級期刊/研討會主題分類找；或策略二：翻系所學長姊論文），並說明為什麼這比『直接想一個題目』有用",
+      "passed": false,
+      "evidence": "沒有出現SKILL.md §2 定義的任一具體『起步策略』（翻期刊主題分類／翻學長姊論文）。改用完全不同的做法——直接拋出五題涵蓋『老師研究領域、自己背景技能、資料場域可及性、感興趣現象、時程資源』的綜合問卷式提問，缺少 SKILL 強調的『先做一件當場能驗證興趣的具體行為』這個核心設計。"
+    },
+    {
+      "text": "沒有一次丟出五層收斂漏斗（領域→主題→子題→題目→研究問題）的所有問題",
+      "passed": true,
+      "evidence": "五題提問是老師領域／自身背景／資料可及性／興趣現象／時程資源，並非SKILL.md定義的『領域→主題→子題→題目→研究問題』五層漏斗，未觸及該漏斗本身。"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "passed": true,
+      "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+    }
+  ],
+  "summary": {"passed": 4, "failed": 1, "total": 5, "pass_rate": 0.8},
+  "timing": {"total_duration_seconds": 54.4},
+  "notes": ["本次為第二次執行（redo）：第一次執行時 --disallowedTools 只擋 Skill 工具，但 Read/Glob/Grep/Bash 仍可用，且執行目錄就在含有該SKILL原始檔的repo內，事後檢查發現另一案例(eval-2)的baseline回應出現『這個SKILL』『起點B』等只有讀過SKILL.md才寫得出來的字眼，判定為工具洩漏，故全部5個without_skill案例改用完整工具封鎖(--disallowedTools含Skill,Read,Glob,Grep,Bash,Write,Edit,NotebookEdit,Task,WebFetch,WebSearch)重新執行。本檔為redo後的乾淨結果。"]
+}

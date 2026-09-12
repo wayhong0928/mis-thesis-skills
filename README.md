@@ -37,7 +37,7 @@ Codex 也支援開放的 [Agent Skills](https://agentskills.io/) 格式，讀取
 
 ## 評測
 
-`research-question-audit` 與 `academic-writing-discipline` 兩個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過完整評測（設計測試案例、平行比較「有無 SKILL」的輸出差異、量化評分），過程與誠實的發現（包括一次「SKILL 反而漏抓 baseline 抓到的問題」的真實案例）記錄在 [`evals/`](evals/) 目錄與網站的實作紀錄文章裡。`research-direction-finding` 於 2026-09-07 新增，測試案例已定義在該 SKILL 的 `evals/evals.json`，但**尚未實際跑過評測**。
+三個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過完整評測（設計測試案例、平行比較「有無 SKILL」的輸出差異、量化評分），過程與誠實的發現記錄在 [`evals/`](evals/) 目錄與網站的實作紀錄文章裡，包括一次真實的「SKILL 反而漏抓 baseline 抓到的問題」案例（`academic-writing-discipline` 的文獻回顧論證鏈稽核，發現後已修正並重跑驗證）。`research-direction-finding` 於 2026-09-12 完成首次評測，5 個案例的整體效果差異（with_skill 對比 without_skill 的通過率）為正向。
 
 ## 授權
 

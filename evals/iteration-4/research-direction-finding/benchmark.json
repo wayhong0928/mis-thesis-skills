@@ -1,0 +1,526 @@
+{
+  "metadata": {
+    "skill_name": "research-direction-finding",
+    "skill_path": "plugins/thesis-toolkit/skills/research-direction-finding",
+    "executor_model": "claude-sonnet-5",
+    "analyzer_model": "claude-sonnet-5",
+    "timestamp": "2026-09-12",
+    "evals_run": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "runs_per_configuration": 1,
+    "note_on_runs_per_configuration": "每個 case 只跑 1 次 with_skill、1 次 without_skill（非官方建議的 3 次取平均），stddev 無法反映跨重跑穩定性，只能當單次觀察。"
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "eval_name": "blank-slate-no-direct-topic",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 25.8,
+        "tokens": 116763,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確判定使用者屬於『起點 A：完全空白』，而非其他起點",
+          "passed": true,
+          "evidence": "『聽你的敘述像是 A，但如果老師其實有提過某個計畫或實驗室方向，那走法完全不同』——明確把 A 定為主要判斷，同時對 C 做保留確認，符合 SKILL.md §1『判斷不出來就直接問使用者一句』的但書。"
+        },
+        {
+          "text": "沒有直接生成一個具體題目給使用者",
+          "passed": true,
+          "evidence": "『如果確定是 A，我不會直接塞一個題目給你——原因很實際』，全篇未出現任何具體論文題目。"
+        },
+        {
+          "text": "提供至少一項可執行的起步動作（策略一：從頂級期刊/研討會主題分類找；或策略二：翻系所學長姊論文），並說明為什麼這比『直接想一個題目』有用",
+          "passed": true,
+          "evidence": "同時給了策略二（『翻你們系上學長姊的碩論...標出「我願意讀完」的2–3本』）與策略一（『去該領域頂級期刊/研討會網站看主題分類』），並說明理由『當場就能驗證你有沒有興趣』『願意讀下去,是唯一比較可信的興趣訊號』。"
+        },
+        {
+          "text": "沒有一次丟出五層收斂漏斗（領域→主題→子題→題目→研究問題）的所有問題",
+          "passed": true,
+          "evidence": "全篇只停在『起點分類』與『起步策略』兩步，未觸及五層漏斗任何一層的收斂提問。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "broad-domain-ai-narrowing",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.833,
+        "passed": 5,
+        "failed": 1,
+        "total": 6,
+        "time_seconds": 31.9,
+        "tokens": 178843,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確判定使用者屬於『起點 B：有領域興趣』",
+          "passed": true,
+          "evidence": "沒有重新詢問起點分類，直接判斷『AI相關』是『技術名詞層級』而非可執行的主題，等同於已內部判定為起點B並跳過第一層處理。"
+        },
+        {
+          "text": "直接從收斂漏斗第二層（主題）開始收，不重新處理第一層（領域）",
+          "passed": true,
+          "evidence": "『照收斂漏斗，我們從第二層開始收——目標是把「AI」轉成一個具體的現象或問題類型』，未重新確認或處理第一層領域。"
+        },
+        {
+          "text": "一輪只推進一層，問出『這個子領域最近在討論什麼』或『有沒有相關經驗觀察』這類具體問題",
+          "passed": true,
+          "evidence": "只問了兩題：『用AI這個技術，你觀察到會遇到什麼問題』與『有沒有實際接觸過、觀察過的情境』，均屬第二層現象/問題探詢，沒有涉及其他層。"
+        },
+        {
+          "text": "該輪結束時產出可以寫進進度筆記的具體結論，再詢問是否要繼續下一層",
+          "passed": false,
+          "evidence": "本輪只提出兩個待答問題，尚未取得使用者回覆，因此沒有『結論』可產出——這是單輪（single-shot）評測本身的限制：這條assertion邏輯上要在使用者回答之後才可能被滿足，本次評測設計未跑多輪對話，此輪原始輸出確實沒有結論段落。"
+        },
+        {
+          "text": "沒有一次問完領域到研究問題五層的所有問題",
+          "passed": true,
+          "evidence": "只停在第二層的兩個問題，未觸及其他層級。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "advisor-project-topic-no-funnel",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 28.1,
+        "tokens": 180785,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確判定使用者屬於『起點 C：題目來自老師的計畫』",
+          "passed": true,
+          "evidence": "『你的情況屬於SKILL裡分類的「起點C：題目來自老師的計畫」』，明確點名分類。"
+        },
+        {
+          "text": "明確指出這一類不走收斂漏斗，因為題目範圍已被計畫框住",
+          "passed": true,
+          "evidence": "『這種不走一般的收斂漏斗（領域→主題→子題...），因為範圍已經被計畫框住了』。"
+        },
+        {
+          "text": "正確重新定位真正要判斷的問題：不是『我想做什麼』，而是『這個計畫裡哪一塊能單獨撐起一篇碩士論文』",
+          "passed": true,
+          "evidence": "『真正要解決的問題不是「我想做什麼」，而是「這個計畫裡的哪一塊，能單獨撐起一篇碩士論文」，這是可行性判斷，不是興趣發想。』逐字對應。"
+        },
+        {
+          "text": "引導使用者把計畫目標與自己負責的部分寫成一句話研究想法，並交棒給 research-question-audit 稽核",
+          "passed": true,
+          "evidence": "先問清計畫目標／分配部分／資源三件事，並明講『把它收成一句話的研究想法...接著交給research-question-audit這個SKILL去稽核這個題目站不站得住腳』。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "already-has-idea-boundary-test",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "time_seconds": 142.6,
+        "tokens": 197609,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確辨認使用者已經有一句話寫得出來的研究想法，已超出本 SKILL（從零收斂）的範圍",
+          "passed": true,
+          "evidence": "系統完全沒有走『你現在是哪種起點』的分類流程，也沒有問任何從零收斂的問題，直接把使用者的一句話當成已成形的研究想法進行稽核（『稽核對象：生成式AI素養如何影響大學生在程式設計課程的學習績效』），行為上等同於承認這已超出從零收斂的範圍。"
+        },
+        {
+          "text": "不跑收斂漏斗（不問領域/主題/子題等五層問題）",
+          "passed": true,
+          "evidence": "全篇是研究問題稽核報告格式（檢查點A-G），完全沒有出現領域/主題/子題等收斂漏斗提問。"
+        },
+        {
+          "text": "明確說明並交棒給 research-question-audit 做稽核，而非自己嘗試判斷這個題目好不好",
+          "passed": false,
+          "evidence": "實際行為是『自己嘗試判斷這個題目好不好』——直接輸出完整的研究問題稽核報告（檢查點A-G、預期質詢清單、總結『需修正後再議』），而不是先明確說一句『這已經超出research-direction-finding的範圍，交給research-question-audit幫你看』再進行稽核。經逐字檢索確認，回應全文完全沒有出現『research-question-audit』這個字串一次，不存在任何交棒敘述，判定未通過。系統層級觀察：本次實際輸出的內容格式完全等同於research-question-audit這個SKILL的產出，代表 Claude Code 在多個thesis-toolkit skill同時可用時，直接路由到research-question-audit執行，而非先經過research-direction-finding承認越界再交棒——這是路由層級的行為，不是research-direction-finding本身的自我認知輸出，assertion原意（本SKILL明確説明並交棒）在此次執行中未被滿足。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 5,
+      "eval_name": "insufficient-information-handoff-to-literature",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 60.5,
+        "tokens": 252464,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "判定為資訊不足，而非繼續追問或換句話再問一次同樣的問題",
+          "passed": true,
+          "evidence": "『這幾乎都是文獻讀太少造成的，不是想得不夠久。所以這裡不會再追問你「覺得」，而是先幫你把檢索工作準備好』，明確拒絕再次追問。"
+        },
+        {
+          "text": "明確停下引導，把文獻檢索工作交回使用者",
+          "passed": true,
+          "evidence": "結尾『你先去查，查完再回來我幫你接續到第三層』，明確把檢索動作交回使用者，暫停繼續往下收斂。"
+        },
+        {
+          "text": "給出具體要查什麼（例如行動支付採用的前因研究，看別人放了哪些自變數），而非空泛地說『去多讀點文獻』",
+          "passed": true,
+          "evidence": "『查：行動支付「採用意圖／持續使用意圖」的前因研究，看別人都放了哪些自變數』，具體到題目層級。"
+        },
+        {
+          "text": "提供可用的檢索協助（mis-thesis-guide 網站兩段式人工接力範本：AI先產出檢索式、使用者自己去跑、AI再幫忙分類），且不假裝自己已經搜尋過文獻",
+          "passed": true,
+          "evidence": "提供高精確度／高召回率／中文三組實際檢索式與檢索來源（Google Scholar、台灣博碩士論文知識加值系統、Web of Science/EBSCO），全篇沒有宣稱『我已經找到』或引用任何具體文獻篇名，符合『不假裝已搜尋過』。"
+        },
+        {
+          "text": "明確告知回來時要帶什麼（3-5篇最相關論文各一句話關係說明、原本以為X讀完發現Y的轉變、還沒找到答案的問題）",
+          "passed": true,
+          "evidence": "『回來的時候帶三樣東西：1. 3–5篇你覺得最相關的論文...2.「原本以為X、讀完發現Y」的轉變...3. 讀完還是沒找到答案的問題』，三項逐字對應。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "blank-slate-no-direct-topic",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8,
+        "passed": 4,
+        "failed": 1,
+        "total": 5,
+        "time_seconds": 54.4,
+        "tokens": 162189,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確判定使用者屬於『起點 A：完全空白』，而非其他起點",
+          "passed": true,
+          "evidence": "全篇以『完全空白』為預設前提展開（『三個圈』模型與五題提問），未曾考慮或誤判為起點B/C。"
+        },
+        {
+          "text": "沒有直接生成一個具體題目給使用者",
+          "passed": true,
+          "evidence": "『我不會直接丟一個題目給你』，全篇未出現具體論文題目。"
+        },
+        {
+          "text": "提供至少一項可執行的起步動作（策略一：從頂級期刊/研討會主題分類找；或策略二：翻系所學長姊論文），並說明為什麼這比『直接想一個題目』有用",
+          "passed": false,
+          "evidence": "沒有出現SKILL.md §2 定義的任一具體『起步策略』（翻期刊主題分類／翻學長姊論文）。改用完全不同的做法——直接拋出五題涵蓋『老師研究領域、自己背景技能、資料場域可及性、感興趣現象、時程資源』的綜合問卷式提問，缺少 SKILL 強調的『先做一件當場能驗證興趣的具體行為』這個核心設計。"
+        },
+        {
+          "text": "沒有一次丟出五層收斂漏斗（領域→主題→子題→題目→研究問題）的所有問題",
+          "passed": true,
+          "evidence": "五題提問是老師領域／自身背景／資料可及性／興趣現象／時程資源，並非SKILL.md定義的『領域→主題→子題→題目→研究問題』五層漏斗，未觸及該漏斗本身。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "broad-domain-ai-narrowing",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.667,
+        "passed": 4,
+        "failed": 2,
+        "total": 6,
+        "time_seconds": 54.0,
+        "tokens": 198570,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確判定使用者屬於『起點 B：有領域興趣』",
+          "passed": true,
+          "evidence": "沒有重新詢問使用者屬於哪種起點，直接把『AI』當成已定的大領域來處理，等同於已內部判定為起點B。"
+        },
+        {
+          "text": "直接從收斂漏斗第二層（主題）開始收，不重新處理第一層（領域）",
+          "passed": true,
+          "evidence": "未重新確認或處理『領域』本身（沒有問『你對哪個領域有興趣』），直接進入次一層的範圍縮小。"
+        },
+        {
+          "text": "一輪只推進一層，問出『這個子領域最近在討論什麼』或『有沒有相關經驗觀察』這類具體問題",
+          "passed": false,
+          "evidence": "一次問了三個不同性質的問題：系上/指導教授方法論偏好（量化/質化/設計科學）、對AI感興趣的子領域、資料與時間限制。這混合了SKILL.md定義中屬於不同階段的考量（方法論與資源限制通常在收斂漏斗更後段才處理），不是『一輪只問一層具體現象/經驗』的單一聚焦問題。"
+        },
+        {
+          "text": "該輪結束時產出可以寫進進度筆記的具體結論，再詢問是否要繼續下一層",
+          "passed": false,
+          "evidence": "本輪只提出待答問題，尚未取得使用者回覆，沒有產出結論——與 with_skill 版本同樣受限於本次評測採單輪執行設計，邏輯上此時不可能有結論可產出。"
+        },
+        {
+          "text": "沒有一次問完領域到研究問題五層的所有問題",
+          "passed": true,
+          "evidence": "未觸及子題/題目/研究問題等後段層級，雖然三題性質混雜（見a3），但未達到『五層全問』的程度。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "advisor-project-topic-no-funnel",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.6,
+        "passed": 3,
+        "failed": 2,
+        "total": 5,
+        "time_seconds": 55.7,
+        "tokens": 199910,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確判定使用者屬於『起點 C：題目來自老師的計畫』",
+          "passed": true,
+          "evidence": "全篇圍繞『從教授的科技部智慧製造計畫裡找碩論題目』展開，正確把握這是計畫衍生題目的情境。"
+        },
+        {
+          "text": "明確指出這一類不走收斂漏斗，因為題目範圍已被計畫框住",
+          "passed": false,
+          "evidence": "回應沒有任何一句話明確點出『這種情況不需要走一般的（從零）收斂流程，因為範圍已被計畫框住』這個判斷本身——它是直接跳過那個環節去談計畫規模對應碩論規模，沒有『明確指出』這個判斷的存在（baseline 沒有'收斂漏斗'這個概念可以拿來對照說明）。"
+        },
+        {
+          "text": "正確重新定位真正要判斷的問題：不是『我想做什麼』，而是『這個計畫裡哪一塊能單獨撐起一篇碩士論文』",
+          "passed": true,
+          "evidence": "『關鍵是計畫規模跟碩論規模不對等——計畫可能涵蓋整條產線、多個子系統，你的碩論只需要其中一個可以在一年多內做完、有明確研究問題的切片』，準確對應到可行性與獨立貢獻的判斷。"
+        },
+        {
+          "text": "引導使用者把計畫目標與自己負責的部分寫成一句話研究想法，並交棒給 research-question-audit 稽核",
+          "passed": false,
+          "evidence": "結尾是『可以直接把內容貼給我，我幫你評估哪個方向比較適合資管碩論的規模跟貢獻角度』——由自己直接評估，完全沒有提及交棒給任何獨立稽核步驟或skill（baseline不知道research-question-audit的存在）。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 4,
+      "eval_name": "already-has-idea-boundary-test",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "time_seconds": 34.6,
+        "tokens": 231986,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "正確辨認使用者已經有一句話寫得出來的研究想法，已超出本 SKILL（從零收斂）的範圍",
+          "passed": true,
+          "evidence": "直接評論『這個方向可行,但目前偏泛』並展開具體修改建議，沒有問任何從零收斂的問題，行為上等同於承認這是已成形的想法。"
+        },
+        {
+          "text": "不跑收斂漏斗（不問領域/主題/子題等五層問題）",
+          "passed": true,
+          "evidence": "全篇沒有出現領域/主題/子題等收斂漏斗提問。"
+        },
+        {
+          "text": "明確說明並交棒給 research-question-audit 做稽核，而非自己嘗試判斷這個題目好不好",
+          "passed": false,
+          "evidence": "直接自己判斷並給出實質建議（拆解子構念、聚焦情境等），沒有任何『交棒』或轉介的敘述——baseline 不知道research-question-audit這個skill存在，直接自己做了稽核判斷。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 5,
+      "eval_name": "insufficient-information-handoff-to-literature",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.167,
+        "passed": 1,
+        "failed": 5,
+        "total": 6,
+        "time_seconds": 57.6,
+        "tokens": 148447,
+        "tool_calls": null,
+        "errors": null
+      },
+      "expectations": [
+        {
+          "text": "判定為資訊不足，而非繼續追問或換句話再問一次同樣的問題",
+          "passed": false,
+          "evidence": "沒有診斷為『文獻讀太少、資訊不足』，而是繼續換個問法追問（自身觀察／指導教授量能／視角三個新角度），甚至準備了一份候選方向清單當作備案繼續聊下去，而不是停下來判定資訊不足。"
+        },
+        {
+          "text": "明確停下引導，把文獻檢索工作交回使用者",
+          "passed": false,
+          "evidence": "完全沒有停下引導，反而主動提供『MIS領域裡行動支付常見的收斂方向』清單，持續在對話裡往下帶，而非把檢索工作交回使用者。"
+        },
+        {
+          "text": "給出具體要查什麼（例如行動支付採用的前因研究，看別人放了哪些自變數），而非空泛地說『去多讀點文獻』",
+          "passed": false,
+          "evidence": "全篇沒有出現任何『去查什麼文獻』的具體指示，甚至完全不提文獻檢索這件事。"
+        },
+        {
+          "text": "提供可用的檢索協助（mis-thesis-guide 網站兩段式人工接力範本：AI先產出檢索式、使用者自己去跑、AI再幫忙分類），且不假裝自己已經搜尋過文獻",
+          "passed": false,
+          "evidence": "沒有提供任何檢索式、資料庫或檢索管道，此路徑完全沒有出現。"
+        },
+        {
+          "text": "明確告知回來時要帶什麼（3-5篇最相關論文各一句話關係說明、原本以為X讀完發現Y的轉變、還沒找到答案的問題）",
+          "passed": false,
+          "evidence": "沒有要求使用者『回來』或帶著文獻回來，對話走向是留在原地繼續腦力激盪。"
+        },
+        {
+          "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+          "passed": true,
+          "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙；提及UTAUT/TAM屬於公開學術理論名稱，不在排除清單內。"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.9166000000000001,
+        "stddev": 0.11791013527258801,
+        "min": 0.75,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 57.779999999999994,
+        "stddev": 49.43487635263185,
+        "min": 25.8,
+        "max": 142.6
+      },
+      "tokens": {
+        "mean": 185292.8,
+        "stddev": 48533.26838571662,
+        "min": 116763.0,
+        "max": 252464.0
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.5968,
+        "stddev": 0.2522036875226054,
+        "min": 0.167,
+        "max": 0.8
+      },
+      "time_seconds": {
+        "mean": 51.260000000000005,
+        "stddev": 9.418492448369856,
+        "min": 34.6,
+        "max": 57.6
+      },
+      "tokens": {
+        "mean": 188220.4,
+        "stddev": 33236.823875033544,
+        "min": 148447.0,
+        "max": 231986.0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.32",
+      "time_seconds": "+6.52",
+      "tokens": "-2927.60"
+    }
+  },
+  "notes": [
+    "本輪是 research-direction-finding 第一次被正式評測（iteration-1/2/3 皆無此skill的資料），5個case全新執行，delta可視為此skill目前版本的初步效果方向，不是跨版本比較。",
+    "執行方式：headless `claude -p --output-format json`，with_skill 讓 Skill 工具自然觸發（不強制指定），without_skill 用 --disallowedTools 封鎖 Skill/Read/Glob/Grep/Bash/Write/Edit/NotebookEdit/Task/WebFetch/WebSearch 全部工具，逼模型只能憑一般知識回答。without_skill 第一版只封鎖了 Skill 工具，事後發現 eval-2 的回應洩漏了『起點B』『這個SKILL』等只有讀過SKILL.md才寫得出來的字眼（透過仍可用的Read工具直接讀了同repo內的SKILL.md），5個案例全部用完整工具封鎖重新執行過，本檔是redo後的乾淨結果。",
+    "eval-4（already-has-idea-boundary）是邊界測試案例：with_skill執行時，Claude Code在thesis-toolkit三個skill同時可用的情況下，自動路由選擇了research-question-audit而非research-direction-finding本身（因為prompt內容更符合前者的觸發描述）。這代表『使用者不會被錯誤地拉進從零收斂流程』這個系統層級的正確結果有達成，但assertion原本設計是要檢驗research-direction-finding自己的邊界判斷邏輯（要它自己說『這已超出範圍，交給XX』），而不是測試上層路由——這個assertion在該次執行中沒有真正被exercise到，是本輪方法論的已知限制，未來若要嚴格測試單一skill的邊界行為，需要用/thesis-toolkit:research-direction-finding強制指定該skill執行。",
+    "assertion『該輪結束時產出可以寫進進度筆記的具體結論』（eval-2 with/without皆未通過）是單輪（single-shot）評測設計的結構性限制：這條判準邏輯上要在使用者回答問題之後才可能被滿足，本輪18 runs都只跑1次單輪對話，沒有模擬使用者回覆的第二輪，所以這類assertion在設計上就不會通過，不代表SKILL在這件事上有缺陷。",
+    "最大差異案例是eval-5（資訊不足時該不該停下來送去讀文獻）：with_skill 1.0 vs without_skill 0.167，是本輪唯一乾淨、大幅度印證『SKILL補上使用者自己想不到的判準』這個核心價值主張的案例；其餘案例delta較小或持平，部分甚至受限於single-shot設計無法完整體現差異。",
+    "eval-4 without_skill的回應出現簡體字（違反使用者全域CLAUDE.md的繁體中文慣例），與skill效果評測本身無關，但是完整工具封鎖環境下觀察到的一個不穩定樣本，留供後續參考。",
+    "本批10份grading.json經fresh-context verifier逐條核對response.md原文：52條assertion中51條判斷與evidence正確，1條（eval-4 with_skill assertion a3）的evidence原本聲稱response.md提到一次『research-question-audit』字串，經逐字檢索確認實際零出現，屬捏造引文，已訂正evidence文字（不影響該條passed=false的最終判斷）。summary算術與版權排除清單檢查10份全部正確。"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "expectations": [
+    {
+      "text": "正確辨認使用者已經有一句話寫得出來的研究想法，已超出本 SKILL（從零收斂）的範圍",
+      "passed": true,
+      "evidence": "系統完全沒有走『你現在是哪種起點』的分類流程，也沒有問任何從零收斂的問題，直接把使用者的一句話當成已成形的研究想法進行稽核（『稽核對象：生成式AI素養如何影響大學生在程式設計課程的學習績效』），行為上等同於承認這已超出從零收斂的範圍。"
+    },
+    {
+      "text": "不跑收斂漏斗（不問領域/主題/子題等五層問題）",
+      "passed": true,
+      "evidence": "全篇是研究問題稽核報告格式（檢查點A-G），完全沒有出現領域/主題/子題等收斂漏斗提問。"
+    },
+    {
+      "text": "明確說明並交棒給 research-question-audit 做稽核，而非自己嘗試判斷這個題目好不好",
+      "passed": false,
+      "evidence": "實際行為是『自己嘗試判斷這個題目好不好』——直接輸出完整的研究問題稽核報告（檢查點A-G、預期質詢清單、總結『需修正後再議』），而不是先明確說一句『這已經超出research-direction-finding的範圍，交給research-question-audit幫你看』再進行稽核。經逐字檢索確認，回應全文完全沒有出現『research-question-audit』這個字串一次，不存在任何交棒敘述，判定未通過。系統層級觀察：本次實際輸出的內容格式完全等同於research-question-audit這個SKILL的產出，代表 Claude Code 在多個thesis-toolkit skill同時可用時，直接路由到research-question-audit執行，而非先經過research-direction-finding承認越界再交棒——這是路由層級的行為，不是research-direction-finding本身的自我認知輸出，assertion原意（本SKILL明確説明並交棒）在此次執行中未被滿足。"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "passed": true,
+      "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+    }
+  ],
+  "summary": {"passed": 3, "failed": 1, "total": 4, "pass_rate": 0.75},
+  "timing": {"total_duration_seconds": 142.6},
+  "notes": ["本案例的 with_skill 執行結果實際上是 research-question-audit 這個SKILL的輸出格式，而非 research-direction-finding 本身的輸出。因為 thesis-toolkit 底下三個 SKILL 同時可用，Claude Code 的自動路由機制直接選了與此 prompt 描述更匹配的 research-question-audit，跳過了 research-direction-finding。這代表『使用者體驗上不會卡在錯誤的從零收斂流程』這件事被系統正確達成，但 assertion a3 要求的『本SKILL明確説明並交棒』這個敘事動作沒有發生。是否要為了嚴格測試 research-direction-finding 自身的邊界判斷邏輯，在下一輪改用 `/thesis-toolkit:research-direction-finding` 強制指定該SKILL執行，是需要另外決定的方法論問題，本輪先誠實記錄實際觀察到的系統行為。"]
+}

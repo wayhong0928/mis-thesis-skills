@@ -1,0 +1,27 @@
+{
+  "expectations": [
+    {
+      "text": "正確辨認使用者已經有一句話寫得出來的研究想法，已超出本 SKILL（從零收斂）的範圍",
+      "passed": true,
+      "evidence": "直接評論『這個方向可行,但目前偏泛』並展開具體修改建議，沒有問任何從零收斂的問題，行為上等同於承認這是已成形的想法。"
+    },
+    {
+      "text": "不跑收斂漏斗（不問領域/主題/子題等五層問題）",
+      "passed": true,
+      "evidence": "全篇沒有出現領域/主題/子題等收斂漏斗提問。"
+    },
+    {
+      "text": "明確說明並交棒給 research-question-audit 做稽核，而非自己嘗試判斷這個題目好不好",
+      "passed": false,
+      "evidence": "直接自己判斷並給出實質建議（拆解子構念、聚焦情境等），沒有任何『交棒』或轉介的敘述——baseline 不知道research-question-audit這個skill存在，直接自己做了稽核判斷。"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "passed": true,
+      "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+    }
+  ],
+  "summary": {"passed": 3, "failed": 1, "total": 4, "pass_rate": 0.75},
+  "timing": {"total_duration_seconds": 34.6},
+  "notes": ["額外觀察（不屬於任何assertion，僅供參考）：本次回應以簡體字書寫（『这个』『绩效』『构念』等），違反使用者全域CLAUDE.md『回應用繁體中文』的慣例，疑似是完整工具封鎖環境下模型行為的一個不穩定樣本，與本eval的skill效果評測無關，但值得留意。"]
+}
