@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "指出這個題目缺少明確依變數（『……之研究』的壞題目長相）",
+      "passed": true,
+      "evidence": "『2. 依變數不明。「導入」可以指採用意願、實際採用、導入成效或導入歷程，每一種需要的理論、方法和樣本都不同。』雖未用 SKILL 的『……之研究』分類術語，但明確指出缺依變數這個核心問題。"
+    },
+    {
+      "text": "有引導使用者回答『依變數是什麼』這一類具體問題，而非只給籠統評語",
+      "passed": true,
+      "evidence": "『我需要你回答的問題：1. 你想解釋的是採用、成效還是障礙？』直接對應依變數的具體提問。"
+    },
+    {
+      "text": "提出至少一個具體的修改方向或改寫後的題目範例",
+      "passed": true,
+      "evidence": "給出三個收斂方向的表格（採用動機／導入成效／導入障礙），每個方向都附具體研究問題範例，例如『哪些組織與環境因素影響中小企業採用 LLM 客服？（TOE、DOI 框架）』。"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙（舊瓶新酒/新瓶舊酒/雁行/七項要件/貢獻三角度/深而窄/彭明輝等）",
+      "passed": true,
+      "evidence": "通篇未出現清單詞彙，也未提及任何 SKILL 名稱。"
+    }
+  ],
+  "summary": {"passed": 4, "failed": 0, "total": 4, "pass_rate": 1.0},
+  "timing": {"total_duration_seconds": 17.5},
+  "notes": [
+    "本 case 的 delta 是負的（with 0.75 − without 1.0 = −0.25）：without_skill 在 a3 上給了 with_skill 沒給的具體改寫方向表格。詳見 with_skill grading.json 的 notes——這被判斷為 RQA『首輪稽核先於逐項引導』的設計取捨，不是模型能力差異，但如實按證據判分，不因為『有合理解釋』而放行 with_skill 的 fail 或調降 without_skill 的 pass。",
+    "首輪跑（--disallowedTools 未疊加 --setting-sources 排除 user 層）出現過一次環境污染（SkillSpector SessionStart 提醒混入回應開頭），本 case 改用 --setting-sources project,local 重跑後乾淨，此份 grading 對應的是乾淨版本。"
+  ]
+}

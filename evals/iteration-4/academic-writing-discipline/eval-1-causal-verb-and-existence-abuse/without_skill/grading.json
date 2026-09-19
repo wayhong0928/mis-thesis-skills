@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "指出橫斷面研究不能用『具有顯著之影響』，建議改為『正向預測』或『相關』",
+      "passed": true,
+      "evidence": "『修改示範』直接改寫成『生成式人工智慧的使用頻率對學生期末成績具有顯著正向預測力』，並在因果語氣段落明講『若是問卷或相關分析，只能說「相關」或「預測」，不能說「影響」』。"
+    },
+    {
+      "text": "指出『存在正向關係』屬於『存在』濫用，建議改寫（如『兩者顯著相關』）",
+      "passed": false,
+      "evidence": "全文完全沒有提到『存在』這個動詞濫用的問題，批評集中在『因此可以得知』的推論跳躍與因果語氣過強，沒有點出原句『兩者之間存在正向關係』這個『存在』還原動詞的用法瑕疵。"
+    },
+    {
+      "text": "指出『人工智能』為大陸用語，建議改為『人工智慧』",
+      "passed": true,
+      "evidence": "『台灣慣用語通常寫「人工智慧」，而非「人工智能」（後者較常見於中國大陸用法）。』"
+    },
+    {
+      "text": "提供一個修改後的完整句子範例",
+      "passed": true,
+      "evidence": "『修改示範』給出完整句子：『迴歸分析結果顯示，生成式人工智慧的使用頻率對學生期末成績具有顯著正向預測力（β = .32, p < .001），代表使用頻率越高者，學習成績傾向越高。』"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "passed": true,
+      "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙，也未提及任何 SKILL 名稱或內容。"
+    }
+  ],
+  "summary": {"passed": 4, "failed": 1, "total": 5, "pass_rate": 0.8},
+  "timing": {"total_duration_seconds": 10.4},
+  "notes": [
+    "本輪用 --setting-sources project,local（排除 user 層級）疊加 --disallowedTools 全清單跑 without_skill：實測發現若只用 --disallowedTools（不排除 user 設定來源），SessionStart hook（SkillSpector 掃描提醒）會把『plugin:skill-creator@... 被標為 CRITICAL』這類與本次任務無關的環境狀態文字注入回應開頭——這不是 SKILL 內容洩漏，但仍是不該進入 baseline 的污染源，兩次重複測試都出現同一段文字，非偶發。排除 user 設定來源後三次重跑（本 case 與另外兩個 RQA case）皆未再出現，且不影響 Skill 工具的封鎖（--disallowedTools 本身已擋 Skill 工具的呼叫路徑）。這是本輪除『完整封鎖 11 個工具』外，額外發現並處理的第二種洩漏管道，值得記錄供之後跑 eval 的人參考。",
+    "本 case 的 delta（with 1.0 − without 0.8 = +0.2）落在其餘 AWD case 已觀察到的方向與量級區間內（eval-2 同案例過去測得 delta=0，eval-3b 修正後 delta=0）。"
+  ]
+}

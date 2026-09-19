@@ -1,0 +1,36 @@
+{
+  "expectations": [
+    {
+      "text": "指出橫斷面研究不能用『具有顯著之影響』，建議改為『正向預測』或『相關』",
+      "passed": true,
+      "evidence": "『整合修改版』給出兩種版本並明講切換條件：『能寫「影響」的前提是三個條件都成立：有理論支持、用迴歸或路徑分析區分自變數與依變數、模型有控制背景變數』，本例三條件未見滿足時對應版本寫的是『人工智慧使用行為顯著正向預測受試者的學習成效』——用『正向預測』取代『影響』。判定通過，但措辭是條件式呈現兩版本，不是單一斷言『橫斷面不能用影響』，強度略弱於 assertion 字面描述。"
+    },
+    {
+      "text": "指出『存在正向關係』屬於『存在』濫用，建議改寫（如『兩者顯著相關』）",
+      "passed": true,
+      "evidence": "『「兩者之間存在正向關係」：「存在」濫用，且「兩者之間」多餘。改「兩者顯著正相關」』——用詞與 assertion 期待的修法幾乎逐字對應。"
+    },
+    {
+      "text": "指出『人工智能』為大陸用語，建議改為『人工智慧』",
+      "passed": true,
+      "evidence": "『「人工智能」：非台灣慣用，最顯眼的用語標記。改「人工智慧」。』"
+    },
+    {
+      "text": "提供一個修改後的完整句子範例",
+      "passed": true,
+      "evidence": "『整合修改版』給出兩個完整句子範例（三條件滿足版、三條件不全滿足版），皆含 β、p 值佔位符。"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙或彭明輝姓名/書名",
+      "passed": true,
+      "evidence": "通篇未出現彭明輝、舊瓶新酒、雁行理論等詞彙。"
+    }
+  ],
+  "summary": {"passed": 5, "failed": 0, "total": 5, "pass_rate": 1.0},
+  "timing": {"total_duration_seconds": 35.4},
+  "notes": [
+    "本案例（AWD eval-1）原本只有 eval_metadata.json，without_skill 與 with_skill 兩臂皆為本輪（2026-09-19）補跑，非沿用舊資料。",
+    "跑 with_skill 前已確認並修復一個環境落差：全域 marketplace 快取（~/.claude/plugins/marketplaces/mis-thesis-skills）停在 2026-09-08 的 commit e34b6cf，落後本地 repo 現在的 HEAD 7f59510（含 2026-09-12 的『陳述強度核對』等修訂）；`claude plugin marketplace update` + `claude plugin uninstall/install thesis-toolkit` 後確認快取內容（去除 CRLF 差異後）與本地 repo 逐位元組一致，本輪 with_skill 使用的是與其餘 iteration-4 case 同一份 SKILL 版本，口徑一致。",
+    "回應末句『可以另外用 research-question-audit 檢查』是 SKILL 明講的跨 SKILL 銜接語，非洩漏。"
+  ]
+}

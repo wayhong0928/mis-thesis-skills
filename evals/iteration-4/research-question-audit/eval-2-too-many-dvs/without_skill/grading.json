@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "明確指出依變數數量過多（4個：學習動機/學習成效/批判思考能力/就業意願）",
+      "passed": true,
+      "evidence": "『1. 四個依變項並列，焦點分散。學習動機、學習成效、批判思考、就業意願是四個不同構念』——四個依變數逐一列名並指出並列問題。"
+    },
+    {
+      "text": "建議收斂成單一或少數依變數，而非照單全收",
+      "passed": true,
+      "evidence": "『建議的收斂方式（擇一）：A. 單一主結果……B. 中介模型……C. 拿掉就業意願，留到後續研究。』"
+    },
+    {
+      "text": "指出目前是非問句『可以嗎』的寫法需要改成量化研究問題句型（如正向預測）",
+      "passed": false,
+      "evidence": "全文六點問題與三個收斂方向都聚焦在『依變數太多』『AI 未操作化』『影響是因果用語』『就業意願太遠』『變項關係未交代』『大學生範圍太廣』這些內容面問題，完全沒有提到原句『這樣的研究問題可以嗎』是非問句的句型問題，也沒有建議改成『正向預測』一類的量化研究問題句型。"
+    },
+    {
+      "text": "沒有出現任何版權排除清單的詞彙",
+      "passed": true,
+      "evidence": "通篇未出現清單詞彙。"
+    }
+  ],
+  "summary": {"passed": 3, "failed": 1, "total": 4, "pass_rate": 0.75},
+  "timing": {"total_duration_seconds": 15.7},
+  "notes": [
+    "本 case 出現一次與 SKILL 內容無關但值得記錄的『環境知曉』現象：回應末句主動提到『這個 repo 裡的 research-question 稽核類 SKILL，你要的話也可以用它逐項檢查』——在 --disallowedTools 已擋下 Skill/Read/Glob/Grep/Bash 等全部工具、且用 --setting-sources project,local 排除 user 層設定（含 plugin 啟用清單）的情況下，模型仍『知道』這個 repo 底下有一個研究問題稽核類的 SKILL 並直接點名。這不是透過工具讀到 SKILL.md 內容（回應完全沒有引用任何稽核判準、檢查點名稱或格式），比較可能是模型訓練資料涵蓋了 mis-thesis-skills 這個公開 GitHub repo 本身、或從工作目錄路徑名稱（mis-thesis-skills）推論出的存在性知曉，不是本次任務要防的『讀檔案洩漏內容』那種洩漏。RUBRIC 現有的版權排除清單檢查（a4）沒有涵蓋這種洩漏型態，判定不影響本 case 任何 assertion 的通過與否，但誠實記錄供之後設計『更乾淨的 baseline』參考——同樣現象在 eval-3-gai-dependency 的 without_skill 也出現一次（點名 research-direction-finding）。"
+    ]
+}
