@@ -145,7 +145,7 @@ assertion 假定這些部分已經合格、不該被標記為問題，照字面�
 記錄的 iteration-3 狀況是同一種。RQA eval-4 若判定那兩點不算違規，with_skill 會從 0.50
 變成 0.83。
 
-這兩個 case 的 assertion 還沒改，改之前的數字就是上面那張表。
+這兩個 case 的 assertion 還沒改，改之前的數字就是上面那張表。逐條覆核結果見`ASSERTION_AUDIT_2026-09-20.md`：三條爭議 assertion 全部是兩臂同時失敗，所以不論怎麼裁決都不影響 delta。
 
 ## 限制
 
