@@ -1,0 +1,97 @@
+{
+  "duration_api_ms": 14961,
+  "stop_reason": "end_turn",
+  "session_id": "fc093f76-9459-4658-88f4-defc5c65ae13",
+  "total_cost_usd": 0.0178554,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 28407,
+    "output_tokens": 1217,
+    "output_tokens_details": {
+      "thinking_tokens": 546
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1217,
+        "cache_read_input_tokens": 28407,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-sonnet-5": {
+      "inputTokens": 2,
+      "outputTokens": 1217,
+      "cacheReadInputTokens": 28407,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.0178554,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 546,
+      "canonicalModel": "claude-sonnet-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "會，而且很明顯。\n\n**肥大的位置在中段**：「使得越來越多的大學生開始在課業與報告撰寫的過程中，對於這類工具的使用產生了高度的依賴性」。\n\n- 主詞「大學生」和真正的謂語「產生依賴」之間，塞了「開始」、「在…的過程中」、「對於…的使用」三層修飾，讀者要撐約 30 字才看到重點。\n- 「依賴」被名詞化成「產生了高度的依賴性」，動詞變得又虛又長。\n- 「由於…使得…」是句式雜糅，兩個連接結構搶同一個位置，主詞也不清楚。\n- 頭尾也有冗詞：「近年來」和「快速發展與普及」語意重疊，「希望能夠深入探討」和「究竟…什麼樣的」也重複。\n\n整句約 100 字，一句話帶了背景、現象、研究目的三個功能，所以中間撐不住。\n\n**建議拆成兩句，讓動詞回到前面**：\n\n> 生成式 AI 快速普及，愈來愈多大學生在課業與報告撰寫中依賴此類工具。本研究探討此依賴傾向如何影響學生的學習成效。\n\n要點：\n- 「產生依賴性」改成動詞「依賴」。\n- 刪掉「使得」、「由於…因此」，改用兩句之間的順序來表達邏輯。\n- 「高度的」若有文獻或數據支持再保留，否則刪掉。\n- 「影響」比「造成…影響」更精簡，也不會過度暗示因果。\n\n如果你想保留一句寫法，可以寫成：「生成式 AI 快速普及後，大學生在課業與報告撰寫中日益依賴此類工具，本研究探討此依賴傾向如何影響其學習成效。」\n\n我沒有跑 academic-writing-discipline 的完整稽核。你要貼整段一起檢查的話，我可以再跑。",
+  "ttft_ms": 7488,
+  "type": "result",
+  "duration_ms": 15318,
+  "uuid": "f8edc111-c6c0-4f8f-8f5a-7d1763e87434",
+  "ttft_stream_ms": 1063,
+  "time_to_request_ms": 356,
+  "first_content_frame_ms": 1063,
+  "queued_turn_count": 0,
+  "result_index": 0
+}

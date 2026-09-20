@@ -1,0 +1,97 @@
+{
+  "duration_api_ms": 16382,
+  "stop_reason": "end_turn",
+  "session_id": "f6ec6264-4766-45d5-89e6-3fce3a883b6b",
+  "total_cost_usd": 0.0179154,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 28407,
+    "output_tokens": 1223,
+    "output_tokens_details": {
+      "thinking_tokens": 567
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1223,
+        "cache_read_input_tokens": 28407,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-sonnet-5": {
+      "inputTokens": 2,
+      "outputTokens": 1223,
+      "cacheReadInputTokens": 28407,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.0179154,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 567,
+      "canonicalModel": "claude-sonnet-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "會，而且是典型的中間肥大：全句約 100 字，前段交代背景，後段交代研究目的，重量卻全壓在中段那一長串修飾。\n\n**問題在哪**\n1. **中段塞太多東西**：「使得越來越多的大學生開始在課業與報告撰寫的過程中，對於這類工具的使用產生了高度的依賴性」把「誰、何時、在哪、做什麼、程度」全擠在一個分句裡。讀者讀到「因此」時，前面的主詞和動詞早就散了。\n2. **主詞晚出現**：真正的主角「本研究」拖到最後。\n3. **句法瑕疵**：「由於……使得……」沒有主語，屬於常見病句，「使得」前面應該有一個主語。\n4. **贅詞與名詞化**：「對於這類工具的使用產生了高度的依賴性」可縮成「依賴這類工具」。「希望能夠深入探討」、「究竟」、「什麼樣的」都可以刪。\n5. **前提未經證明**：「產生高度依賴」直接當事實寫，若沒有引用，審查者可能會追問。\n\n**建議拆成兩句**\n\n> 生成式 AI 快速普及，大學生在課業與報告撰寫中日益依賴這類工具（引用）。本研究探討此依賴傾向對學生學習成效的影響。\n\n如果想保留單句，可以這樣改：\n\n> 隨著生成式 AI 普及，大學生在課業與報告撰寫中日益依賴這類工具，本研究因此探討此依賴傾向對學習成效的影響。\n\n第二版仍有一點長，但主幹「大學生依賴工具，本研究探討影響」已經清楚。\n\n另外，「造成影響」和「依賴傾向」都要注意因果動詞的用法。如果研究是相關性設計，「影響」可以改成「與……的關聯」，這要看你的研究設計。",
+  "ttft_ms": 8316,
+  "type": "result",
+  "duration_ms": 16574,
+  "uuid": "b137c996-7fbc-48ee-adac-e92c48aff6fd",
+  "ttft_stream_ms": 900,
+  "time_to_request_ms": 191,
+  "first_content_frame_ms": 900,
+  "queued_turn_count": 0,
+  "result_index": 0
+}

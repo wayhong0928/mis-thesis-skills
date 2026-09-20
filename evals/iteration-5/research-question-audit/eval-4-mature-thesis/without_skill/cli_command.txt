@@ -1,0 +1,2 @@
+claude -p --model sonnet --output-format json --setting-sources project,local --allowedTools Skill,Read,Glob,Grep --disallowedTools Bash,PowerShell,Write,Edit,NotebookEdit,Task,WebFetch,WebSearch
+(stdin: research-question-audit__eval-4-mature-thesis.txt; cwd: C:\Users\user\AppData\Local\Temp\claude\D--github-repo-mis-thesis-skills\62c7562d-0053-4315-925b-b45add875b9f\scratchpad\workdir)

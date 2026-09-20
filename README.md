@@ -37,7 +37,13 @@ Codex 也支援開放的 [Agent Skills](https://agentskills.io/) 格式，讀取
 
 ## 評測
 
-三個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過完整評測（設計測試案例、平行比較「有無 SKILL」的輸出差異、量化評分），過程與誠實的發現記錄在 [`evals/`](evals/) 目錄與網站的實作紀錄文章裡，包括一次真實的「SKILL 反而漏抓 baseline 抓到的問題」案例（`academic-writing-discipline` 的文獻回顧論證鏈稽核，發現後已修正並重跑驗證）。`research-direction-finding` 於 2026-09-12 完成首次評測，5 個案例的整體效果差異（with_skill 對比 without_skill 的通過率）為正向。
+三個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過評測：設計測試案例、比較「有無 SKILL」兩臂的輸出、逐條斷言評分。過程與發現記錄在 [`evals/`](evals/) 目錄，包括一次真實的「SKILL 反而漏抓 baseline 抓到的問題」案例（`academic-writing-discipline` 的文獻回顧論證鏈稽核，發現後已修正並重跑驗證）。
+
+最新一輪是 2026-09-20 的 [`evals/iteration-5/`](evals/iteration-5/)，把 `academic-writing-discipline` 與 `research-question-audit` 的 8 個案例用同一套設定重跑（先前的數字混了 SKILL 版本與兩臂 CLI 設定兩個變因，不可解讀）。兩臂唯一差異是 `--plugin-dir` 有沒有指向本 repo 的 plugin。通過率差異：`research-question-audit` +0.31，四個案例一致有正向效果；`academic-writing-discipline` +0.10，但效益集中在用詞規則類的案例，在需要判斷論證鏈成不成立的兩個案例上兩臂同分。評分另由一個不同模型的評分者盲評覆核，78 條逐條判定一致率 96.2%，兩套評分算出的 delta 分別是 +0.31／+0.20 與 +0.10／+0.05，方向一致、大小對寬嚴標準敏感。
+
+`research-direction-finding` 於 2026-09-12 完成首次評測，5 個案例的整體效果差異為正向，沒有上述混版問題。
+
+每個案例只跑 1 次，樣本數也只有 4 個案例，這些數字是方向性觀察，不是穩定的效果估計。`evals/iteration-5/README.md` 記錄了完整設定、逐案例數字，以及三個還沒解決的問題（其中一個案例的 SKILL 根本沒被觸發，兩個假陽性防呆案例的斷言可能與案例文本不符）。
 
 ## 授權
 
