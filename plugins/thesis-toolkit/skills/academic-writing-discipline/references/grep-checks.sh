@@ -81,10 +81,10 @@ echo "--- [去 AI 感] 過度 hedging 連疊（需人工判讀是否四連疊）
 grep -nE "可能.{0,4}或許.{0,4}大概|或許.{0,4}也許" "$FILE"
 
 echo ""
-echo "--- [論證鏈 / 文獻回顧] 流水帳式「Author (Year) 指出」開頭（需人工判讀是否連續三段以上） ---"
+echo "--- [去 AI 感] 流水帳式「Author (Year) 指出」開頭（需人工判讀是否連續三段以上） ---"
 grep -nE "^[A-Za-z一-龥]+（[0-9]{4}）(指出|發現|提出|認為)" "$FILE"
 
 echo ""
 echo "=== 稽核完畢 ==="
 echo "「需人工判讀」的項目請對照 references/sentence-and-causal.md、references/taiwan-usage-apa.md、"
-echo "references/ai-flavor-and-argument.md 逐條確認是否真的違規。"
+echo "references/ai-flavor-and-common-errors.md 逐條確認是否真的違規。"

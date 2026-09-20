@@ -147,6 +147,12 @@ assertion 假定這些部分已經合格、不該被標記為問題，照字面�
 
 這兩個 case 的 assertion 還沒改，改之前的數字就是上面那張表。逐條覆核結果見`ASSERTION_AUDIT_2026-09-20.md`：三條爭議 assertion 全部是兩臂同時失敗，所以不論怎麼裁決都不影響 delta。
 
+## 後續處置（2026-09-20）
+
+依這批數字，`academic-writing-discipline` 於 v0.3.0 移除了論證鏈四步與文獻對話四測試，`references/ai-flavor-and-argument.md` 改名為 `ai-flavor-and-common-errors.md`。詳見 `../../plugins/thesis-toolkit/CHANGELOG.md`。
+
+因此 `eval-3a-clean-lit-review-false-positive` 與 `eval-3b-lit-review-argument-gap` 這兩個案例測的是已經不存在的功能，保留作為當初判斷的依據，不要拿來評測 v0.3.0 之後的版本。本目錄各 `eval_metadata.json` 的 `based_on` 欄位指向的 `references/ai-flavor-and-argument.md` 是當時的檔名，屬歷史紀錄，未跟著改名。
+
 ## 限制
 
 - 每個 case 只跑 1 次 with_skill、1 次 without_skill，stddev 無法計算，不是穩定的統計量。
