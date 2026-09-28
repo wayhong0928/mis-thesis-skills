@@ -72,7 +72,7 @@ repo 內的 `plugins/`，讓 skill 從 repo 直接載入。**這個做法尚未�
 - RQA eval-1 的 a3 assertion 已於 2026-09-20 修正（commit `014bd53`），重跑時用的是新版本。
   舊的 eval-1 評分結果已失效，不要拿來比較。
 - 本 repo 是公開發布的 plugin，**不要在 repo 裡新建 `TODO.md`**（會被推上公開 repo）。
-  跨 session 待辦記在 `D:\github-repo\Obsidian Vault\日常對話\TODO.md`。
+  跨 session 待辦記在維護者的本機待辦清單。
 - 16 次執行是這批工作裡最大的額度支出，跑之前先確認額度夠，不要跑到一半斷掉留下半套資料。
 
 ## 驗收條件
@@ -86,5 +86,5 @@ repo 內的 `plugins/`，讓 skill 從 repo 直接載入。**這個做法尚未�
 
 ## 完成後
 
-回頭更新 `D:\github-repo\Obsidian Vault\日常對話\TODO.md` 的該項，並把 commit `014bd53`
+回頭更新維護者本機待辦清單的該項，並把 commit `014bd53`
 （a3 修正）連同新結果一起 push。

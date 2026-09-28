@@ -24,6 +24,8 @@ Sonnet 每題 3 次，Opus 每題 1 次。
 | research-direction-finding | Sonnet | 0.545 | 0.933 | 0.978 | +0.43 | 5 |
 | | Opus | 0.647 | 1.000 | 1.000 | +0.35 | 5 |
 
+表中的 v0.4.0 是 `v0.4.0c2` 這一臂的數字。最終發布版與它只差 academic-writing-discipline 的 SKILL.md 一行說明文字（`chapter-structure.md` 的評測狀態），最終版另外重跑了 n5（Sonnet 3 次、Opus 1 次）與 n1（Sonnet 1 次），結果與 `v0.4.0c2` 相同。
+
 research-question-audit 另有原本的候選版（R1、R2）：Sonnet 0.931、Opus 1.000。有 3 條斷言標了 `tests_change`，專門測 R1、R3 要修的已知落差，舊版照自己文件字面走一定會錯。扣掉這 3 條，RQA 的 v0.3.0 在兩個模型上都是 1.000，沒裝的是 0.556 與 0.625。所以 v0.3.0 在 RQA 上輸給候選版的部分，全部落在這兩個已知落差上。
 
 **一致性（pass^k）**：Sonnet 每題 3 次裡，outcome 斷言三次都通過的比例。v0.4.0 在 AWD、RQA、RDF 分別是 0.964、1.000、0.933；v0.3.0 是 0.893、0.875、0.933；沒裝的是 0.661、0.614、0.467。
