@@ -20,12 +20,14 @@ description: 當使用者要檢查或潤飾中文學術論述的寫作品質時�
 - APA 7 中文化格式對不對（內文引用、參考文獻、標點）
 - 連接詞與標點是否符合台灣學術寫作慣例
 - 有沒有 AI 生成文本的典型特徵
+- 緒論／導論是否完成三個功能（CARS model 的三個 move）、方法章是否同時交代 How（怎麼做）與 Why（為何這麼做）、章節結構安排有沒有常見的誤解（見 `references/chapter-structure.md`；這一塊未經評測驗證，見下方說明）
 
 **本 SKILL 不管什麼**：
 
 1. 研究設計邏輯（研究問題該怎麼問、研究缺口怎麼分類與定位、方法論選擇是否恰當、量表構念的操作化是否合理）。這些屬於 `research-question-audit` SKILL 的範圍。
 2. **文獻回顧的論證鏈是否成立**（v0.3.0 起移除）。原本有一套論證鏈四步與文獻對話四測試，2026-09-20 的評測顯示這一塊帶不來效益，而且在專門測假陽性的案例上把本來站得住的段落過渡誤判為論證斷裂，對使用者而言比沒有更糟。證據見 `evals/iteration-5/`。需要判斷論證撐不撐得住，請人工處理或另尋工具。
-3. **章節結構**（v0.4.0 起移除）：緒論有沒有完成 CARS 三個 move、方法章有沒有交代 How 與 Why。2026-09-28 的評測（`evals/iteration-6/` 的 n5）顯示，沒裝 SKILL 的 Sonnet 與 Opus 同樣抓得到緒論缺了研究缺口，這一塊帶不來差距。
+
+**未經驗證的部分**：`references/chapter-structure.md`（緒論 CARS 三個 move、方法章 How 與 Why、章節慣例誤解）沒有被任何評測案例測過。它留下來的理由是性質接近清單比對而非論證判斷，不是因為有數據支持。
 
 **分工一句話**：這個 SKILL 檢查「這段話寫得對不對、像不像人寫的」；`research-question-audit` 檢查「這個研究問題問得對不對、缺口抓得準不準」。兩者可以先後套用在同一份文獻回顧草稿上，互不重疊。
 
@@ -54,6 +56,7 @@ description: 當使用者要檢查或潤飾中文學術論述的寫作品質時�
 | 連接詞與標點 | 連接詞是否濫用、標點是否符合台灣學術慣例 | `references/taiwan-usage-apa.md` §三 |
 | 去 AI 感 | AI 生成文本典型特徵、形容詞拿掉論點站不站得住、正當／不當動機的界線 | `references/ai-flavor-and-common-errors.md` §一 |
 | 常見錯誤速查 | 快速比對表，寫完後最後掃一遍用 | `references/ai-flavor-and-common-errors.md` §二 |
+| 章節結構（緒論／方法章，未經評測驗證） | 緒論三功能（CARS model 三個 move）有沒有到齊；方法章 How 與 Why 是否都交代；文獻缺口是否誤放成獨立總結節、研究倫理是否誤放成方法章固定一節 | `references/chapter-structure.md` |
 | 自檢 grep | 把上述判準轉成可執行的 grep 指令，供使用者在本機對整份稿件跑 | `references/grep-checks.sh` |
 
 ### 2.1 必掃清單（references 的最小子集，每次都要逐項掃過）
@@ -71,8 +74,8 @@ description: 當使用者要檢查或潤飾中文學術論述的寫作品質時�
 
 ## 3. 執行步驟
 
-1. 讀使用者貼的文字，判斷這段文字的性質（是量化研究的假說推導／討論？文獻回顧的一節？還是緒論／方法章的草稿？）。
-2. 動手前先用 Read 讀 `references/sentence-and-causal.md` 與 `references/taiwan-usage-apa.md`，文字有 AI 感疑慮時再讀 `references/ai-flavor-and-common-errors.md`。只看本檔不讀 references 就輸出，是這個 SKILL 最常見的失敗：評測中 21 次執行有 2 次沒讀 references，其中一次漏掉了「人工智能」與「存在」濫用，整合修改版還把「人工智能」原樣留著。讀完後依序對照判準，逐條記錄違反處，並附上原文中的具體句子（不要只講「有問題」不指出是哪句）。
+1. 讀使用者貼的文字，判斷這段文字的性質（是量化研究的假說推導／討論？文獻回顧的一節？還是緒論／方法章的草稿？）——緒論或方法章草稿才套用 `references/chapter-structure.md`。
+2. 動手前先用 Read 讀 `references/sentence-and-causal.md` 與 `references/taiwan-usage-apa.md`，文字有 AI 感疑慮時再讀 `references/ai-flavor-and-common-errors.md`；緒論或方法章草稿另讀 `references/chapter-structure.md`。只看本檔不讀 references 就輸出，是這個 SKILL 最常見的失敗：評測中 21 次執行有 2 次沒讀 references，其中一次漏掉了「人工智能」與「存在」濫用，整合修改版還把「人工智能」原樣留著。讀完後依序對照判準，逐條記錄違反處，並附上原文中的具體句子（不要只講「有問題」不指出是哪句）。
 3. 把發現的問題分成致命／錯誤／瑕疵三級（見第 5 節判斷原則），輸出結構化清單。文字若含文獻引用，輸出必須附上誠實條款：本次稽核未核對被引用文獻原文，轉述是否偏離原意需使用者自行核對。
 4. 整合修改版寫完後，拿第 2.1 節的必掃清單再掃一次修改版本身，確認沒有把原文的用語、引用或標點問題原樣留下。
 5. 若使用者要求在本機批次檢查整份文件，告知可使用 `references/grep-checks.sh`，並說明其中哪些指令需要人工判讀、哪些應該完全跑出空結果。
