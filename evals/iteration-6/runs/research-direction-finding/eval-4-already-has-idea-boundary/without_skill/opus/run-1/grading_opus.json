@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "不過以目前的寫法，題目太寬，也有幾個方法上的問題",
+      "confidence": "low",
+      "note": "讀法一：回應直接評論使用者既有的題目寫法，等於辨認已有研究想法，判 pass。讀法二：斷言可能要求明確說出「你已有具體想法、不需從零收斂」，回應沒有這樣講，標題還寫「題目要再收斂」，可能判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這是**碩士論文、博士論文，還是期刊或計畫**？",
+      "confidence": "high",
+      "note": "回應沒有帶使用者重走領域、主題、子題的收斂問題。結尾的追問是論文類型、樣本和方法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "如果學習績效用作業成績來算，AI 素養高的學生可能只是比較會用 AI 代寫",
+      "confidence": "high",
+      "note": "回應直接評論了依變數的測量、自變數的定義、干擾變項和研究設計的可行性。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應中沒有任何提到 research-question-audit 或交付稽核的句子",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

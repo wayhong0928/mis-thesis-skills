@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "依變數一的信度...依變數一是單題自陳...依變數二...改編量表的效度",
+      "confidence": "high",
+      "note": "回應分別討論兩個指標的信效度問題，未要求刪除任一指標或指戰線過長",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應完全未提及使用者描述的『只找到兩篇研究、方向不一致』的缺口敘述，未對其做出任何認可或評論",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應僅提到橫斷面設計不能講因果，未將研究問題本身判為是非問句",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "問題性手機使用量表改編到 GenAI 情境，六題的因素結構不一定成立，正式施測前最好先小樣本（20-30人）跑一次信度/探索性因素分析",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "檢查全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

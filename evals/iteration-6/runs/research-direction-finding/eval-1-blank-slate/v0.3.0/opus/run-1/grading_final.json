@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "兩個禮拜對著空白畫面，其實很正常。卡住的原因通常不是你想不出來，而是「我想做什麼題目」這個問題本身太大",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "我不建議直接幫你挑一個題目。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "到你們系的論文庫或圖書館系統，翻最近兩三屆學長姊的碩士論文…學長姊的論文也能讓你知道碩論大概做多大、資料可以從哪裡拿、你們系接受哪類題目，這些在期刊論文裡看不到。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "**先回答我兩個問題就好，不用想太久：**",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應中未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

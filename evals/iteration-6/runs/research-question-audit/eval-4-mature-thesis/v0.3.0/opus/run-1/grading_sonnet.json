@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "依變數清楚：不確定...戰線過長（條件式命中）：依變數是一個構念兩個指標",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "理論缺口要指出理論的哪一個構念或路徑解釋不了現象，你目前沒有指出來",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：不通過。「是否會影響」可以用「是／否」回答完",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋降級方案：通過（附帶條件）。一學期蒐集完，時程沒問題，也有備案",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "需修正後再議：資料來源和實驗設計的方向是對的，但缺口的論證沒有進到研究問題裡",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控，全文使用稽核報告的檢查點架構（A-G），未提及任何版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

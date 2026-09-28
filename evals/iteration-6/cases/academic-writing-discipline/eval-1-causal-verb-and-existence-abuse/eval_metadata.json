@@ -1,0 +1,38 @@
+{
+  "skill": "academic-writing-discipline",
+  "eval_name": "eval-1-causal-verb-and-existence-abuse",
+  "source": "沿用 iteration-5 eval-1，prompt 不變。a1 改寫：原文只接受『橫斷面不能用影響』一種理由，但同一句前半因果、後半相關正是 §一.5 的範例，兩種理由都成立，改成接受其一。",
+  "prompt": "幫我看看這段話寫得好不好：『本研究之數據顯示，人工智能之使用行為對受試者之學習成效具有顯著之影響，因此可以得知兩者之間存在正向關係。』",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出這句的因果語言有問題，理由是下列兩者至少其一：(a) 沒有交代理論依據、迴歸或路徑分析、控制變數，『具有顯著之影響』超出資料能支持的強度；(b) 同一句前半用因果語言（影響）、後半退回相關語言（存在正向關係），前後不一致。並給出全句語氣統一的改法",
+      "based_on": "references/sentence-and-causal.md §一.1 核心原則（三條件、全篇動詞紀律一致）與 §一.5 常見越線情境（同一句話內因果與相關語言並存）"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "指出『存在正向關係』是『存在』的濫用，建議改寫成動詞句（例如『兩者顯著正相關』）",
+      "based_on": "references/sentence-and-causal.md §二.3 還原動詞（『存在』濫用）"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "指出『人工智能』不是台灣慣用語，建議改為『人工智慧』",
+      "based_on": "references/taiwan-usage-apa.md §一.4 容易混淆的地區用語"
+    },
+    {
+      "id": "a4",
+      "kind": "outcome",
+      "text": "提供一個修改後可直接使用的完整句子",
+      "based_on": "SKILL.md §4 輸出格式（整合修改版為必要輸出項）"
+    },
+    {
+      "id": "a5",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

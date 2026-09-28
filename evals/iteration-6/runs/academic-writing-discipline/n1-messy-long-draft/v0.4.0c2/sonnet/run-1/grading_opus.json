@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "就算三條件（理論、路徑分析、控制變數）都滿足，「導致」仍是門檻最高、通常應避免的詞。",
+      "confidence": "low",
+      "note": "回應把『導致』列為致命並給了改法，但理由是與前句用詞不一致、『導致』門檻最高，沒有點出橫斷面資料。讀法一：斷言的核心是指出『導致』越線並給改法，這樣算 pass。讀法二：斷言要求以橫斷面資料作為理由，這樣算 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把一條迴歸關係包裝成看似已建立的專有構念名稱，是自創術語冒充既有理論架構。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線 / 學術倫理紅線）",
+      "confidence": "high",
+      "note": "a1、a2 列在致命級，用語與引用格式問題列在錯誤級。總結也寫『最需要處理的是第三段』。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」作介系詞、「數據」代替「資料」皆為大陸用語。改法：「研究者透過網路問卷蒐集資料」",
+      "confidence": "high",
+      "note": "另有一條指出『台灣學術用語為「迴歸」，非「回歸」』。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文的敘述引用應寫「等人」，不寫英文 \"et al.\"。改法：「Bastani 等人（2024）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "同一構念在不同段落使用兩個譯名，全篇應統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；列入通過項目：「三條件齊備，用「影響」正當。」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "回應未出現此指控；說明「符合例外一（原作者具可信因果識別策略時可用因果語言）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "需修（致命 3 處、錯誤 4 處、瑕疵 0 處）；另有「### 整合修改版」",
+      "confidence": "low",
+      "note": "回應有致命、錯誤兩個段落，沒有獨立的瑕疵段落，但總結明列三級計數，瑕疵為 0 處。讀法一：三級架構已用計數呈現，算 pass。讀法二：必須有三個分段，算 fail。整合修改版確實有附。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核未核對 Davis（1989）與 Bastani 等人（2024）原文",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有排除清單中的任何詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

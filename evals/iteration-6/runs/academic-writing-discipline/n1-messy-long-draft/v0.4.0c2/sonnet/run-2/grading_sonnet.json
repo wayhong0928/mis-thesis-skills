@@ -1,0 +1,96 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前一句用「影響」，後一句卻升級成「導致」...改法：「知覺易用性對持續使用意圖亦具有顯著正向影響」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把研究者自己的推論包裝成看似既有的構念名稱，是不應出現的自創術語...並未實際測量「自主除錯能力」這個變項",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線 / 自創術語 / 主張超出證據）...### 錯誤（用語 / APA 格式 / 術語不一致）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「研究者通過網路問卷收集數據」→「研究者透過網路問卷蒐集資料」...「以多元回歸分析檢驗」→「以多元迴歸分析檢驗」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「Bastani et al.（2024）」→「Bastani 等人（2024）」（中文行文不用 et al.）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "前文已用「知覺有用性」，此處應統一，改為「知覺有用性愈高的學生」（同一構念兩個譯名）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "理論（TAM/Davis 1989）＋路徑分析（SmartPLS）＋控制變數（性別、年級）三條件齊備，此句用語正確，不需要退回「預測」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用 Bastani et al.（2024）隨機分派實驗時用「導致」：原研究是實驗設計，因果語言在此可用，屬於例外一",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命...### 錯誤...### 瑕疵...### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核未核對 Davis（1989）與 Bastani et al.（2024）原文，兩處轉述是否忠於原意仍需你自行核對",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；全篇未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

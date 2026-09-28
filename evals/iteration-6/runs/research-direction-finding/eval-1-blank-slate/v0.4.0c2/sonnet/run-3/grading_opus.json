@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "先不想題目,給你一個今天就能做的作業",
+      "confidence": "low",
+      "note": "回應沒有明說『完全空白』，但它給的是從零起步的作業（翻學長姊論文找吸引點），處理方式符合起點 A。一種讀法：斷言要求明確判定，則應判 fail。另一種讀法：處理方式等同判定為起點 A，則判 pass。回應另問『如果你已經有一個模糊的大方向』，保留了非空白的可能。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "先不想題目,給你一個今天就能做的作業",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "這個作業比直接想題目有用,原因是它同時告訴你三件事",
+      "confidence": "high",
+      "note": "動作是翻系所學長姊論文、挑 2–3 本並寫下吸引點；理由是可以看出規模、資料來源和系所接受的題目類型。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "順便問一句(不影響你現在就能開始做這個作業):你是什麼系所/組別?",
+      "confidence": "high",
+      "note": "只問了系所和模糊大方向兩點，沒有往下追問到研究問題的層次。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

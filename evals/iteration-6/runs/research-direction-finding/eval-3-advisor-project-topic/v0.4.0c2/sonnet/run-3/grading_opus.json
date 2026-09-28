@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你的情況屬於「老師的計畫延伸」這一類，跟從零開始找方向不一樣",
+      "confidence": "low",
+      "note": "讀法一：只要實質判定為『題目來自老師計畫』就算符合，此讀法下 pass。讀法二：須明確標示『起點 C』，回應未使用此標籤，此讀法下 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "不需要跑「領域→主題→子題→題目」的收斂流程，因為範圍已經被計畫框住了",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "這個計畫裡,哪一塊能單獨撐起一篇碩士論文**，這是可行性與獨立貢獻的判斷，不是興趣的判斷",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "把這三點講出來後，我會協助你把它收成一句話的研究想法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "接著就可以交給題目稽核的流程，檢查這個想法邏輯站不站得住腳",
+      "confidence": "low",
+      "note": "讀法一：實質交棒給題目稽核流程即算符合，此讀法下 pass。讀法二：須明確點名 research-question-audit，回應未點名，此讀法下 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

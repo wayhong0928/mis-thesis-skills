@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "自變數（生成式 AI 素養）、依變數（學習績效）、對象（大學生）和情境（程式設計課程）都有了，已經離開領域和主題層",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應判定題目「已經離開領域和主題層」，下一步是改寫成研究問題句",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「學習績效」可以指期末考成績、作業分數、專題品質、程式碼正確率，也可以指自評學習成效",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "以下是完整的稽核報告。",
+      "confidence": "low",
+      "note": "讀法一：斷言要求回應明確提到把題目交給 research-question-audit 稽核。回應沒有這種轉交說法，也沒出現該名稱，依此判 fail。讀法二：回應直接產出「研究問題稽核報告」，等於已經執行了該稽核，依此可判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞，相關處改寫為「換個名詞就是別人的論文」",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

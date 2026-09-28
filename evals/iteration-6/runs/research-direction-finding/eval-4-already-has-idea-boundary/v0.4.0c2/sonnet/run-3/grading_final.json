@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "已經有明確的自變數（生成式AI素養）、依變數（學習績效）、母體（大學生）與情境（程式設計課程），收斂程度不錯",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控；改以研究問題稽核六檢查點直接評論現有題目（缺口、依變數、可行性等），未要求使用者退回重新走領域/主題/子題收斂步驟。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "4. 依變數清楚：不通過 — 「學習績效」是常見但籠統的詞…目前看不出你要測量的具體構念。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "# 研究問題稽核報告",
+      "confidence": "low",
+      "note": "回應標題與內文使用中文「研究問題稽核」框架並逐項稽核，但未出現英文字面 research-question-audit；若斷言要求字面提及該英文技能名稱則應判 fail，若視中文『研究問題稽核』為對應說法則判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "目前是「現象描述」直接跳到「因此，本研究的目的...」，中間少了關鍵的橋梁：既有研究/現況有什麼不足",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "尚未被充分探討，因此本研究欲填補此一缺口。",
+      "confidence": "high",
+      "note": "第2點也建議補引註，但主要建議（第1、3點與建議結構）是補研究缺口，不是只補數字或文獻。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "現象背景 → 既有研究/實務缺口（新增） → 研究目的 → 研究方法簡述 → 章節安排",
+      "confidence": "low",
+      "note": "回應沒有提到 CARS 或 move。它給的五段式結構在實質上接近 establish territory / niche / occupy。讀法一：必須明確用 CARS 或三個 move 的框架來檢查，這樣判 fail。讀法二：實質上用了同樣的邏輯就算，這樣可判 pass。依字面判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

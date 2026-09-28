@@ -1,0 +1,64 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "建議改用「研究參與者」、「受訪者」或「研究對象」較符合調查研究的用語習慣",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應全文未提及「判別效度」或「模型擬合」為大陸用語，亦未給出台灣用法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "故此處建議改為 `Fornell 與 Larcker（1981）的建議`",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "建議全文擇一（通常中文論文全篇統一用「等人」）",
+      "confidence": "low",
+      "note": "回應未直接寫『Hair et al.（2017）應寫成Hair 等人（2017）』的明確句子，而是給出一致性原則+修改版本中出現Hair 等人(2017)，屬於同義表達，依規則4可視為通過；但若嚴格要求逐字對應建議則可能不通過。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "應改為「，」",
+      "confidence": "low",
+      "note": "逗號部分明確指出應改全形並給出建議；但括號部分回應實際建議將全形括號改半形（方向相反），故若斷言僅指括號則應判fail，但因為斷言是『或』且逗號滿足，故整體判pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控，僅在原文脈絡中提及『收斂效度與判別效度』未對其用語提出批評",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

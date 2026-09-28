@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "中間缺了關鍵一步：為什麼「依賴程度」是個問題？現有研究少了什麼、留下什麼缺口？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "但目前對於學生依賴生成式AI的心理成因仍缺乏實證探討",
+      "confidence": "high",
+      "note": "回應第1點也建議補數據與引用，但主要建議明確包含研究缺口，並非只建議補統計或文獻",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "這樣背景段落就有「現象 → 缺口 → 動機」的完整邏輯",
+      "confidence": "low",
+      "note": "讀法一：回應未提 CARS 或 move，也不是以該架構逐步檢查草稿，只在改寫後總結出三段邏輯，所以判 fail。讀法二：「現象→缺口→動機」實質上對應 CARS 的三個 move（建立領域、指出缺口、佔據缺口），第2點也用這條邏輯鏈檢查了草稿，依規則4可判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你目前只描述了現象（學生在學程式設計時依賴GAI），沒有說明這個題目對應五種缺口",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "依變數清楚：不通過...「依賴」目前沒有操作型定義，無法判斷你打算怎麼測量它",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "命中：①沒有依變數的「⋯⋯之研究」（傾向）— 「探討⋯⋯情形」這種措辭常常止步於「描述一個主題領域」",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "上面標記「不通過」或「不確定」的項目，我可以一項一項帶你想清楚該怎麼回答...要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

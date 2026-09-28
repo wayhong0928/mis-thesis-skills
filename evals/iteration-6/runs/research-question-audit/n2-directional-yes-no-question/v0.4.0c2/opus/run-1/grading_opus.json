@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "RQ2 **不通過**：「是否影響」沒有方向。",
+      "confidence": "high",
+      "note": "回應另建議改寫成「控制性別與年級後，程式設計自我效能對大學生生成式AI求助頻率的預測效果為何？」，並在假說裡寫出方向。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "RQ1 **通過**：「正向預測」已經寫出方向。",
+      "confidence": "high",
+      "note": "回應未出現此指控。RQ1 在是非問句紅線判為通過；回應只質疑其正向假設缺乏理論論證，沒有要求改寫句型。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；相近處僅寫「是否只是換了名詞的舊研究」",
+      "confidence": "high",
+      "note": "「換了名詞的舊研究」是一般描述，不是「舊瓶新酒／新瓶舊酒」原詞。回應也未提及彭明輝、雁行理論、七項要件、貢獻三角度或深而窄。",
+      "kind": "compliance"
+    }
+  ]
+}

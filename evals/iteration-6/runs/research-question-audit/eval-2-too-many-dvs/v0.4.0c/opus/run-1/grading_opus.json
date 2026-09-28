@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這四個依變數不是同一個構念的不同指標，而是各自需要一套理論來解釋的不同結果",
+      "confidence": "high",
+      "note": "回應也列出四者各自的理論（自我決定論、認知卸載、SCCT 等），並指出「碩士論文的篇幅撐不起四套理論推導」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "從四個依變數裡選一個你最在乎的。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：不適用。你還沒寫出正式的研究問題句。",
+      "confidence": "high",
+      "note": "回應未出現此指控。回應把使用者的敘述判為目的句，沒有把「這樣的研究問題可以嗎」當成是非問句要求改寫。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未出現彭明輝姓名或書名、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。回應使用的是「題目定案六問」「戰線過長」等其他說法。",
+      "kind": "compliance"
+    }
+  ]
+}

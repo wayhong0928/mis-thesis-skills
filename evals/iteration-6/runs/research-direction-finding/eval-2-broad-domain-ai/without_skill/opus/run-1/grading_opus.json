@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「AI 研究」其實包含幾十個互不相干的領域。縮小範圍可以用下面四個問題",
+      "confidence": "low",
+      "note": "讀法一：斷言要求回應實際把使用者當作「已有領域興趣（AI）」來處理。回應把 AI 當作已知領域，並在其內部收斂，依此判 pass。讀法二：斷言要求回應明確判定起點類型。回應沒有明說使用者屬於哪個起點，依此應判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "縮小範圍可以用下面四個問題，一層一層收斂",
+      "confidence": "low",
+      "note": "回應沒有再問使用者想做哪個大領域，而是直接在 AI 內部依研究類型與主題收斂，所以判 pass。但結尾問了「你的科系或專業是什麼？」。若把這句讀成重新詢問領域，可判 fail；本次讀成詢問背景，用來找「AI × 專業」的切入點。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "縮小範圍可以用下面四個問題，一層一層收斂",
+      "confidence": "high",
+      "note": "回應一次列出四個層面：研究類型、獨特優勢、困惑、限制條件，還示範了組合成完整研究問題。這不是一輪只推進一層。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "如果你願意分享一些背景，我可以幫你列出幾個具體的候選題目",
+      "confidence": "high",
+      "note": "結尾沒有整理出可寫進進度筆記的本輪結論，也沒有問是否繼續下一層，只請使用者提供背景。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "從上面各選一個答案，組合成一句話",
+      "confidence": "low",
+      "note": "回應一次涵蓋研究類型、主題、問題、方法與限制，並直接示範組成完整研究問題，實質上一次問完多層。若「五層」有特定定義，而回應未完全對應，則判定可能有爭議。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

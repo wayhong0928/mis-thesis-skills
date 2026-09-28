@@ -1,0 +1,44 @@
+{
+  "skill": "research-direction-finding",
+  "eval_name": "eval-3-advisor-project-topic",
+  "source": "沿用 iteration-4 eval-3，prompt 不變；原 a4 拆成 outcome（寫成一句話研究想法）與 procedure（交棒 research-question-audit）。",
+  "prompt": "我指導教授接了一個智慧製造的科技部計畫，他叫我從這個計畫裡面找一個題目來做碩論。我該怎麼開始？",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "procedure",
+      "text": "判定使用者屬於『起點 C：題目來自老師的計畫』",
+      "based_on": "SKILL.md §1 前置條件檢查"
+    },
+    {
+      "id": "a2",
+      "kind": "procedure",
+      "text": "明確說這種情況不走收斂漏斗，因為範圍已被計畫框住",
+      "based_on": "SKILL.md §2.3"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "把要回答的問題定位成『這個計畫裡哪一塊能單獨撐起一篇碩士論文』（可行性與獨立貢獻），而不是『我對什麼有興趣』",
+      "based_on": "SKILL.md §2.3"
+    },
+    {
+      "id": "a4",
+      "kind": "outcome",
+      "text": "引導使用者先把計畫目標與自己負責的部分講清楚，寫成一句話的研究想法",
+      "based_on": "SKILL.md §2.3 正確的動作"
+    },
+    {
+      "id": "a6",
+      "kind": "procedure",
+      "text": "寫成一句話研究想法後交棒給 research-question-audit 稽核",
+      "based_on": "SKILL.md §2.3、§5"
+    },
+    {
+      "id": "a5",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

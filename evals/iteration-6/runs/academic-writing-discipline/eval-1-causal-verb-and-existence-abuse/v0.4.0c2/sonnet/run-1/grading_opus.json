@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半用因果語言「具有顯著之影響」，後半卻退回相關語言「存在正向關係」",
+      "confidence": "high",
+      "note": "(a)(b) 兩項理由都有提到，並給出二擇一的全句統一改法（全相關或全因果）",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「存在……關係」是弱動詞＋抽象名詞的典型歐化病灶，可直接還原成動詞句",
+      "confidence": "high",
+      "note": "改法為「兩者呈正向相關」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」為大陸用語……台灣慣用「人工智慧」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究之資料顯示，受試者使用人工智慧的行為與其學習成效呈顯著正相關。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件等詞",
+      "confidence": "high",
+      "note": "回應用的是「三條件」，不屬排除清單上的「七項要件」",
+      "kind": "compliance"
+    }
+  ]
+}

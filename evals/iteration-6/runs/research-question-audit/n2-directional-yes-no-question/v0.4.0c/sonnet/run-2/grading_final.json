@@ -1,0 +1,33 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「是否影響」完全沒有指出方向，是典型的是非問句，命中紅線，需改寫",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "RQ1：不通過（擦邊）— 「是否正向預測」雖然已指出方向（正向）",
+      "confidence": "low",
+      "note": "回應對RQ1的紅線判定寫的是「不通過（擦邊）」字面上仍標記不通過，但理由明確說明因已指出方向而「可視為勉強通過紅線」，實質上未要求必須改寫（只建議更嚴謹寫法），故判pass；但『不通過（擦邊）』的標籤本身可被讀為判定其命中是非問句紅線，屬於邊界情況。",
+      "kind": "outcome",
+      "adjudicated": "assertion_ambiguous"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

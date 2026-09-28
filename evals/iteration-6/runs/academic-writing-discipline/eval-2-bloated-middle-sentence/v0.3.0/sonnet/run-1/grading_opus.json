@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於……因此」,中間夾的成分超過 15 字的門檻很多(超過 60 字)",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "近年來生成式AI技術快速發展與普及,越來越多大學生在課業與報告撰寫過程中,對這類工具產生了高度依賴。基於此",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未分析『對於……的使用』結構；僅在改寫中改為「對這類工具產生了高度依賴」",
+      "confidence": "high",
+      "note": "改寫時已悄悄精簡此段，但回應沒有指出這個結構在拉長句子，不符合「指出」的要求。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；改寫保留「本研究希望探討這種依賴傾向對學生學習成效的影響」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "先是AI技術發展→大學生依賴,再由這個依賴接到研究動機",
+      "confidence": "low",
+      "note": "讀法一：回應只把這段當成句型結構問題分析，沒有指出因果缺乏支持，所以判 fail。讀法二：改寫刪掉了「使得」，改成並列敘述，實質上符合斷言舉例的保守寫法，可視為 pass。我採讀法一，因為斷言要求的是「指出」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件等排除詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

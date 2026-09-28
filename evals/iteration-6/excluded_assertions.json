@@ -1,0 +1,6 @@
+[
+  {"skill": "academic-writing-discipline", "case": "eval-2-bloated-middle-sentence", "id": "a5",
+   "reason": "要求抓出緒論背景句的『使得』。skill 的因果動詞紀律針對研究發現與主張，沒有涵蓋緒論背景敘述，verifier 也指出 based_on 字面不對應。sonnet 三臂 0/3、opus 兩臂各 0/1，屬斷言要求過頭。"},
+  {"skill": "research-direction-finding", "case": "eval-4-already-has-idea-boundary", "id": "a5",
+   "reason": "procedure：要求提到交棒 research-question-audit。實際上裝了 plugin 的一臂直接改叫 research-question-audit 稽核，交棒已經發生，這條只能在 RDF 被叫用時才有意義。"}
+]

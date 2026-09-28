@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "直接跳到 ③研究目的...中間完全沒有交代「既有研究做到哪裡、留下什麼還沒被回答的問題」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "補一段具體指出既有研究的侷限，例如...現有研究多聚焦於⟨A⟩，對於...⟨B⟩的討論相對有限",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "緒論漏掉 CARS 三個 move 中的 move ②（建立利基／研究缺口）",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

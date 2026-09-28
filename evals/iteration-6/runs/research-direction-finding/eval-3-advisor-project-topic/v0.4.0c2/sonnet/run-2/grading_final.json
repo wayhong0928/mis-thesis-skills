@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你的情況屬於「題目來自老師的計畫」這一類",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "跟完全沒方向或只有模糊興趣的情況不一樣,不需要從領域慢慢收斂,而是要先搞清楚",
+      "confidence": "low",
+      "note": "回應明確說不走收斂路徑，但未直接寫出「因為範圍已被計畫框住」這個理由，是從上下文（題目來自計畫）隱含推得。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "這個計畫裡的哪一塊,能單獨撐起一篇碩士論文。這是可行性與獨立貢獻的判斷，不是興趣選擇的問題。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "把這兩件事講清楚後，試著寫成一句話的研究想法（例如：「針對○○產線，用○○方法解決○○問題」這種格式）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "寫出來之後我會幫你檢查這個題目站不站得住腳（例如範圍是否碩論做得完、貢獻是否夠獨立、跟計畫本身的關係是否恰當）",
+      "confidence": "low",
+      "note": "回應確實描述了寫出一句話後接著進行題目稽核的動作，但未點名為「research-question-audit」這個具體稽核流程/代理，是否算符合視斷言是否要求具名而定。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

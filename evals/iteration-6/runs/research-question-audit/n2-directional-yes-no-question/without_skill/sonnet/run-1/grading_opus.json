@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "建議把 RQ2 措辭改成「是否影響」而非預設正向",
+      "confidence": "high",
+      "note": "回應沒有指出「是否影響」可以用是或否回答完、缺乏方向，反而肯定不預設方向的寫法。第5點雖建議改成「是否預測」，但理由是避免因果用詞，而且改寫後仍是是非問句，沒有改成效果或預測方向的句型。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "所以 RQ1「正向預測」的方向假設站得住腳。",
+      "confidence": "high",
+      "note": "回應未出現此指控。回應肯定 RQ1 的正向方向假設有理論依據，沒有要求改寫成非是非問句。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

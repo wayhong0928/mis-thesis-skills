@@ -1,0 +1,64 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "判定為資訊不足，交棒讀文獻",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判定為資訊不足，交棒讀文獻",
+      "confidence": "low",
+      "note": "回應在表格中記錄『交棒讀文獻』的決定，但對使用者的直接發言是詢問要不要先產生檢索式，屬於引導讀文獻的前置步驟而非直接下令『你先去讀文獻』，可能有兩種讀法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "行動支付的採用／使用意圖，文獻上常放哪些自變數？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "要我現在先幫你產生檢索式嗎？告訴我你比較想切消費者採用面、店家導入面、還是資安／信任面",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "特別是「原本以為 X，讀完發現 Y」的轉變",
+      "confidence": "low",
+      "note": "只涵蓋『想法的轉變』一項，未明確要求帶回最相關論文清單或未解問題，但斷言用『例如』字樣，符合其一即可。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中完全沒有提及 mis-thesis-guide 或兩段式檢索接力。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

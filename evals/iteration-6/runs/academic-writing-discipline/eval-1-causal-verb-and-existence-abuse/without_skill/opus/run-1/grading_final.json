@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半句用因果的說法，後半句又退回相關，建議依實際的研究方法擇一使用。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "本研究發現，人工智慧使用行為與受試者學習成效之間存在顯著正向關係。",
+      "confidence": "high",
+      "note": "回應未指出『存在正向關係』是『存在』的濫用，甚至在第三個改寫例句中仍保留『存在顯著正向關係』的說法",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "如果投稿台灣的期刊或學校，通常寫「人工智慧」，「人工智能」是中國大陸的慣用說法。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究結果顯示，受試者的人工智慧使用頻率與學習成效呈顯著正相關（r = .XX, p < .05）。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

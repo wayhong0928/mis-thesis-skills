@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "中間缺了關鍵一步：為什麼「依賴程度」是個問題？現有研究少了什麼、留下什麼缺口？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "缺乏對學生實際依賴行為與心理成因的實證了解，這正是本研究要補上的空白",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應以四點條列方式評論（開頭籠統、缺問題環節、引用未發揮作用、節次安排），未提及CARS或move等術語",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應內容聚焦於背景論證邏輯與引用建議，未提及彭明輝、舊瓶新酒、雁行理論等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

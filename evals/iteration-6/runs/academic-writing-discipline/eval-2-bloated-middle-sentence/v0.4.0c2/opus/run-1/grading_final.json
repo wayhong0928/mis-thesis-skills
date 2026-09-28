@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "從「由於」到「因此」之間約有 70 字。讀者讀完這一大段才等到主要子句「本研究希望探討」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "改法：前半段寫長時，改成「A。基於此，B」。先用句號把原因說完，再另起一句寫研究目的。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「對於……的使用產生了高度的依賴性」可以直接還原成「高度依賴……」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "「造成」的因果意味很強，門檻高。如果研究採用問卷調查這類橫斷面設計，用「造成……影響」會超出資料能支持的範圍。",
+      "confidence": "low",
+      "note": "回應以「需要看研究設計才能判斷」為條件式提出，並非斷定已越線；但仍將該詞句列為因果用詞風險並要求視設計調整，可視為對此句判了因果越線疑慮，故判fail。若將條件式的『視設計而定』視為未實際判定越線，則可能改判pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "「由於 X，使得 Y」這種寫法讓「使得」沒有主語。刪掉「使得」，或改成「X 使 Y」。",
+      "confidence": "high",
+      "note": "回應僅將『由於……使得』標為語法上主語殘缺問題，並未指出技術普及與學生依賴之間是未經支持的既定因果、也未建議改用不指定因果方向的保守敘述（如『伴隨』）。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文僅討論中間肥大、話題漂移、弱動詞、因果用詞等寫作問題，未提及彭明輝、雁行理論等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

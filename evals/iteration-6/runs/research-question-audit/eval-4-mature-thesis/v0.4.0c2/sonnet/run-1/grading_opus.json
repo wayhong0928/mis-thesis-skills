@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "使用頻率與求助深度是同一構念（除錯依賴程度）的兩個指標，不算戰線過長。",
+      "confidence": "high",
+      "note": "D-③把DV的理論連結標為「不確定」，但這是指理論來源，不是判定依變數不清楚；C-4明確判依變數清楚。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "僅講「沒人做過」，未講「為什麼這個情境會讓理論不成立」",
+      "confidence": "high",
+      "note": "回應沒有說它較接近知識缺口，而是走斷言的另一個選項：要求補上「被本情境推翻的特性」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：不通過 — 「⋯是否會影響⋯」沒有交代效果方向",
+      "confidence": "high",
+      "note": "建議改寫為「……的預測效果為何？」，符合方向性句型的要求。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "6. 兩年可行＋降級方案：通過 — 已有明確fallback",
+      "confidence": "high",
+      "note": "C-5把資料可得性標為「不確定」，理由是對話紀錄的取得機制，不是判不通過；G-4的可行性也判通過。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "收斂程度沒有問題，不需要退回上層重新收斂。",
+      "confidence": "high",
+      "note": "總結判定為「需修正後再議」，沒有要求換題目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "回應用的是「七個檢查點」「題目定案六問」，沒有出現「七項要件」或其他排除詞。",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "檢查點②（戰線過長）：...若確認為同一構念的不同指標則不算命中；若兩指標其實是不同構念，需要重新評估",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判定：**證據缺口**\n理由：使用者明確指出「自我效能與依賴的關係只找到兩篇研究，結果方向不一致",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：通過，未寫成「是否影響」的是非句。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "依賴量表是「問題性智慧型手機使用量表」跨領域改編到AI情境，改編幅度不小，需要報告內容效度（專家審題）、收斂／區辨效度、Cronbach's α，目前未提供。",
+      "confidence": "low",
+      "note": "回應明確要求信效度資料，並以「需報告內容效度（專家審題）」隱含要求交代改編合理性，但未使用「改編理由」這類字眼直接要求說明為何改編；兩種讀法：(1)內容效度審查即等同改編理由的交代，視為通過；(2)嚴格要求須有獨立的『為何改編』論述，則未完全命中。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控（未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙）",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

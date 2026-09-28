@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "知覺易用性則**導致**學生的持續使用意圖顯著提升 | 單一時間點的問卷無法確立因果或時序 | 知覺易用性與持續使用意圖呈顯著正向關聯",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "根據你描述的方法，研究裡**沒有測量「自主除錯能力」**，也沒有測量「認知卸載」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "以下按嚴重程度排列。……建議優先處理第 1 到 3 點",
+      "confidence": "high",
+      "note": "因果語言與認知卸載路徑列在「一、嚴重問題」，術語不一致與引用問題列在「二、中等問題」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未提及「通過」「收集數據」「回歸」等用語，也沒有給台灣慣用寫法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未指出應改為「Bastani 等人（2024）」；改寫示範仍用 Bastani et al., 2024",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "前面寫「**知覺**有用性」，後面變成「**感知**有用性」。全文請統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": false,
+      "evidence": "對持續使用意圖**具有顯著正向影響** | 在 SEM 慣例下勉強可接受，但最好加限定",
+      "confidence": "low",
+      "note": "讀法一：回應說「勉強可接受」，沒有明確判為越線，可判 pass。讀法二：回應把此句放進「橫斷面設計卻用了因果語言」表格並建議改寫，等於視為因果用語問題，應判 fail。此處採讀法二。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "回應未出現此指控；只說「拿別人的實驗結果替自己沒測量的路徑背書，是在借用因果證據」",
+      "confidence": "high",
+      "note": "回應承認 Bastani 研究提供的是因果證據，批評的是外推，不是用詞。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "## 改寫示範（第三段）",
+      "confidence": "high",
+      "note": "分級用的是嚴重／中等／較小，而且只改寫第三段，沒有整合修改版。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "憑我的記憶（請你自行核對原文）",
+      "confidence": "low",
+      "note": "讀法一：回應坦承未核對 Bastani 原文，實質上算誠實聲明，可判 pass。讀法二：斷言要求一條涵蓋全部引用文獻的明確稽核聲明，但回應只針對 Bastani，也沒提 Davis，應判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

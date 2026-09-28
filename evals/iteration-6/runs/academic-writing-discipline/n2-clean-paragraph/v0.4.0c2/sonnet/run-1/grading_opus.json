@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "可用（致命 0 處、錯誤 0 處、瑕疵 1 處，且該瑕疵是否要改可自行決定）",
+      "confidence": "high",
+      "note": "回應將用語、APA 引用、標點皆列為正確，並明言反向因果討論「不是自相矛盾」；唯一瑕疵為可讀性建議，標為非必要修改。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "三條件齊備時，「具有顯著正向影響」是安全、專業的寫法，不需要退回「預測」。",
+      "confidence": "high",
+      "note": "回應未出現此指控；反而明確肯定該用語有理論、PLS-SEM、控制變數三條件支持。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "通讀回應，未出現彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

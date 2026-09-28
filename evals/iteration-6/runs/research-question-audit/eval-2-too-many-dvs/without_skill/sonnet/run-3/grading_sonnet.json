@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "學習動機、學習成效、批判思考能力、就業意願這四個變項之間的邏輯關係是什麼",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "先聚焦在「生成式AI使用 → 學習動機 → 學習成效」這條主線，批判思考能力可作為學習成效的其中一個面向指標，而非獨立變項",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應直接針對變項範圍與關係提出收斂建議，未指出提問句型本身是非問句需改寫",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、書名或雁行理論等版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

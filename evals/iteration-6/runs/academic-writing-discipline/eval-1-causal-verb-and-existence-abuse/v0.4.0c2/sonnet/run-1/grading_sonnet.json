@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半用因果語言「具有顯著之影響」，後半卻退回相關語言「存在正向關係」，等於同一句話裡因果強度自相矛盾",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「存在……關係」是弱動詞＋抽象名詞的典型歐化病灶，可直接還原成動詞句。改法：「兩者呈正向相關」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」為大陸用語，也是最顯眼的地區用語標記，台灣慣用「人工智慧」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究之資料顯示，受試者使用人工智慧的行為與其學習成效呈顯著正相關。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文聚焦於因果/相關語言一致性、用語在地化（數據/人工智能）、以及「之」堆疊與弱動詞問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

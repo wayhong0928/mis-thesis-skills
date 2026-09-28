@@ -1,0 +1,50 @@
+{
+  "skill": "research-direction-finding",
+  "eval_name": "eval-5-insufficient-information",
+  "source": "沿用 iteration-4 eval-5，prompt 不變；原 a4 拆成 outcome（提供檢索協助、不假裝查過）與 procedure（提到網站範本）。",
+  "prompt": "（承接第二輪對話）我想做金融科技，主題大概是行動支付。但你問我覺得跟什麼有關，我真的不知道耶，我沒讀過這方面的論文。",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "判定為資訊不足，而不是繼續追問或換句話再問一次同樣的問題",
+      "based_on": "references/handoff-to-literature.md 判斷時機（答不出『跟什麼有關』）"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "明確停下引導，請使用者先去讀文獻",
+      "based_on": "references/handoff-to-literature.md 為什麼需要這一節"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "給出具體要查什麼（例如行動支付採用的前因研究，看別人放了哪些自變數），而不是空泛地說『多讀點文獻』",
+      "based_on": "references/handoff-to-literature.md 三樣東西之 1"
+    },
+    {
+      "id": "a4",
+      "kind": "outcome",
+      "text": "提供檢索協助（例如檢索式、關鍵字、資料庫），且沒有假裝自己已經搜尋過文獻",
+      "based_on": "references/handoff-to-literature.md 三樣東西之 2"
+    },
+    {
+      "id": "a5",
+      "kind": "outcome",
+      "text": "告知回來時要帶什麼（例如幾篇最相關論文各一句話說明、讀完後想法的轉變、還沒找到答案的問題）",
+      "based_on": "references/handoff-to-literature.md 三樣東西之 3"
+    },
+    {
+      "id": "a7",
+      "kind": "procedure",
+      "text": "提到 mis-thesis-guide 網站提示詞範本的兩段式檢索接力",
+      "based_on": "references/handoff-to-literature.md 三樣東西之 2"
+    },
+    {
+      "id": "a6",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

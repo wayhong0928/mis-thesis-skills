@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "現在第一段講完「生成式 AI 很普及」，第二段就用「因此」接到研究目的...看不出為什麼需要做這個研究",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "在兩段之間補一段，寫出既有研究停在哪裡（例如多數研究只談使用意圖或學習成效，很少談依賴...）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未出現CARS或三個move的明確架構名稱，僅以「一般緒論要做三件事：先說主題重要，再說既有研究還沒解決什麼，最後說本研究要做什麼」描述類似move的概念但未點名框架",
+      "confidence": "low",
+      "note": "回應內容實質上對應CARS三個move（establish territory/niche/occupy niche），但未使用CARS或明確標示『三個move』這個術語，斷言要求『用CARS或三個move的架構檢查』，若解讀為需明確點名框架則fail，若解讀為只需實質套用該邏輯則可視為pass",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

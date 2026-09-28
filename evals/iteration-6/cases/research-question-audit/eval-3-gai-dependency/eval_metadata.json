@@ -1,0 +1,38 @@
+{
+  "skill": "research-question-audit",
+  "eval_name": "eval-3-gai-dependency",
+  "source": "沿用 iteration-5 eval-3，prompt 不變；a1、a2 改成不預設檢查點名稱的措辭，a3、a4 屬 skill 流程改標 procedure。",
+  "prompt": "我的研究主題是探討學生學習程式設計時對GAI依賴的情形，這樣可以嗎？",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出使用者沒有交代研究缺口（既有研究不足在哪、這個研究要補什麼），目前只是現象描述",
+      "based_on": "references/gap-and-innovation.md 稽核時的使用方式（先問缺口類型，答不出視為未通過）"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "指出依變數不清楚：『依賴的情形』不是可以測量的結果，需要講清楚要測什麼",
+      "based_on": "references/audit-checklist.md §一 題目定案六問第 4 項"
+    },
+    {
+      "id": "a3",
+      "kind": "procedure",
+      "text": "壞題目長相比對命中至少一種，並具體說明命中原因",
+      "based_on": "references/audit-checklist.md §二 六種壞題目長相"
+    },
+    {
+      "id": "a4",
+      "kind": "procedure",
+      "text": "報告結尾主動提供逐項引導完成的邀請句",
+      "based_on": "SKILL.md §3 報告後的邀請句、§4"
+    },
+    {
+      "id": "a5",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

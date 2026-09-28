@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於……因此」之間長達 70 字左右,遠超一句話該扛的負荷。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "依「由於 A,因此 B」→「A。基於此,B」的原則拆句,並把兩個內嵌修飾語各自獨立成話題清楚的短句",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "中間又內嵌「在……過程中」「對於……的」兩個易肥大句型,話題(大學生)出現後,動詞(產生依賴性)被兩層修飾語隔開",
+      "confidence": "high",
+      "note": "修法中也將「對於這類工具的使用產生了高度的依賴性」精簡為「對這類工具產生高度依賴」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "雖然這裡是陳述「本研究要探討的問題」而非主張因果關係本身,嚴格度可以放寬…這個不算中間肥大問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未出現此指控；回應僅將「使得……產生了高度的依賴性」視為中間肥大的結構問題來拆句，未討論其因果有效性",
+      "confidence": "high",
+      "note": "改寫稿雖巧合地去掉了「使得」，但這是拆句需要，回應本身未明言這是未經支持的因果或建議改保守描述",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文僅討論中間肥大與因果動詞紀律，未提及彭明輝、雁行理論等版權清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

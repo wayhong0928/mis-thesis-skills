@@ -1,0 +1,96 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "同一節內因果強度前後不一致...「導致」仍是門檻最高、通常應避免的詞。改法：「知覺易用性對持續使用意圖亦具有顯著正向影響」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把一條迴歸關係包裝成看似已建立的專有構念名稱，是自創術語冒充既有理論架構...改法：刪除自創路徑名稱",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "標題分「致命（因果動詞越線／學術倫理紅線）」與「錯誤（用語／APA格式／術語一致性）」，a1a2列於致命，用語問題列於錯誤",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」作介系詞、「數據」代替「資料」皆為大陸用語...台灣學術用語為「迴歸」，非「回歸」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文的敘述引用應寫「等人」，不寫英文 \"et al.\"。改法：「Bastani 等人（2024）以隨機分派實驗發現」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "第二段用「知覺有用性」，第三段卻寫「感知有用性愈高的學生」...全篇應統一",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "「知覺有用性對持續使用意圖具有顯著正向影響」：理論（TAM）、路徑分析（SmartPLS）、控制變數（性別、年級）三條件齊備，用「影響」正當",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用 Bastani 等人（2024）隨機分派實驗時用「導致」：符合例外一（原作者具可信因果識別策略時可用因果語言）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "分節標題「致命」「錯誤」「通過項目」，並附「整合修改版」段落",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "誠實條款：本次稽核未核對 Davis（1989）與 Bastani 等人（2024）原文...仍需使用者自行核對原文獻",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

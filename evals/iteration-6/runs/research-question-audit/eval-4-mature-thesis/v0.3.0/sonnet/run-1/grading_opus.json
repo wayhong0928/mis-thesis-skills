@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "依變數雖有兩指標但同屬一個構念的兩個面向，戰線合理",
+      "confidence": "high",
+      "note": "C-4 判依變數「通過（但有伏筆）」。D-③ 質疑的是構念缺少理論來源，沒有說依變數不清楚。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "理論缺口的判準要求指名「理論的哪一個構念或路徑無法涵蓋觀察到的現象」，而不是「這個機制還沒被測過」",
+      "confidence": "low",
+      "note": "回應把此論證歸為「情境缺口紅線要嚴格擋下的新穎性宣稱模式」，並要求補上「生成式AI除錯工具的哪個特性可能推翻這個前提」，實質內容符合斷言後半。讀法一：情境缺口與補特性都已講到，判 pass。讀法二：回應把補特性當成「把理論缺口寫成立」的條件，沒有明說改歸知識缺口或情境缺口，框架和斷言略有不同，可能判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「⋯是否會影響⋯」是典型可以一個字回答完的是非句，沒有交代效果方向或強度",
+      "confidence": "high",
+      "note": "回應建議改寫為「⋯的影響為何？」或「⋯的組間差異效果為何？」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋降級方案：通過 — 已有具體降級方案…處理得當",
+      "confidence": "high",
+      "note": "C-5 資料可得性判為「不確定」，理由是AI使用紀錄的取得方式，不是「不通過」。可行性與降級方案本身判為通過。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "總結：…→ **需修正後再議**。題目已收斂到位",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

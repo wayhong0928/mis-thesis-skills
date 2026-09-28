@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "沒有明確指出研究要回答什麼問題（是採用意願？導入成效？影響因素？）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "研究重點是**採用前**（為什麼導入/不導入）還是**導入後**（效果如何）？",
+      "confidence": "low",
+      "note": "回應未直接用『依變數』一詞提問，而是以『採用前/導入後、效果如何』引導使用者釐清想看的結果，可視為同類具體提問；若嚴格要求須明確點出『依變數』字眼則不算符合。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「以科技接受模式探討台灣中小企業導入AI客服系統之意願與影響因素」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅泛稱題目「探討」太籠統、缺乏理論框架，未提及彭明輝、舊瓶新酒、雁行理論等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

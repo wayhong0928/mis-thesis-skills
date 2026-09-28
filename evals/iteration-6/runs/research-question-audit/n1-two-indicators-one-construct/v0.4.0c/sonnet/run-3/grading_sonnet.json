@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "如果這兩者是同一個構念（生成式AI依賴）的兩種測量方式，不算命中②，是可以接受的多指標設計",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判定：**證據缺口（Evidence Gap）**...符合證據缺口判準（至少兩篇文獻對同一組變數關係結果方向不一致）。通過。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：**通過** — 沒有寫成「X是否影響Y」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "改編幅度較大（從「手機使用」跨域改到「AI求助」），至少要說明改編的具體理由與範圍，並在正式施測前做內容效度檢核",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "若只是相關分析而非迴歸／路徑分析，「影響」也應改為「相關」，因為相關分析本身無法支持影響語言。",
+      "confidence": "low",
+      "note": "讀法一：回應有提到只有迴歸／路徑分析才能支持「影響」，也給了全句統一為相關語言的改法（「與受試者學習成效呈顯著正向相關」），符合 (a)，判 pass。讀法二：回應的主軸是「顯著≠正向」，因果語言只以條件句帶過，沒有提理論依據或控制變數；主要整合版仍是前半「影響」、後半「關係」混用，未處理 (b)，可判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "顯示兩者之間存在正向關係。",
+      "confidence": "high",
+      "note": "回應沒有指出「存在」的濫用，修改版還保留了「存在正向關係」，也沒有建議改成動詞句。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "本研究之資料顯示，人工智能使用行為對受試者學習成效具有顯著正向影響",
+      "confidence": "high",
+      "note": "回應只把「數據」改為「資料」，「人工智能」沒有被指出，修改版照樣保留。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究之資料顯示，人工智能使用行為對受試者學習成效具有顯著正向影響（β = .xx, p < .05）",
+      "confidence": "high",
+      "note": "句中的係數是佔位符，需要使用者填入實際數值，但句子本身完整，可以直接套用。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有出現排除清單中的任何詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

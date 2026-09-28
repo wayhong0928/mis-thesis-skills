@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "使用頻率與求助深度是同一構念「依賴程度」的兩個指標，不是兩個各自需要理論解釋的依變數，不算命中。",
+      "confidence": "high",
+      "note": "回應未出現此指控；C-4 依變數清楚判為通過，D-② 戰線過長明確判為未命中。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這是「舊理論搬到新情境」的句型，不是「理論構念本身解釋不了現象」的句型。",
+      "confidence": "high",
+      "note": "回應把檢查點 A 判為不通過。它要求補上『被本情境的哪一個特性推翻』，也提出可改為知識缺口：「或誠實改為知識缺口」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是可以用「是」或「否」回答完的句子，命中紅線。…「教師回饋詳細程度對學生除錯依賴程度的預測效果為何？」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "時程可行＋降級方案：通過 — 你已經明確講出降級方案",
+      "confidence": "low",
+      "note": "回應未把可行性判為不通過；C-5 資料取得判為『不確定』，理由是 AI 使用紀錄的技術取得方式不明，不是合作或樣本數的問題。讀法一：斷言只禁止『不通過』，那麼『不確定』不違反，判 pass。讀法二：若把任何對可行性的保留都算作否定，這裡就落在邊界。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "需修正後再議",
+      "confidence": "high",
+      "note": "檢查點 B 也寫明「收斂程度沒問題，不需要往上退回主題層」，回應沒有要求換題目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "逐一檢查排除清單的詞彙，都沒有出現。『舊理論搬到新情境』不等於『舊瓶新酒』；回應用的是『六問』，不是『七項要件』。",
+      "kind": "compliance"
+    }
+  ]
+}

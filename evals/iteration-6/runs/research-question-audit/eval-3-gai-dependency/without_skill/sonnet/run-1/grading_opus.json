@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "具研究急迫性與新穎性",
+      "confidence": "high",
+      "note": "回應直接肯定主題的新穎性，沒有指出使用者未交代研究缺口，也沒有說明目前只是現象描述。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「依賴」怎麼定義與測量？……依賴程度想連結到什麼結果？",
+      "confidence": "low",
+      "note": "讀法一：回應要求界定依賴要怎麼測量，也追問要連結到什麼結果變項，實質上已指出依變數不清，判 pass。讀法二：回應只是用提問帶過，沒有明確說『依賴的情形』不是可測量的結果，嚴格讀可判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "這個主題完全可以",
+      "confidence": "high",
+      "note": "回應沒有拿任何壞題目的樣態來比對，而是直接判定主題可行。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以幫你進一步縮小研究問題、找相關文獻方向，或設計研究架構。",
+      "confidence": "low",
+      "note": "讀法一：結尾主動列出幾個可以協助的項目並邀請使用者回應，算是引導邀請，判 pass。讀法二：斷言要求的是『逐項引導完成』，回應只是泛泛表示可以幫忙，沒有承諾一項一項帶著做完，嚴格讀可判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有出現彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等任何詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

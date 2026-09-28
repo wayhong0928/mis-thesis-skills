@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這句話沒有指名屬於證據／知識／方法／理論／情境缺口中的哪一種，也看不出「現有文獻在哪裡有洞」",
+      "confidence": "high",
+      "note": "檢查點 D 也提到「題目停在描述一個現象領域」，對應斷言說的「只是現象描述」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「依賴的情形」不是一個可測量的構念，需要先決定是要測「依賴程度」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "命中：① 沒有依變數的「⋯⋯之研究」——「探討⋯⋯情形」是這一種壞題目的典型變體",
+      "confidence": "high",
+      "note": "命中原因寫在後文：「題目停在描述一個現象領域，看不出要測量或回答什麼具體結果」。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；壞題目⑤用的是「換個名詞就是別人的論文」的說法",
+      "confidence": "high",
+      "note": "「換個名詞就是別人的論文」意思接近舊瓶新酒，但不是清單上的字面詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

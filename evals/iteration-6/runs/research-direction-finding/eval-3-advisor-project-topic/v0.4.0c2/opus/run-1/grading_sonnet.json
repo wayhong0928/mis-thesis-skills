@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你的情況跟「自己從零找題目」不一樣：範圍已經被計畫框住了",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "範圍已經被計畫框住了，所以不用煩惱「我對什麼有興趣」",
+      "confidence": "low",
+      "note": "回應未使用「收斂漏斗」一詞，但明確表達此情境不需經歷從興趣出發的收斂過程，判定依實質內容而非用詞。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你要回答的是另一個問題：計畫裡的哪一塊，可以單獨撐起一篇碩士論文？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "第一步：先把計畫書讀懂...第三步：寫成一句話的研究想法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "把這句話貼給我，我可以幫你檢查這個題目站不站得住腳",
+      "confidence": "low",
+      "note": "回應未點名「research-question-audit」此稽核工具名稱，但功能上等同於交棒稽核（檢查研究問題是否清楚、獨立性、可行性）。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未提及彭明輝、書名、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

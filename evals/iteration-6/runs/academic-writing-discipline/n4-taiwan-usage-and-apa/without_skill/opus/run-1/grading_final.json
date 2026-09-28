@@ -1,0 +1,64 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「被試」是大陸心理學用語。問卷研究用「研究對象」或「填答者」比較自然",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「模型擬合指標」→「模型配適度指標」：台灣慣用「配適度」",
+      "confidence": "high",
+      "note": "判別效度回應建議改『區別效度』，模型擬合建議改『配適度』，符合斷言至少一個即可",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "建議改成「Fornell 與 Larcker（1981）」或「Fornell and Larcker（1981）」，全文擇一即可",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "中文論文建議統一用「等人」，也就是寫成「Hair 等人（2017）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「Venkatesh 等人(2012)」用了半形括號，其他地方是全形。中文內文建議一律用全形「（2012）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅將「收斂效度」與「區別效度」並列使用於建議修改範例中，未指其為大陸用語",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

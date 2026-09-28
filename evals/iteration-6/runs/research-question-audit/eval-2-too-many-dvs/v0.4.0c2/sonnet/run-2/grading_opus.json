@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "四個依變數各自對應不同的理論脈絡（動機理論、學習成效測量、批判思考測驗、生涯／就業意願理論）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "(a) 選定其中一個依變數作為主要研究問題，其餘留作文獻回顧中的延伸討論",
+      "confidence": "low",
+      "note": "讀法一：路線(a)明確建議收斂成單一依變數，判 pass。讀法二：路線(b)保留全部四個變數改成序列中介鏈，可視為仍照單全收，削弱收斂建議。回應把(a)(b)並列為二選一，所以判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；是非問句紅線：不適用（尚未寫出研究問題句）",
+      "confidence": "high",
+      "note": "回應要求改寫的是「我想研究A對B的影響」這種目的句，並未把「這樣的研究問題可以嗎」當成研究問題句來批評。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；通篇未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

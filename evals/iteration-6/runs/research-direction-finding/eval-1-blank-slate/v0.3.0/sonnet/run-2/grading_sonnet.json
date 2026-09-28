@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "如果是前者（完全空白），先問你兩題",
+      "confidence": "low",
+      "note": "回應先問使用者是否為兩種情境之一才展開，未直接斷定，但僅提供『完全空白』情境對應的問題，實質上是把使用者導向並處理為起點A；另一讀法是回應未真正判定，只是提出待確認的假設。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "我想用幾輪具體的小問題，陪你一層一層收斂出方向，比較實際",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應僅提出兩個反思性問題（修課感受、未來產業方向），未提及查閱期刊/研討會主題分類或翻學長姊論文等具體起步動作",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "1. 碩一這一年修過的課裡面...2. 你未來想找的工作／想待的產業，比較靠近哪一塊？",
+      "confidence": "high",
+      "note": "僅停留在領域/興趣層次的提問，未一次跳到具體研究問題層次",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；文中未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

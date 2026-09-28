@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「是否影響」是典型的是非問句，需要改寫，並在假說中交代方向。",
+      "confidence": "high",
+      "note": "回應也指出 RQ2 沒有方向（命中不可否證），並建議兩題統一用「預測」、推導 RQ2 的方向性假說。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "RQ1：勉強通過。有寫方向。但為了保守，建議改成「控制性別與年級後…預測效果為何？」",
+      "confidence": "low",
+      "note": "回應未把 RQ1 判為必須改寫的是非問句，判定是「勉強通過」。有兩種讀法：一是另外附上的「為了保守」改寫只是選擇性建議，不構成誤判，判 pass；二是「勉強」加上改寫建議，等於部分把 RQ1 當成是非問句，接近錯誤指控。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

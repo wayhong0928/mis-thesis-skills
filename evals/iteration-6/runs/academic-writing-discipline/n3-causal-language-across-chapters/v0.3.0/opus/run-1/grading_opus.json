@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「導致」表示已經排除其他解釋……橫斷面資料撐不起這麼強的說法。／改法：「科技焦慮對生成式AI求助行為具有顯著正向影響」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "第一章「……的影響為何？」：三個條件都滿足，而且和第四章的用詞一致。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "第四章「具有顯著正向影響」：這是三個條件都滿足時的標準寫法",
+      "confidence": "high",
+      "note": "回應把第四章該句列為瑕疵，但理由是主詞轉換和句子過長，不是因果越線。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現清單中任何詞彙；全文只用理論依據、路徑分析、控制變數三條件判斷因果用詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

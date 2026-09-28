@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "使用者沒有指出這個研究對應五種缺口…中的哪一種，也沒有提供任何文獻對照的說明",
+      "confidence": "high",
+      "note": "總結也寫「目前這句話還停在「子題」層的現象描述，缺少具體依變數、缺口定位」，兩個要素都有涵蓋。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「依賴的情形」是模糊描述，看不出具體要測量的構念",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "命中：①沒有依變數的「⋯⋯之研究」——…都只圈出了一個現象領域，沒有講出具體要測量或回答的結果",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "low",
+      "note": "邀請句放在「預期質詢清單」之後，後面還有一段「總結」，所以不是全文最後一句。讀法一：「結尾」指報告收尾部分，這句算在結尾，判 pass。讀法二：「結尾」要求邀請句是最後一段，則應判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有彭明輝姓名或書名，也沒有舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄。缺口分類用的是「證據／知識／方法／理論／情境」五類。",
+      "kind": "compliance"
+    }
+  ]
+}

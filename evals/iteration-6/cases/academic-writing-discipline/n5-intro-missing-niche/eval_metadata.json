@@ -1,0 +1,32 @@
+{
+  "skill": "academic-writing-discipline",
+  "eval_name": "n5-intro-missing-niche",
+  "source": "iteration-6 新案例，決定 chapter-structure.md 去留。緒論只有建立領域（重要性）與佔據利基（研究目的、章節安排），缺了建立利基：沒講既有研究做到哪裡、留下什麼缺口。",
+  "prompt": "這是我緒論第一節的草稿，幫我看看寫得怎麼樣：\n\n『近年來，生成式AI工具快速普及，許多大學生已使用 ChatGPT 等工具完成課業，程式設計課程尤其常見。生成式AI能即時產生程式碼、解釋錯誤訊息，已成為許多學生學習程式設計時的日常工具。教育部也在 2023 年發布大專校院使用生成式AI的參考指引（教育部，2023），顯示這個議題受到政策層面的重視。\n\n因此，本研究的目的在於探討大學生在程式設計課程中對生成式AI的依賴程度，以及科技焦慮與自我效能對依賴程度的預測效果。本研究以問卷調查蒐集資料，並以 PLS-SEM 分析資料。本論文共分五章，第二章為文獻探討，第三章說明研究方法，第四章呈現分析結果，第五章為結論與建議。』",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出這段緒論沒有交代既有研究做到哪裡、留下什麼缺口或未解決的問題，從主題重要性直接跳到研究目的",
+      "based_on": "references/chapter-structure.md §一 緒論三功能（move ② 建立利基是最容易漏掉的一步，找不到就列為錯誤級）"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "建議補上的內容是既有研究的不足或缺口（而不是只建議補更多統計數字、重要性論述或文獻）",
+      "based_on": "references/chapter-structure.md §一（move ②：反駁既有主張、指出知識缺口、提出未解決的問題）"
+    },
+    {
+      "id": "a3",
+      "kind": "procedure",
+      "text": "用 CARS 或三個 move 的架構檢查這段緒論",
+      "based_on": "SKILL.md §3 第 1 步（緒論草稿套用 chapter-structure.md）；references/chapter-structure.md §一"
+    },
+    {
+      "id": "a4",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "用「導致」是因果语言...建议全文统一改为「正向影響/正向關聯」这类较保守的措辞",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "研究并没有测量除错能力，也没有跨时间点的追踪数据，无法证明\"流失\"（这需要前后测或纵贯设计）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "先处理第3点（因果过度推论...）；其次统一第1点...再补第4、5点",
+      "confidence": "low",
+      "note": "a2(第3點)明確列為最高優先；a1(第2點)未被明列進最終優先順序，但其在正文中的論述強度與位置（緊接第1點之後、早於術語統一與限制段落）暗示其重要性高於用語類問題，屬於推論而非明文陳述，故信心偏低",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未出現此指控（回應本身以簡體中文書寫，未討論台灣/大陸學術用語差異）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未出現此指控（引用格式「Bastani et al.（2024）」未被提及需改寫）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "「知覺有用性」與「感知有用性」交替使用，指同一构念，建议全文统一用一个译名",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控（回應僅針對「知覺易用性則導致...」句的「導致」提出因果越線批評，未觸及知覺有用性該句）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "那是一个随机分派实验，能支持因果，但拿来\"佐证\"你自己横断面研究得出的因果叙事，等于把两种证据强度混为一谈",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "回應以1-6點編號與最後「建議修改優先級」呈現，未使用致命／錯誤／瑕疵三級分類，也未附整合修改版全文",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": false,
+      "evidence": "回應未出現此指控（未聲明未核對Bastani et al.原文）",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

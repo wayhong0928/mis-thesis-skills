@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "第一段完整陳述了「生成式AI很普及、政策也重視」（Move ①）...中間沒有交代「既有研究到哪裡就停了」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "插入一段點出缺口，例如：「然而，目前對於大學生...實證研究仍相對有限；科技焦慮與自我效能是否能預測依賴程度，尤其缺乏系統性的檢驗。」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "已套用 CARS model（緒論三功能）與一般構句／用語判準",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全程以 CARS model、Move①②③架構及一般寫作判準進行檢查，未提及彭明輝、雁行理論等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "你是什麼系所、論文預計用問卷還是次級資料分析？",
+      "confidence": "high",
+      "note": "回應沒有判定使用者資訊不足，而是直接列出三個切角，並繼續追問系所與資料來源。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "建議先從「採用行為」切入。",
+      "confidence": "high",
+      "note": "回應沒有停下引導，也沒有請使用者先去讀文獻，而是直接建議方向。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "用TAM/UTAUT等模型，探討消費者為何用/不用行動支付",
+      "confidence": "high",
+      "note": "回應提到了理論模型，但只是當作題目切角的說明，沒有指示使用者去查哪類研究或看別人放了哪些自變數。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "這條路好找理論基礎、問卷資料也好收",
+      "confidence": "high",
+      "note": "回應沒有提供檢索式、關鍵字或資料庫；也沒有假裝自己搜尋過文獻，但斷言要求兩者都成立。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "你是什麼系所、論文預計用問卷還是次級資料分析？",
+      "confidence": "high",
+      "note": "回應只問了背景資訊，沒有告知讀完文獻回來時要帶什麼。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": false,
+      "evidence": "行動支付題目要收斂，可以從幾個常見的研究切角挑一個",
+      "confidence": "high",
+      "note": "回應完全沒有提到 mis-thesis-guide 網站或兩段式檢索接力。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；內容僅談採用行為、信任與資安、消費行為三個切角",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "而是接續計畫裡「還缺一塊」的部分",
+      "confidence": "low",
+      "note": "回應知道題目來自老師的計畫，也照這個前提給建議，但沒有明確做『起點分類』，也沒有標成起點 C。讀法一：要明確判定並歸類才算，判 fail。讀法二：隱含地把情況當成『題目來自計畫』就算，判 pass。此處採嚴格讀法。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "第四步：縮小成一個具體、可行的研究問題",
+      "confidence": "high",
+      "note": "回應沒有說這種情況不走收斂漏斗，反而安排了由大到小的收斂步驟。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "問自己：我對這個領域裡哪個環節有興趣或有底子",
+      "confidence": "high",
+      "note": "回應有提到可行性，例如「範圍夠小」，但明確要使用者從興趣出發，和斷言要求的定位相反。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "計畫的**總目標**是什麼",
+      "confidence": "high",
+      "note": "回應要使用者了解計畫總目標，但沒有引導釐清自己負責的部分，也沒有要求寫成一句話的研究想法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": false,
+      "evidence": "我可以幫你更具體地想幾個候選題目方向",
+      "confidence": "high",
+      "note": "回應沒有交棒給 research-question-audit 做稽核。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；談貢獻時用的是「新方法、新資料型態、新場域驗證等」",
+      "confidence": "high",
+      "note": "回應中找不到排除清單上的任何詞彙：彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄都沒有出現。",
+      "kind": "compliance"
+    }
+  ]
+}

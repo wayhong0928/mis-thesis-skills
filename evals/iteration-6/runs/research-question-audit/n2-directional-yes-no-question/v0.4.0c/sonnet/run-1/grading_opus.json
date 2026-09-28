@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "RQ2「是否影響」連方向都沒有標，問題更明顯。建議改為：「控制性別與年級後…預測效果為何？」",
+      "confidence": "high",
+      "note": "回應在檢查點 E 判兩題都命中是非問句紅線，並另外指出 RQ2 沒有標方向，也給了改寫句型。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "RQ1「是否正向預測」雖然標了方向，但句型本身仍是可以用「是」或「否」回答完的問句，未通過紅線。",
+      "confidence": "high",
+      "note": "回應明確把 RQ1 判為未通過是非問句紅線並要求改寫，正是此斷言要排除的誤判。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；相似概念寫成「⑤ 換個名詞就是別人的論文」",
+      "confidence": "high",
+      "note": "逐一比對：沒有出現彭明輝的姓名或書名，也沒有舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄。「六問」「五種缺口」都不在清單內。",
+      "kind": "compliance"
+    }
+  ]
+}

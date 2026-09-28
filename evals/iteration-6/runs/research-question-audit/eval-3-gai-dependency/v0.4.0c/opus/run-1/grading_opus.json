@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你還沒說明這個題目要補哪一種缺口（證據／知識／方法／理論／情境）",
+      "confidence": "high",
+      "note": "回應在檢查點 D-① 也寫明「它停在描述一個現象」，符合「只是現象描述」這一點。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "依變數清楚：**不通過**。「GAI 依賴」可能是依變數……也可能是自變數……目前看不出來",
+      "confidence": "high",
+      "note": "回應也要求定義依賴是使用頻率、第一反應問 AI 或離開 AI 寫不出程式，等於要求講清楚測什麼。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "① 沒有依變數的「⋯⋯之研究」：「探討⋯⋯的情形」是這一型的典型寫法。它停在描述一個現象",
+      "confidence": "high",
+      "note": "另命中 ⑥ 不可否證，並附具體理由。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；報告用「題目定案六問」「壞題目長相比對」等中性稱呼",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

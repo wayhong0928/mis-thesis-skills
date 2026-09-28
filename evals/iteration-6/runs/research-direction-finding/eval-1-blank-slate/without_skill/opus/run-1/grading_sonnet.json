@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "卡了兩個禮拜很正常，碩一下還沒有題目的人很多",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "現在直接丟一個題目給你，很可能用不上",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "一直對著空白畫面想，很難想出東西。題目通常是從別人的論文裡找出來的",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此情況，五個問題皆為情境資訊（系所方向、老師論文、資源、技能、時間），未要求使用者直接回答具體研究問題層級的內容",
+      "confidence": "low",
+      "note": "五個問題涵蓋領域到時程等多層次資訊，是否算『從領域到研究問題所有層次』可有不同解讀；但因未涉及研究問題本身的擬定，判為pass",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控，全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

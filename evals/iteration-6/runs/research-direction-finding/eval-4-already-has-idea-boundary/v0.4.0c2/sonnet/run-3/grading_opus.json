@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "目前所在層次：題目層，尚未到研究問題層；你已經能用一句話講出要問什麼",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此引導；直接判定「已經有明確的自變數…收斂程度不錯」，從題目層往研究問題層處理",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "依變數清楚：不通過 — 「學習績效」是常見但籠統的詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "# 研究問題稽核報告（回應自行執行稽核，未提及交給 research-question-audit）",
+      "confidence": "low",
+      "note": "讀法一：斷言要求回應明確提到把題目交給 research-question-audit 稽核，回應未提及，判 fail。讀法二：回應本身就是研究問題稽核報告，實質上已走稽核流程，可視為 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；壞題目比對使用「換個名詞就是別人的論文」等非清單說法",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

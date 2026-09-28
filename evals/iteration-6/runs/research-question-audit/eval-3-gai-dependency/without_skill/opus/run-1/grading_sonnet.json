@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "只做「依賴的情形」的話，結果容易停在描述統計，貢獻度偏弱",
+      "confidence": "low",
+      "note": "回應未使用『研究缺口/既有文獻不足』字眼，但明確指出僅做現象描述會停在描述統計、貢獻度偏弱，並建議補充前因/後果/歷程變項，實質上等同指出未交代研究要補什麼；若嚴格要求出現『研究缺口』用語則應判fail",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這是整個研究最核心、也最容易被審查者質疑的地方。「依賴」可以指：...建議選定一種操作型定義",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "以現在的寫法，它比較像「研究方向」，還不是一個可以執行的研究題目",
+      "confidence": "high",
+      "note": "命中『題目像方向、非可執行題目』此類壞題目特徵，並具體點出依賴未定義、對象未界定、貢獻偏弱等原因",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "如果方便，可以告訴我以下幾點，我再幫你把研究問題和架構具體化：1. 這是碩士論文...2. 你接觸得到哪一群學生？3. 你比較偏好量化還是質性方法？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未提及彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

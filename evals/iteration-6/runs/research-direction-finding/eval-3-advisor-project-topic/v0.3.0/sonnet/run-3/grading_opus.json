@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你這屬於第三種起點——題目來自老師的計畫",
+      "confidence": "high",
+      "note": "回應用「第三種起點」而非「起點 C」，實質相同",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "不需要走「領域→主題→子題」那套收斂漏斗。因為範圍已經被計畫框住了",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "這個計畫裡的哪一塊,能單獨撐起一篇碩士論文**，這是可行性與獨立貢獻的判斷，不是興趣發想",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "如果你能把這四點講清楚，我可以幫你把它收斂成**一句話的研究想法**",
+      "confidence": "high",
+      "note": "四點涵蓋計畫整體目標與自己負責的那一塊",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "然後用另一個工具（research-question-audit）幫你檢查這個題目邏輯站不站得住腳",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

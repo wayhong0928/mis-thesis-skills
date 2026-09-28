@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你現在的狀況是「有領域興趣但範圍太大」",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這種情況不用從頭問起，直接跳到收斂漏斗的第二層：主題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你在用 AI、或觀察別人用 AI 的時候，有沒有哪個讓你在意的具體情況？",
+      "confidence": "low",
+      "note": "回應同時問了兩個子問題（具體情況、切入角度），可視為同一層（主題層）的兩個引導問句，也可視為超出單一問題的範圍，讀法有兩種",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未出現此指控；回應以「不用想得很完整，講一個你有印象、有感覺的具體情況就好」作結，未產出可存檔結論也未問是否繼續下一層",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅聚焦在主題層的兩個問題，未一次問完五層所有問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "由於……因此」,中間夾的成分超過 15 字的門檻很多(超過 60 字)",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "近年來生成式AI技術快速發展與普及...基於此,本研究希望探討這種依賴傾向對學生學習成效的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應完全沒提到『對於這類工具的使用產生了高度的依賴性』這段的『對於……』結構問題",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未將句尾探問語氣判為因果動詞越線，僅討論主語延遲出現的問題",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應僅指出中間肥大與話題轉換問題，未指出技術普及與學生依賴之間是未經支持的既定因果，改寫版仍保留『越來越多大學生……產生了高度依賴』的因果式表述",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

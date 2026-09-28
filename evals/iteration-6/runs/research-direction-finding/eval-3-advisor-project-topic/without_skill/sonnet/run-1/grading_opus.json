@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是一個「從大計畫縮小到可執行碩論題目」的常見問題",
+      "confidence": "low",
+      "note": "讀法一：只要實質辨認出「題目來自老師計畫」這種情境就算，回應開頭已這樣歸類，判 pass。讀法二：須明確用「起點 C」或同等的分類框架標示，回應沒有，應判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應未提及收斂漏斗，也沒說因範圍已被計畫框住而不走漏斗",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "確認題目的可行性與獨特性",
+      "confidence": "low",
+      "note": "讀法一：回應以可行性（資料/設備支持）與獨特性（方法新意）為判準，全文未以興趣為出發點，實質符合，判 pass。讀法二：須明確把問題表述成「計畫中哪一塊能單獨撐起一篇碩論」，回應沒有這句定位，應判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "準備 2-3 個候選方向，each附上：為什麼跟計畫相關",
+      "confidence": "high",
+      "note": "回應有請使用者了解計畫全貌，但沒有引導寫成一句話的研究想法，也沒要求講清楚自己負責的部分。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": false,
+      "evidence": "我可以幫你更具體地篩選可行的碩論方向",
+      "confidence": "high",
+      "note": "回應未交棒給 research-question-audit 或任何稽核步驟。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

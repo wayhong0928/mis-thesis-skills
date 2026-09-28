@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "兩個禮拜對著空白文件，其實很正常。",
+      "confidence": "low",
+      "note": "讀法一：斷言要求明確標出『完全空白』這個起點，回應沒有使用這個標籤，應判 fail。讀法二：只要回應實質上把使用者當成完全空白來處理就算，回應推薦『不用先決定領域就能開始』的起步法，符合這種處理，判 pass。此處採讀法二。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "所以我先不直接給你一個題目。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "去系所的論文庫翻學長姊的碩士論文。／前者要靠想，後者翻一翻就知道。",
+      "confidence": "high",
+      "note": "回應給了具體步驟（ndltd 篩選、掃 30～50 篇、挑 2～3 篇），也說明了理由（不用先決定領域、看出碩論規模等）。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "你是什麼系所？",
+      "confidence": "high",
+      "note": "回應未出現此錯誤。回應只問系所，以及指導教授有沒有研究計畫，沒有從領域一路問到研究問題。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等任何詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

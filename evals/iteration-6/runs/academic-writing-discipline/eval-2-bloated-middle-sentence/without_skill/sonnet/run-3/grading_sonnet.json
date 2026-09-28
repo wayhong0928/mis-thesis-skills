@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於……因此……」中間的子句過長...這正是典型的中間肥大",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "拆成兩句,讓每句只負責一件事...第一句交代現象...第二句交代研究動機與目的",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "又插入了「開始在課業與報告撰寫的過程中」「對於這類工具的使用」兩層修飾,主語和謂語被拉得很遠",
+      "confidence": "low",
+      "note": "回應未直接點名『對於』結構本身，而是將其歸為拉遠主謂的插入修飾之一，修法中也將『對於這類工具的使用』精簡為『對這類工具』；讀法一：視為已涵蓋此斷言；讀法二：視為僅討論主謂拉遠而未專門針對『對於』結構本身。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全篇僅從句子長度與主謂拉遠的結構角度分析，未討論句尾探問語氣是否構成因果動詞越線。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應僅從『中間肥大』與『主謂拉遠』等結構角度分析，未提及該句把技術普及與學生依賴寫成未經支持的既定因果，也未建議改用較保守的描述方式。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、書名、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

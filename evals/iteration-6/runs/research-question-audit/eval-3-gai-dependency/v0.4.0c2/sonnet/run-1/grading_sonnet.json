@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "使用者尚未指出這個研究對應五種缺口...的哪一種",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「依賴的情形」是描述性用語，不是可測量的構念，需要先定義成具體變數",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "命中：① 沒有依變數的「⋯⋯之研究」——目前的敘述形式是「探討⋯⋯情形」...沒有講清楚要測量或回答的具體結果是什麼",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；報告全程使用自訂的稽核框架（檢查點A-G、六問等）未提及彭明輝、雁行理論等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

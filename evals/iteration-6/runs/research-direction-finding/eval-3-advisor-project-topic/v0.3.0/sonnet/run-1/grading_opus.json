@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你的情況屬於「題目來自老師的計畫」",
+      "confidence": "low",
+      "note": "讀法一：只要判定為「題目來自老師的計畫」這個情境就算，回應明確做到，判 pass。讀法二：必須明說「起點 C」這個標籤，回應沒有出現「起點 C」字樣，會判 fail。採讀法一，因為標籤只是內部編號，實質分類相同。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這裡題目範圍已經被計畫框住了……所以不需要跑收斂漏斗",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "不是「我想做什麼」，而是「這個計畫裡的哪一塊，能單獨撐起一篇碩士論文」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "把計畫的目標講清楚……把你被分配/接觸到的部分講清楚……濃縮成一句話的研究想法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "下一步是拿去檢查這個題目站不站得住腳……我會換用另一個檢查流程來幫你稽核",
+      "confidence": "low",
+      "note": "讀法一：只要交棒給題目稽核流程就算，回應有交棒，也描述了稽核內容（邏輯漏洞、範圍大小），判 pass。讀法二：必須點名 research-question-audit，回應沒有點名，會判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

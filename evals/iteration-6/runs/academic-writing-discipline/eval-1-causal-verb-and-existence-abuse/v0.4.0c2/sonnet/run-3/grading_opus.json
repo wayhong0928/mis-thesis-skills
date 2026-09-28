@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "同一句內先用因果語言「具有顯著之影響」，後半又退回相關語言「存在正向關係」，前後不一致",
+      "confidence": "high",
+      "note": "回應同時提到 (a)：未交代理論依據、迴歸／路徑分析與控制變數。改法為「整句只保留一種語言」，並分兩種情況給出完整句。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「存在……關係」是弱動詞＋抽象名詞的濫用",
+      "confidence": "low",
+      "note": "讀法一：回應指出了「存在」的濫用，改法是併入整句修正「呈顯著正相關」，這已是動詞句，所以判 pass。讀法二：回應沒有針對這一處單獨給出動詞句改寫，只說「併入上面的整句修正」，嚴格看可判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」是大陸用語，台灣慣用「人工智慧」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究資料顯示，人工智慧使用行為與受試者學習成效呈顯著正相關。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

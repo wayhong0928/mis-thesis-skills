@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "依變數清楚：不確定。「頻率」和「求助深度」可能往不同方向變動",
+      "confidence": "high",
+      "note": "回應雖承認「依變數是一個構念兩個指標」，但仍在C-4判為不確定，並在D-②判「戰線過長（條件式命中）」，屬斷言要避免的判定",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "理論缺口要指出理論的哪一個構念或路徑解釋不了現象，你目前沒有指出來",
+      "confidence": "high",
+      "note": "另指出論證屬新穎性宣稱，並要求若寫成情境缺口須補「被推翻的情境特性」一欄，符合斷言的「或」分支",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「是否會影響」可以用「是／否」回答完。…對大學生生成式AI除錯求助深度的效果為何？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋降級方案：通過（附帶條件）。一學期蒐集完，時程沒問題，也有備案",
+      "confidence": "high",
+      "note": "回應未把可行性或降級方案判為不通過；只批評備案無法檢驗理論機制，並建議修改",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "需修正後再議：資料來源和實驗設計的方向是對的",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

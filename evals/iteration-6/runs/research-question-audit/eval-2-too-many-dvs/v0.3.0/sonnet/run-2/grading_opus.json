@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "依變數達 4 個（學習動機、學習成效、批判思考能力、未來就業意願），遠超過建議的 1–2 個上限",
+      "confidence": "high",
+      "note": "回應也提到「四個變數各自可能有對應理論（如動機的 ARCS 模型或自我決定理論、批判思考的 Ennis 架構）」，涵蓋各自需不同理論解釋的面向。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "先決定四個依變數裡哪一個是核心（或哪兩個有明確理論先後關係），其餘可以降級為未來研究方向",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；是非問句紅線判「不適用」，因「目前問題連「是否」都還沒寫出來」",
+      "confidence": "high",
+      "note": "回應要求改寫的是「探討…的影響」這個目的句寫法，不是使用者的「這樣的研究問題可以嗎」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；相關概念用「戰線過長」「換個名詞就是別人的論文」表述",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

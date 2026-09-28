@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "②未命中的判斷依據：兩個指標同屬「除錯依賴程度」單一構念的不同面向",
+      "confidence": "high",
+      "note": "回應未出現此指控；C-4 判依變數清楚「通過」，D 明確判②戰線過長未命中",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "目前只給了「沒人研究過」，沒有給出這兩欄，判不通過",
+      "confidence": "high",
+      "note": "回應判缺口分類不通過，指出論述結構只是「還沒人在新情境做過」。它要求補上「原理論依賴的哪一條假設」及「被本情境的哪個特性推翻」，符合斷言「或」的後半分支。回應未提「知識缺口」，但斷言以「或」連接，不影響判定",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「是否會影響」沒有交代方向…是可以用「是」或「否」回答完的問句",
+      "confidence": "high",
+      "note": "建議「把研究問題句子改成有方向性的句型」，屬斷言所稱的預測方向句型",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "時程可行，且已有具體降級方案…可行性與備胎這關通過",
+      "confidence": "high",
+      "note": "回應未出現此指控；C-6 也判「通過」。資料可得性判「不確定」，針對的是紀錄取得機制，不是可行性或降級方案",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "**需修正後再議**…不需要整個重新收斂方向",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未見彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。「題目定案六問」不在排除清單內",
+      "kind": "compliance"
+    }
+  ]
+}

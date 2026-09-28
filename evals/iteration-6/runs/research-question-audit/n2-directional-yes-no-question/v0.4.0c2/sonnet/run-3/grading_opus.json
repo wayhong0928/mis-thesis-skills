@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "RQ2「是否影響」— 未帶方向詞（無正向/負向/提高/降低），命中是非問句紅線，未通過。",
+      "confidence": "high",
+      "note": "回應建議改寫為「程式設計自我效能是否負向預測生成式AI求助頻率？」，並說明方向需依理論推導決定，屬於改成帶預測方向的句型。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "RQ1「是否正向預測」— 符合量化研究直接效果句型，方向已交代，通過。",
+      "confidence": "high",
+      "note": "回應未出現此指控；回應明確寫「是非問句紅線：RQ2 未通過（RQ1 通過）」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

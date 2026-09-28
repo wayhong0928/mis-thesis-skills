@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "一次涵蓋四個依變項（學習動機、學習成效、批判思考能力、就業意願），每個都是獨立且成熟的研究領域",
+      "confidence": "high",
+      "note": "回應說的是「單一研究」而非「碩論」，但實質上同樣指出一篇研究要回答的事太多；另以「機制較不同」「理論框架顯得鬆散」點出各變項需要不同的理論解釋。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "聚焦1-2個核心變項，其餘可作為次要變項或未來研究方向。",
+      "confidence": "high",
+      "note": "結尾也提供「全部保留但分主題」的選項，但主要建議仍是收斂，並不是照單全收。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；開頭直接回答「這個研究問題可以做，但目前範圍偏大」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；通篇沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

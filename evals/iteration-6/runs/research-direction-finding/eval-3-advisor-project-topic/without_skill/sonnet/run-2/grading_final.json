@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應直接給出步驟建議，未使用「起點C」或類似分類框架來判定使用者情境",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中沒有提到「收斂漏斗」概念或明確說明此情況不需要收斂流程",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "盤點自己的背景與興趣...先想想自己比較適合哪一類",
+      "confidence": "high",
+      "note": "回應第3步明確要求評估「自己的興趣」，與斷言要求『而不是我對什麼有興趣』的定位相反",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應沒有引導使用者將計畫目標與負責部分寫成一句話研究想法，僅列出開會問題清單",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應結尾只是提議下一步整理計畫子題與文獻回顧，沒有一句話研究想法或research-question-audit交棒機制",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "通篇檢查未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

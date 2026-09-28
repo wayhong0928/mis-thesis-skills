@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "「AI 相關」目前還停在**技術名詞**的層次，還不是一個可以收斂的主題",
+      "confidence": "low",
+      "note": "回應沒有明確把使用者歸為『起點 B：有領域興趣』，反而說 AI 只是技術名詞、是工具不是現象，第2題還回頭問產業。讀法一：斷言要求回應實質上把 AI 當成已知領域興趣來處理，此回應不符，判 fail。讀法二：回應仍承認使用者有 AI 方向的興趣、並從這個興趣往下收，可視為隱含判定為起點 B，判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "有沒有哪一堂課的內容，讓你覺得「這個我還想多讀一點」？",
+      "confidence": "low",
+      "note": "第1、2題大致在 AI 範圍內收斂，例如『某個技術本身的議題（隱私、安全、可解釋性……）』。但第3題是不限 AI 的一般興趣探問，第2題也問產業領域，等於部分重新問領域。讀法一：只要有退回問一般領域的題目就不符，判 fail。讀法二：產業題可視為 AI 的應用場景，主軸仍在 AI 內，判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你想到「AI 相關」的時候，腦中浮現的具體場景是什麼？",
+      "confidence": "high",
+      "note": "三題都停在把 AI 轉成具體現象或問題這一層，而且都附了可直接回答的例子。回應也說『我再幫你往下收一層』，沒有跳層。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "不用想得很完整，先丟幾個直覺反應就好，我再幫你往下收一層。",
+      "confidence": "high",
+      "note": "回應只有提問，沒有產出可寫進進度筆記的結論，也沒有問是否繼續下一層。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "我再幫你往下收一層。",
+      "confidence": "high",
+      "note": "回應只處理第一層收斂，沒有一次問到研究問題層級。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半段用因果語言（「影響」），後半段卻退回相關語言（「存在正向關係」）",
+      "confidence": "high",
+      "note": "回應同時涵蓋 (a) 與 (b)，並給出全句統一為相關語氣或因果語氣的兩版改法",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「存在……關係」是弱動詞＋抽象名詞的典型病句……或改為動詞句「兩者顯著正相關」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」是大陸用語……台灣慣用「人工智慧」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究之資料顯示，人工智慧使用行為與受試者學習成效顯著正相關。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄",
+      "confidence": "high",
+      "note": "回應提到「三個條件」（理論、迴歸、控制變數），不屬排除清單詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

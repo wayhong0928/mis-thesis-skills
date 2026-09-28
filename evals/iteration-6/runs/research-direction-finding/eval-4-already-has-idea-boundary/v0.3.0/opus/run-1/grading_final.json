@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "不過現在還只是題目雛型，還不是能直接進計畫書的研究問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應直接以既有題目為對象進行七項檢查點稽核，未要求使用者退回領域/主題/子題重新收斂",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「學習績效」可以是期末考成績、作業分數、專題品質、獨立除錯能力或自我效能",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "我照研究問題稽核的七個檢查點跑過一次，完整報告如下",
+      "confidence": "low",
+      "note": "回應多次提及「研究問題稽核」並附上「研究問題稽核報告」標題，但未出現英文代稱 research-question-audit 字樣，是否算「提到交給該稽核」取決於是否要求精確工具名稱",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、書名、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "這個主題可以，而且是目前教育科技領域相當熱門且有實務價值的方向",
+      "confidence": "high",
+      "note": "回應沒有指出缺少研究缺口，也沒說既有研究哪裡不足、本研究要補什麼。它直接肯定題目可行。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「GAI依賴」本身較籠統，建議進一步界定是探討「依賴程度」…還是「依賴與學習成效/程式能力的關係」",
+      "confidence": "low",
+      "note": "讀法一：回應指出「GAI依賴」籠統，要界定探討哪個構面，實質上是要求講清楚測什麼，算通過。讀法二：回應沒用依變數或測量結果的框架，也沒明說「依賴的情形」不可測量，只算建議聚焦，應判不通過。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "這個主題可以，而且是目前教育科技領域相當熱門且有實務價值的方向",
+      "confidence": "high",
+      "note": "回應沒有拿題目去比對任何壞題目類型，反而直接肯定題目可行。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "這會幫我提供更具體的建議（例如研究架構、變項或訪談大綱）",
+      "confidence": "low",
+      "note": "讀法一：結尾先反問研究方法，再表示可提供更具體建議，算主動邀請後續協助，可判通過。讀法二：斷言要求的是「逐項引導完成」的邀請，回應只說會給更具體建議，沒有逐項帶著完成的意思，判不通過。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；回應只用 cognitive offloading、self-efficacy 等一般學術概念",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

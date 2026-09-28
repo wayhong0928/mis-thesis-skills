@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "先確認「AI」要落在哪個學術子領域裡",
+      "confidence": "low",
+      "note": "回應沒有明說使用者屬於哪個起點。它把 AI 視為「技術名詞，不是主題」，並要使用者先選學術子領域，實際上是按『尚未確定領域』處理，不是起點 B。讀法一：回應依『已知 AI 興趣』往下收，算判為 B。讀法二：回應退回領域層選擇，沒有判為 B。本判採讀法二。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "掃一下下面幾個常跟 AI 結合的資管子領域，圈出 1–2 個",
+      "confidence": "low",
+      "note": "回應重新請使用者選資管子領域（資安、醫療資訊、電商等），還追問修過哪門課，等於再問一次領域。讀法一：清單各項都是 AI 的應用情境，可視為往 AI 內的主題收，應判 pass。讀法二：回應明說是在選『學術子領域』，屬於重問領域，應判 fail。本判採讀法二。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你身邊有沒有人用 AI 用到出過什麼問題、或抗拒使用 AI？",
+      "confidence": "high",
+      "note": "回應明說「我們一次只推進一層」，提出的問題具體、可直接回答。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "先回答這兩題，我們再往下一層（主題）收。",
+      "confidence": "high",
+      "note": "回應沒有產出可寫進進度筆記的結論，也沒有問使用者是否繼續下一層，只要求先回答問題。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "先回答這兩題，我們再往下一層（主題）收。",
+      "confidence": "high",
+      "note": "回應只問當前這一層，沒有一次問完五層的問題。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文無彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「被試」：屬中國大陸心理學界慣用詞，台灣期刊多用「受試者」或「參與者」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "「模型擬合指標」：術語正確，但建議具體點出使用哪些指標",
+      "confidence": "high",
+      "note": "回應認定「模型擬合」術語正確，也未提及「判別效度」，兩者都沒有指為大陸用語，也沒有給出「模型適配」或「區辨效度」等台灣用法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "或中文全用「與」：`Fornell 與 Larcker (1981)`",
+      "confidence": "low",
+      "note": "回應首選建議是改成英文 and，「與」只列為替代方案。後文另建議「二位作者用「與」」。若斷言要求明確主張改成「與」，屬邊界；若接受列為可行選項，則判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "建議統一為一種（例如中文行文一律用「等人」，二位作者用「與」）",
+      "confidence": "low",
+      "note": "回應沒有逐字寫出「Hair 等人（2017）」，但建議中文行文一律用「等人」，實質上涵蓋 Hair et al. 的改寫。若斷言要求明確點名 Hair，則判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中出現半形逗號 `,`，與全文其餘全形「，」不一致，應改為「，」",
+      "confidence": "high",
+      "note": "括號部分回應反而建議改用半形，但斷言寫「或」，半形逗號應改全形這一項已符合。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應對「收斂效度」未作任何用語判定",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；小建議僅討論 Hair et al. 十倍法則的用詞精確度",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

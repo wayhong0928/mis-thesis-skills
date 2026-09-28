@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "題目本身沒有明確的研究問題或變數關係，看不出你要驗證什麼、解決什麼問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "你是商管/資管背景的研究所論文，還是其他性質？...傾向量化（問卷統計）還是質化（訪談個案）？",
+      "confidence": "low",
+      "note": "回應結尾詢問背景、可接觸產業、量化/質化偏好，但未明確詢問使用者想測量的依變數/結果是什麼；若將『常見方向』清單視為引導亦可能算符合，故標為低信心。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "建議限定產業別（如電商零售業、餐飲業）或限定企業規模（如50人以下微型企業）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

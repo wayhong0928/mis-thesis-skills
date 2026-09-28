@@ -1,0 +1,32 @@
+{
+  "skill": "research-question-audit",
+  "eval_name": "eval-1-bad-title-no-dv",
+  "source": "沿用 iteration-5 eval-1，prompt 不變；斷言改成不預設檢查點名稱的措辭。",
+  "prompt": "我最近想寫一篇論文，題目大概是「探討台灣中小企業導入AI客服系統之研究」，可以幫我看看這個題目撐不撐得住嗎？",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出題目缺少明確的依變數：『導入AI客服系統之研究』看不出要測量或回答什麼結果",
+      "based_on": "references/audit-checklist.md §二 ① 沒有依變數的『⋯⋯之研究』"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "引導使用者回答『依變數（想看的結果）是什麼』這一類具體問題，而不是只給籠統評語",
+      "based_on": "SKILL.md §3 預期質詢清單的翻譯規則範例、§4 引導完成"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "給出至少一個具體的修改方向（例如先選定依變數、限定研究對象或情境）",
+      "based_on": "SKILL.md §3 檢查點 G 第 5 項具體建議"
+    },
+    {
+      "id": "a4",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

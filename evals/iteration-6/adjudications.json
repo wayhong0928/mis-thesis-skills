@@ -1,0 +1,250 @@
+[
+  {
+    "run": "academic-writing-discipline/eval-1-causal-verb-and-existence-abuse/without_skill/sonnet/run-3",
+    "id": "a1",
+    "final": false,
+    "evidence": "「顯著之影響」只是統計上的顯著性，不代表「正向關係」的方向與強度已被證實",
+    "cause": "grader_error",
+    "reason": "回應的理由是『顯著不等於方向已證實』與『可以得知語氣過強』，兩者都不是 (a) 因果語言超出資料強度或 (b) 前因果後相關不一致；第一個改寫仍並用「顯著正向影響」與「存在正向關係」。sonnet 把『超出數據支持範圍』誤當成理由 (a)。"
+  },
+  {
+    "run": "academic-writing-discipline/eval-1-causal-verb-and-existence-abuse/v0.4.0c2/sonnet/run-3",
+    "id": "a2",
+    "final": true,
+    "evidence": "「存在……關係」是弱動詞＋抽象名詞的濫用｜與受試者學習成效呈顯著正相關",
+    "cause": "grader_error",
+    "reason": "回應明寫「存在……關係」是弱動詞濫用，整合修改版改成動詞句「呈顯著正相關」，與斷言範例同型；斷言沒有要求對這一處單獨另寫一句。"
+  },
+  {
+    "run": "academic-writing-discipline/eval-2-bloated-middle-sentence/v0.3.0/sonnet/run-2",
+    "id": "a2",
+    "final": true,
+    "evidence": "三句各自只有一個話題（技術→大學生→本研究）",
+    "cause": "grader_error",
+    "reason": "整合修改版拆成三句，前兩句交代原因（技術普及、學生依賴），第三句才帶出研究目的，正是斷言列的『拆成兩到三句、先說完原因再帶出目的』。"
+  },
+  {
+    "run": "academic-writing-discipline/eval-2-bloated-middle-sentence/v0.4.0c2/sonnet/run-3",
+    "id": "a3",
+    "final": false,
+    "evidence": "這裡是硬用逗號和「使得」「對於」黏在一起",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：須點出「對於這類工具的使用」這段結構在拉長句子；讀法二：只要改寫把這段縮短就算。採讀法一，因為斷言點名的是『對於……』結構本身。本回應只把「對於」當成話題漂移的黏合詞，瑕疵段談的是「產生了高度的依賴性」弱動詞，改寫雖縮短了這段，卻沒有說明對於結構拉長句子。"
+  },
+  {
+    "run": "academic-writing-discipline/eval-2-bloated-middle-sentence/without_skill/sonnet/run-1",
+    "id": "a3",
+    "final": true,
+    "evidence": "硬塞進了「開始在課業與報告撰寫的過程中，對於這類工具的使用」這一大段修飾語",
+    "cause": "grader_error",
+    "reason": "回應明確把「對於這類工具的使用」列為塞在主詞與動詞之間、拉長句子的修飾語，改寫也精簡成「對這類工具產生了高度依賴」，兩種讀法下都成立。"
+  },
+  {
+    "run": "academic-writing-discipline/n1-messy-long-draft/without_skill/sonnet/run-3",
+    "id": "a3",
+    "final": false,
+    "evidence": "先处理第3点（因果过度推论，这是最伤论证效度的地方），其次统一第1点的分析方法或说明理由，再补第4、5点",
+    "cause": "grader_error",
+    "reason": "優先順序只把第 3 點（自創路徑，a2）排第一，第 2 點「導致」（a1）完全沒列入，反而列了第 5 點術語問題；斷言要求 a1、a2 兩者都被放在較高等級。sonnet 把第 3 點的『因果過度推論』當成同時涵蓋 a1。"
+  },
+  {
+    "run": "academic-writing-discipline/n3-causal-language-across-chapters/without_skill/opus/run-1",
+    "id": "a2",
+    "final": true,
+    "evidence": "第一章和第四章可以接受，但建議改得更精確｜如果系所或期刊慣用「影響」，可以保留",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：只要回應對該處的判定不是『越線／錯誤』就通過；讀法二：只要把「影響」標為有因果意味並建議替換就算假陽性。採讀法一：本斷言依據是「影響」有條件可用，回應對第一章的判定是可以接受、可以保留，換詞只是建議，並未判為越線。"
+  },
+  {
+    "run": "academic-writing-discipline/n3-causal-language-across-chapters/without_skill/sonnet/run-3",
+    "id": "a2",
+    "final": true,
+    "evidence": "用「影響」本身在研究問題階段還算常見寫法｜到第五章已經超出研究設計能支持的範圍",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法同本斷言另一筆：看回應對該處的判定是否為越線。回應說研究問題用「影響」還算常見，並給出保留「影響」的選項，開頭也只說第五章超出設計能支持的範圍，沒有把第一章判為越線。"
+  },
+  {
+    "run": "academic-writing-discipline/n3-causal-language-across-chapters/without_skill/opus/run-1",
+    "id": "a3",
+    "final": true,
+    "evidence": "報告數據的方式沒有問題，「控制……後」的寫法也正確｜第一章和第四章可以接受",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法同 a2：看回應對該處的判定是否為越線。回應對第四章的判定是可以接受、寫法正確，把「影響」換成「預測」只是建議，未判為因果越線。"
+  },
+  {
+    "run": "probe-eval-3a/without_skill/opus/run-3",
+    "id": "a1",
+    "final": true,
+    "evidence": "對 Lazarus 與 Folkman（1984）的描述有兩處不正確",
+    "cause": "grader_error",
+    "reason": "回應批評的是對原理論的轉述錯誤（評估順序與因應分類），並非把這句當成研究者自己的因果宣稱越線；斷言檢查的是後者，未發生。"
+  },
+  {
+    "run": "probe-eval-3a/without_skill/opus/run-2",
+    "id": "a3",
+    "final": false,
+    "evidence": "林與黃（2022）的後設分析亦指出[依原文確認結論]",
+    "cause": "grader_error",
+    "reason": "回應把兩篇文獻分開核對，沒有指出兩者是缺口延伸關係，示範改寫用「亦指出」把兩篇寫成證據並列。sonnet 引用的『論述順序是對的』是整段結構評語，與兩篇文獻的關係無關。"
+  },
+  {
+    "run": "probe-eval-3a/without_skill/opus/run-3",
+    "id": "a3",
+    "final": false,
+    "evidence": "兩者直接串在一起會讓讀者困惑，請加一句說明兩者的關係",
+    "cause": "grader_error",
+    "reason": "回應認為兩篇文獻概念混用、關係不清，沒有指出缺口延伸關係。sonnet 引用的是對『尚未有研究』的批評，那是缺口推論，不是兩篇文獻之間的關係。"
+  },
+  {
+    "run": "research-direction-finding/eval-1-blank-slate/without_skill/sonnet/run-2",
+    "id": "a4",
+    "final": true,
+    "evidence": "先聊聊這些,我再幫你收斂方向,會比憑空生一個題目實際很多",
+    "cause": "grader_error",
+    "reason": "技能定義的五層是領域→主題→子題→題目→研究問題。回應的五題停在領域、興趣與背景條件（教授方向、方法偏好不屬於漏斗層），沒有問到題目或研究問題層，不是『一次問遍所有層次』。"
+  },
+  {
+    "run": "research-direction-finding/eval-2-broad-domain-ai/v0.3.0/sonnet/run-1",
+    "id": "a2",
+    "final": true,
+    "evidence": "你想到「AI 相關」的時候，腦中浮現的具體場景是什麼？",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：只要有任何題目不限定在 AI 內就算重問領域；讀法二：沒有重新詢問想做哪個領域、整體在 AI 內往主題收斂即可。採讀法二：斷言禁止的是『再問想做哪個領域』，回應把 AI 當既定前提，第 3 題問哪堂課想多讀，是找主題的線索，不是重開領域選擇。"
+  },
+  {
+    "run": "research-direction-finding/eval-2-broad-domain-ai/without_skill/sonnet/run-1",
+    "id": "a3",
+    "final": true,
+    "evidence": "對哪個子領域比較有感覺——例如 LLM/NLP、電腦視覺",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：『一層』指五層漏斗，問目的、背景、資源等背景條件不算多推一層；讀法二：一次問四個面向就超出單層聚焦。採讀法一，與 eval-1 a4 的層次定義一致：四題中只有興趣傾向屬於漏斗（主題層），其餘是背景條件，題目具體可回答。"
+  },
+  {
+    "run": "research-direction-finding/eval-5-insufficient-information/without_skill/opus/run-1",
+    "id": "a1",
+    "final": false,
+    "evidence": "想請你想一下這兩件事，我再幫你縮小題目",
+    "cause": "grader_error",
+    "reason": "回應沒有判定資訊不足、停止追問，而是先給方向選單與推薦，結尾繼續追問兩題，其中「你自己用行動支付時有沒有猶豫或喜歡的地方」就是換句話再問『跟什麼有關』。斷言明寫『而不是繼續追問』。"
+  },
+  {
+    "run": "research-direction-finding/eval-5-insufficient-information/without_skill/opus/run-1",
+    "id": "a2",
+    "final": false,
+    "evidence": "想請你想一下這兩件事，我再幫你縮小題目",
+    "cause": "grader_error",
+    "reason": "回應雖列了閱讀步驟，但同時推薦方向 1，並在結尾繼續引導縮小題目，沒有『明確停下引導』等使用者讀完文獻再回來。"
+  },
+  {
+    "run": "research-direction-finding/eval-5-insufficient-information/without_skill/sonnet/run-1",
+    "id": "a3",
+    "final": false,
+    "evidence": "用TAM/UTAUT等模型，探討消費者為何用/不用行動支付",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：只要回應出現具體理論或變數就算；讀法二：要給出『去查什麼』的文獻查找指引。採讀法二：斷言寫『給出具體要查什麼』，並以『多讀點文獻』為對照，前提是回應有叫使用者去查。本回應完全沒叫使用者查或讀，TAM/UTAUT 只是選題切角的說明。"
+  },
+  {
+    "run": "research-direction-finding/eval-5-insufficient-information/without_skill/sonnet/run-2",
+    "id": "a3",
+    "final": false,
+    "evidence": "你比較想從「消費者」、「商家」、還是「政策/產業」角度切入？",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法同本斷言另一筆（採『要有查找指引』）。回應列六個研究切角後直接追問想從哪個角度切入，沒有任何要使用者去查哪類研究的指示。"
+  },
+  {
+    "run": "research-question-audit/eval-1-bad-title-no-dv/without_skill/sonnet/run-2",
+    "id": "a1",
+    "final": false,
+    "evidence": "「探討」太空泛，缺研究缺口（research gap）",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：說題目空泛並列出含結果變數的方向，就算隱含指出缺依變數；讀法二：要診斷出題目看不出要測什麼結果。採讀法二：a2、a3 已另外檢查引導與修改方向，若 a1 也接受隱含，三條會重疊。回應把問題歸因於缺研究缺口，開頭還說「題目本身可以撐」。"
+  },
+  {
+    "run": "research-question-audit/eval-2-too-many-dvs/v0.3.0/sonnet/run-1",
+    "id": "a3",
+    "final": true,
+    "evidence": "是非問句紅線：不適用（尚未寫成問句）",
+    "cause": "grader_error",
+    "reason": "回應明寫是非問句紅線不適用，要改寫的是「我想研究……的影響」這個目的句，沒有把「這樣的研究問題可以嗎」當成研究問題要求改寫。sonnet 引用的證據本身就支持通過，判定方向寫反。"
+  },
+  {
+    "run": "research-question-audit/eval-3-gai-dependency/without_skill/opus/run-1",
+    "id": "a1",
+    "final": false,
+    "evidence": "只做「依賴的情形」的話，結果容易停在描述統計，貢獻度偏弱",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：指出只是現象描述、貢獻偏弱就算；讀法二：要指出沒交代既有研究不足在哪、要補什麼。採讀法二：斷言主句是『沒有交代研究缺口』，現象描述是補充。回應只談貢獻度，完全沒提既有研究的不足，開頭還說文獻逐年增加、主題有價值。"
+  },
+  {
+    "run": "research-question-audit/eval-4-mature-thesis/without_skill/opus/run-1",
+    "id": "a3",
+    "final": false,
+    "evidence": "RQ1：教師除錯回饋的詳細程度（高/低），是否影響學生使用生成式AI除錯的頻率與求助深度？",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：提到缺方向（即使在假說層）就算；讀法二：要指出研究問題句本身是是非問句，並改寫句型。採讀法二，理由是斷言兩個要件都針對問題句（可用是或否答完、改句型）。回應只要求補方向性假設，建議的 RQ1 仍是不帶方向的「是否影響」。"
+  },
+  {
+    "run": "research-question-audit/eval-4-mature-thesis/v0.4.0c/sonnet/run-3",
+    "id": "a4",
+    "final": true,
+    "evidence": "兩年可行＋降級方案：通過｜一學期80人的資料來源明確，且已有具體降級方案",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：『可行性』包含六問第 5 項資料可得性；讀法二：只指 based_on 所列的第 6 項時程＋降級方案與對抗式審查第 4 步。採讀法二：斷言括號的依據是合作老師、樣本數與備案。回應這兩項都判通過，判不通過的是 AI 使用紀錄取得方式，那是確實存在的問題，不是斷言要抓的假陽性。"
+  },
+  {
+    "run": "research-question-audit/n1-two-indicators-one-construct/v0.4.0c/sonnet/run-3",
+    "id": "a1",
+    "final": false,
+    "evidence": "② 戰線過長，判定為不確定，需你澄清｜等於默默多開了一條理論戰線",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：回應在②欄位寫『命中』（即使標不確定）就算判定；讀法二：只有確定判命中或要求刪指標才算。採讀法一：回應對這一項本身的判定是『命中②』，理由正是兩個指標，還說等於多開一條理論戰線，這就是 R1 要防的誤判；改編量表的效度疑慮應放在測量工具項。"
+  },
+  {
+    "run": "research-question-audit/n1-two-indicators-one-construct/v0.4.0c2/sonnet/run-3",
+    "id": "a2",
+    "final": true,
+    "evidence": "屬於證據缺口——已經有文獻直接檢驗這組關係，只是量少且方向不一致",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：看檢查點 A 的正式判定『不確定』；讀法二：看回應對缺口本身的實質評價。採讀法二：這裡的『不確定』針對的是使用者同時提了知識缺口式的理由，不是質疑證據缺口；回應明確認定第二組理由屬證據缺口並建議以它為主要定位，沒有判為缺口不明或新穎性宣稱。（與 n1 a1、n2 a2 的原則一致：看回應對斷言所問那一項的判定。）"
+  },
+  {
+    "run": "research-question-audit/n1-two-indicators-one-construct/without_skill/sonnet/run-1",
+    "id": "a2",
+    "final": false,
+    "evidence": "現有兩篇先行研究一篇是負相關、一篇不顯著，暗示效果量可能偏小",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：沒有質疑缺口就等於默認認可；讀法二：要明確認可缺口成立並指出屬證據缺口。採讀法二：斷言主動詞是『認可』並指定歸類，『沒有判為缺口不明』是附加條件，不是替代條件。回應只把兩篇研究拿來推估效果量，沒有評論缺口。"
+  },
+  {
+    "run": "research-question-audit/n1-two-indicators-one-construct/without_skill/sonnet/run-3",
+    "id": "a2",
+    "final": false,
+    "evidence": "整體上研究問題與資料蒐集規劃是紮實的",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法同本斷言另一筆（採『要明確認可』）。回應的整體肯定針對研究問題與資料蒐集，兩篇不一致研究只被拿來討論測量差異，沒有評估缺口是否成立或屬哪一類。"
+  },
+  {
+    "run": "research-question-audit/n2-directional-yes-no-question/without_skill/opus/run-1",
+    "id": "a1",
+    "final": false,
+    "evidence": "RQ2 沒寫方向，而且兩個方向都說得通｜統一改成「預測」或「是否與…相關」",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：指出沒方向、補上預期方向就算；讀法二：要指出問題句可以用是或否答完，並把句型改成效果或方向句。採讀法二（與 eval-4 a3 同一讀法）。回應換掉「影響」是因為因果語氣，改寫後的 RQ2 仍是不帶方向的「是否預測」，方向只放在括號裡的預期。"
+  },
+  {
+    "run": "research-question-audit/n2-directional-yes-no-question/v0.4.0c/sonnet/run-2",
+    "id": "a2",
+    "final": false,
+    "evidence": "RQ1：不通過（擦邊）— 「是否正向預測」雖然已指出方向（正向）",
+    "cause": "assertion_ambiguous",
+    "reason": "讀法一：看紅線欄位的正式判定；讀法二：看同一行『可視為勉強通過』與『建議更規範』的語氣。採讀法一：回應對 RQ1 這一項的紅線判定就是『不通過』，常見錯誤也列『RQ1 擦邊』，並建議改寫，這正是 R3 要修的誤判；同一行的保留語氣抵銷不了正式判定。"
+  },
+  {
+    "run": "academic-writing-discipline/n2-clean-paragraph/v0.4.0-nochapter/sonnet/run-1",
+    "id": "a1",
+    "final": true,
+    "evidence": "基本可用，需修 1 處（弱動詞「給予……評價」），瑕疵 1 處可選修",
+    "cause": "assertion_ambiguous",
+    "reason": "主對話裁決。「給予……較高的評價」確實落在 skill 弱動詞表（給予支持→支持）的範圍，不是虛構錯誤；整體結論為小修，符合斷言。n2 案例文本本身含這個句型，是出題瑕疵，下一輪改寫。"
+  }
+]

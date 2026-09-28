@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「頻率」和「求助深度」是同一個構念的兩個指標，而且都有可觀察的操作方式。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你的理由是「沒有文獻在生成式AI除錯情境下檢驗過」...本情境的哪一個特性推翻了這條假設？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「是否會影響」可以用「是／否」回答完。可以改寫成像這樣：「接受高、低詳細程度除錯回饋的學生...上的差異為何？」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋建議：已經收斂到可以執行的層次...一學期就能蒐集完資料，也有具體的降級方案",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "**需修正後再議**。題目的價值、資料合作和實驗設計的骨架都很紮實。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這句的骨架其實只是：「由於 A，因此本研究希望探討 B」。但 A...長達六十幾字...對應...「由於……（長）……因此」——因的部分一拉長",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把「由於 A，因此 B」拆成兩句，先把因交代完，再用「基於此」帶出研究動機",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "中間又疊了「使得……」「對於……產生了……」兩層子句，讀者要一路撐到句尾才等到真正的主語",
+      "confidence": "low",
+      "note": "回應將『對於……產生了……』列為拉長句子的兩層子句之一，並在建議版本中將其精簡（對這類工具的使用產生高度依賴），但未單獨明確點名『對於』結構本身可精簡，屬於整體診斷的一部分，可能有兩種讀法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；「順帶一提」段落僅提醒若正文為橫斷面調查，討論依賴性對學習成效關係時動詞紀律要用「影響／預測」而非「導致」，並未把句尾探問語氣判為因果越線",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "原句「使得……產生了高度的依賴性」是背景敘述沒有因果越線問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

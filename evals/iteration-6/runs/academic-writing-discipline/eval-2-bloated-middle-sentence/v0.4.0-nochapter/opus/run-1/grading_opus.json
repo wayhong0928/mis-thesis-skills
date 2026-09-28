@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於 A，因此 B」的 A 太長。A 本身又包了一個「使得……」的因果子句",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "一般的處理是改成「A。基於此，B」，也就是先把原因講完、斷句，再帶出結論。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「對於……的使用」本身就是容易造成中間肥大的句型。",
+      "confidence": "high",
+      "note": "瑕疵段另有「可以直接改成「高度依賴這類工具」」的精簡修法",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "如果是橫斷面問卷，「造成……影響」超出資料能支持的程度",
+      "confidence": "high",
+      "note": "回應把句尾的「造成」列在「錯誤」底下，當成因果動詞越線來處理。它沒有把這句看成尚未報告結果的探問語氣，雖然判斷前加了研究設計的條件，仍屬於此處要排除的指控",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "用「使得」寫成因果也沒有證據。這句後面要補引用。",
+      "confidence": "low",
+      "note": "讀法一：回應指出因果沒有證據，改寫版把兩件事並列（「快速發展並普及，越來越多大學生…高度依賴」），不再指定因果方向，所以算 pass。讀法二：回應明講的建議是「補引用」，沒有明說要改成比較保守的措辭，所以算 fail",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有排除清單上的詞彙（只有「深入」，不是「深而窄」）",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

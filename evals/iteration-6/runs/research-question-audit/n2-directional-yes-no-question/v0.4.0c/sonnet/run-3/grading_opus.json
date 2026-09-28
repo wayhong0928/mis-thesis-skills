@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "RQ2「是否影響」：不符合 — 完全沒有指出效果方向或強度。…建議改寫為「程式設計自我效能對生成式AI求助頻率的預測效果為何？」",
+      "confidence": "high",
+      "note": "回應把 RQ2 判為違反是非問句紅線，指出它沒有方向，並給出預測效果句型與明確方向兩種改寫。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "RQ1：通過（已載明方向）。",
+      "confidence": "high",
+      "note": "回應未把 RQ1 判為必須改寫的是非問句，認定它是直接效果句型中被認可的變體。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；排除清單的詞彙均未出現",
+      "confidence": "high",
+      "note": "回應用「套用他人研究換名詞」描述壞題目類型，沒有用到「舊瓶新酒／新瓶舊酒」，其餘排除詞彙也都沒有出現。",
+      "kind": "compliance"
+    }
+  ]
+}

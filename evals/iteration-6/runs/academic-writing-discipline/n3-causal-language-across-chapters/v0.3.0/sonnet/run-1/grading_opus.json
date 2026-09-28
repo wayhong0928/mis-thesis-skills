@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「導致」是排除其他解釋的絕對因果動詞，但本研究是橫斷面 PLS-SEM",
+      "confidence": "high",
+      "note": "改法為「科技焦慮對生成式AI求助行為具有顯著正向影響」，符合斷言所舉改法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "研究問題階段用「影響」是在陳述本研究要問什麼，不是宣稱已證實的結論，這是可接受的寫法。",
+      "confidence": "high",
+      "note": "回應未出現此指控，第一章被列為通過項目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "三條件皆備，「具有顯著正向影響」在此屬於本 SKILL 判準下可安全使用的寫法",
+      "confidence": "high",
+      "note": "回應未出現此指控，第四章被列為通過項目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控：全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "回應中的「三條件」指理論、路徑分析、控制變數，不屬排除清單詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

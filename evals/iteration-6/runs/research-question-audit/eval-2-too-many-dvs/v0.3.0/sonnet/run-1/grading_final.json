@@ -1,0 +1,41 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "依變數達 4 個（學習動機、學習成效、批判思考能力、就業意願）...題目試圖同時回答太多件事",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "先從四個依變數中選出 1（最多 2）個作為核心依變數，其餘可以放進文獻回顧當背景動機",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：不適用（尚未寫成問句）",
+      "confidence": "high",
+      "note": "回應並未把使用者『這樣的研究問題可以嗎』當成研究問題本身的是非句去要求改寫,但也未明確排除此讀法;斷言字面是檢查『沒有做X』,回應確實沒有這樣誤判,故仍可判pass。重新評估：回應正確地將其視為目的敘述而非研究問題句子本身,並未把使用者的提問句誤當研究問題的是非句寫法,应判true。",
+      "kind": "outcome",
+      "adjudicated": "grader_error"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全篇聚焦於依變數過多、缺口分類、操作型定義等稽核，未提及彭明輝、雁行理論等版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "横断面问卷资料只能讲「正向关联」或「正向预测」，用「导致」是因果语言，与设计不符",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你的问卷完全没有测量除错能力或任何实际学习成效，这一句是纯粹的推测，没有资料支撑",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "这是本段最大的问题。",
+      "confidence": "low",
+      "note": "讀法一：回應把因果推論過度列為兩大主軸之一，明說認知卸載推論是「本段最大的問題」，並另設「其他小問題」一節，已算區分輕重，判 pass。讀法二：回應根本沒談用語或引用格式問題，也沒有明確的分級。a1 列在第 2 點，排在統計方法問題之後，無從比較，應判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未提及「通過」「收集數據」「回歸」的台灣慣用語問題",
+      "confidence": "high",
+      "note": "回應本身也用「回归」，未做用語修正",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未指出 Bastani et al.（2024）應改為 Bastani 等人（2024），自身建議改寫仍用 et al.",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": false,
+      "evidence": "回應未指出知覺有用性與感知有用性譯名不一致",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": false,
+      "evidence": "有用性那段用「正向影响」其实也偏因果，可以改成更保守的「与…有关」",
+      "confidence": "high",
+      "note": "回應把控制變數後的 PLS 路徑「正向影響」也判為偏因果，屬於假陽性",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "那是一个随机分派实验…是完全不同层次的证据（因果、行为结果）",
+      "confidence": "high",
+      "note": "回應未指控 Bastani 句的「導致」越線，反而承認該研究提供因果證據",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "回應依主題分四點，未分致命／錯誤／瑕疵三級，只附單段改寫而非整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": false,
+      "evidence": "回應未出現「未核對被引用文獻原文」之類的誠實條款",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "RQ2「是否影響」是更典型的是非句命中，且完全沒有方向，改為：「…的預測效果為何？」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "RQ1「是否正向預測」雖然帶了方向詞，但句型本身仍是「是否」開頭的是非句，建議改為",
+      "confidence": "high",
+      "note": "回應明確把 RQ1 判為命中是非問句紅線，並要求改寫，屬斷言所排除的誤判。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

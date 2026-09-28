@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "② 戰線過長：目前不判命中，但有條件。如果兩個指標是同一個構念的不同面向，就不算命中。",
+      "confidence": "low",
+      "note": "回應未把兩個指標直接判為戰線過長，也未要求刪除指標。但它加了條件：若兩者屬不同構念，就算兩個依變數。建議中也列出「保留、替換，還是合併」。嚴格讀法可能認為這已接近以兩指標為由質疑戰線過長；寬鬆讀法則認為它只是有條件的提醒，沒有下判定也沒有要求刪除。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判定：證據缺口……同一組變數關係的實證結果不一致，而且證據量很少。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：通過。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "從手機量表改編到 AI 作業情境，改編幅度不小。需要專家審閱題項（內容效度）、前測，以及驗證性因素分析和信度報告。",
+      "confidence": "low",
+      "note": "回應明確要求交代信效度（內容效度、CFA、信度）。「改編理由」沒有直接點名，但 C-4 質疑問題性使用量表是否對得上「依賴」構念，實質上觸及改編的合理性。若斷言要求明確寫出「交代改編理由」，本項可能判為不符。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

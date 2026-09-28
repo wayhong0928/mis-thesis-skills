@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "沒有命中。兩個指標都在測「生成式 AI 依賴程度」這一個構念，不是兩個需要各自理論解釋的依變數。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判定：**證據缺口**（通過）\n理由：你找到兩篇研究同一組變數關係（自我效能 → 依賴），一篇負相關、一篇不顯著，符合「至少兩篇、結果不一致」的判準。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：**通過**",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "交代原量表出處與原始信效度。說明每一題怎麼改、為什麼這樣改。請專家審題（內容效度）。前測後報告因素負荷與 Cronbach's α。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控。回應全文未提及彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

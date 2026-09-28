@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "題目中完全沒有依變數，「探討⋯⋯之研究」的寫法只描述了自變數...沒有交代要測量的結果是什麼",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "需要先問自己：我關心的是「導入意願」？「導入後的績效／滿意度」？「導入過程遇到的障礙」？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "考慮縮小母體範圍（例如聚焦零售業或餐飲業中小企業），提高抽樣可行性與代表性",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應通篇以自訂的稽核檢查點（缺口分類、收斂程度、六問等）進行分析，未提及彭明輝、雁行理論等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

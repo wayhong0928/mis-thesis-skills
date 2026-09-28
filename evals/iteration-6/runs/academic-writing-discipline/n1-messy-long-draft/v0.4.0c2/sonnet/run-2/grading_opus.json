@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "三條件都滿足時最多只能到「具有顯著正向影響」，不能升級為「導致」。",
+      "confidence": "low",
+      "note": "回應判定「導致」越線並給出改法「知覺易用性對持續使用意圖亦具有顯著正向影響」。但它的理由是前後動詞不一致、因果強度上限，沒有明說橫斷面資料。讀法一：斷言的核心是指出因果強度過度並給改法，因此 pass。讀法二：斷言要求以橫斷面設計為理由，回應沒有明言，因此 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把研究者自己的推論包裝成看似既有的構念名稱，是不應出現的自創術語。",
+      "confidence": "high",
+      "note": "回應也指出「並未實際測量「自主除錯能力」這個變項」，兩個條件都符合。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線 / 自創術語 / 主張超出證據）",
+      "confidence": "high",
+      "note": "a1、a2 列在致命級。用語與 APA 格式問題列在較低的錯誤級。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「研究者通過網路問卷收集數據」→「研究者透過網路問卷蒐集資料」（通過/收集數據為大陸用語）",
+      "confidence": "high",
+      "note": "回應另外指出「回歸→迴歸」，三者都有涵蓋。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「Bastani et al.（2024）」→「Bastani 等人（2024）」（中文行文不用 et al.）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "前文已用「知覺有用性」，此處應統一……（同一構念兩個譯名）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "三條件齊備，此句用語正確，不需要退回「預測」。",
+      "confidence": "high",
+      "note": "回應未出現此指控，並把該句列為通過項目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "原研究是實驗設計，因果語言在此可用，屬於例外一。",
+      "confidence": "high",
+      "note": "回應未出現此指控，並說明引用隨機實驗可以使用因果語言。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命……### 錯誤……### 瑕疵……### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "誠實條款：本次稽核未核對 Davis（1989）與 Bastani et al.（2024）原文",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

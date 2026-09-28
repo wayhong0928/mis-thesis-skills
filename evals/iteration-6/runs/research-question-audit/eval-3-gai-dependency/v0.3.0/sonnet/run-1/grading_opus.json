@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "目前這句話只是描述一個現象領域，看不出這項研究要填補的具體缺口是什麼。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「依賴的情形」不是一個可測量的依變數，需先決定測的是依賴「程度」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "命中：① 沒有依變數的「⋯⋯之研究」— 雖未使用「之研究」字樣，但本質相同",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；全文用「題目定案六問」「壞題目長相比對」等自有框架",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

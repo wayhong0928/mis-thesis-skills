@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "命中是非問句紅線，未通過...第1條（是非問句寫法）：RQ2 命中，需改寫，例如「程式設計自我效能是否負向預測生成式AI求助頻率？」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "RQ1「是否正向預測」— 符合量化研究直接效果句型，方向已交代，通過。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全篇以量化研究稽核架構（缺口分類、句型檢查、對抗式審查等）評估，未涉及版權排除清單相關詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "學習動機（通常對應自我決定理論／期望價值理論）...分屬四套不同的理論脈絡，不是同一構念的不同測量指標，而是各自需要獨立理論解釋的結果變數，符合「戰線過長」的判準",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "優先收斂成 1 個核心依變數，其餘可以：(a) 完全捨棄留給未來研究，或 (b) 保留 1 個作為調節/中介角色併入同一個理論模型",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅在檢查點E指出使用者目前寫法是「研究目的的敘述句」尚非正式研究問題句，並未將使用者「這樣的研究問題可以嗎」這句提問本身當成研究問題的是非句寫法來要求改寫",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；通篇未提及彭明輝、任何書名、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

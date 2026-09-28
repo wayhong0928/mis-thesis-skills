@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是橫斷面的路徑係數，不能用「導致」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你的資料裡沒有測量自主除錯能力，所以這個結論沒有任何一個變項支撐。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線／主張強度超過證據）",
+      "confidence": "high",
+      "note": "a1、a2 兩項都放在「致命」等級，用語和引用格式問題放在「錯誤」等級",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」（當介系詞用）、「收集」「數據」是大陸用語。",
+      "confidence": "high",
+      "note": "回應也寫了「台灣用「迴歸」」，並給出改法「透過網路問卷蒐集資料」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文中的敘述引用，應寫「等人」。改法：「Bastani 等人（2024）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "同一個構念用了兩個譯名，讀者會以為是兩個不同的變項。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "同時有理論（TAM）、路徑分析（PLS）和控制變數（性別、年級），用「影響」合格。",
+      "confidence": "high",
+      "note": "回應未出現此指控，並把這句列入通過項目",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用實驗研究時可以用因果語言，所以「導致」在這裡本身沒問題。",
+      "confidence": "high",
+      "note": "回應未把這裡的「導致」判為越線；它指出的問題是「類似發現」把兩項研究說成一樣。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命… ### 錯誤… ### 瑕疵… ### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "誠實條款：這次稽核沒有核對 Davis（1989）和 Bastani 等人（2024）的原文。",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此清單中的任何詞彙",
+      "confidence": "high",
+      "note": "逐一檢查過：沒有彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄",
+      "kind": "compliance"
+    }
+  ]
+}

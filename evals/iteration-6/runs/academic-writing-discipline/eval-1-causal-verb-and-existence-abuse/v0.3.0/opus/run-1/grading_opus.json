@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半句說「影響」，是因果的說法；後半句退回「正向關係」，是相關的說法。",
+      "confidence": "high",
+      "note": "回應同時涵蓋 (a)：「要同時有理論依據、迴歸或路徑分析、控制變數，才適合寫「影響」」。回應也給了全句統一語氣的改法：「整句只用一種說法（見下方「整合修改版」）」，並依研究設計提供三個版本。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "存在正向關係 | 「存在」是弱動詞，句子會顯得冗長 | 正相關",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "人工智能 | 大陸用語，在台灣學術文件中最容易被注意到 | 人工智慧",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "分析結果顯示，受試者的人工智慧使用頻率顯著正向預測其學習成效（β = .xx, p < .xx）。",
+      "confidence": "high",
+      "note": "句中統計量是 .xx 佔位符，但句子結構完整，換入數值即可使用。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

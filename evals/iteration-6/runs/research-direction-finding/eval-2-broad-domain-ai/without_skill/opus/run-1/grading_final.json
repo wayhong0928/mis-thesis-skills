@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「AI 研究」其實包含幾十個互不相干的領域。縮小範圍可以用下面四個問題，一層一層收斂",
+      "confidence": "low",
+      "note": "回應未明說『判定使用者屬於起點B』，但整體處理方式（不再問領域，直接進入AI內部收斂）隱含此判定；若斷言要求明確聲明才算通過則應為false。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這很正常，「AI 研究」其實包含幾十個互不相干的領域。縮小範圍可以用下面四個問題，一層一層收斂",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "## 1. 你想做哪一「種」研究？...## 2. 你手上有什麼「別人沒有的」？...## 3. 什麼問題讓你覺得「奇怪」或「很煩」？...## 4. 限制條件",
+      "confidence": "high",
+      "note": "回應一次列出四層問題框架，而非只推進一層並問出單一具體問題。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "你的科系或專業是什麼？這是為了什麼而做的研究（課程、論文、工作、興趣）？你對 AI 的哪個部分比較有感覺？",
+      "confidence": "high",
+      "note": "結尾是三個並列問題，未產出可寫入進度筆記的結論，也未問是否繼續下一層。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "## 1. 你想做哪一「種」研究？...## 2. 你手上有什麼「別人沒有的」？...## 3. 什麼問題讓你覺得「奇怪」或「很煩」？...## 4. 限制條件...你的科系或專業是什麼？這是為了什麼而做的研究...你對 AI 的哪個部分比較有感覺？",
+      "confidence": "low",
+      "note": "回應在同一輪內把研究類型、資源優勢、問題意識、限制條件與背景詢問幾乎全部攤開，接近一次問完多層問題；是否精確對應『五層』架構有解讀空間。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、書名、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

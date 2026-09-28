@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "除非你做的是實驗設計(有操弄、有對照組)並能排除其他變項,否則多數研究...只能講「相關」,不能講「影響」或「因果」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應未出現此指控；回應聚焦於「顯著≠正向」的邏輯混淆問題，未評論「存在正向關係」中『存在』一詞的用法本身",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未出現此指控；建議修改版本中雖悄悄改用「人工智慧」，但未明確說明或指出『人工智能』非台灣慣用語",
+      "confidence": "low",
+      "note": "兩種讀法：若要求明確指出用詞問題則fail；若接受修改稿中直接替換成正確用詞也算間接指出則可pass。此處採較嚴格標準，因缺乏摘句可證明有明確指出。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究數據顯示，受試者之人工智慧使用行為與學習成效呈顯著正相關（r = ..., p < .05），顯示兩者間存在正向關聯。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、書名、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

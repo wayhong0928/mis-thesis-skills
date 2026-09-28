@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "目前這句話看不出屬於證據、知識、方法、理論、情境五種缺口中的哪一種",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「依賴」是你要測量的東西，但依賴本身要怎麼定義與測量...目前還不清楚，也還沒有要解釋的結果變數",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "① 沒有依變數的「⋯⋯之研究」：「探討⋯⋯的情形」屬於描述主題的寫法，看不出要回答什麼結果",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "上面標記「不通過」或「不確定」的項目，我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全程使用「研究缺口」「壞題目長相比對」「依變數」等一般學術寫作用語，未提及彭明輝、雁行理論等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

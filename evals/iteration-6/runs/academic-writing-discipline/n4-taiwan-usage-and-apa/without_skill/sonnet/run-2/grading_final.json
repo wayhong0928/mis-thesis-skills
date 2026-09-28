@@ -1,0 +1,64 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「被試」：屬中國大陸心理學界慣用詞，台灣期刊多用「受試者」或「參與者」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "「模型擬合指標」：術語正確，但建議具體點出使用哪些指標",
+      "confidence": "high",
+      "note": "回應明確稱模型擬合指標『術語正確』，未指出判別效度或模型擬合為大陸用語，也未給出台灣用法",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "或中文全用「與」：`Fornell 與 Larcker (1981)`",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "建議統一為一種（例如中文行文一律用「等人」，二位作者用「與」）",
+      "confidence": "low",
+      "note": "回應以「et al.」統一改為「等人」的通則帶過，未逐字寫出『Hair 等人（2017）』，可視為隱含涵蓋或視為未明確指出",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "`Venkatesh 等人(2012)` 用半形括號",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未提及收斂效度為大陸用語",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現版權排除清單相關詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

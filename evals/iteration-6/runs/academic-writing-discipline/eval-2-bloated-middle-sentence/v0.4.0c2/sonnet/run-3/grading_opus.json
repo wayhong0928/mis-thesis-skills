@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於」到「因此」之間長達七十字左右,讀者要撐過整段原因敘述",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把「由於……因此」拆開,先把原因說完、斷句,再帶出研究目的",
+      "confidence": "high",
+      "note": "改寫版為「……產生了高度依賴。基於此,本研究希望探討……」,與斷言舉例的形式一致。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「產生了高度的依賴性」屬於弱動詞+抽象名詞,可簡化為「產生高度依賴」",
+      "confidence": "low",
+      "note": "讀法一：斷言要求明確點出「對於……」結構本身在拉長句子。回應只說「使得」「對於」把話題硬黏在一起，沒有直接說「對於」造成冗長，照此讀法應判 fail。讀法二：斷言的實質是這一段可以精簡。回應在瑕疵段指出同一段可以簡化，改寫也把「對於這類工具的使用」縮成「對這類工具」，照此讀法判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；句尾只在改寫中精簡為「探討這種依賴傾向對學生學習成效的影響」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "改寫仍為「近年來生成式AI技術快速發展與普及,越來越多大學生……產生了高度依賴」",
+      "confidence": "high",
+      "note": "回應只把「使得」當成話題漂移的黏合詞處理，沒有指出技術普及導致學生依賴是未經支持的因果斷言，也沒有建議改用較保守的措辭。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

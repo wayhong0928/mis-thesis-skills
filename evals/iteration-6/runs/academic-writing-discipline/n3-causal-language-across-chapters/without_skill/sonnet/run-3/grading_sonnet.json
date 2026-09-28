@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "導致：直接使用強因果動詞...這是典型的「相關當因果」謬誤...顯示焦慮可能是促使學生轉向AI尋求協助的因素之一",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "用「影響」本身在研究問題階段還算常見寫法",
+      "confidence": "low",
+      "note": "兩種讀法：(1) 回應以此句肯定第一章用詞可接受，後續只是就全文一致性給建議，未真正判其越線；(2) 回應接著提到橫斷面設計下用「影響」會讓讀者誤預期因果，並建議改為「關聯」，可視為隱含的越線提示。本評判採讀法(1)判為pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "這是最常見的誤用：PLS-SEM 的路徑係數是共變關係的量化...應報告為「正向關聯」或「正向預測」...而非「影響」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控（未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙）",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

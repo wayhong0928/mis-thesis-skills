@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "一直對著空白畫面想，很難想出東西。題目通常是從別人的論文裡找出來的",
+      "confidence": "low",
+      "note": "回應沒有明確寫出『完全空白』這類分類，但它回應兩週空白的處境，先問領域，再給從零開始的起步動作，做法符合起點 A。讀法一：只要處理方式符合完全空白，就算判定，判 pass。讀法二：必須明確點出使用者屬於完全空白，這樣就該判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "現在直接丟一個題目給你，很可能用不上。先回答我下面幾個問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "一直對著空白畫面想，很難想出東西。題目通常是從別人的論文裡找出來的",
+      "confidence": "high",
+      "note": "動作是找 3 篇學長姐碩論、翻未來研究方向那一章、改掉一個條件。回應也說明了為什麼這比空想有用。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "系所和實驗室方向：例如資工／AI、電機、機械、管理、教育、社會等等",
+      "confidence": "low",
+      "note": "5 個問題都停在背景層次（領域、老師方向、資源、能力、時程），沒有一路追問到子領域、研究問題、研究方法。讀法一：沒有涵蓋到研究問題層次，判 pass。讀法二：一次問 5 題就算過載，判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

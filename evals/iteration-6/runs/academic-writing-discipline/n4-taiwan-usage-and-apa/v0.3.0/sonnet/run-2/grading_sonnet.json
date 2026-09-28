@@ -1,0 +1,64 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「收集數據」是大陸用語，台灣學術寫作慣用「蒐集資料」...「被試」是大陸用語，台灣慣用「受試者」或「填答者」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「判別效度」是大陸用語（discriminant validity），台灣慣用「區辨效度」或「區別效度」...「模型擬合」是大陸用語（model fit），台灣慣用「模型適配」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "APA 7 中文化格式中，英文作者之間應使用中文「與」，不用「&」。改法：「Fornell 與 Larcker（1981）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "這裡卻仍用英文「et al.」，全篇格式不一致。改法：「Hair 等人（2017）建議樣本數……」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "括號用了半形...中文行文中英文文獻年份也應用全形括號...使用半形逗號並接空格，中文行文應統一用全形逗號「，」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "本研究檢驗了收斂效度與**判別效度** 問題：「判別效度」是大陸用語...（收斂效度未被指為大陸用語，僅判別效度被指出）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文聚焦於用語與APA格式檢查，未提及彭明輝、雁行理論等版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

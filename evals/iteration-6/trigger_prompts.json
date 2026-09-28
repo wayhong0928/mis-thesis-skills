@@ -1,0 +1,110 @@
+[
+  {
+    "id": "academic-writing-discipline__should-1",
+    "skill": "academic-writing-discipline",
+    "expect": true,
+    "prompt": "幫我看這句有沒有大陸用語：『本研究通過問卷收集數據，並以回歸分析檢驗假說。』"
+  },
+  {
+    "id": "academic-writing-discipline__should-2",
+    "skill": "academic-writing-discipline",
+    "expect": true,
+    "prompt": "這句話的因果用詞會不會太強？『使用頻率導致學習成效下降。』我的資料是橫斷面問卷。"
+  },
+  {
+    "id": "academic-writing-discipline__should-3",
+    "skill": "academic-writing-discipline",
+    "expect": true,
+    "prompt": "幫我潤飾這段研究動機：『隨著生成式AI的普及，越來越多學生在學習上使用這些工具，這個現象值得我們深入探討，具有重要的理論與實務意涵。』"
+  },
+  {
+    "id": "academic-writing-discipline__should-4",
+    "skill": "academic-writing-discipline",
+    "expect": true,
+    "prompt": "我論文裡寫『Venkatesh et al.（2003）指出使用意圖會受到社會影響』，這樣的中文引用格式對嗎？"
+  },
+  {
+    "id": "academic-writing-discipline__should_not-1",
+    "skill": "academic-writing-discipline",
+    "expect": false,
+    "prompt": "Can you proofread this paragraph for grammar? 'The results shows that perceived usefulness have a significant effect on intention.'"
+  },
+  {
+    "id": "academic-writing-discipline__should_not-2",
+    "skill": "academic-writing-discipline",
+    "expect": false,
+    "prompt": "幫我寫一則跟房東說下個月要退租的訊息，語氣客氣一點。"
+  },
+  {
+    "id": "research-question-audit__should-1",
+    "skill": "research-question-audit",
+    "expect": true,
+    "prompt": "我的研究問題是『社群媒體使用時間對大學生睡眠品質的預測效果為何？』這樣問可以嗎？"
+  },
+  {
+    "id": "research-question-audit__should-2",
+    "skill": "research-question-audit",
+    "expect": true,
+    "prompt": "我想研究遠距工作對員工工作滿意度的影響，這個題目站得住嗎？"
+  },
+  {
+    "id": "research-question-audit__should-3",
+    "skill": "research-question-audit",
+    "expect": true,
+    "prompt": "幫我挑一下這個題目的毛病：探討 ChatGPT 使用對大學生寫作能力之研究。"
+  },
+  {
+    "id": "research-question-audit__should-4",
+    "skill": "research-question-audit",
+    "expect": true,
+    "prompt": "我的題目是 UTAUT 應用於台灣長照機構的智慧照護系統採用，缺口是還沒有人在台灣長照做過，這樣算研究缺口嗎？"
+  },
+  {
+    "id": "research-question-audit__should_not-1",
+    "skill": "research-question-audit",
+    "expect": false,
+    "prompt": "PLS-SEM 和 CB-SEM 差在哪裡？"
+  },
+  {
+    "id": "research-question-audit__should_not-2",
+    "skill": "research-question-audit",
+    "expect": false,
+    "prompt": "我明天論文口試很緊張，有什麼放鬆的方法？"
+  },
+  {
+    "id": "research-direction-finding__should-1",
+    "skill": "research-direction-finding",
+    "expect": true,
+    "prompt": "我碩一，還完全不知道論文要做什麼，怎麼開始？"
+  },
+  {
+    "id": "research-direction-finding__should-2",
+    "skill": "research-direction-finding",
+    "expect": true,
+    "prompt": "我對資安有興趣，但不知道怎麼縮小成論文題目。"
+  },
+  {
+    "id": "research-direction-finding__should-3",
+    "skill": "research-direction-finding",
+    "expect": true,
+    "prompt": "老師叫我從他的國科會計畫裡找論文題目，我該怎麼做？"
+  },
+  {
+    "id": "research-direction-finding__should-4",
+    "skill": "research-direction-finding",
+    "expect": true,
+    "prompt": "我換過一次論文題目了，現在又要重新找方向，有什麼方法可以幫我收斂？"
+  },
+  {
+    "id": "research-direction-finding__should_not-1",
+    "skill": "research-direction-finding",
+    "expect": false,
+    "prompt": "我的題目是『遊戲化對線上學習持續意圖的影響』，幫我檢查這個題目有沒有漏洞。"
+  },
+  {
+    "id": "research-direction-finding__should_not-2",
+    "skill": "research-direction-finding",
+    "expect": false,
+    "prompt": "論文口試的簡報通常要幾頁？"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "其中中間的B子句被塞進太多修飾成分，導致主詞和動詞被拉得很開",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "近年來生成式AI技術快速發展與普及，越來越多大學生在課業與報告撰寫上逐漸依賴這類工具。本研究希望探討這樣的依賴傾向對學生學習成效造成的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "對於〔這類工具的使用〕產生了〔高度的〕依賴性...中間插入了「開始」「在課業與報告撰寫的過程中」「對於……的使用」三層修飾",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅針對句子結構（中間肥大、因果詞重複）提出修改，未論及句尾探問語氣是否越線。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "另外，「由於……」和「因此……」同時出現也有點重複...等於因果邏輯講了兩遍，讓整句顯得臃腫。",
+      "confidence": "high",
+      "note": "回應僅指出因果連接詞重複冗贅，並未指出『技術普及使得學生依賴』本身是未經支持的既定因果，也未建議改用『伴隨』等保守措詞。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

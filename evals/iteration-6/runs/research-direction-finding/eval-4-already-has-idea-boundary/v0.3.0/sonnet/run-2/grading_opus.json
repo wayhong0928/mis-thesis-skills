@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "目前所在層次：**題目層，尚未到研究問題層**",
+      "confidence": "high",
+      "note": "回應把使用者的一句話當成既有題目來稽核，並指出「目前只有一句研究想法」，沒有當成從零開始收斂。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此引導；直接以檢查點 A–G 稽核這個題目",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「學習績效」太籠統，是指期末成績？程式作業評分？",
+      "confidence": "high",
+      "note": "回應也逐項評論了缺口分類、量表可得性與可行性。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "# 研究問題稽核報告",
+      "confidence": "low",
+      "note": "讀法一（字面）：回應沒有寫出 research-question-audit，也沒說要把題目交給它，判 fail。讀法二（實質）：回應本身就是研究問題稽核報告，等於已經交付稽核，可判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；相近處用的是「換個名詞就是別人的論文」「題目定案六問」",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

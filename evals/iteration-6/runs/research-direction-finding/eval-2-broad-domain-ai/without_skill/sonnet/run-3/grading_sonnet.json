@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "縮小 AI 研究範圍，通常可以從幾個維度切入",
+      "confidence": "low",
+      "note": "回應未明說「起點B」，但行為上把AI視為已知領域直接往下收，可視為隱含判定；另一讀法是回應根本沒有做起點分類，只是自然對話。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "縮小 AI 研究範圍，通常可以從幾個維度切入：",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "可以先回答第一題：你的背景是什麼、目前接觸 AI 是因為工作需求還是個人興趣？",
+      "confidence": "low",
+      "note": "結尾只問一個具體問題符合「只推進一層」；但正文列出背景/問題類型/資源三個維度，也可讀作一次攤開多層框架，是否算違反「只推進一層」有兩種解讀。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未出現此結論或提問；回應僅以「可以先回答第一題」作結，沒有產出結論式摘要，也沒有問是否繼續下一層",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅列出縮小範圍的三個維度並要求先回答背景一題，未一次問完領域到研究問題五層的所有問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

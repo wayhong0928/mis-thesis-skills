@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "整句還有「由於……使得……因此」連用兩層因果，讀起來會像一口氣講不完",
+      "confidence": "low",
+      "note": "回應點出由於／使得／因此串成一句太長，也指出中段主詞與動詞之間塞了過多修飾，實質上講到原因子句過長。但它把問題主要歸在「兩層因果連用」與主詞／動詞距離，沒有明確說『由於……因此』之間的原因子句太長。從寬讀算 pass，從嚴讀可判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "版本 A（拆成兩句，最清楚）：近年生成式AI快速普及，…本研究旨在探討此依賴傾向對學習成效的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「對於這類工具的使用產生了依賴性」→ 直接寫「依賴這類工具」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；只說「希望能夠」「究竟」「什麼樣的」都在稀釋語氣",
+      "confidence": "high",
+      "note": "回應對句尾的處理是虛詞精簡，沒有判為因果越線。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "「由於」和「使得」都表示因果，疊在一起會讓後半句沒有主詞，是常見的語病",
+      "confidence": "high",
+      "note": "回應把由於／使得當作語病（缺主詞）處理，沒有指出技術普及導致學生依賴是未經支持的因果主張。改寫版本雖弱化了連接詞，但未說明理由是因果主張過強。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

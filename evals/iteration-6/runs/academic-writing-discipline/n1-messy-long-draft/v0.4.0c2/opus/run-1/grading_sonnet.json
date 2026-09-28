@@ -1,0 +1,96 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是橫斷面的路徑係數，不能用「導致」。「提升」也暗示隨時間發生的變化",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這是自創的路徑名稱...你的資料裡沒有測量自主除錯能力，所以這個結論沒有任何一個變項支撐",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "分為「致命」「錯誤」「用語／APA格式」「瑕疵」分級，a1/a2屬於致命類，用語問題屬於錯誤類，等級更低",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」...是大陸用語...改法：研究者透過網路問卷蒐集資料 / 台灣用「迴歸」...改法：以多元迴歸分析",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「Bastani et al.（2024）」問題：中文行文中的敘述引用，應寫「等人」。改法：「Bastani 等人（2024）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "第二段用「知覺有用性」，第三段用「感知有用性」...同一個構念用了兩個譯名，讀者會以為是兩個不同的變項",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "同時有理論（TAM）、路徑分析（PLS）和控制變數（性別、年級），用「影響」合格",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用實驗研究時可以用因果語言，所以「導致」在這裡本身沒問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命 ... ### 錯誤 ... ### 瑕疵 ... ### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "誠實條款：這次稽核沒有核對 Davis（1989）和 Bastani 等人（2024）的原文",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、雁行理論、七項要件等版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

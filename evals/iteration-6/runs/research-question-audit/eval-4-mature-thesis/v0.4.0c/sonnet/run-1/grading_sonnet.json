@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "使用頻率與求助深度屬同一構念（除錯依賴程度）的兩個指標，不算多重依變數",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這句話只給出了新穎性宣稱（沒人測過），沒有指出理論缺口所需的「哪個構念或路徑無法涵蓋已觀察到的現象」...這其實更像是套了理論語言包裝的情境新穎性宣稱",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「是否會影響」是可以用一個字回答完的問句...建議改寫為「教師提供的除錯回饋詳細程度，對學生除錯依賴程度的預測效果為何？」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋降級方案：通過——已有明確fallback（隨機分派做不成則退回單一時間點問卷、放棄因果推論）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "需修正後再議 — 題目已經收斂到可執行的研究問題層次，依變數操作化清楚，也有扎實的fallback design，架構整體良好",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、書名或雁行理論等版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

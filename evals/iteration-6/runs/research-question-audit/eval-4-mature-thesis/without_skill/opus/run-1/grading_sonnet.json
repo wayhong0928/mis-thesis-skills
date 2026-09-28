@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "回應未出現此指控；針對頻率與求助深度兩指標僅討論操作化與資料可得性問題，如「求助深度需要編碼架構：例如分成1＝解釋錯誤訊息...4＝請求完整程式碼」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "你的缺口是一個動態、有條件的機制：外部回饋的鷹架作用會隨學習者能力提升而遞減",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你需要先說明「詳細回饋→AI依賴」預期是增加還是減少，以及理由",
+      "confidence": "low",
+      "note": "回應未直接說『是否』可用是非作答需改句型，而是以『缺少方向性假設』表達同一核心問題，是否算等同表述存在解讀空間。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "你真正關心的交互作用需要的樣本更多，80人幾乎一定不夠",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "題目有價值，但研究問題還沒有對準你說的缺口，退路方案也有問題。建議修正後再定案",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

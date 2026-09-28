@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "回應未出現此指控；只提到「「求助深度」的資料來源需要再想清楚」",
+      "confidence": "high",
+      "note": "回應討論的是求助深度紀錄能否取得（資料來源的可行性），沒有說依變數構念不清楚，也沒有說兩個指標戰線過長。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "Zimmerman 講的「鷹架隨能力提升而遞減」是同一個學習者隨時間的動態變化",
+      "confidence": "high",
+      "note": "回應只指出理論主張（縱貫動態）和組間設計不對應。它沒有質疑這個缺口是否算理論缺口，沒有指出使用者未說明理論的哪個構念或路徑解釋不了現象，也沒有說這較接近知識缺口，或要主張情境缺口須補上哪個情境特性會推翻原假設。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "要嘛把研究問題改成更貼近你實際能測的東西（高/低回饋對依賴程度的效果差異）",
+      "confidence": "high",
+      "note": "回應建議改寫的理由是設計與理論不對應，沒有指出「是否會影響」可以用是或否回答完。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "退回相關性設計的備案是穩妥的",
+      "confidence": "low",
+      "note": "讀法一：回應肯定備案，對樣本只建議做 power analysis，沒有判可行性不通過，判 pass。讀法二：回應稱求助深度資料取得是「可行性上最大的風險」，可視為對可行性打了問號。不過它只是風險提醒，不是判定不通過，因此仍判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "整體研究問題可以成立，但有幾個地方目前的設計還沒有真正對應",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文無彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

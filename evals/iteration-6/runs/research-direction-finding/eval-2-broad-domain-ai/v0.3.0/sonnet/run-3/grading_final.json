@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "在「AI」這個大方向裡，有沒有哪一類你自己有實際觀察或經驗？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "舉例幾種常見切入角度，看有沒有哪個讓你有反應",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "我們一次只收斂一層，不會一次問完全部",
+      "confidence": "low",
+      "note": "回應同時問了系所背景與AI角度兩個問題；若『一層』僅指主題收斂本身則通過，若指整輪只能問一件事則可能不符。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "不用想得很完美，先講你有感覺的部分就好。",
+      "confidence": "high",
+      "note": "回應以鼓勵句結尾，未產出可寫入進度筆記的結論，也未詢問是否繼續下一層。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "先問兩件事：1. 你的系所/研究背景是什麼？...2. 在「AI」這個大方向裡，有沒有哪一類你自己有實際觀察或經驗？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未出現彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

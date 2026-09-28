@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是自己的橫斷面路徑係數，用「導致」超出證據能支持的因果強度",
+      "confidence": "high",
+      "note": "改法為「知覺易用性對持續使用意圖亦具有顯著正向影響（β = .22, p < .01）。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把「路徑」包裝成看似既有的構念，是自創術語",
+      "confidence": "high",
+      "note": "回應也指出：「推斷一個完全沒有測量的變數（自主除錯能力）」，兩個條件都符合。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線 / 自創術語 / 主張超出證據）",
+      "confidence": "high",
+      "note": "a1、a2 兩項列在「致命」；用語和引用格式問題列在較低一級的「錯誤」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」（介系詞用法）與「數據」是大陸用語。",
+      "confidence": "high",
+      "note": "另指出「「回歸」是大陸用語，台灣統計術語慣用「迴歸」」，並給出「透過」「蒐集資料」「迴歸」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文的敘述引用應寫「等人」，不寫 et al.。",
+      "confidence": "high",
+      "note": "改法為「Bastani 等人（2024）以隨機分派實驗發現」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "同一構念前後使用兩個不同譯名。",
+      "confidence": "high",
+      "note": "改法為「全篇統一為「知覺有用性」」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "「具有顯著正向影響」用法正確。",
+      "confidence": "high",
+      "note": "回應未出現此指控。這句列在通過項目，並說明它符合三條件：TAM 理論依據、SmartPLS 路徑分析、控制性別年級。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "屬於例外一（可信因果識別策略），用法正確。",
+      "confidence": "high",
+      "note": "回應未出現此指控。回應明確說明引用隨機分派實驗時可以使用「導致」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "需修（致命 3 處、錯誤 4 處、瑕疵 1 處）。",
+      "confidence": "high",
+      "note": "回應分成致命、錯誤、瑕疵三級，並附「### 整合修改版」。總結說致命 3 處，實際只列 2 處，但這不影響本斷言。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核未核對 Davis, 1989 與 Bastani et al., 2024 的原文",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有出現彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

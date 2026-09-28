@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你的狀況屬於「題目來自老師的計畫」",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "跟從零開始找方向不一樣，不需要走興趣收斂的流程",
+      "confidence": "low",
+      "note": "回應明說不走收斂流程，但未明講『因為範圍已被計畫框住』這個具體理由，只能從上下文推論",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "這個計畫裡哪一塊，能獨立撐起一篇碩士論文",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "等你把這兩點講清楚後，我們會一起把它收成一句話的研究想法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "接著我會幫你檢查這個想法站不站得住腳（研究問題夠不夠具體、有沒有邏輯漏洞、規模適不適合碩論）",
+      "confidence": "low",
+      "note": "回應描述了功能上等同於研究問題稽核的動作，但未使用『research-question-audit』這個具體名稱，可能被判定未明確交棒",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

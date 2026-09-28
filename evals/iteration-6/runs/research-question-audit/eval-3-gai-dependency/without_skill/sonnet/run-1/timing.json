@@ -1,0 +1,48 @@
+{
+  "model_requested": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "init_model": "claude-sonnet-5",
+  "arm": "without_skill",
+  "num_turns": 1,
+  "duration_ms": 9243,
+  "wall_seconds": 11.0,
+  "total_cost_usd": 0.0190112,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2791,
+    "cache_read_input_tokens": 12216,
+    "output_tokens": 540,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2791,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 540,
+        "cache_read_input_tokens": 12216,
+        "cache_creation_input_tokens": 2791,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2791
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "skill_calls": [],
+  "tool_calls": [],
+  "plugins": []
+}

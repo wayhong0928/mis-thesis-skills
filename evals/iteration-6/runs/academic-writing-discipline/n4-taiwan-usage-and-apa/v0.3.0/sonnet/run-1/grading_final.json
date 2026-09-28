@@ -1,0 +1,64 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「被試」為大陸用語，台灣慣用「受試者」「填答者」...改法：「研究對象為北部三所大學的大學生」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「判別效度」為大陸用語...改法：「本研究檢驗了收斂效度與區辨效度」;「模型擬合」為大陸用語...改法：「模型適配指標亦達可接受水準」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "英文兩位作者之間中文行文應用「與」，不用「&」。改法：「依 Fornell 與 Larcker（1981）的建議」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "台灣中文行文一律用「等人」，不用英文「et al.」。改法：「Hair 等人（2017）建議」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "半形括號 `(2012)`...中文行文括號應統一用全形「（）」;句中出現半形逗號「, 」，中文行文逗號應為全形「，」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅將「判別效度」列為大陸用語，收斂效度未被提及為問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文僅涉及用語與APA格式稽核，未出現版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

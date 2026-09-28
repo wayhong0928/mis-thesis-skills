@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "句子裡已經有母體（大學生）、情境（程式設計課程）、自變數（生成式 AI 素養）、依變數（學習績效），架構完整",
+      "confidence": "low",
+      "note": "讀法一：回應直接把使用者的句子當成稽核對象並肯定架構完整，實質上已辨認這是既有想法，判 pass。讀法二：斷言要求明說「超出從零收斂的範圍」，回應沒有這樣表述，判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控；只說「需要往下收斂成可測量的操作型定義」",
+      "confidence": "high",
+      "note": "回應的收斂建議針對構念操作化，沒有要使用者回頭重選領域、主題或子題。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「學習績效」可以指考試成績、作業分數、程式碼品質、除錯能力、自我效能等",
+      "confidence": "high",
+      "note": "回應直接評論了依變數、缺口類型與兩年可行性。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "標題為「研究問題稽核報告」，但全文未提到交給 research-question-audit",
+      "confidence": "low",
+      "note": "讀法一：斷言要求明確提到轉交該稽核流程，回應沒有，判 fail。讀法二：回應本身就是完整的研究問題稽核報告，等同已走該流程，可判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；檢查點 D 用的是「換個名詞就是別人的論文」",
+      "confidence": "high",
+      "note": "全文未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

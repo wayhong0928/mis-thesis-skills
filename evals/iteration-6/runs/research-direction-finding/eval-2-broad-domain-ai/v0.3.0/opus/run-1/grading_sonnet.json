@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你的情況是「有大方向，但不知道怎麼縮小」。這很常見，有一套辦法可以一層一層收。",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "所以第一步是把技術換成現象，也就是找出「誰用了AI、發生了什麼事，而你想知道為什麼」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你自己用AI，或看別人用AI的經驗裡，有沒有哪一次讓你覺得「奇怪，為什麼會這樣？」",
+      "confidence": "low",
+      "note": "同時還問了系所這一題，是否算「只推進一層」可有兩種讀法：一是視為同一層的兩個切入點，二是視為疊加了兩層問題。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "你回覆之後，我會把這一輪的結論...寫成一份研究方向進度.md",
+      "confidence": "high",
+      "note": "此為承諾未來動作，本輪並未實際產出結論，也沒有明確問「是否繼續下一層」，只說會自動記錄成筆記檔。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "這一輪只想請你回答兩題：1. 你在哪個系所？ 2. 你自己用AI...有沒有哪一次讓你覺得「奇怪...」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；文中未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

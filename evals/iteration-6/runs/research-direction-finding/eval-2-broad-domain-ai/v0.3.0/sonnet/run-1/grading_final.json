@@ -1,0 +1,57 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「AI」本身是工具，不是現象。我們先把它轉成一個具體的「現象」或「問題」",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你想到「AI 相關」的時候，腦中浮現的具體場景是什麼？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome",
+      "adjudicated": "assertion_ambiguous"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "不用想得很完整，先丟幾個直覺反應就好，我再幫你往下收一層。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "不用想得很完整，先丟幾個直覺反應就好，我再幫你往下收一層。",
+      "confidence": "high",
+      "note": "回應僅提出問題並表示待使用者回答後才會往下收，並未在本輪產出任何可寫入進度筆記的結論。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控，僅圍繞「AI相關」這一層提出三個收斂問題，未觸及研究問題等後續層次。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控，全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

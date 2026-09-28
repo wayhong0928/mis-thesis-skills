@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "變項定義扎實（依變數用日誌數據量化，避免自陳偏誤",
+      "confidence": "high",
+      "note": "回應未出現此指控；第3點只討論依賴程度的效度解讀（進步或逃避），沒有說依變數不清楚或戰線過長",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "研究問題與理論缺口的對應還不夠緊",
+      "confidence": "high",
+      "note": "回應接受了「理論缺口」的定位，只批評設計沒有檢驗「遞減」機制；沒有指出使用者未說明理論哪個構念或路徑解釋不了現象，也沒有提到它較接近知識缺口，或情境缺口須說明新情境的哪個特性會推翻原假設",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "研究問題可改寫為：「……是否隨學生能力提升或學期進展而遞減？」",
+      "confidence": "high",
+      "note": "回應沒有指出「是否會影響」可以用是或否答完；改寫後的句型仍是「是否」式",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "備案（相關性研究）沒問題",
+      "confidence": "high",
+      "note": "回應未出現此指控；總結寫「核心設計可行」，備案只提醒要改用關聯語言",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "總結建議：核心設計可行，但要讓研究真正回應你鎖定的理論缺口",
+      "confidence": "high",
+      "note": "回應未判為需重新收斂，也沒有要求換題目，只建議加入時間向度和能力調節變項",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有出現彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

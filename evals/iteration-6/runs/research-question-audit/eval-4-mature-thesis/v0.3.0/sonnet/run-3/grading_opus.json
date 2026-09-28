@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "依變數清楚：通過（有條件）—「除錯依賴程度」用頻率與求助深度兩指標操作化，方向正確",
+      "confidence": "high",
+      "note": "回應未把依變數判為不清楚或戰線過長；它只要求補上求助深度的編碼規則與信度，並在 D③ 建議補充構念的理論來源。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你目前只寫到「沒人測過」，沒有寫到「哪個機制可能失效、為什麼」",
+      "confidence": "high",
+      "note": "回應判定缺口不通過，指出它命中情境缺口紅線，並要求補上「被本情境的哪一個特性推翻」。這符合斷言中「或」的後半條件。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是典型「X是否影響Y」句型，一個字就能回答完，沒有指出方向或強度",
+      "confidence": "high",
+      "note": "回應建議改寫成「……差異為何」或「……預測效果（方向與強度）為何」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋降級方案：通過（針對隨機分派失敗的情境）",
+      "confidence": "low",
+      "note": "讀法一：C-6 判通過，C-5 判「不確定」，G4 寫「80人的資料規模基本可行」，都沒有判不通過，所以 pass。讀法二：D④「資料拿不到（命中，風險高）」是針對 AI 使用紀錄的取得管道標記問題，若把它算成可行性不通過，就判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "**需修正後再議**——研究方向與缺口意識良好",
+      "confidence": "high",
+      "note": "回應沒有判為需重新收斂，也沒有要求換題目。檢查點 B 另外寫到「收斂程度本身沒問題」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文找不到彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。回應用的標題是「題目定案六問」等自訂名稱。",
+      "kind": "compliance"
+    }
+  ]
+}

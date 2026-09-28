@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "從「由於」到「因此」之間約有 70 字。讀者讀完這一大段才等到主要子句",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "改成「A。基於此，B」。先用句號把原因說完，再另起一句寫研究目的。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「對於……的使用產生了高度的依賴性」可以直接還原成「高度依賴……」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "用「造成……影響」會超出資料能支持的範圍",
+      "confidence": "low",
+      "note": "回應把句尾列在「需要看研究設計才能判斷」，沒有直接判為錯誤，但仍說橫斷面設計下會越線，並建議一律避開「造成」。讀法一：這等於把句尾當成因果越線處理，判 fail。讀法二：回應只是有條件的提醒，不算明確指控，可判 pass。此處採讀法一。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "「由於 X，使得 Y」這種寫法讓「使得」沒有主語。刪掉「使得」，或改成「X 使 Y」",
+      "confidence": "high",
+      "note": "回應只從語法角度（主語殘缺）處理「使得」，而且建議改成「X 使 Y」，因果關係仍然保留。提醒段要求補引用的是事實主張，並未指出技術普及與學生依賴之間的因果未經支持。整合修改版雖然去掉了因果連接，但回應沒有明說理由。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控：全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

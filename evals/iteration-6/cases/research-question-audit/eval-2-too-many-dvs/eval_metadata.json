@@ -1,0 +1,32 @@
+{
+  "skill": "research-question-audit",
+  "eval_name": "eval-2-too-many-dvs",
+  "source": "沿用 iteration-5 eval-2，prompt 不變。原 a3 要求把使用者問我們的『這樣的研究問題可以嗎』當成研究問題的是非問句，但使用者並沒有寫出研究問題句，這條與 question-forms.md §四（紅線針對研究問題句）不符，也與候選版 R2 的『不適用』選項衝突，改成反向的假陽性檢查。",
+  "prompt": "我想研究生成式AI對大學生學習動機的影響，同時也想看它對學習成效、批判思考能力、還有未來就業意願的影響，這樣的研究問題可以嗎？",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出依變數太多（學習動機、學習成效、批判思考能力、就業意願四個），這些是各自需要不同理論解釋的結果，一篇碩論同時回答太多件事",
+      "based_on": "references/audit-checklist.md §二 ② 戰線過長（v0.3.0：依變數 ≥2；候選版：各自需要理論解釋的不同結果）"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "建議收斂成單一或少數依變數，而不是照單全收",
+      "based_on": "SKILL.md 檢查點 B 收斂程度；references/audit-checklist.md §二 ②（應收斂或拆分）"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "沒有把使用者問我們的『這樣的研究問題可以嗎』當成研究問題本身的是非問句寫法而要求改寫",
+      "based_on": "references/question-forms.md §四 紅線（針對研究問題句的措辭；使用者尚未寫出研究問題句）"
+    },
+    {
+      "id": "a4",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

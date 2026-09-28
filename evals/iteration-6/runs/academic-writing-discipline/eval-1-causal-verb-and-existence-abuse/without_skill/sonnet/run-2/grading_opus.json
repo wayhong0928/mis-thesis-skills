@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "除非你做的是實驗設計(有操弄、有對照組)並能排除其他變項,否則多數研究…只能講「相關」",
+      "confidence": "high",
+      "note": "回應的理由屬 (a)：沒有排除其他變項時，『影響』超出資料能支持的強度。它沒有指出 (b) 的前後不一致。改法『呈顯著正相關…顯示兩者間存在正向關聯』全句都用相關語言，語氣一致。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "顯示兩者間存在正向關聯。",
+      "confidence": "high",
+      "note": "回應沒有指出『存在』的濫用。改寫句仍保留『存在正向關聯』，沒有改成動詞句。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "本研究數據顯示，受試者之人工智慧使用行為與學習成效呈顯著正相關",
+      "confidence": "low",
+      "note": "讀法一：斷言要求明確指出『人工智能』不是台灣慣用語並建議更改。回應只在改寫句裡默默換成『人工智慧』，沒有說明，所以判 fail。讀法二：改寫句已經改用『人工智慧』，可以算是隱含建議，會判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究數據顯示，人工智慧使用行為對受試者學習成效具有顯著正向影響。",
+      "confidence": "high",
+      "note": "實驗設計版是完整句，可以直接使用。相關研究版含 r = ... 佔位符，要填入數值。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

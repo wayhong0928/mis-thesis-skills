@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "兩個依變數指標屬於同一構念的不同面向，不是各自需要獨立理論解釋的結果（不命中②）",
+      "confidence": "high",
+      "note": "回應在 C-4 也判依變數清楚：「依賴程度用『使用頻率』與『求助深度』兩個可測量指標定義」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這句話的結構其實是「沒人在這個新情境做過」…只是換了「理論缺口」的標籤",
+      "confidence": "high",
+      "note": "回應另寫「若要走情境缺口，一樣要補齊『原假設』與『被推翻的情境特性』兩欄」，符合斷言中「或」的後半條件",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "這句話可以用「是」或「否」回答完，沒有交代效果的方向或強度",
+      "confidence": "high",
+      "note": "回應建議改寫為「…的預測效果為何？」，同時也提供組間差異句型作為選項",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "5. 資料可得性：**不通過** — 你說兩個指標「都從AI工具的使用紀錄量化」",
+      "confidence": "low",
+      "note": "讀法一：回應把資料可得性判為不通過，並判定命中④資料拿不到，屬於將可行性判為不通過，因此 fail。讀法二：回應判不通過的理由是 AI 使用紀錄取得問題，並非樣本或合作面；C-6「兩年可行＋降級方案：通過」，G-4 也肯定80人資料來源明確，依此可判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "**需修正後再議** — 核心設計…已經相當成熟",
+      "confidence": "high",
+      "note": "檢查點 B 明言「收斂程度沒問題，不需要往回收斂」，回應也未要求換題目",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未出現彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "kind": "compliance"
+    }
+  ]
+}

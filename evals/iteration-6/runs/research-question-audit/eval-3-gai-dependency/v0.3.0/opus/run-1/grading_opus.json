@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "主要問題是缺少依變數，也沒有說明研究缺口。",
+      "confidence": "high",
+      "note": "檢查點A另指出：「如果只是「再描述一次依賴情形」，很難說明貢獻在哪裡」，對應「只是現象描述」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "依變數清楚：不通過。「依賴」是你要測量的東西，但依賴本身要怎麼定義與測量",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "① 沒有依變數的「⋯⋯之研究」：「探討⋯⋯的情形」屬於描述主題的寫法，看不出要回答什麼結果。",
+      "confidence": "high",
+      "note": "另命中③、⑥，也各附原因。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；壞題目比對用「換個名詞就是別人的論文」等自有說法",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

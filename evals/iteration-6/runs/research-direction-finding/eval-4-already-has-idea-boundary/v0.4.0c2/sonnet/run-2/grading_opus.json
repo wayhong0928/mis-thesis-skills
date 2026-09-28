@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "目前所在層次：題目層，接近研究問題層",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應寫「比「主題」層具體很多」，直接往操作定義推進",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「學習績效」是籠統詞，可能指課程總成績、專題作業表現、除錯能力",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "# 研究問題稽核報告",
+      "confidence": "low",
+      "note": "讀法一：斷言要求明確提到把題目交給 research-question-audit 稽核。回應是直接產出稽核報告，沒有提到交付或轉介，也沒有出現該名稱，因此判 fail。讀法二：若把「直接執行研究問題稽核」視為已實質交給該稽核流程，則可判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；相近概念寫成「換個名詞就是別人的論文」、「題目定案六問」",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

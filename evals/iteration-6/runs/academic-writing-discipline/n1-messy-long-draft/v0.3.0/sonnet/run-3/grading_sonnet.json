@@ -1,0 +1,96 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "即使三條件（理論依據＋路徑分析＋控制變數）都滿足，替換表建議最多退回「影響」，不建議直接用「導致」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把一個迴歸關聯包裝成「⟨某某⟩侵蝕路徑」這類看似既有構念的自創名詞，正是判準範例中明確列出的紅線",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "核心問題是「認知卸載侵蝕路徑」...加上「導致」與前句「影響」...這兩點是口試最容易被追問的地方，建議優先處理",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」「收集數據」為大陸用語，台灣學術慣用「透過」「蒐集資料」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "台灣 APA 7 中文化慣例應寫「等人」，中文行文不用「et al.」改法：「Bastani 等人（2024）以隨機分派實驗發現……」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "全篇前兩處都寫「知覺有用性」，此處突然換成「感知有用性」，同一構念交替使用兩個譯名。改法：統一為「知覺有用性」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；該句僅作為「影響」用法正確的對照基準，未被列入致命或錯誤項目",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用 Bastani et al.（2024）的隨機分派實驗時使用「導致」...符合「例外一：引用具可信因果識別策略的研究」的判準，這處因果動詞本身沒有問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "需修（致命 2 處、錯誤 3 處、瑕疵 0 處）...### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "（誠實條款：本次稽核未核對 Davis, 1989 及 Bastani et al., 2024 原文，兩處轉述是否忠於原意需使用者自行核對。）",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；未出現彭明輝、雁行理論、七項要件等版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

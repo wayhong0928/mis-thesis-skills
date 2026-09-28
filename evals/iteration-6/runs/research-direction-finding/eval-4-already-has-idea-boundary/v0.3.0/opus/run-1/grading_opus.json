@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "現在還只是題目雛型，還不是能直接進計畫書的研究問題",
+      "confidence": "high",
+      "note": "回應另判定「目前所在層次：題目層」，並指出「自變數、依變數、對象都有了」，表示它認出使用者已有具體想法，不是從零開始。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控；檢查點B判為題目層，下一步是寫成可回答的研究問題句",
+      "confidence": "high",
+      "note": "回應沒有叫使用者回頭選領域、主題或子題，而是直接往研究問題句推進。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「學習績效」可以是期末考成績、作業分數、專題品質、獨立除錯能力或自我效能",
+      "confidence": "high",
+      "note": "回應直接評論了依變數、缺口（檢查點A）和可行性（C-5、C-6、G-4）。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "我照研究問題稽核的七個檢查點跑過一次，完整報告如下。",
+      "confidence": "low",
+      "note": "讀法一：只要提到用研究問題稽核來處理就算，回應用中文名稱並實際跑完稽核，判 pass。讀法二：必須字面提到 research-question-audit 或明確說要「交給」該稽核，回應是自己直接執行、沒寫出這個名稱，會判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文無彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄",
+      "confidence": "high",
+      "note": "回應用的是「七個檢查點」，不是「七項要件」。D-⑤「換個名詞就是別人的論文」意思相近，但沒有用到清單上的詞。",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "從「由於」到「因此」之間長達約 60 字，遠超過安全長度",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "整合修改版拆成三句，但未先把原因說完再帶出目的，而是拆成技術→大學生→本研究三個獨立話題句",
+      "confidence": "low",
+      "note": "回應確實提供拆句修法（三句），但拆法是按話題分句而非『先說完原因再帶出目的』的邏輯結構，是否算符合斷言字面要求有兩種讀法",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是典型的「對於……的問題」變體句型，導致主詞與動詞被拉得很開",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "不是對結果下因果斷言，因此不算因果動詞越線",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未出現此指控；回應將該段問題定位為話題漂移與中間肥大，未指出未經支持的既定因果並建議改為『伴隨』等保守描述",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒、雁行理論等版權排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

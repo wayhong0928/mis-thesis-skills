@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "兩週坐在螢幕前空白很正常，這代表你可能還沒有「候選範圍」可以想",
+      "confidence": "low",
+      "note": "讀法一：回應把使用者當作沒有候選範圍的完全空白起點，應判 pass。讀法二：回應用了「可能」，又用第 2 題（老師是否有研究計畫）與第 3 題保留分流，沒有明確下判定，可判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "我不會直接丟一個題目給你——隨便給一個題目你也做不下去",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "這決定接下來可以參考哪些期刊、研討會、學長姊論文的資源。",
+      "confidence": "low",
+      "note": "讀法一：期刊、研討會、學長姊論文只被當作之後才會用到的資源，沒有被提成使用者現在就能去做的動作；回應裡唯一的行動是回答三個問題，應判 fail。讀法二：第 3 題（回想哪門課願意多讀）可算起步動作，而且附了理由「比『你對什麼有興趣』好答，因為有具體對照」，可判 pass。不過這個理由是跟『問興趣』比較，不是跟『直接想題目』比較。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "先回答這三題，我們再從你能回答的部分往下收。",
+      "confidence": "high",
+      "note": "回應只問了領域、老師的指導方式、修課偏好三個起始問題，沒有一路問到研究問題層次。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文找不到彭明輝的姓名或書名，也沒有舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "兩個指標同屬「除錯依賴程度」單一構念的不同面向，不需各自一套理論解釋，不算戰線過長",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "目前只給了「沒人研究過」，沒有給出這兩欄（原理論依賴的哪一條假設／被本情境的哪個特性推翻），判不通過",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「是否會影響」沒有交代方向...是可以用「是」或「否」回答完的問句...把研究問題句子改成有方向性的句型",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "時程可行＋降級方案：通過 — 已談好兩位教師合作、一學期約80人；且已提供具體降級方案",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "**需修正後再議**...這些都是可以修補的具體項目，不需要整個重新收斂方向",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；全文以「檢查點A至G」的稽核框架呈現，未提及任何版權排除清單相關名詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

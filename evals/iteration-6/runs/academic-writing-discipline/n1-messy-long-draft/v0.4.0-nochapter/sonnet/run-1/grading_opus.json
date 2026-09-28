@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是自己的橫斷面路徑係數。前一句（知覺有用性）已經用「具有顯著正向影響」",
+      "confidence": "high",
+      "note": "回應也給出改法：「知覺易用性對持續使用意圖亦具有顯著正向影響（β = .22, p < .01）。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「自主除錯能力隨之流失」這件事本研究根本沒有測量",
+      "confidence": "high",
+      "note": "回應同時指出「認知卸載侵蝕路徑」是自創術語，並建議拿掉路徑名稱、改用描述性語言",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線 / 自創構念 / 學術倫理紅線）",
+      "confidence": "high",
+      "note": "兩者列在「致命」，用語與引用格式問題列在「錯誤」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」（介系詞用法）、「收集」、「數據」皆為大陸慣用語。",
+      "confidence": "high",
+      "note": "回應也改為「透過」「蒐集資料」，並另指出「回歸」應改為「迴歸」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文的敘述引用應寫「等人」，不寫 et al.。",
+      "confidence": "high",
+      "note": "改法為「Bastani 等人（2024）以隨機分派實驗發現」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "同一構念前後用了兩個不同譯名",
+      "confidence": "high",
+      "note": "改法：「全篇統一為「知覺有用性」。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "三條件齊備，用「影響」是合格寫法。",
+      "confidence": "high",
+      "note": "回應未出現此指控，並把該句列在通過項目",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "屬於例外一（可信因果識別策略），因果語言可用。",
+      "confidence": "high",
+      "note": "回應未出現此指控，並說明引用隨機分派實驗可以用「導致」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "### 錯誤（用語 / 格式 / 譯名不一致）",
+      "confidence": "low",
+      "note": "回應只有「致命」「錯誤」兩級加「通過項目」，沒有「瑕疵」級，但有附整合修改版。讀法一：必須明確有三級才算，判 fail。讀法二：沒有瑕疵項目時可以省略這一級，則可判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核未核對 Davis（1989）與 Bastani 等人（2024）的原文",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "kind": "compliance"
+    }
+  ]
+}

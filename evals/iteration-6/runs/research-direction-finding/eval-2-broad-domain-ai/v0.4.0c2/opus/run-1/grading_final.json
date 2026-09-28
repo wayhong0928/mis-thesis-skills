@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "你屬於「有大方向，但不知道怎麼縮小」的情況",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你自己用 AI，或看別人用 AI 的時候，有沒有哪個情況讓你覺得困擾、奇怪",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你自己用 AI，或看別人用 AI 的時候，有沒有哪個情況讓你覺得困擾、奇怪，或想知道「為什麼會這樣」？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "想到情況，或圈好類別之後，把結果告訴我。我會幫你把這一層的結論整理成一份進度筆記",
+      "confidence": "high",
+      "note": "回應把結論整理與進度筆記都推遲到使用者回答之後，本輪並未產出可寫入筆記的結論",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "這一輪只要回答一個問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；文中未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

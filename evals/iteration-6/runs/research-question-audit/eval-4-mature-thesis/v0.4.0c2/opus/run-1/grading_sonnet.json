@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "依變數清楚：通過。...未命中②。頻率和求助深度是同一個構念的兩個指標，不算戰線過長。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "理論缺口要能指出「理論的哪一個構念或路徑無法解釋觀察到的現象」...這是「新情境尚未檢驗」的宣稱，性質上比較接近情境缺口...本情境的哪一個特性會推翻這條假設？只寫了「生成式AI除錯情境」，沒說是這個情境的哪一個特性。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「是否會影響」的動詞沒有帶方向，一個「是」或「否」就回答完了...可以改成...「高、低詳細回饋組在生成式AI除錯頻率與求助深度上的差異為何？」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋降級方案：不確定。...一學期蒐集資料，時程沒有問題。",
+      "confidence": "low",
+      "note": "回應未明確標記『不通過』，但對備案有相當多批評（如未處理紀錄拿不到的風險、無法回答理論缺口），標記為『不確定』而非『不通過』，兩種讀法：字面上未判定為不通過（pass），或實質上等同否定評價（fail）。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "需修正後再議。研究情境和資料管道都很有價值，但要先補起兩個斷點",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文使用其自訂的稽核框架（檢查點A至G、缺口分類等），未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

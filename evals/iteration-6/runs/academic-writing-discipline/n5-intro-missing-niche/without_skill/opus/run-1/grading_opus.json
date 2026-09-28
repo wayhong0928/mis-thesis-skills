@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「因此」前後接不起來…研究缺口是什麼？ 既有研究做到哪裡，還缺什麼？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "例如：過去多討論使用意圖或接受度，較少討論「依賴」；或者較少聚焦在程式設計課程。",
+      "confidence": "high",
+      "note": "回應也建議補文獻與數據，但明確把缺口列為要補的內容，不只是補統計或重要性論述。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "現象…情境…問題…變項…缺口…收束",
+      "confidence": "low",
+      "note": "讀法一：斷言要求明確用 CARS 或三個 move 的架構。回應沒有提到 CARS 或 move，用的是自訂的六步結構，判 fail。讀法二：六步結構實質上涵蓋建立領域、指出缺口、佔據缺口，可視為功能等同，判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；段落結構用現象、情境、問題、變項、缺口、收束等一般用語",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "兩個指標都指向同一個構念（依賴程度），不算戰線過長",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判定：證據缺口……符合證據缺口判準中「證據量明顯不足＋結果不一致」的條件",
+      "confidence": "high",
+      "note": "回應另要求確認兩篇文獻變數是否精確對應，但主判定仍為證據缺口，未判為缺口不明或新穎性宣稱。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：通過 — 已避開「X是否影響Y」的是非句寫法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "至少需要：內容效度（找相關領域專家審題）、預試後的信度數據（Cronbach's α）",
+      "confidence": "high",
+      "note": "回應另於檢查點D提到需靠「量表改編的理論依據」化解疑慮，涵蓋改編理由。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙；相關處以「換個情境套用既有架構」描述情境移植風險",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

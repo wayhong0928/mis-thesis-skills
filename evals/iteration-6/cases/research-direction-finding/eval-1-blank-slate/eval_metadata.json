@@ -1,0 +1,38 @@
+{
+  "skill": "research-direction-finding",
+  "eval_name": "eval-1-blank-slate",
+  "source": "沿用 iteration-4 eval-1，prompt 不變；斷言分 outcome／procedure。",
+  "prompt": "我碩一下了，老師叫我自己想論文題目，但我完全不知道要做什麼，坐在電腦前面兩個禮拜了還是一片空白。可以幫我想一個題目嗎？",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "procedure",
+      "text": "判定使用者屬於『起點 A：完全空白』",
+      "based_on": "SKILL.md §1 前置條件檢查"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "沒有直接生成一個具體題目給使用者",
+      "based_on": "SKILL.md §1（起點 A 走 §2 起步策略）"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "提供至少一項可執行的起步動作（例如看頂級期刊或研討會的主題分類、翻系所學長姊的論文），並說明為什麼這比直接想一個題目有用",
+      "based_on": "SKILL.md §2.1、§2.2"
+    },
+    {
+      "id": "a4",
+      "kind": "outcome",
+      "text": "沒有一次丟出從領域到研究問題所有層次的問題",
+      "based_on": "SKILL.md §3 鐵則 1"
+    },
+    {
+      "id": "a5",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

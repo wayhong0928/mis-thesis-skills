@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應完全沒有使用『起點 C』或任何起點分類框架的用詞",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應沒有提到『收斂漏斗』概念，也沒有說明為何不需要此步驟",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "我對這個領域裡哪個環節有興趣或有底子（機器學習？控制？光學檢測？排程演算法？嵌入式系統？）",
+      "confidence": "high",
+      "note": "斷言要求定位成『哪一塊能撐起論文』而非『我對什麼有興趣』，但回應第三步明確以興趣提問，與斷言要求相反",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "先跟教授要計畫書（或至少是摘要/工作項目 WBS），弄清楚：\n- 計畫的**總目標**是什麼",
+      "confidence": "low",
+      "note": "回應有引導了解計畫目標，但未特別要求釐清『自己負責的部分』，也完全沒有要求寫成『一句話研究想法』；若嚴格要求後者則明確fail",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應沒有提到任何『research-question-audit』或稽核交棒機制",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "檢查全文未出現彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「被試」為中國大陸慣用術語……建議改為「參與者」",
+      "confidence": "high",
+      "note": "回應未明確指出「收集數據」，但修改範例改成「收集資料」。依「至少其一」，指出「被試」並給出台灣用法即符合斷言。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "修改範例保留「模型擬合指標亦達到可接受水準」",
+      "confidence": "high",
+      "note": "回應沒有指出「判別效度」或「模型擬合」是大陸術語，修改範例也照原樣保留這兩個詞。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "建議改為：「依 Fornell 與 Larcker（1981）的建議」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "若中文行文，全部譯為「等人」",
+      "confidence": "high",
+      "note": "修改範例也寫成「Hair等人（2017）」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文建議一律用全形括號「（）」",
+      "confidence": "high",
+      "note": "回應另外也指出半形逗號應統一改為全形。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應沒有討論「收斂效度」的用語，修改範例也保留原詞。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

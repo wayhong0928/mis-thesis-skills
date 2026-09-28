@@ -1,0 +1,3553 @@
+{
+  "grader": "sonnet",
+  "final": "final",
+  "cells": {
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 48274,
+      "seconds": 25.839,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.75,
+      "outcome_no_tc": 0.75,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 71258,
+      "seconds": 47.517,
+      "turns": [
+        5,
+        6,
+        3
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "1/3",
+        "a3": "2/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|opus|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 46474,
+      "seconds": 19.812,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|sonnet|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 100491,
+      "seconds": 39.681,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 49625,
+      "seconds": 24.995,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 80700.333,
+      "seconds": 41.358,
+      "turns": [
+        6,
+        5,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.75,
+      "outcome_no_tc": 0.75,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9114,
+      "seconds": 12.199,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "0/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-1-causal-verb-and-existence-abuse|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.417,
+      "outcome_no_tc": 0.417,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 15711,
+      "seconds": 10.798,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.25,
+      "per_assertion": {
+        "a1": "2/3",
+        "a2": "0/3",
+        "a3": "0/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.75,
+      "outcome_no_tc": 0.75,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 50013,
+      "seconds": 36.602,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "0/1",
+        "a6": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.917,
+      "outcome_no_tc": 0.917,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 76058.667,
+      "seconds": 47.198,
+      "turns": [
+        4,
+        5,
+        4
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "2/3",
+        "a4": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|opus|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.75,
+      "outcome_no_tc": 0.75,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 50543,
+      "seconds": 33.686,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "0/1",
+        "a6": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|sonnet|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 65466,
+      "seconds": 39.372,
+      "turns": [
+        4
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.75,
+      "outcome_no_tc": 0.75,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 50886,
+      "seconds": 31.549,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "0/1",
+        "a6": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.917,
+      "outcome_no_tc": 0.917,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 66455,
+      "seconds": 41.071,
+      "turns": [
+        4,
+        4,
+        4
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "2/3",
+        "a4": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9700,
+      "seconds": 16.939,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "academic-writing-discipline|eval-2-bloated-middle-sentence|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 16612.667,
+      "seconds": 17.929,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 52178,
+      "seconds": 49.466,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1",
+        "a8": "1/1",
+        "a9": "1/1",
+        "a10": "1/1",
+        "a11": "1/1"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.833,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 91833,
+      "seconds": 95.576,
+      "turns": [
+        6,
+        7,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3",
+        "a7": "3/3",
+        "a8": "3/3",
+        "a9": "2/3",
+        "a10": "3/3",
+        "a11": "3/3"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|opus|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51052,
+      "seconds": 51.248,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1",
+        "a8": "1/1",
+        "a9": "1/1",
+        "a10": "1/1",
+        "a11": "1/1"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|sonnet|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.5,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 74546,
+      "seconds": 84.03,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1",
+        "a8": "1/1",
+        "a9": "0/1",
+        "a10": "1/1",
+        "a11": "1/1"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 50935,
+      "seconds": 45.98,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1",
+        "a8": "1/1",
+        "a9": "1/1",
+        "a10": "1/1",
+        "a11": "1/1"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 107803.333,
+      "seconds": 101.67,
+      "turns": [
+        7,
+        6,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3",
+        "a7": "3/3",
+        "a8": "3/3",
+        "a9": "3/3",
+        "a10": "3/3",
+        "a11": "3/3"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|sonnet|v0.4.0rc": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 75873,
+      "seconds": 86.401,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1",
+        "a8": "1/1",
+        "a9": "1/1",
+        "a10": "1/1",
+        "a11": "1/1"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.625,
+      "outcome_no_tc": 0.625,
+      "procedure": 0.5,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 11873,
+      "seconds": 38.817,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.625,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "0/1",
+        "a5": "0/1",
+        "a6": "1/1",
+        "a7": "0/1",
+        "a8": "1/1",
+        "a9": "0/1",
+        "a10": "1/1",
+        "a11": "1/1"
+      }
+    },
+    "academic-writing-discipline|n1-messy-long-draft|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.542,
+      "outcome_no_tc": 0.542,
+      "procedure": 0.0,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 18417,
+      "seconds": 37.523,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.375,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "1/3",
+        "a4": "0/3",
+        "a5": "0/3",
+        "a6": "1/3",
+        "a7": "2/3",
+        "a8": "3/3",
+        "a9": "0/3",
+        "a10": "0/3",
+        "a11": "3/3"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51227,
+      "seconds": 50.193,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 75155,
+      "seconds": 78.39,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|opus|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 49765,
+      "seconds": 45.677,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|sonnet|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 73679,
+      "seconds": 72.052,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 50451,
+      "seconds": 39.997,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 73059.667,
+      "seconds": 61.787,
+      "turns": [
+        5,
+        5,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.0,
+      "outcome_no_tc": 0.0,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 11199,
+      "seconds": 32.543,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.0,
+      "per_assertion": {
+        "a1": "0/1",
+        "a2": "0/1",
+        "a3": "1/1"
+      }
+    },
+    "academic-writing-discipline|n2-clean-paragraph|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.5,
+      "outcome_no_tc": 0.5,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 17978.667,
+      "seconds": 33.632,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "0/3",
+        "a2": "3/3",
+        "a3": "3/3"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 43114,
+      "seconds": 28.629,
+      "turns": [
+        4
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 56210,
+      "seconds": 35.531,
+      "turns": [
+        4,
+        4,
+        3
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|opus|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 48274,
+      "seconds": 30.162,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|sonnet|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 104772,
+      "seconds": 46.927,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 48228,
+      "seconds": 29.241,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 108961.667,
+      "seconds": 42.537,
+      "turns": [
+        8,
+        5,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 10278,
+      "seconds": 22.916,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n3-causal-language-across-chapters|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.667,
+      "outcome_no_tc": 0.667,
+      "procedure": null,
+      "fp": 3,
+      "compliance_fail": 0,
+      "tokens": 16956,
+      "seconds": 23.343,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.667,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "0/3",
+        "a4": "3/3"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 53696,
+      "seconds": 38.468,
+      "turns": [
+        7
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 72902.667,
+      "seconds": 47.551,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3",
+        "a7": "3/3"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|opus|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 49181,
+      "seconds": 31.81,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|sonnet|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 71600,
+      "seconds": 44.352,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 53293,
+      "seconds": 41.636,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 82970.333,
+      "seconds": 43.4,
+      "turns": [
+        6,
+        5,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3",
+        "a7": "3/3"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 12060,
+      "seconds": 38.93,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1",
+        "a7": "1/1"
+      }
+    },
+    "academic-writing-discipline|n4-taiwan-usage-and-apa|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.833,
+      "outcome_no_tc": 0.833,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 17733,
+      "seconds": 30.874,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.833,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "0/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3",
+        "a7": "3/3"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 54502,
+      "seconds": 41.108,
+      "turns": [
+        7
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 79176,
+      "seconds": 88.319,
+      "turns": [
+        7,
+        7,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|opus|v0.4.0-nochapter": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 52393,
+      "seconds": 49.792,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "0/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|sonnet|v0.4.0-nochapter": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.0,
+      "outcome_no_tc": 0.0,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 77023,
+      "seconds": 90.88,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.0,
+      "per_assertion": {
+        "a1": "0/3",
+        "a2": "0/3",
+        "a3": "0/3",
+        "a4": "3/3"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 57237,
+      "seconds": 52.492,
+      "turns": [
+        7
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "0/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 78438.667,
+      "seconds": 83.447,
+      "turns": [
+        7,
+        7,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|opus|v0.4.0rc": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 53953,
+      "seconds": 50.575,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|sonnet|v0.4.0rc": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 94035,
+      "seconds": 88.345,
+      "turns": [
+        7,
+        7,
+        8
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 10604,
+      "seconds": 26.984,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "0/1",
+        "a4": "1/1"
+      }
+    },
+    "academic-writing-discipline|n5-intro-missing-niche|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 17352.667,
+      "seconds": 30.24,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "0/3",
+        "a4": "3/3"
+      }
+    },
+    "research-direction-finding|eval-1-blank-slate|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 45529,
+      "seconds": 18.182,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-direction-finding|eval-1-blank-slate|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.667,
+      "outcome_no_tc": 0.667,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 66723,
+      "seconds": 20.061,
+      "turns": [
+        5,
+        5,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.667,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "0/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-direction-finding|eval-1-blank-slate|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 22344,
+      "seconds": 15.195,
+      "turns": [
+        3
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-direction-finding|eval-1-blank-slate|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 46226.667,
+      "seconds": 16.644,
+      "turns": [
+        3,
+        5,
+        3
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-direction-finding|eval-1-blank-slate|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9072,
+      "seconds": 14.057,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-direction-finding|eval-1-blank-slate|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.667,
+      "outcome_no_tc": 0.667,
+      "procedure": 0.667,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 15577.333,
+      "seconds": 8.537,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.667,
+      "per_assertion": {
+        "a1": "2/3",
+        "a2": "3/3",
+        "a3": "0/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-direction-finding|eval-2-broad-domain-ai|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.5,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 46205,
+      "seconds": 27.616,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "0/1",
+        "a5": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-direction-finding|eval-2-broad-domain-ai|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.5,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 64079,
+      "seconds": 26.281,
+      "turns": [
+        5,
+        4,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "0/3",
+        "a5": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-direction-finding|eval-2-broad-domain-ai|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.5,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 46707,
+      "seconds": 25.881,
+      "turns": [
+        5
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "0/1",
+        "a5": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-direction-finding|eval-2-broad-domain-ai|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.889,
+      "outcome_no_tc": 0.889,
+      "procedure": 0.5,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 68617.667,
+      "seconds": 34.477,
+      "turns": [
+        5,
+        6,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.667,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "2/3",
+        "a3": "3/3",
+        "a4": "0/3",
+        "a5": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-direction-finding|eval-2-broad-domain-ai|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.333,
+      "outcome_no_tc": 0.333,
+      "procedure": 0.5,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 9174,
+      "seconds": 14.641,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.333,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "0/1",
+        "a4": "0/1",
+        "a5": "0/1",
+        "a6": "1/1"
+      }
+    },
+    "research-direction-finding|eval-2-broad-domain-ai|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.889,
+      "outcome_no_tc": 0.889,
+      "procedure": 0.333,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 20745.667,
+      "seconds": 8.632,
+      "turns": [
+        2,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.667,
+      "per_assertion": {
+        "a1": "2/3",
+        "a2": "3/3",
+        "a3": "2/3",
+        "a4": "0/3",
+        "a5": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-direction-finding|eval-3-advisor-project-topic|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.333,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 22563,
+      "seconds": 18.519,
+      "turns": [
+        3
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "0/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a6": "0/1",
+        "a5": "1/1"
+      }
+    },
+    "research-direction-finding|eval-3-advisor-project-topic|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.889,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 35781,
+      "seconds": 12.014,
+      "turns": [
+        3,
+        3,
+        3
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a6": "2/3",
+        "a5": "3/3"
+      }
+    },
+    "research-direction-finding|eval-3-advisor-project-topic|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 22838,
+      "seconds": 18.498,
+      "turns": [
+        3
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a6": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-direction-finding|eval-3-advisor-project-topic|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.889,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 36210,
+      "seconds": 12.919,
+      "turns": [
+        3,
+        3,
+        3
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a6": "2/3",
+        "a5": "3/3"
+      }
+    },
+    "research-direction-finding|eval-3-advisor-project-topic|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.5,
+      "outcome_no_tc": 0.5,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9643,
+      "seconds": 20.219,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "0/1",
+        "a2": "0/1",
+        "a3": "1/1",
+        "a4": "0/1",
+        "a6": "0/1",
+        "a5": "1/1"
+      }
+    },
+    "research-direction-finding|eval-3-advisor-project-topic|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.167,
+      "outcome_no_tc": 0.167,
+      "procedure": 0.111,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 16697.667,
+      "seconds": 24.245,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.0,
+      "per_assertion": {
+        "a1": "1/3",
+        "a2": "0/3",
+        "a3": "1/3",
+        "a4": "0/3",
+        "a6": "0/3",
+        "a5": "3/3"
+      }
+    },
+    "research-direction-finding|eval-4-already-has-idea-boundary|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 50121,
+      "seconds": 51.74,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-direction-finding|eval-4-already-has-idea-boundary|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 84894,
+      "seconds": 78.107,
+      "turns": [
+        6,
+        7,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-direction-finding|eval-4-already-has-idea-boundary|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51914,
+      "seconds": 58.229,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-direction-finding|eval-4-already-has-idea-boundary|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 86047.333,
+      "seconds": 81.304,
+      "turns": [
+        7,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-direction-finding|eval-4-already-has-idea-boundary|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9635,
+      "seconds": 19.876,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-direction-finding|eval-4-already-has-idea-boundary|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 15967.333,
+      "seconds": 13.597,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-direction-finding|eval-5-insufficient-information|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 42931,
+      "seconds": 37.637,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a7": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-direction-finding|eval-5-insufficient-information|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 90272,
+      "seconds": 54.687,
+      "turns": [
+        8,
+        6,
+        5
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a7": "0/3",
+        "a6": "3/3"
+      }
+    },
+    "research-direction-finding|eval-5-insufficient-information|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51790,
+      "seconds": 35.44,
+      "turns": [
+        7
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a7": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-direction-finding|eval-5-insufficient-information|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 118168.667,
+      "seconds": 43.739,
+      "turns": [
+        7,
+        7,
+        9
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a7": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-direction-finding|eval-5-insufficient-information|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.4,
+      "outcome_no_tc": 0.4,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9160,
+      "seconds": 14.296,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.4,
+      "per_assertion": {
+        "a1": "0/1",
+        "a2": "0/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "0/1",
+        "a6": "1/1",
+        "a7": "0/1"
+      }
+    },
+    "research-direction-finding|eval-5-insufficient-information|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.0,
+      "outcome_no_tc": 0.0,
+      "procedure": 0.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 26967,
+      "seconds": 18.761,
+      "turns": [
+        2,
+        2,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.0,
+      "per_assertion": {
+        "a1": "0/3",
+        "a2": "0/3",
+        "a3": "0/3",
+        "a4": "0/3",
+        "a5": "0/3",
+        "a7": "0/3",
+        "a6": "3/3"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 50329,
+      "seconds": 51.449,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 71977.333,
+      "seconds": 65.623,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|opus|v0.4.0c": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51402,
+      "seconds": 55.462,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|sonnet|v0.4.0c": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 81920,
+      "seconds": 49.948,
+      "turns": [
+        6,
+        7,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 50826,
+      "seconds": 46.514,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 98099.333,
+      "seconds": 73.84,
+      "turns": [
+        9,
+        6,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 10344,
+      "seconds": 27.324,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-1-bad-title-no-dv|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.667,
+      "outcome_no_tc": 0.667,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 15693.333,
+      "seconds": 11.4,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.333,
+      "per_assertion": {
+        "a1": "2/3",
+        "a2": "1/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 49525,
+      "seconds": 39.178,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 72845,
+      "seconds": 70.984,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|opus|v0.4.0c": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51328,
+      "seconds": 52.691,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|sonnet|v0.4.0c": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 74225.667,
+      "seconds": 78.43,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51235,
+      "seconds": 47.516,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 95249.333,
+      "seconds": 69.543,
+      "turns": [
+        6,
+        7,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9070,
+      "seconds": 13.95,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1"
+      }
+    },
+    "research-question-audit|eval-2-too-many-dvs|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 15731,
+      "seconds": 11.308,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 49616,
+      "seconds": 42.297,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 93222,
+      "seconds": 64.433,
+      "turns": [
+        6,
+        7,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|opus|v0.4.0c": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51889,
+      "seconds": 58.896,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|sonnet|v0.4.0c": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 83764.333,
+      "seconds": 74.825,
+      "turns": [
+        6,
+        7,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 51602,
+      "seconds": 54.199,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 94919.667,
+      "seconds": 70.642,
+      "turns": [
+        7,
+        6,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.5,
+      "outcome_no_tc": 0.5,
+      "procedure": 1.0,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 9130,
+      "seconds": 14.299,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "0/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|eval-3-gai-dependency|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.5,
+      "outcome_no_tc": 0.5,
+      "procedure": 0.667,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 15464,
+      "seconds": 8.351,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "0/3",
+        "a2": "3/3",
+        "a3": "2/3",
+        "a4": "2/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.8,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 56332,
+      "seconds": 83.815,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 0.8,
+      "per_assertion": {
+        "a1": "0/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 81001,
+      "seconds": 166.132,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|opus|v0.4.0c": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 57102,
+      "seconds": 85.495,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|sonnet|v0.4.0c": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 93788.333,
+      "seconds": 145.3,
+      "turns": [
+        7,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 59958,
+      "seconds": 110.078,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 97075.333,
+      "seconds": 166.915,
+      "turns": [
+        6,
+        7,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.4,
+      "outcome_no_tc": 0.25,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 12360,
+      "seconds": 44.97,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.4,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "0/1",
+        "a3": "0/1",
+        "a4": "0/1",
+        "a5": "1/1",
+        "a6": "1/1"
+      }
+    },
+    "research-question-audit|eval-4-mature-thesis|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.6,
+      "outcome_no_tc": 0.5,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 23850,
+      "seconds": 40.7,
+      "turns": [
+        1,
+        1,
+        2
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.6,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "0/3",
+        "a3": "0/3",
+        "a4": "3/3",
+        "a5": "3/3",
+        "a6": "3/3"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.75,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 53599,
+      "seconds": 69.866,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "0/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.917,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 78054.333,
+      "seconds": 129.802,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "2/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|opus|v0.4.0c": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 55243,
+      "seconds": 78.468,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|sonnet|v0.4.0c": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.917,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 90294,
+      "seconds": 126.188,
+      "turns": [
+        6,
+        6,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "2/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 56278,
+      "seconds": 87.223,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 78805.333,
+      "seconds": 136.276,
+      "turns": [
+        6,
+        6,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 11369,
+      "seconds": 37.74,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1",
+        "a4": "1/1",
+        "a5": "1/1"
+      }
+    },
+    "research-question-audit|n1-two-indicators-one-construct|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.75,
+      "outcome_no_tc": 0.667,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 17999.333,
+      "seconds": 37.0,
+      "turns": [
+        1,
+        1,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.75,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "0/3",
+        "a3": "3/3",
+        "a4": "3/3",
+        "a5": "3/3"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|opus|v0.3.0": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 52456,
+      "seconds": 65.526,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|sonnet|v0.3.0": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.833,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 1,
+      "compliance_fail": 0,
+      "tokens": 88378.667,
+      "seconds": 113.297,
+      "turns": [
+        6,
+        6,
+        7
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "2/3",
+        "a3": "3/3"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|opus|v0.4.0c": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 54288,
+      "seconds": 77.855,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|sonnet|v0.4.0c": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.667,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 2,
+      "compliance_fail": 0,
+      "tokens": 91938.667,
+      "seconds": 128.862,
+      "turns": [
+        6,
+        7,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "1/3",
+        "a3": "3/3"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|opus|v0.4.0c2": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 54159,
+      "seconds": 75.116,
+      "turns": [
+        6
+      ],
+      "skill_triggered": 1,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "1/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|sonnet|v0.4.0c2": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 92132,
+      "seconds": 123.734,
+      "turns": [
+        6,
+        7,
+        6
+      ],
+      "skill_triggered": 3,
+      "pass_all": 1.0,
+      "per_assertion": {
+        "a1": "3/3",
+        "a2": "3/3",
+        "a3": "3/3"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|opus|without_skill": {
+      "n": 1,
+      "graded": 1,
+      "outcome": 0.5,
+      "outcome_no_tc": 0.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 11013,
+      "seconds": 32.619,
+      "turns": [
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "0/1",
+        "a2": "1/1",
+        "a3": "1/1"
+      }
+    },
+    "research-question-audit|n2-directional-yes-no-question|sonnet|without_skill": {
+      "n": 3,
+      "graded": 3,
+      "outcome": 0.5,
+      "outcome_no_tc": 0.0,
+      "procedure": null,
+      "fp": 0,
+      "compliance_fail": 0,
+      "tokens": 27843.333,
+      "seconds": 29.227,
+      "turns": [
+        1,
+        3,
+        1
+      ],
+      "skill_triggered": 0,
+      "pass_all": 0.5,
+      "per_assertion": {
+        "a1": "0/3",
+        "a2": "3/3",
+        "a3": "3/3"
+      }
+    }
+  },
+  "summary": {
+    "academic-writing-discipline|opus|v0.3.0": {
+      "cases": 7,
+      "outcome": 0.964,
+      "outcome_no_tc": 0.964,
+      "procedure": 1.0,
+      "fp": 1,
+      "tokens": 50429.143,
+      "seconds": 38.615,
+      "pass_all": 0.964
+    },
+    "academic-writing-discipline|sonnet|v0.3.0": {
+      "cases": 7,
+      "outcome": 0.952,
+      "outcome_no_tc": 0.952,
+      "procedure": 0.916,
+      "fp": 0,
+      "tokens": 74656.191,
+      "seconds": 62.869,
+      "pass_all": 0.893
+    },
+    "academic-writing-discipline|opus|v0.4.0-nochapter": {
+      "cases": 7,
+      "outcome": 0.964,
+      "outcome_no_tc": 0.964,
+      "procedure": 0.5,
+      "fp": 1,
+      "tokens": 49668.857,
+      "seconds": 37.455,
+      "pass_all": 0.964
+    },
+    "academic-writing-discipline|sonnet|v0.4.0-nochapter": {
+      "cases": 7,
+      "outcome": 0.857,
+      "outcome_no_tc": 0.857,
+      "procedure": 0.25,
+      "fp": 0,
+      "tokens": 81082.429,
+      "seconds": 59.613,
+      "pass_all": 0.857
+    },
+    "academic-writing-discipline|opus|v0.4.0c2": {
+      "cases": 7,
+      "outcome": 0.964,
+      "outcome_no_tc": 0.964,
+      "procedure": 0.5,
+      "fp": 1,
+      "tokens": 51522.143,
+      "seconds": 37.984,
+      "pass_all": 0.964
+    },
+    "academic-writing-discipline|sonnet|v0.4.0c2": {
+      "cases": 7,
+      "outcome": 0.988,
+      "outcome_no_tc": 0.988,
+      "procedure": 1.0,
+      "fp": 0,
+      "tokens": 85484.143,
+      "seconds": 59.324,
+      "pass_all": 0.964
+    },
+    "academic-writing-discipline|opus|without_skill": {
+      "cases": 7,
+      "outcome": 0.768,
+      "outcome_no_tc": 0.768,
+      "procedure": 0.25,
+      "fp": 2,
+      "tokens": 10689.714,
+      "seconds": 27.047,
+      "pass_all": 0.768
+    },
+    "academic-writing-discipline|sonnet|without_skill": {
+      "cases": 7,
+      "outcome": 0.708,
+      "outcome_no_tc": 0.708,
+      "procedure": 0.0,
+      "fp": 4,
+      "tokens": 17251.572,
+      "seconds": 26.334,
+      "pass_all": 0.661
+    },
+    "academic-writing-discipline|sonnet|v0.4.0rc": {
+      "cases": 2,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "tokens": 84954,
+      "seconds": 87.373,
+      "pass_all": 1.0
+    },
+    "academic-writing-discipline|opus|v0.4.0rc": {
+      "cases": 1,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "tokens": 53953,
+      "seconds": 50.575,
+      "pass_all": 1.0
+    },
+    "research-direction-finding|opus|v0.3.0": {
+      "cases": 5,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.767,
+      "fp": 0,
+      "tokens": 41469.8,
+      "seconds": 30.739,
+      "pass_all": 1.0
+    },
+    "research-direction-finding|sonnet|v0.3.0": {
+      "cases": 5,
+      "outcome": 0.933,
+      "outcome_no_tc": 0.933,
+      "procedure": 0.678,
+      "fp": 0,
+      "tokens": 68349.8,
+      "seconds": 38.23,
+      "pass_all": 0.933
+    },
+    "research-direction-finding|opus|v0.4.0c2": {
+      "cases": 5,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 0.9,
+      "fp": 0,
+      "tokens": 39118.6,
+      "seconds": 30.649,
+      "pass_all": 1.0
+    },
+    "research-direction-finding|sonnet|v0.4.0c2": {
+      "cases": 5,
+      "outcome": 0.978,
+      "outcome_no_tc": 0.978,
+      "procedure": 0.878,
+      "fp": 0,
+      "tokens": 71054.067,
+      "seconds": 37.817,
+      "pass_all": 0.933
+    },
+    "research-direction-finding|opus|without_skill": {
+      "cases": 5,
+      "outcome": 0.647,
+      "outcome_no_tc": 0.647,
+      "procedure": 0.5,
+      "fp": 1,
+      "tokens": 9336.8,
+      "seconds": 16.618,
+      "pass_all": 0.647
+    },
+    "research-direction-finding|sonnet|without_skill": {
+      "cases": 5,
+      "outcome": 0.545,
+      "outcome_no_tc": 0.545,
+      "procedure": 0.422,
+      "fp": 0,
+      "tokens": 19191.0,
+      "seconds": 14.754,
+      "pass_all": 0.467
+    },
+    "research-question-audit|opus|v0.3.0": {
+      "cases": 6,
+      "outcome": 0.925,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 2,
+      "tokens": 51976.167,
+      "seconds": 58.688,
+      "pass_all": 0.925
+    },
+    "research-question-audit|sonnet|v0.3.0": {
+      "cases": 6,
+      "outcome": 0.958,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 2,
+      "tokens": 80913.056,
+      "seconds": 101.712,
+      "pass_all": 0.875
+    },
+    "research-question-audit|opus|v0.4.0c": {
+      "cases": 6,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "tokens": 53542,
+      "seconds": 68.145,
+      "pass_all": 1.0
+    },
+    "research-question-audit|sonnet|v0.4.0c": {
+      "cases": 6,
+      "outcome": 0.931,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 3,
+      "tokens": 85988.5,
+      "seconds": 100.592,
+      "pass_all": 0.875
+    },
+    "research-question-audit|opus|v0.4.0c2": {
+      "cases": 6,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "tokens": 54009.667,
+      "seconds": 70.108,
+      "pass_all": 1.0
+    },
+    "research-question-audit|sonnet|v0.4.0c2": {
+      "cases": 6,
+      "outcome": 1.0,
+      "outcome_no_tc": 1.0,
+      "procedure": 1.0,
+      "fp": 0,
+      "tokens": 92713.5,
+      "seconds": 106.825,
+      "pass_all": 1.0
+    },
+    "research-question-audit|opus|without_skill": {
+      "cases": 6,
+      "outcome": 0.733,
+      "outcome_no_tc": 0.625,
+      "procedure": 1.0,
+      "fp": 1,
+      "tokens": 10547.667,
+      "seconds": 28.484,
+      "pass_all": 0.733
+    },
+    "research-question-audit|sonnet|without_skill": {
+      "cases": 6,
+      "outcome": 0.669,
+      "outcome_no_tc": 0.556,
+      "procedure": 0.667,
+      "fp": 0,
+      "tokens": 19430.166,
+      "seconds": 22.998,
+      "pass_all": 0.614
+    }
+  }
+}

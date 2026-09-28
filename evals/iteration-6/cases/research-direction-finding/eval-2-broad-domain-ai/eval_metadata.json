@@ -1,0 +1,44 @@
+{
+  "skill": "research-direction-finding",
+  "eval_name": "eval-2-broad-domain-ai",
+  "source": "沿用 iteration-4 eval-2，prompt 不變；斷言分 outcome／procedure。",
+  "prompt": "我想做 AI 相關的研究，但這個範圍太大了不知道怎麼縮小。",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "procedure",
+      "text": "判定使用者屬於『起點 B：有領域興趣』",
+      "based_on": "SKILL.md §1 前置條件檢查"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "不再問使用者想做哪個領域（已知是 AI），直接幫他往 AI 裡的哪個主題收",
+      "based_on": "SKILL.md §1（起點 B 從第二層開始收）"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "這一輪只推進一層，問出具體可回答的問題（例如『你對 AI 的哪一類應用或議題比較有感』『最近讀到或遇到什麼 AI 相關的事讓你好奇』）",
+      "based_on": "SKILL.md §3 鐵則 1"
+    },
+    {
+      "id": "a4",
+      "kind": "procedure",
+      "text": "該輪結束時產出可以寫進進度筆記的結論，並問是否繼續下一層",
+      "based_on": "SKILL.md §3 鐵則 2、3；§4 進度筆記"
+    },
+    {
+      "id": "a5",
+      "kind": "outcome",
+      "text": "沒有一次問完領域到研究問題五層的所有問題",
+      "based_on": "SKILL.md §3 鐵則 1"
+    },
+    {
+      "id": "a6",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

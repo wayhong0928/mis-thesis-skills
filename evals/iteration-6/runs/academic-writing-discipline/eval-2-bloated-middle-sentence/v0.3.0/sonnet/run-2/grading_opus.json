@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "從「由於」到「因此」之間長達約 60 字，遠超過安全長度",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "三句各自只有一個話題（技術→大學生→本研究）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是典型的「對於……的問題」變體句型，導致主詞與動詞被拉得很開",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "不是對結果下因果斷言，因此不算因果動詞越線",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "「由於……使得……因此」三個因果／承接連接詞疊在同一句，讀起來稍嫌公式化",
+      "confidence": "low",
+      "note": "回應只把因果連接詞疊用視為風格上的公式化瑕疵，沒有指出技術普及導致學生依賴是未經支持的因果斷言。讀法一：斷言要求明確指出因果未經支持，回應沒有做到，判 fail。讀法二：修改版拆成獨立句並去掉「使得」，實質上已不指定因果方向，可視為 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現排除清單詞彙；全文只用中間肥大、話題漂移、連接詞疊用等一般術語",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

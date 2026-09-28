@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "兩個指標是同一構念「依賴程度」的不同面向而非各自獨立的依變數，不算戰線過長（排除②）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "只給了新穎性，沒有給出兩個必要欄位：(1) Zimmerman理論依賴的哪一條具體假設，(2)…哪一個特性會推翻它",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「⋯⋯是否會影響⋯⋯」是可以用「是」或「否」回答完的句型…應套用「組間差異」或「直接效果」句型",
+      "confidence": "high",
+      "note": "回應未直接舉『……的效果為何』例句，但已明確指出問題並給出應套用的句型方向，屬同義表達",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "兩年可行＋降級方案：通過…可行性高；降級方案（相關性問卷）明確",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "**需修正後再議** — 整體收斂程度高、資料可行性佳、有明確降級方案，是一個結構完整的雛型",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

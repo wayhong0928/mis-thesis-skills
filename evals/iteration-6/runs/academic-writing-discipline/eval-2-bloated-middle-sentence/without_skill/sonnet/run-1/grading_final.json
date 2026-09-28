@@ -1,0 +1,57 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於A，使得B，因此C」把...三層邏輯全部塞進一句，導致句子過長、負擔過重",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "近年來，生成式AI技術快速發展與普及，越來越多大學生...產生了高度依賴。本研究即欲探討此一依賴傾向...",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "硬塞進了「開始在課業與報告撰寫的過程中，對於這類工具的使用」這一大段修飾語",
+      "confidence": "low",
+      "note": "回應把『對於這類工具的使用』歸為造成主謂脫節的插入修飾語問題，並未單獨指出『對於……』本身是可精簡的冗贅結構；修訂版雖刪去『的使用』但未說明理由，故判fail，但可另讀為隱含精簡。",
+      "kind": "outcome",
+      "adjudicated": "grader_error"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅聚焦於主謂脫節與三段式因果過長兩點問題，未評論句尾探問語氣。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "三段式因果一次塞完...導致句子過長、負擔過重",
+      "confidence": "low",
+      "note": "回應僅將此段視為結構過長/因果層次過多的問題，未指出『AI普及→學生依賴』屬未經支持的既定因果，也未建議用『伴隨』等保守措辭；修訂版雖刪去『使得』但無相關說明。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

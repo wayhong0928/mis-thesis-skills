@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "回應未出現此指控；回應僅在「誠實提醒」提到「緒論第一段『因此』前後的論證是否站得住...屬於research-question-audit的範圍，不在本次檢查內」，未指出缺乏研究缺口",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應建議「補一句具體內容，例如指引呼籲學校做什麼」，屬於補充引用內容而非既有研究缺口，且未提及研究缺口相關建議",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應全篇以「錯誤/瑕疵/通過項目」逐句檢查構句、APA格式與用語，未使用CARS或move架構分析",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於」到「因此」之間長達七十字左右,讀者要撐過整段原因敘述,才等到句子真正的主幹",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把「由於……因此」拆開,先把原因說完、斷句,再帶出研究目的;…基於此,本研究希望探討這種依賴傾向對學生學習成效的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "這裡是硬用逗號和「使得」「對於」黏在一起",
+      "confidence": "low",
+      "note": "回應只把「對於」列為造成話題黏連/中間肥大的連接詞之一,並未單獨指出『對於這類工具的使用』本身是可精簡的冗長結構;瑕疵段落只針對『產生了高度的依賴性』提出精簡建議。若把『黏在一起』廣義解讀為『拉長句子』則可視為部分符合,故信心低。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控;回應僅將原句問題歸為『中間肥大』與『話題漂移』兩類結構問題,未評論句尾『造成什麼樣的影響』的因果語氣。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未出現此指控;回應僅指出話題轉移未斷句(問題2),未評論『使得……產生依賴性』是否為未經支持的既定因果,改寫版仍寫『產生了高度依賴』未改用保守措辭。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控;全文僅圍繞中間肥大、話題漂移與弱動詞問題討論,未提及彭明輝、雁行理論等版權排除清單詞彙。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

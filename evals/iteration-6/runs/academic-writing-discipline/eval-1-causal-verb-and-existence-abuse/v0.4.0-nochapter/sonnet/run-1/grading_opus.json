@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半用因果語言「影響」，後半卻退回相關語言「正向關係」；改法：「全句統一為因果語言」",
+      "confidence": "high",
+      "note": "(a)(b) 兩項理由都有講到：回應提到「理論支持＋迴歸/路徑分析＋控制變數」三條件，也指出前後語言不一致。改法分因果版與保守相關版兩種，每一版內部語氣一致。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「兩者之間存在正向關係」是「存在」濫用的弱動詞句型，應還原成動詞句：「兩者顯著正相關」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」→「人工智慧」（大陸用語，是最顯眼的標記）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究之資料顯示，人工智慧使用行為顯著預測受試者之學習成效，顯示兩者間具有正向關係。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙，內容只有因果語言、用語、弱動詞與「之」字連用的建議",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

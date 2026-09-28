@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這句話還沒講出研究要挑戰或補上文獻的哪一個具體空白。",
+      "confidence": "high",
+      "note": "檢查點C-1另述「目前講出的是『要探討的現象』，還沒講出『要問的問題』」，對應「只是現象描述」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「依賴的情形」不是可直接測量的構念，需要先操作化",
+      "confidence": "high",
+      "note": "回應並列出使用頻率、任務外包比例、獨立解題表現等候選測量面向。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "① 沒有依變數的「⋯⋯之研究」— 命中。",
+      "confidence": "high",
+      "note": "後續說明命中原因：「講了一個現象領域，卻沒講出具體要測量或回答的結果」。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "我可以一項一項帶你想清楚該怎麼回答，你可以邊想邊調整。要現在開始嗎？",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控：全文無彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "回應使用「題目定案六問」「換個名詞就是別人的論文」等說法，均不在排除清單內。",
+      "kind": "compliance"
+    }
+  ]
+}

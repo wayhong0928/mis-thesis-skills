@@ -1,0 +1,48 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "邊緣疑慮一（呼應②戰線過長）：若行為比例與量表分數被當成兩個獨立依變數分開分析，等於一題事實上回答兩件事，需要說明",
+      "confidence": "low",
+      "note": "回應未直接主張刪掉指標，僅提出邊緣疑慮並建議釐清構念關係，未要求刪除；但「戰線過長」字樣被提及可能引發爭議，故confidence設為low",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「兩篇文獻結果方向不一致（負相關 vs. 不顯著）」精確符合證據缺口判準（≥2 篇實證結果方向矛盾）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "句型判定：**符合量化研究「直接效果」句型**（「X對Y的預測效果為何？」），PASS。是非問句紅線：通過 — 未使用「是否影響」這種是非句",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "依賴量表為跨領域改編，需報告改編幅度、內容效度（專家審閱）與改編後的信度（Cronbach's α），不能只寫「改編自問題性智慧型手機使用量表」帶過",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

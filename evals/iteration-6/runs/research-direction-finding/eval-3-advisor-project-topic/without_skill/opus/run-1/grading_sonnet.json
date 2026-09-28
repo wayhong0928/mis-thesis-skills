@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應完全沒有使用「起點 A/B/C」這類分類術語，僅直接以『計畫題目』情境展開建議，未明確判定使用者屬於某個起點類別。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中沒有提及「收斂漏斗」或類似概念，也沒有說明因範圍已被計畫框住而不需要某種流程。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "每一塊都可能是一篇碩論",
+      "confidence": "high",
+      "note": "回應第1、3節聚焦在計畫的哪個子項目能獨立撐起論文（貢獻點、可行性、一年內做得完嗎），而非單純問使用者興趣。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "準備 1～2 頁的簡報或文件，每個題目寫清楚",
+      "confidence": "high",
+      "note": "回應要求準備1-2頁文件並列出多個候選題目，而非引導寫成單一『一句話』研究想法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": false,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應沒有提到任何「research-question-audit」或類似的稽核交棒機制。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "檢查全文未出現彭明輝、舊瓶新酒/新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

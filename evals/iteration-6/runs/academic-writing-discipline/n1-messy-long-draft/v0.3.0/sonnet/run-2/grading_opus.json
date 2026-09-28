@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "強度不同卻描述的是同性質的橫斷面路徑係數……「導致」門檻更高",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「認知卸載侵蝕路徑」是自創術語……本研究從頭到尾沒有測量「自主除錯能力」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "最需要優先處理的是自創路徑名稱與拿未測量變數做因果宣稱這兩點",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」「數據」是大陸用語，台灣學術寫作慣用「透過」「資料」",
+      "confidence": "high",
+      "note": "另指出「台灣統計術語用「迴歸」不用「回歸」」，改法含「蒐集資料」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文中英文三位以上作者應用「等人」，不用「et al.」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "同一構念在不同段落用了兩個不同譯名，全篇應統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "三條件齊備，「影響」用法正確。",
+      "confidence": "high",
+      "note": "回應未出現此指控，並將該句列入通過項目",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "原研究本身具因果識別策略（隨機分派），依判準例外一可用因果語言，正確",
+      "confidence": "high",
+      "note": "回應未出現此指控，並說明隨機實驗可用因果語言",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命……### 錯誤……### 瑕疵……### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核未核對 Davis（1989）與 Bastani 等人（2024）的原文",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

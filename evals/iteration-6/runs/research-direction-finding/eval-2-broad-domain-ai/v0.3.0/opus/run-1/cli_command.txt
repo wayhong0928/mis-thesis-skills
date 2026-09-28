@@ -1,0 +1,2 @@
+CLAUDE_CODE_DISABLE_CLAUDE_MDS=1 claude -p --model opus --output-format stream-json --verbose --setting-sources project,local --strict-mcp-config --tools Skill,Read,Glob,Grep --allowedTools Skill,Read,Glob,Grep --plugin-dir C:\Users\user\AppData\Local\Temp\claude\D--github-repo-Obsidian-Vault-----\486f497c-405f-4905-9fdb-29aed5e367cd\scratchpad\wt\v030\plugins
+(stdin: research-direction-finding__eval-2-broad-domain-ai.txt; cwd: C:\Users\user\AppData\Local\Temp\claude\D--github-repo-Obsidian-Vault-----\486f497c-405f-4905-9fdb-29aed5e367cd\scratchpad\workdir)

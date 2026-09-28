@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這句話是典型的「由於……,因此……」中間肥大句型",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "先把因說完,斷句,再帶出果",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「對於……產生了……依賴性」本身又是「對於」句型加上弱動詞「產生」+抽象名詞「依賴性」(可還原為「依賴」)",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應僅將該句視為研究目的陳述，未討論其因果動詞是否越線",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未出現此指控；回應只在修法中把「使得」等結構去除，但未指出這是未經支持的既定因果，也未建議改用『伴隨』等保守描述以避免指定因果方向",
+      "confidence": "high",
+      "note": "修法版本雖然拿掉了『使得』，但AI並未明確說明這是為了避免『未經支持的因果』，也沒有建議用『伴隨』一類詞彙，故不算符合",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應全文未提及彭明輝、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

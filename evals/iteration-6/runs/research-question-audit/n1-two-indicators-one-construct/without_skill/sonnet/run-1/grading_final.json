@@ -1,0 +1,49 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應在第3點建議先看兩者相關程度再決定合併或分開分析，未要求刪除任一指標",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "現有兩篇先行研究一篇是負相關、一篇不顯著，暗示效果量可能偏小",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome",
+      "adjudicated": "assertion_ambiguous"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應始終以「預測效果」「迴歸模型」「自變數/依變數關係」的框架討論，未將問題視為是非題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "該類量表通常建立在成癮模式（戒斷、耐受、衝突、復發）上，套到「寫作業依賴AI」是否恰當，建議在方法章節說明改編邏輯，並跑一下改編後量表的信度",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度或深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

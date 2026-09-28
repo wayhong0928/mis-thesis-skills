@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "中間完全沒有交代「既有研究做到哪裡、留下什麼缺口」。讀者看不出「為什麼非做這個題目不可」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "明確指出既有文獻已經涵蓋什麼（例如生成式AI對學習成效的影響）、還沒回答什麼（例如依賴程度本身、科技焦慮與自我效能在其中的角色）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "第一段講完生成式AI多重要、教育部多重視（move ①），第二段直接跳到「因此，本研究的目的在於……」（move ③）",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；回應以「致命/錯誤/瑕疵/通過項目」架構逐項檢核，未提及彭明輝、雁行理論、七項要件等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這代表你可能還沒有「候選範圍」可以想，不是你不夠努力",
+      "confidence": "low",
+      "note": "回應未明確說出「起點A：完全空白」字樣，但整體診斷（從系所、老師計畫、修課興趣問起）符合對待完全空白起點的處理方式；若要求明確標籤化才算通過，則應判false。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "我不會直接丟一個題目給你——隨便給一個題目你也做不下去",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "先回答這三題，我們再從你能回答的部分往下收",
+      "confidence": "medium",
+      "note": "回應提到期刊/研討會/學長姊論文，但僅作為未來可參考的資源（視第1題答案而定），並非要求使用者現在就去做的具體起步動作；實際要求的動作是回答三個診斷問題，與例子（去讀論文/期刊）性質不同。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "1. 你是什麼系所/領域... 2. 老師是完全放手...還是他手上有在跑的研究計畫... 3. 在你目前修過的課裡面...",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此詞彙，通篇僅以系所、課程興趣、老師計畫等問題引導收斂方向",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

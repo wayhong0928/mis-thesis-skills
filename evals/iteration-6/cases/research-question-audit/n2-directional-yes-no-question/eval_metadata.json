@@ -1,0 +1,27 @@
+{
+  "skill": "research-question-audit",
+  "eval_name": "n2-directional-yes-no-question",
+  "source": "iteration-6 新案例，對應暫不收的 R3，只當證據。RQ1 已指出方向（正向預測），question-forms.md §一.1 列為可接受；RQ2『是否影響』沒有方向，該觸發紅線。兩版的 question-forms.md 相同。",
+  "prompt": "我有兩個研究問題想請你幫我看：\n\nRQ1：大學生的科技焦慮是否正向預測其生成式AI求助頻率？\nRQ2：大學生的程式設計自我效能是否影響其生成式AI求助頻率？\n\n背景：橫斷面問卷，約 250 人，依據壓力因應理論，控制性別與年級。",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出 RQ2『是否影響』可以用是或否回答完、沒有方向，建議改成效果或預測方向的句型",
+      "based_on": "references/question-forms.md §四 紅線"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "沒有把 RQ1『是否正向預測』判為必須改寫的是非問句（它已指出方向）",
+      "based_on": "references/question-forms.md §一.1 直接效果（『X 是否正向／負向預測 Y？』列為量化常見句型，要指出方向）。§四 字面寫『任何 X 是否 V Y』都要檢查，兩節互相矛盾，是 R3 要修的已知落差",
+      "tests_change": "R3"
+    },
+    {
+      "id": "a3",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

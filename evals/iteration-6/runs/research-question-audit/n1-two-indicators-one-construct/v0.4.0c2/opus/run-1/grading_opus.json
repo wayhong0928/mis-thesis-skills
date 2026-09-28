@@ -1,0 +1,48 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "② 戰線過長：沒有命中。兩個指標都在測「生成式 AI 依賴程度」這一個構念",
+      "confidence": "high",
+      "note": "回應未出現此指控；明確判定兩指標屬同一構念，未要求刪除任一指標",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判定：**證據缺口**（通過）……符合「至少兩篇、結果不一致」的判準",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "是非問句紅線：**通過**",
+      "confidence": "high",
+      "note": "回應未出現此指控；並判定「X 對 Y 的預測效果為何？」句型符合",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "交代原量表出處與原始信效度。說明每一題怎麼改、為什麼這樣改。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "逐一檢查彭明輝、書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄，均未出現；回應使用的是「題目定案六問」「壞題目長相」等其他用語",
+      "kind": "compliance"
+    }
+  ]
+}

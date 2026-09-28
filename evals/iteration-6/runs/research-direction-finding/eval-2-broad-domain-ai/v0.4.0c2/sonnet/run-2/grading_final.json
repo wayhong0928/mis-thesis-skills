@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "AI 範圍確實橫跨太多子領域，直接收斂容易卡住",
+      "confidence": "low",
+      "note": "使用者原話與起點B典型描述（有廣泛興趣但範圍太大、需要縮小）高度吻合，回應開頭即呼應此情境；但回應隨後將AI定位為「技術名詞」而非已知領域，可能暗示另一種起點分類讀法。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "先確認「AI」要落在哪個學術子領域裡",
+      "confidence": "low",
+      "note": "回應明確使用「學術子領域」一詞重新要求使用者選定領域，而非直接假設AI已是領域並往下收斂到主題層；但若列出的資管子領域被視為AI之下的主題選項而非領域，則可能符合斷言，故信心偏低。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "你身邊有沒有人用 AI 用到出過什麼問題、或抗拒使用 AI？那個具體場景是什麼？",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "先回答這兩題，我們再往下一層（主題）收。",
+      "confidence": "high",
+      "note": "此句僅為單方面宣告下一步方向，未產出可記錄的結論摘要，也未以問句形式徵詢使用者是否要繼續下一層。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應僅在領域／主題層級提問並要求使用者先回答兩題，未一次涉及現象/問題、變數/構念、研究問題等後續層級的提問。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

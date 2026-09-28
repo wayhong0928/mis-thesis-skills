@@ -1,0 +1,38 @@
+{
+  "skill": "research-direction-finding",
+  "eval_name": "eval-4-already-has-idea-boundary",
+  "source": "沿用 iteration-4 eval-4，prompt 不變。依測試規格第四節，原 a3『交棒 research-question-audit』改成 outcome 斷言：使用者拿到針對既有題目的回應，而不是被帶回去重新找方向；有沒有提到交棒改列 procedure。",
+  "prompt": "我想研究生成式 AI 素養如何影響大學生在程式設計課程的學習績效，這個方向你覺得可以嗎？",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "procedure",
+      "text": "辨認使用者已經有一句話的研究想法，超出從零收斂的範圍",
+      "based_on": "SKILL.md description 與 §0"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "沒有把使用者帶回去重新走領域、主題、子題等收斂問題",
+      "based_on": "SKILL.md §0、§5"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "使用者拿到了針對這個既有題目的實質回應：直接評論這個題目（例如依變數、缺口、可行性），或清楚指引他用研究問題稽核的方式檢查它",
+      "based_on": "SKILL.md §5（收出一句話研究想法就交棒稽核）；測試規格第四節"
+    },
+    {
+      "id": "a5",
+      "kind": "procedure",
+      "text": "提到交給 research-question-audit 稽核",
+      "based_on": "SKILL.md §5"
+    },
+    {
+      "id": "a4",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}
