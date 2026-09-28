@@ -1,5 +1,7 @@
 # iteration-5：乾淨重跑（2026-09-20）
 
+> **2026-09-28 補註**：iteration-6 發現，這一輪用的 `--setting-sources project,local` 擋不掉使用者層的 CLAUDE.md 與 `rules/`，所以沒裝 SKILL 的一臂很可能讀到了維護者本機的全域寫作守則（從 token 數推論，沒有直接證據）。本輪的 delta 請保守看待，細節見 [`../iteration-6/README.md`](../iteration-6/README.md) 的「iteration-5 的 without_skill 很可能讀到了維護者的全域設定」一節。
+
 `academic-writing-discipline`（AWD）與 `research-question-audit`（RQA）兩個 SKILL 的
 8 個 test case × 2 臂 = 16 次執行，全部用同一套設定跑完。`research-direction-finding`
 不在這一輪範圍，它的資料留在 `iteration-4/`。
