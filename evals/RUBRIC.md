@@ -4,7 +4,7 @@
 
 ## 1. 評分單位：assertion（斷言）
 
-每個 test case 在 `eval_metadata.json` 裡列出 3–6 條 `assertions`，每條都是一句**可獨立判定真偽**的敘述（例如「指出橫斷面研究不能用『具有顯著之影響』」）。grading.json 對每一條給出：
+每個 test case 在 `eval_metadata.json` 裡列出 3–6 條 `assertions`，每條都是一句**可獨立判定真偽**的敘述（例如「指出同一句前面寫『影響』、後面寫『存在正向關係』的前後不一致」）。grading.json 對每一條給出：
 
 - `passed`：true / false（二元判定，不給部分分）
 - `evidence`：從 response.md 裡摘出的具體句子或段落，證明為什麼判 pass 或 fail；找不到證據就是 fail，不可用「感覺有做到」帶過。
