@@ -1,0 +1,24 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "第二列的修正欄記的是「依老師建議決定」,而不是你對 AI 比較結果的修正。教授若想看你怎麼運用 AI,可以多補一句",
+      "confidence": "low",
+      "note": "Reading 1: the response identifies that the row records a teacher's decision rather than a correction to the AI output, which satisfies the first half. Reading 2: the assertion also asks for a suggestion to add a source note, move it to remarks, split it out, or remove it, and requires the response to name the misreading risk. The response only suggests adding a sentence about how the AI result was used, which is a loose fit for 'add a note'. The reworded cell does state the source (指導教授於會議中之建議). I judged pass because the problem is stated explicitly and a remedy is offered, but it is a borderline case.",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "The response contains none of the excluded terms (彭明輝, 舊瓶新酒/新瓶舊酒, 雁行理論, 七項要件, 貢獻三角度, 深而窄).",
+      "kind": "compliance"
+    }
+  ]
+}

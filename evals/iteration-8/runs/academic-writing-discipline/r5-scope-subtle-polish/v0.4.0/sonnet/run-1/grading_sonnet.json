@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "樣本是單一國立大學、單一系所、單一課程的 156 人，推論範圍被放大了。改法：結論中限縮到本樣本，或明說不宜推論到所有大學生。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你測的是程式設計**自我效能**（自我認知的信心），不是程式**能力**（表現）。結論把構念換掉了",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "相關結果推不出「限制使用」會提升自我效能，這個政策建議的證據強度不夠。",
+      "confidence": "high",
+      "note": "修改版改為相關語言（傾向較低）、並聲明無法判斷因果方向，政策建議降為「留意」，未保留未加限定的因果或政策說法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

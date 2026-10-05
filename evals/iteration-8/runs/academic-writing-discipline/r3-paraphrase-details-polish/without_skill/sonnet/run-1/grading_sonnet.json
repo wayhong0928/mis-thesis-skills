@@ -1,0 +1,32 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "這兩項研究都是相關性發現，若想避免讀者誤解為因果，可加上「呈現負相關」或「與……有關」之類的表述。",
+      "confidence": "high",
+      "note": "回應只建議改措辭（相關/因果），未要求就 412 名、10 小時、兩個學期或強度回原文確認，屬明確排除情形。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "其第二學期的除錯表現明顯較為落後。",
+      "confidence": "high",
+      "note": "整合修改版在「落後」前加了弱化詞「較為」，違反不得新增弱化詞的規定；412 名、逾 10 小時、兩個學期則保留。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

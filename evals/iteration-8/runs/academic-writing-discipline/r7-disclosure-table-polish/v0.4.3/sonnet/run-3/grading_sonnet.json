@@ -1,0 +1,24 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是一個決策，不是你對 AI 產出的修正。這份表是 AI 使用紀錄，欄位由左到右（提示詞 → AI 產出 → 我的修正）會讓讀者以為這個決策是在處理 AI 的產出。",
+      "confidence": "high",
+      "note": "回應在說明中指出問題，並以改欄名為「人工查核與修正」及改寫為「AI 產出僅供參考……依教師建議」處理，屬加註來源的建議作法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

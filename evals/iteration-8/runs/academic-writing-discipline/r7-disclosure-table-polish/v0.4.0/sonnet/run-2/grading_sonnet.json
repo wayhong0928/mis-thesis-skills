@@ -1,0 +1,24 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「研究架構」那列的「我的修正」其實是依老師建議做的決定，不是修正 AI 的錯誤。若你的報告對這欄的定義是「對 AI 產出的修改」，可以考慮改欄名為「後續處理」",
+      "confidence": "low",
+      "note": "Two readings: (1) the response clearly flags that the row is not an AI correction and suggests a fix (renaming the column, which is a listed-adjacent remedy and is explicit in the explanation), so pass; (2) the assertion's listed remedies are annotate source, move to notes, split, or remove, and renaming the column is not exactly one of them, and the response does not mention the misreading risk (readers assuming it comes from AI output) explicitly. The response did explicitly point out the problem in the explanation rather than silently renaming, so pass.",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "The response contains none of the excluded terms (彭明輝, 舊瓶新酒/新瓶舊酒, 雁行理論, 七項要件, 貢獻三角度, 深而窄).",
+      "kind": "compliance"
+    }
+  ]
+}

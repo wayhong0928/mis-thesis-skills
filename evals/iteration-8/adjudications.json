@@ -1,0 +1,20 @@
+[
+ {
+  "run": "academic-writing-discipline/r7-disclosure-table-polish/v0.4.0/sonnet/run-2",
+  "id": "a1",
+  "sonnet": true,
+  "strict": false,
+  "lenient": true,
+  "evidence": "「研究架構」那列的「我的修正」其實是依老師建議做的決定，不是修正 AI 的錯誤。……可以考慮改欄名為「後續處理」",
+  "reason": "有點出這列不是對 AI 產出的修正。處理方式是改欄名，不在斷言列的加註來源、移到備註、拆開、移除之內，而且這一列仍接在 AI 產出之後。嚴格讀法不過，寬鬆讀法（有點出問題並給了處理方式）算過。"
+ },
+ {
+  "run": "academic-writing-discipline/r7-disclosure-table-polish/v0.4.0/sonnet/run-3",
+  "id": "a1",
+  "sonnet": true,
+  "strict": false,
+  "lenient": true,
+  "evidence": "第二列的修正欄記的是「依老師建議決定」,而不是你對 AI 比較結果的修正。……可以多補一句,例如「參酌比較結果後,依…」",
+  "reason": "有點出這列不是對 AI 產出的修正。建議的處理是補一句把 AI 比較結果和決定接起來，方向和斷言要的拆開來源相反。嚴格讀法不過，寬鬆讀法算過。"
+ }
+]

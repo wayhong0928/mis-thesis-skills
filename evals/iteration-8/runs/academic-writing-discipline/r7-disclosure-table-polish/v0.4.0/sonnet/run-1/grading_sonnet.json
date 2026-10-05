@@ -1,0 +1,24 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "「我的修正」改為「研究者的修正與查核」。第一人稱在表頭偏口語，而且前兩列的修正（刪除報告、對照原量表）本質上是查核。",
+      "confidence": "high",
+      "note": "回應只做措辭修改（meeting→討論會議、老師→教師、依→參酌），沒有指出第二列的修正來源是老師建議而非對 AI 產出的修正，也沒有建議加註來源、移到備註、拆開或移除。「前兩列」的說法甚至把第二列歸入查核類。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}
