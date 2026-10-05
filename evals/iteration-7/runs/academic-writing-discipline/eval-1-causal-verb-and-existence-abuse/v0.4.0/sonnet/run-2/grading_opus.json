@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半句用「影響」，後半句退回「存在正向關係」，同一句混用兩種語言。",
+      "confidence": "high",
+      "note": "改法另見「全句統一用一種語言，並把方向和統計量放進同一個斷言」，整合修改版也給了統一語氣的兩個版本。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「存在……關係」是弱動詞：「兩者之間存在正向關係」可還原成「兩者正相關」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「數據」和「人工智能」是大陸用語。台灣學術寫作慣用「資料」和「人工智慧」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「本研究資料顯示，人工智慧使用行為與受試者的學習成效顯著正相關（r = ⟨　⟩，p < ⟨　⟩）。」",
+      "confidence": "low",
+      "note": "讀法一：句子主體完整，可以直接使用，只有統計量留空，判 pass。讀法二：統計量是待填佔位符，而且要依研究設計二選一，不算「可直接使用」，判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "我看不到你的研究設計，所以無法判斷「影響」能不能用。",
+      "confidence": "low",
+      "note": "回應未斷言三條件不齊，也保留了「具有顯著正向影響」版本；致命項的核心理由是前後不一致。讀法一：回應沒有要求改掉「影響」，判 pass。讀法二：回應提出三條件作為「影響」能否保留的判準，並寫「條件不齊時，應改成「顯著正相關」」，等於以三條件為由有條件地要求改掉，判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

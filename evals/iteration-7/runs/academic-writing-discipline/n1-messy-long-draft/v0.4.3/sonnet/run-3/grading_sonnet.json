@@ -1,0 +1,96 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是橫斷面問卷的路徑係數，「導致」的因果強度超出證據。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「認知卸載侵蝕路徑」是自創的路徑名稱，讀起來像已建立的構念。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線／超出證據）",
+      "confidence": "high",
+      "note": "a1、a2 被列在「致命」，用語與引用格式列在「錯誤」，嚴重等級較低。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過網路問卷收集數據」改為「透過網路問卷蒐集資料」。「多元回歸分析」改為「多元迴歸分析」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「Bastani et al.（2024）」要寫成「Bastani 等人（2024）」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "「知覺有用性」（第 2 段）與「感知有用性」（第 3 段）是同一構念，請擇一統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "「知覺有用性……具有顯著正向影響」符合商管慣例，不列問題。",
+      "confidence": "high",
+      "note": "回應未把此句判為因果越線。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用 Bastani 的隨機分派實驗時使用因果語言，符合例外規則。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命…### 錯誤…### 瑕疵…### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核未核對任何被引文獻原文，轉述是否偏離原意需你自行核對。",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "回應中未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

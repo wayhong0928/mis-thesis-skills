@@ -1,0 +1,24 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "讀者會把「我的修正」讀成「針對左邊 AI 產出所做的修正」。…把補充說明寫進儲存格本身。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

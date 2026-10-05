@@ -1,0 +1,32 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這裡把理論歸給了錯的人。科技接受模型（TAM）是 Davis 提出的……Bandura（1977）提出的是**自我效能**",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應對 Davis 與 Ajzen 兩句列為通過項目，僅在待核對中建議對照原文（如 Davis, Bagozzi 與 Warshaw 1989、PBC 直接影響行為），這不算歸屬錯誤指控。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

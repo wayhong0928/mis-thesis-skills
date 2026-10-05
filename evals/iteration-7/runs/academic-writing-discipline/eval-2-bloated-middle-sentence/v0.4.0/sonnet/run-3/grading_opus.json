@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半是一整段「由於……」的原因，主要動詞要到「因此本研究希望……探討」才出現",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "改法：把因說完，用句號斷開，再帶出研究目的。",
+      "confidence": "high",
+      "note": "整合修改版也實際拆成三句，先講背景與現象，再講研究目的。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「對……產生依賴性」還原成「依賴這類工具」。",
+      "confidence": "low",
+      "note": "讀法一：回應把「對……產生依賴性」整個結構點名為可還原的弱動詞加抽象名詞，並說這是句子變重的原因，實質上已指出「對於」結構在拉長句子，判 pass。讀法二：回應的歸類是「弱動詞加抽象名詞／名詞化」，沒有單獨點出「對於……」這個介詞結構本身是問題，若斷言要求明確針對「對於」，則應判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等任何排除清單詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

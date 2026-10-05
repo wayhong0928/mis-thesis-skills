@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "橫斷面問卷只能說「正向預測」或「顯著相關」，不能說「導致」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "沒有測量「自主除錯能力」，也沒有任何前後變化。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "## 主要問題（建議優先處理）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未提及『通過』『收集數據』『回歸』的用語問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未指出此點，修改示範仍寫「Bastani et al.（2024）在高中數學情境」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "**用語不一**：「知覺有用性」與「感知有用性」請統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；因果語言問題只列易用性的『導致』與侵蝕路徑",
+      "confidence": "high",
+      "note": "修改示範把該句改寫為「正向預測」，但沒有指稱它因果越線",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "回應未出現此指控；對 Bastani 的批評集中在母體、任務與結果變項不同",
+      "confidence": "high",
+      "note": "回應沒有討論該句用詞，所以不需要說明隨機實驗可用因果語言",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "## 修改示範（節錄）",
+      "confidence": "high",
+      "note": "分級是「主要問題／方法與報告不一致／其他」，不是致命／錯誤／瑕疵三級；修改版只是節錄，不是整合修改版",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "以上是憑記憶，請對照原文確認。",
+      "confidence": "low",
+      "note": "讀法一：承認憑記憶、請使用者核對原文，實質上等同誠實條款，判 pass。讀法二：這句只針對 Bastani，不是涵蓋整次稽核的聲明，判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現任何排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

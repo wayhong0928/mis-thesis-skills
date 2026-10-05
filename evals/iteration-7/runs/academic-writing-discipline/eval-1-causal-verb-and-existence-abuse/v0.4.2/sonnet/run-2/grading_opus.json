@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半用「影響」，這是因果語言。後半退回「存在……關係」，這是相關語言。",
+      "confidence": "high",
+      "note": "改法：「全句只留一套動詞，並把方向與統計量寫在同一句」，並附因果版與相關版兩種統一寫法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「存在……關係」是弱動詞加「存在」濫用，改成動詞句，例如「顯著正相關」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」是大陸用語，要改成「人工智慧」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究資料顯示，人工智慧使用行為對學習成效具有顯著正向影響（β = .xx，p < .xx）。",
+      "confidence": "low",
+      "note": "讀法一：句子結構完整，只需填入統計量，算可直接使用，判 pass。讀法二：句中留有 .xx 佔位符，未填數字前不能直接貼用，判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "「影響」在商管領域是慣例，可以保留，但要附上方向與係數。",
+      "confidence": "high",
+      "note": "回應未出現此指控。回應把問題定位在前後不一致，明確表示「影響」可以保留。因果版附註「有理論依據與控制變數時用」，是選版建議，沒有要求改掉「影響」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控（未出現任何排除清單詞彙）",
+      "confidence": "high",
+      "note": "全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

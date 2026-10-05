@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "缺少研究缺口（research gap）。第二段以「因此」開頭，但前面的內容推不出這個結論。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "既有研究缺口：多數研究談使用意圖或成效，少有從心理因素看依賴程度。",
+      "confidence": "high",
+      "note": "回應也建議補數據與文獻，但明確把既有研究的不足列為要補的內容，所以不是「只建議」補其他東西。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "建議的段落結構（1.1）1. 現象…2. 機會與風險…3. 既有研究缺口…",
+      "confidence": "high",
+      "note": "回應沒有提到 CARS 或 move 架構。它提出的段落結構有部分精神相近，但沒有用該架構檢查這段緒論。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

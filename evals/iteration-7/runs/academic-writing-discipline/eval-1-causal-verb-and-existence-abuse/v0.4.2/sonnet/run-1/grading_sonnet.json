@@ -1,0 +1,56 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半用「影響」（因果語言），後半退回「存在正向關係」（相關語言）。",
+      "confidence": "high",
+      "note": "回應也給出改法「全句統一用一套動詞，並把方向寫進主要陳述」，並附兩種統一語氣的完整改句。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「存在……關係」也是弱動詞濫用。",
+      "confidence": "low",
+      "note": "讀法一：只要指出「存在」濫用並建議改成動詞句即可，回應的改寫版「正向預測學習成效」是動詞句，算通過。讀法二：需明確針對此點建議改寫，回應該處僅籠統說統一動詞，未直接給「顯著正相關」之類的改法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」是大陸用語，應改為「人工智慧」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「本研究資料顯示，人工智慧使用行為對學習成效具有顯著正向影響（β = ＿，p ＜ ＿）。」",
+      "confidence": "high",
+      "note": "句中含 β、p 值空白佔位，仍是完整可用的句子。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "low",
+      "note": "回應第一個改寫版保留「具有顯著正向影響」，沒有要求改掉「影響」。補充建議中「若是橫斷面問卷資料，不要升級成「導致」「造成」」只針對更強的因果詞，不是要求改掉「影響」。另一讀法：第二個改寫版把「影響」改成「預測」，但這是為了全句統一，屬於斷言排除的情況。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

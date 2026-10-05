@@ -1,0 +1,32 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「並未低於對照組」：這句最需要對照原文。原文可能是「無顯著差異」，也可能是「略高於」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "以 186 名資管系大二學生為對象，採準實驗設計，發現使用 AI 程式助理的組別…成績並未低於對照組〔待核對〕",
+      "confidence": "high",
+      "note": "整合修改版保留 186 名、資管系大二、準實驗、24 名、放聲思考法，『並未低於對照組』原樣保留；只加了作者名佔位與待核對標記，未改動研究內容。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

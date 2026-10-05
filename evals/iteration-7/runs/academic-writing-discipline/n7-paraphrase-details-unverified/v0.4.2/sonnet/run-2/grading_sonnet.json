@@ -1,0 +1,32 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「成績並未低於對照組」：這是最需要確認的一處。……若原文是後者，應寫「未顯著低於」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "在之後禁用 AI 的紙筆測驗中，這組的成績未顯著低於對照組。",
+      "confidence": "high",
+      "note": "修改版把「並未低於」改成「未顯著低於」，屬不同的比較說法；回應雖提醒需核對，但仍在整合修改版中採用了該改動。另外修改版將作者名改成「陳○○」等佔位符，但此點不影響判定。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

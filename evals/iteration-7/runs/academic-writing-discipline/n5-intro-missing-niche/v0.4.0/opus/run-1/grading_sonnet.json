@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這段緒論少了「研究缺口」這一步，所以從背景直接「因此」跳到研究目的，中間的邏輯接不起來。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "(b) 既有研究做到哪裡、還缺什麼；",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "緒論要依序做三件事：說明主題重要 → 指出既有研究的不足 → 說明本研究怎麼補上（Swales 的 CARS 模型）。",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

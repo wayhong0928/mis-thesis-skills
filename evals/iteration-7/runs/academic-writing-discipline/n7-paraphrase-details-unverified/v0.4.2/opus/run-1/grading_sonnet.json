@@ -1,0 +1,32 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "| 186 名、24 名 | 樣本數最容易記錯 |",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "「兩組成績〔未達顯著差異〕」；改法：「兩組成績未達顯著差異」",
+      "confidence": "low",
+      "note": "讀法一：整合版把『並未低於對照組』改成『未達顯著差異』，屬不同的比較說法，且用〔〕標註待核對，可視為建議而非定稿，則可 pass。讀法二：潤飾後文字已實際改寫該句，斷言明文列出『無顯著差異』為不可改成的說法，故判 fail。其餘細節（186、資管系大二、準實驗、24、放聲思考法）皆保留。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "下列項目都要先列為**待核對**：｜186 名、24 名｜樣本數最容易記錯｜「成績並未低於對照組」｜**最危險的一句**",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "在後續禁用 AI 的紙筆測驗中，兩組成績〔未達顯著差異〕。",
+      "confidence": "low",
+      "note": "186、資管系大二、準實驗、24、放聲思考法都保留了。但整合修改版把「並未低於對照組」改成「兩組成績〔未達顯著差異〕」，這正是斷言點名不可用的比較說法，所以判 fail。另一種讀法：方括號標明這是核對前的暫定寫法，可視為「指出可能有誤並建議回原文確認」，不算實際改動，那就會判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

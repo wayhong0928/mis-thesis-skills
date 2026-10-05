@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "樣本僅來自北部單一科技大學的資管系 182 人…結論應限縮為「本樣本」或「類似背景的學生」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "依賴量表的平均分數只能說明依賴程度「偏高」…不等於臨床或診斷意義上的「成癮」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

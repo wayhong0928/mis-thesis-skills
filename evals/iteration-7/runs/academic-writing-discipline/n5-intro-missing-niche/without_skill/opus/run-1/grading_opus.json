@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "從背景直接跳到研究目的，中間少了「為什麼這個問題值得研究」的論證",
+      "confidence": "high",
+      "note": "回應另有「建議在兩段之間補上「問題陳述」和「研究缺口」」及「第 3、4 點是目前完全缺少的部分」，明確指出缺少既有研究與缺口的交代。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "建議在兩段之間補上「問題陳述」和「研究缺口」：現有研究多半探討什麼…比較少探討什麼",
+      "confidence": "high",
+      "note": "回應也建議補數據（第2點），但核心建議明確是研究缺口，不只是補統計數字。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "建議的第一節段落架構 1.現況 2.政策脈絡 3.問題 4.缺口 5.研究動機收束",
+      "confidence": "low",
+      "note": "回應未提及 CARS 或 move。讀法一：須明確採用 CARS／三個 move 的框架，則判 fail。讀法二：只要實質上依「建立領域、指出缺口、占據缺口」的邏輯檢查即可，則回應的五點架構（現況→問題→缺口→動機）功能相近，可能判 pass。依字面採讀法一。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

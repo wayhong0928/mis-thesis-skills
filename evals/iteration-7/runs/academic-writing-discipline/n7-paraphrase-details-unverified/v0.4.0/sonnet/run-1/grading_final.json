@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "本次稽核沒有核對原文，下列是憑記憶轉述最容易走樣的地方：…「較高」「未低於」…原文若是統計上顯著較高，要寫成「顯著較高」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "以 186 名資訊管理系大二學生為對象，採準實驗設計…成績也未低於對照組。林○○等人（2024）則以放聲思考法觀察 24 名新手",
+      "confidence": "low",
+      "note": "兩種讀法：(1) 嚴格保留字面「資管系」，回應改寫為「資訊管理系」只是簡稱展開，且 186、準實驗、24、放聲思考法、未低於對照組皆保留，判 pass；(2) 若視「資管系」→「資訊管理系」及補「○○」為改動原文，則可能判 fail。另外回應有在核對清單提醒確認系所全名。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控（未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙）",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

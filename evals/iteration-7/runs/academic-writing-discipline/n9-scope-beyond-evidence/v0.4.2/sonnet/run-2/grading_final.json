@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "樣本是單一學校、單一科系的 182 人，不能寫成「臺灣大學生普遍」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "你測的是「依賴量表」，只測到自陳的依賴傾向，不能寫成「成癮」這種臨床狀態。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

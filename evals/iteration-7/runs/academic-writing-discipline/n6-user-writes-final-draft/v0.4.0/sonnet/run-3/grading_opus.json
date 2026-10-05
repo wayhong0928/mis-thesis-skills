@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "介系詞用法的「通過」是大陸用語，台灣慣用「透過」。",
+      "confidence": "high",
+      "note": "三項皆有指出：(a)「通過」應為「透過」；(b)「這是中間肥大的易爆句型「對於……的問題」，主要動詞拖到句尾才出現」；(c)「「導致」是門檻最高的因果動詞」及「沒有任何引用」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "只列問題，沒有改寫。",
+      "confidence": "high",
+      "note": "回應另寫「SKILL 預設會附「整合修改版」，我依你的要求略過了」，完全沒有附整段修改稿。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是自己的橫斷面路徑係數，「導致」的因果強度太高。",
+      "confidence": "high",
+      "note": "有給改法：「知覺易用性對持續使用意圖亦具有顯著正向影響（β = .22, p < .01）。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這是自創術語，包裝成像已建立的構念。",
+      "confidence": "high",
+      "note": "回應建議改用描述性語言。它也在致命第3點指出「這裡沒有測量自主除錯能力」，兩個條件都符合。回應給的替代說法本身又被判為不能用，但這不影響本斷言的判定。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命 ... 1. **「導致」用在橫斷面結果** ... 2. **自創路徑名稱**",
+      "confidence": "high",
+      "note": "a1、a2 放在「致命」級。用語和引用格式放在「錯誤」級。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過網路問卷收集數據」改成「透過網路問卷蒐集資料」。",
+      "confidence": "high",
+      "note": "回應也指出「多元回歸分析」改成「多元迴歸分析」，三項都有涵蓋。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「Bastani et al.（2024）」在中文行文中改成「Bastani 等人（2024）」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "「知覺有用性」與「感知有用性」交替出現，全篇統一用「知覺」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "你有理論、路徑分析和控制變數三個條件，所以第一句的「具有顯著正向影響」合格",
+      "confidence": "high",
+      "note": "回應未出現此指控，並明確把這句列為通過項目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用隨機分派實驗，屬於可用因果語言的例外，不用改。",
+      "confidence": "high",
+      "note": "回應未出現此指控，並說明引用隨機實驗可以使用因果語言。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命 / ### 錯誤 / ### 瑕疵（是否修改由你判斷） / ### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核沒有核對 Bastani 等人（2024）的原文。",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

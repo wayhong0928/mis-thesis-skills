@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "數字與對象：186 人、24 人、大二、資管系，這些細節憑記憶最容易出錯。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "成績並未低於對照組。林等人（2024）則採放聲思考法觀察 24 名程式新手",
+      "confidence": "low",
+      "note": "兩種讀法：(1) 核心細節（186名、準實驗、24名、放聲思考法、並未低於）皆保留，「資訊管理系」只是全名展開，且加了「研究」「程式」等修飾，視為仍保留則pass；(2) 嚴格讀法下，「24 名新手」被改為「24 名程式新手」，添加了原文未必有的限定詞「程式」，可視為輕微改動轉述內容則fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

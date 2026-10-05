@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「導致」是排除其他解釋的絕對因果。你的證據是橫斷面問卷加 PLS-SEM,這個設計無法排除倒果為因",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "### 錯誤(前後不一致)- **第一章**… 問題:…第一章的措辭沒有標示這是理論導向的檢驗,而且和第五章的「導致」落差太大。",
+      "confidence": "low",
+      "note": "讀法一:回應明言「影響」可以用、保留即可,且未判為因果越線,只判為前後不一致,故不算因果越線誤判,應 pass。讀法二:回應把第一章列在「錯誤」類並計入「錯誤 1 處」,結論並非「無問題」,斷言標準要求結論不是越線或錯誤,故 fail。後者字面較嚴,採 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "第四章:「具有顯著正向影響(β = .29, p < .001)」符合三條件(理論、路徑分析、控制變數)……這是合格寫法,不要動。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

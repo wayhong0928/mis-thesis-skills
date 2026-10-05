@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「未低於對照組」的實際說法。原文如果是「兩組差異未達顯著」，那只代表沒有找到差異，不能直接解讀成「不比對照組差」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "186 名資訊管理學系二年級學生為對象進行準實驗研究...該組成績亦未低於對照組...放聲思考法（think-aloud protocol）觀察 24 名",
+      "confidence": "high",
+      "note": "「資管系大二」被改為「資訊管理學系二年級」是同義正式化，不是改動內容；「未低於對照組」保留未被改成「相當」或「無顯著差異」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此詞彙",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

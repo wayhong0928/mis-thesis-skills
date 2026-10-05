@@ -1,0 +1,32 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過」作介系詞是大陸用法，台灣慣用「透過」。",
+      "confidence": "high",
+      "note": "回應同時涵蓋 (a)、(b)「對於……的問題」句型、(c)因果語氣與無引用，三項皆有對應原句位置。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "按你的要求，我只列問題，不提供整合修改版。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於 A，使得 B，因此 C」三段疊在一起。讀者要讀完 A（AI 發展）和 B（大學生依賴），才讀到研究目的 C。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "把因說完就斷句，用句號分開背景和研究目的。",
+      "confidence": "high",
+      "note": "回應另給出兩句的整合修改版，並建議拆成兩句。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「對於這類工具的使用產生了高度的依賴性」是弱動詞加抽象名詞。這裡的「對於……的使用」「產生……依賴性」可以還原成「高度依賴這類工具」。",
+      "confidence": "high",
+      "note": "回應明確點出「對於……的使用」結構並說明可精簡，不只是在改寫中縮短。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

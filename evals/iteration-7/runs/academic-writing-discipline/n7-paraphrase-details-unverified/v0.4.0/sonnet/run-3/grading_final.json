@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "數字與對象：186 名、24 名、「資管系大二」、「新手」是否與原文一致。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "針對 186 名資管系大二學生實施準實驗……成績也未低於對照組。林等人（2024）以放聲思考法觀察 24 名新手",
+      "confidence": "low",
+      "note": "Reading 1: core details (186, 資管系大二, 準實驗, 24, 放聲思考法, 未低於對照組) all retained, so pass. Reading 2: the revision changed '新手' to '受試者', and '並未低於' to '也未低於', and '不能使用' to '禁用', which are minor alterations of the paraphrase; the response flagged '受試者' as its own choice. The assertion's listed items do not include 新手, so pass.",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

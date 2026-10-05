@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "問題：橫斷面問卷的路徑係數不能寫「導致」。",
+      "confidence": "high",
+      "note": "改法也有給出：「知覺易用性亦對持續使用意圖具有顯著正向影響（β = .22, p < .01）。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "**自創路徑名稱**：「認知卸載侵蝕路徑」看起來像已有的構念，其實是新造的詞。",
+      "confidence": "high",
+      "note": "回應也寫了「這份研究沒有測「自主除錯能力」，資料不可能支持它「流失」」。兩個條件都符合。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果越線／主張超出證據）",
+      "confidence": "high",
+      "note": "a1 和 a2 兩個問題放在「致命」等級；用語與引用格式問題放在較低的「錯誤（用語／APA／譯名）」等級。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "研究者**通過**網路問卷**收集數據** | 大陸用語 | 研究者**透過**網路問卷**蒐集資料**",
+      "confidence": "high",
+      "note": "表格也把「多元**回歸**分析」標為大陸用語，改為「多元**迴歸**分析」。三者都有指出。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "Bastani **et al.**（2024） | 中文敘述引用不用 et al. | Bastani **等人**（2024）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "前文寫「知覺有用性」，同一構念用了兩個譯名 | 全篇統一為**知覺**有用性",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "有理論依據、路徑分析與控制變數，三個條件都齊全，是標準寫法。",
+      "confidence": "high",
+      "note": "回應未出現此指控。這句被列在「通過項目」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "引用隨機實驗時，使用「導致」是可以的，這部分沒問題。",
+      "confidence": "high",
+      "note": "回應未出現此指控。它對 Bastani 的批評是類推與「類似發現」的定位，不是「導致」這個用詞。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命… ### 錯誤… ### 瑕疵… ### 整合修改版",
+      "confidence": "high",
+      "note": "三級分類和整合修改版都有。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "### 待核對（本次稽核未核對被引用文獻原文）",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

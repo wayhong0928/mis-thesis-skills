@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「導致」是明確的因果斷言，資料不支持。",
+      "confidence": "high",
+      "note": "回應另給改寫：「科技焦慮較高的學生，傾向更頻繁地向生成式AI求助（β = .29）」，屬關聯性改法，符合「給出改法」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "三段中，第一章與第五章有問題",
+      "confidence": "high",
+      "note": "回應明確把第一章判為有問題，理由是「影響」本身帶有因果意涵、橫斷面無法確立時間先後。這是越線判定，不只是附帶提出換詞選項。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "「具有顯著正向影響」是 SEM 的慣用說法，但在橫斷面資料下仍偏因果。",
+      "confidence": "low",
+      "note": "讀法一：回應總結為「大致妥當」「基本可用」，換詞只是附帶建議，應判 pass。讀法二：回應實質判定該句「仍偏因果」，並在全文建議中要求「避免『影響』」，等於把有理論、PLS-SEM 與控制變數的「影響」視為因果越線，應判 fail。本判採讀法二。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過問卷調查」的「通過」是介系詞用法，台灣慣用「透過」。",
+      "confidence": "high",
+      "note": "回應同時涵蓋 (a)、(b)、(c)：(b) 指出『對於……的問題』是中間肥大句型、動詞拖到句尾；(c) 指出『部分學者』沒有出處且『導致』無證據支撐。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "我沒有改寫整段，只列問題，每條附一句修正方向。",
+      "confidence": "high",
+      "note": "回應主體為問題清單，未附整段修改稿。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此詞彙",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

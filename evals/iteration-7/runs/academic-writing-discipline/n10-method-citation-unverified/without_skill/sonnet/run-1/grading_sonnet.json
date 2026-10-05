@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "我印象中 Hair 等人(2019)並沒有提出。他們反而批評過「10 倍法則」這類經驗法則…原文頁碼請你自行核對。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "Zhao, Lynch & Chen(2010)批評 Baron & Kenny 的做法,不建議用「完全中介/部分中介」來分類",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未提到「收集」應改為「蒐集」;僅在建議與範例中沿用「收集」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控;全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

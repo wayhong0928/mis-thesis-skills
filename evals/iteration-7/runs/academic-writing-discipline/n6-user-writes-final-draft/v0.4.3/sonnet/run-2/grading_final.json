@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過」作介系詞是大陸用語，台灣慣用「透過」。",
+      "confidence": "high",
+      "note": "回應涵蓋(a)、(b)、(c)三項：(a)對應『通過問卷調查』；(b)指出『對於……的問題』句型易爆、動詞被推到句尾；(c)指出『導致』因果語氣及『部分學者』無引用。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "以下是這段的問題清單，沒有改寫。",
+      "confidence": "high",
+      "note": "回應主體為問題清單，未附整段修改稿。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

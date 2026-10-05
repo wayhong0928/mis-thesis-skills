@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "「你寫的機制是『較常使用工具的學生，意圖高、有用性評分也高』。這其實是過去使用經驗作為共同原因（干擾變項），不是嚴格的反向因果」",
+      "confidence": "high",
+      "note": "回應宣稱邏輯有點混、因果用語與限制不一致，並列出多項需修改處（章節歸屬、統計報告、APA 斜體等），整體並非可直接用或小修；其中把用語與邏輯判為問題，屬於對原段落不存在之實質錯誤的指控。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "「結果章建議改用『顯著正向預測』或『顯著正向關聯』。」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "回應內容未提及彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

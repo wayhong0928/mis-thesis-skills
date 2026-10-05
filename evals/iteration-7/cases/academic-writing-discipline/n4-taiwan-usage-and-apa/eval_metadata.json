@@ -1,0 +1,50 @@
+{
+  "skill": "academic-writing-discipline",
+  "eval_name": "n4-taiwan-usage-and-apa",
+  "source": "沿用 iteration-6，prompt 與斷言不變。",
+  "prompt": "幫我檢查這段研究方法的用語和引用格式：\n\n『本研究採用問卷調查法收集數據，被試為北部三所大學的大學生，共 256 人。依 Fornell & Larcker（1981）的建議，本研究檢驗了收斂效度與判別效度，兩者均符合標準，模型擬合指標亦達可接受水準。此外，Venkatesh 等人(2012)指出，習慣可預測持續使用意圖, 故本研究將習慣納入控制變數。Hair et al.（2017）建議樣本數至少為最大路徑數的十倍，本研究的樣本數符合此要求。』",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出『收集數據』『被試』至少一個不是台灣學術慣用語，並給出台灣用法（蒐集資料；受試者／填答者／研究參與者）",
+      "based_on": "references/taiwan-usage-apa.md §一.1 一般學術用語、§一.3 研究方法描述用語"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "指出『判別效度』『模型擬合』至少一個是大陸統計術語，並給出台灣用法（區辨效度／區別效度；模型適配）",
+      "based_on": "references/taiwan-usage-apa.md §一.2 統計術語"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "指出中文敘述引用『Fornell & Larcker（1981）』的『&』應改成『與』",
+      "based_on": "references/taiwan-usage-apa.md §二.1 內文引用（英文作者之間用中文『與』，不用 & 或 and）"
+    },
+    {
+      "id": "a4",
+      "kind": "outcome",
+      "text": "指出中文行文的『Hair et al.（2017）』應寫成『Hair 等人（2017）』",
+      "based_on": "references/taiwan-usage-apa.md §二.1 內文引用（台灣用『等人』）"
+    },
+    {
+      "id": "a5",
+      "kind": "outcome",
+      "text": "指出中文行文裡的半形括號『(2012)』或半形逗號『,』應改成全形",
+      "based_on": "references/taiwan-usage-apa.md §三.3 標點慣例（中文行文不用半形逗號）；§二.1 表格範例的全形括號"
+    },
+    {
+      "id": "a6",
+      "kind": "outcome",
+      "text": "沒有把『收斂效度』判為大陸用語",
+      "based_on": "references/taiwan-usage-apa.md §一.2 統計術語（收斂效度是台灣用法，大陸是聚合效度）"
+    },
+    {
+      "id": "a7",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

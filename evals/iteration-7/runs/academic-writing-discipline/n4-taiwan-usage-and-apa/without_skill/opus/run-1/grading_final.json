@@ -1,0 +1,64 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「被試」是中國大陸心理學用語。問卷調查較常寫「研究對象」或「受訪者」。／| 數據 | 資料 |",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "| 判別效度 | 區別效度 | discriminant validity 在台灣多譯為「區別效度」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "放在句子裡要寫成「Fornell 與 Larcker（1981）」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "這段同時出現「Venkatesh 等人」和「Hair et al.」，全文要統一。中文論文較常用「等人」。",
+      "confidence": "high",
+      "note": "The response does not literally say 'Hair 等人（2017）' in the issue list, but the rewrite uses 'Hair 等人（2017）' and it advises using 等人 in Chinese text.",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「(2012)」是半形...中文論文建議全部統一用全形「（）」。／半形逗號：「持續使用意圖, 故」要改成全形「，」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "The response does not flag 收斂效度 as a mainland term; it keeps 收斂效度 in the rewrite.",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "None of the excluded terms (彭明輝, 舊瓶新酒, 雁行理論, 七項要件, 貢獻三角度, 深而窄) appear in the response.",
+      "kind": "compliance"
+    }
+  ]
+}

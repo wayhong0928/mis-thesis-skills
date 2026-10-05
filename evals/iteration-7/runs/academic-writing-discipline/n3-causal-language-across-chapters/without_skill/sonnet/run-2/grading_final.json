@@ -1,0 +1,41 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「導致」:橫斷面資料無法確立時間先後,也無法排除反向因果。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "「影響」帶有因果意涵。橫斷面設計較適合改問「關聯」或「預測」",
+      "confidence": "low",
+      "note": "兩種讀法：(1) 回應明說是中性提問，只建議換詞或補充說明，未判為越線，故 pass；(2) 標題寫「輕微問題」並建議改為「關聯」，可視為仍在標記該處。因回應結論偏向中性，判 pass。",
+      "kind": "outcome",
+      "adjudicated": "grader_error"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "「具有顯著正向影響」是主要問題。β = .29 只是在控制變項後的統計關聯,不能直接當成影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中沒有出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

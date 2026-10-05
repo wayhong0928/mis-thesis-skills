@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "因果鏈太長：「由於……使得……因此……」一句話串了三層因果，讀者會喘不過氣。建議拆成兩句",
+      "confidence": "low",
+      "note": "讀法一：斷言要求指出「原因子句」本身過長；回應指出因果鏈太長及中間段肥大，算涵蓋。讀法二：需明確說「由於」子句過長；回應是講三層因果與中間段，未專門說原因子句過長，較偏嚴格。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "近年生成式AI快速普及，越來越多大學生在課業與報告撰寫上高度依賴這類工具。本研究旨在探討此依賴傾向對學習成效的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "對於……的使用 | 依賴的是工具本身，不用加上「的使用」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

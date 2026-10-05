@@ -1,0 +1,56 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「影響」暗示因果,「關係」只是相關。……兩個詞要統一,並與研究設計相符。",
+      "confidence": "high",
+      "note": "回應明確指出同句中「影響」與「關係」混用造成因果／相關語氣不一致，並提供版本 A（全句相關語言）與版本 B（全句影響語言）兩種統一寫法。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "回應未指出「存在」的濫用；版本 A 雖改成「呈顯著正相關」，但沒有說明這是在修正「存在正向關係」的名詞化問題",
+      "confidence": "high",
+      "note": "回應批評的是「因此可以得知」造成推論跳躍，以及「影響」與「關係」混用，沒有針對「存在」一詞或名詞化句式提出意見。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」是中國大陸用語,台灣學術寫作通常用「人工智慧」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "研究結果顯示,學生使用人工智慧的頻率與學習成效呈顯著正相關(r = .xx, p < .05)。",
+      "confidence": "low",
+      "note": "讀法一：句子結構完整，只需填入統計值即可使用，判 pass。讀法二：句中仍有 .xx 佔位符，不算「可直接使用」，判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": false,
+      "evidence": "若研究設計是問卷或相關分析,不宜說「影響」;若是實驗設計,則可以。",
+      "confidence": "low",
+      "note": "讀法一：回應以研究設計為由（問卷／相關分析不宜說影響），有條件地要求改掉「影響」，等同「橫斷面不能用影響」的理由，判 fail。讀法二：這段話放在「兩個詞要統一」的脈絡下，且版本 B 保留了「影響」，可視為以前後一致為主要目的，判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文只談論證邏輯、用字風格與改寫版本，未使用排除清單中的任何詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

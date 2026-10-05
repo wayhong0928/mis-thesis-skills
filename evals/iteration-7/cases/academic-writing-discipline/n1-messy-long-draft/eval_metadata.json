@@ -1,0 +1,74 @@
+{
+  "skill": "academic-writing-discipline",
+  "eval_name": "n1-messy-long-draft",
+  "source": "沿用 iteration-6，prompt 與斷言不變，只依 0.4.1 改 a7 的 based_on。",
+  "prompt": "幫我看一下這段結果與討論寫得怎麼樣：\n\n『本研究以科技接受模型為理論基礎，採橫斷面問卷調查，探討大學生持續使用生成式AI輔助程式設計的意圖。研究者通過網路問卷收集數據，共回收有效問卷 312 份，所有題項皆以 Likert 七點量表測量。資料以 SmartPLS 4 分析，並將性別與年級納入控制變數。\n\n分析結果顯示，在控制性別與年級後，知覺有用性對持續使用意圖具有顯著正向影響（β = .41, p < .001），此結果與 Davis（1989）的主張一致。知覺易用性則導致學生的持續使用意圖顯著提升（β = .22, p < .01）。另外，依賴程度與持續使用意圖亦呈顯著正相關（r = .38, p < .001）。\n\n本研究進一步以多元回歸分析檢驗依賴程度的前因，發現感知有用性愈高的學生，依賴程度也愈高。此結果支持本研究提出的「認知卸載侵蝕路徑」，亦即學生把思考外包給AI之後，自主除錯能力隨之流失。過去研究也有類似發現，Bastani et al.（2024）以隨機分派實驗發現，練習期間使用未加限制的 GPT-4，導致學生在後續閉卷測驗的表現下降。因此，教師在課程設計上應考量生成式AI對學習的潛在衝擊。』",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出『知覺易用性則導致學生的持續使用意圖顯著提升』：本研究是橫斷面資料，用『導致』超出能支持的因果強度，並給出改法",
+      "based_on": "references/sentence-and-causal.md §一.1 紅線一（避免寫成絕對因果）、§一.2 替換表『導致』；SKILL.md §5 致命級第一項"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "指出『認知卸載侵蝕路徑』是自創的路徑名稱，應改用描述性語言（例如『X 對 Y 的直接效果』），或指出『自主除錯能力隨之流失』是本研究沒有測量的推論",
+      "based_on": "references/sentence-and-causal.md §一.5 末段『不要自創路徑名稱』；SKILL.md §5 致命級（自創學術名詞偽裝成既有構念）"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "有區分問題輕重：a1、a2 兩個問題被放在比用語、引用格式問題更高的嚴重等級，或明確說明它們應優先處理",
+      "based_on": "SKILL.md §5 三個等級的判斷原則（因果越線與自創名詞為致命，地區用語與 APA 格式為錯誤）"
+    },
+    {
+      "id": "a4",
+      "kind": "outcome",
+      "text": "指出『通過』『收集數據』『回歸』三者中至少兩個不是台灣學術慣用語，並給出台灣用法（透過、蒐集資料、迴歸）",
+      "based_on": "references/taiwan-usage-apa.md §一.1、§一.2、§一 判讀注意；references/ai-flavor-and-common-errors.md §二 常見錯誤速查表"
+    },
+    {
+      "id": "a5",
+      "kind": "outcome",
+      "text": "指出中文行文的敘述引用『Bastani et al.（2024）』應寫成『Bastani 等人（2024）』",
+      "based_on": "references/taiwan-usage-apa.md §二.1 內文引用（台灣用『等人』，中文行文中不用 et al.）"
+    },
+    {
+      "id": "a6",
+      "kind": "outcome",
+      "text": "指出『知覺有用性』與『感知有用性』是同一構念的兩個譯名，全篇要統一",
+      "based_on": "references/ai-flavor-and-common-errors.md §一.1（術語不一致）與 §二 速查表；SKILL.md §5 錯誤級"
+    },
+    {
+      "id": "a7",
+      "kind": "outcome",
+      "text": "沒有把『在控制性別與年級後，知覺有用性對持續使用意圖具有顯著正向影響』判為因果越線（理論、PLS 路徑分析、控制變數三條件齊備）",
+      "based_on": "references/sentence-and-causal.md §一.1 核心原則（「影響」是商管慣例；本句三條件也齊備）與 §一.5 第二列"
+    },
+    {
+      "id": "a8",
+      "kind": "outcome",
+      "text": "沒有把引用 Bastani 等人隨機分派實驗的『導致』判為因果越線；若有提到這句的用詞，說明引用隨機實驗可以使用因果語言",
+      "based_on": "references/sentence-and-causal.md §一.3 例外一（引用具可信因果識別策略的研究）與 §一.4 表格第三列"
+    },
+    {
+      "id": "a9",
+      "kind": "procedure",
+      "text": "輸出分成致命／錯誤／瑕疵三級，並附整合修改版",
+      "based_on": "SKILL.md §4 輸出格式、§5 三個等級"
+    },
+    {
+      "id": "a10",
+      "kind": "procedure",
+      "text": "附上誠實條款：本次稽核沒有核對被引用文獻的原文",
+      "based_on": "SKILL.md §3 第 3 步（文字含文獻引用時必須附誠實條款）"
+    },
+    {
+      "id": "a11",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "我沒辦法確認 Hair et al.（2019）有「PLS-SEM 樣本數一般落在 100 至 200」這句話",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "Zhao、Lynch 與 Chen（2010）的重點正是反對舊的「完全／部分中介」二分法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "「預計收集 200 份有效問卷」本身也不精確。",
+      "confidence": "high",
+      "note": "回應沿用「收集」一詞，未提出應改為「蒐集」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文僅討論樣本數、中介分類與改寫建議，未出現排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

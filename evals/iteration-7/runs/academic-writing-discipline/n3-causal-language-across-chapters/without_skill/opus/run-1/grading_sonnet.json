@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "強因果用詞。橫斷面資料無法確立時間先後，也無法排除反向因果。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「第一章：問題不大，建議收斂」",
+      "confidence": "high",
+      "note": "回應說「影響為何」預設了因果方向，但整體結論是問題不大，只提供可換詞的選項，沒有判為越線。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「第四章：數據報告正確，用詞可調整」",
+      "confidence": "low",
+      "note": "讀法一：回應稱數據報告正確、只建議換詞，並未判為越線，所以 pass。讀法二：回應也說「控制……並不等於確立因果」，建議把「影響」改成「預測」，可能被視為隱含批評，所以 fail。整體結論偏向輕微用詞調整，我判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此詞彙",
+      "confidence": "high",
+      "note": "回應沒有出現彭明輝、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等任何排除詞。",
+      "kind": "compliance"
+    }
+  ]
+}

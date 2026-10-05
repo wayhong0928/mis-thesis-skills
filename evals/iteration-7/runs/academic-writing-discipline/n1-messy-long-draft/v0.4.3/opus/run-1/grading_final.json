@@ -1,0 +1,96 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「知覺易用性則導致學生的持續使用意圖顯著提升」…「這是橫斷面的路徑係數。『導致』表示已經排除其他解釋，超出問卷資料能支持的程度。」並給改法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「『認知卸載侵蝕路徑』是自創術語」；「自主除錯能力沒有測量」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「### 致命（因果動詞越線／超出資料能支持的主張）」置於「### 錯誤（用語／APA 格式）」之前，且 a1、a2 列於致命",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「改為「透過」…「蒐集資料」；「多元回歸」改為「多元迴歸」」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「改法：「Bastani 等人（2024）以隨機分派實驗發現……」」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "「第二段寫「知覺有用性」，第三段寫「感知有用性」。請全篇統一用「知覺有用性」」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "「知覺有用性的路徑：有理論依據（TAM），用路徑分析，也納入了控制變數。寫「具有顯著正向影響」站得住。」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "「Bastani 等人是隨機實驗，所以這一句用「導致」沒有問題，可以保留。」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "「### 致命」「### 錯誤」「### 瑕疵」三級，以及「### 整合修改版」",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "「待核對（本次稽核沒有核對被引用文獻的原文，轉述是否偏離原意請你自行對照）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

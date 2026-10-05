@@ -1,0 +1,41 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「由於近年來……的快速發展與普及」：背景鋪陳過長",
+      "confidence": "low",
+      "note": "Reading 1: the response must explicitly say the 'because...therefore' pattern has an overlong cause clause stuffed in the middle; the response only says the background is too long and the main clause is stretched, without naming the 由於……因此 frame. Reading 2: pointing out that the 由於 cause clause is too long counts, which would pass.",
+      "kind": "outcome",
+      "adjudicated": "assertion_ambiguous"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "拆成兩句，並把「依賴」「影響學習成效」這兩個關鍵詞放在明顯位置：生成式 AI 快速普及，越來越多大學生在課業與報告撰寫中高度依賴這類工具。本研究旨在探討這種依賴對學生學習成效的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「使得越來越多的大學生開始在……過程中」：多層「在……中」「對於……」結構",
+      "confidence": "low",
+      "note": "Reading 1: the response must specifically say the 對於…… structure in the 對於這類工具的使用產生了高度的依賴性 segment lengthens the sentence; the response lists 對於 in the previous bullet and then calls the target segment 名詞化＋虛詞 and suggests 直接說「依賴」, which is close. Reading 2: a looser mention of 對於 stacking is not enough, since it is attached to the wrong bullet. I lean pass because the next bullet explicitly handles the target segment's wordiness.",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "The response does not contain 彭明輝, 舊瓶新酒, 雁行理論, 七項要件, 貢獻三角度, or 深而窄.",
+      "kind": "compliance"
+    }
+  ]
+}

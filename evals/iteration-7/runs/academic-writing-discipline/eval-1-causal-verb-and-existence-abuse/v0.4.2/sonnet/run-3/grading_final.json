@@ -1,0 +1,56 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "前半用「影響」（因果取向），後半退回「正向關係」（相關語言）。一句裡出現兩套動詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「兩者之間存在正向關係」改成動詞句，例如「兩者顯著正相關」，或直接併進「正向影響」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「人工智能」改「人工智慧」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "本研究資料顯示，人工智慧的使用行為對受試者的學習成效具有顯著正向影響（β = .xx，p < .xx）。",
+      "confidence": "low",
+      "note": "完整句子含 β、p 的佔位符 .xx，需使用者填入數字；若要求完全無需修改才可直接使用則可能判 fail，若視為可用範本則 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "商管領域寫「具有顯著正向影響」是慣例，不算問題。",
+      "confidence": "high",
+      "note": "回應未要求改掉「影響」；第二版改成「預測」是作為保守的可選方案，且為求全句統一，屬例外情形。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

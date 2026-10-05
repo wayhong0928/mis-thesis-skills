@@ -1,0 +1,40 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「導致」：橫斷面資料無法確立時間先後與因果方向。",
+      "confidence": "high",
+      "note": "回應也給出改寫版本：「科技焦慮較高的學生傾向更頻繁地向生成式AI求助」，改法明確。斷言例子是舉例，用不同說法也算。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "「影響為何」本身是因果語言，與橫斷面設計有落差。",
+      "confidence": "low",
+      "note": "讀法一：回應把第一章判為有落差、需修改，等於判為因果越線，故 fail。讀法二：回應標題寫「可接受，但建議微調」，結論不算嚴重越線，只是附帶提出換詞，可判 pass。因回應明指「因果語言」與設計「有落差」，採讀法一。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「第四章（結果）：大致恰當，有兩點可調整」",
+      "confidence": "low",
+      "note": "讀法一：回應整體結論是大致恰當，只附帶建議換成「關聯」或「預測」，依判定標準不算越線，pass。讀法二：回應說「具有顯著正向影響」建議改，且說控制變項無法排除混淆，可視為輕度指控。採讀法一。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

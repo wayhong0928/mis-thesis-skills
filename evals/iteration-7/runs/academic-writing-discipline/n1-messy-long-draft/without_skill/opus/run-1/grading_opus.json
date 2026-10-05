@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「知覺易用性**導致**學生的持續使用意圖顯著提升」…**建議改成**：「知覺易用性對持續使用意圖具顯著正向預測效果」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "結論超出資料範圍：沒有測量「自主除錯能力」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "以下依嚴重程度排列。…## 一、嚴重問題 ### 1. 橫斷面設計卻使用因果語言",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未指出「通過」「收集數據」「回歸」的用語問題，自己也寫「另外跑多元回歸」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應只標題寫「Bastani et al.（2024）的引用方式不恰當」，內容談研究設計，未談中文敘述引用格式",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "「知覺有用性」和「感知有用性」混用，請統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；因果語言問題只列出「導致」與「隨之流失」兩句",
+      "confidence": "high",
+      "note": "回應有一句通論「PLS-SEM 的路徑係數也不代表因果」，但沒有針對該句判為越線。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "他們做的是隨機分派實驗，可以做因果推論",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "## 一、嚴重問題 … ## 二、分析方法的一致性問題 … ## 三、理論與用詞；改寫示範僅限第三段",
+      "confidence": "high",
+      "note": "二、三兩節按主題分類，不是按嚴重等級分；整合修改版也只涵蓋第三段，不是全文。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": false,
+      "evidence": "據我所知，該研究是在土耳其高中的**數學**課程進行…建議送出前再核對一次原文",
+      "confidence": "low",
+      "note": "讀法一：有保留語氣，也提醒使用者核對原文，算部分揭露。讀法二：沒有明說本次稽核未核對被引文獻原文，不構成誠實條款。本次採讀法二。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

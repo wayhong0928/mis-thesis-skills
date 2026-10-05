@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是自己的橫斷面路徑係數，「導致」的因果強度超出證據。",
+      "confidence": "high",
+      "note": "回應另給改法：「知覺易用性對持續使用意圖同樣具有顯著正向影響（β = .22, p < .01）。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「認知卸載侵蝕路徑」是自創的路徑名稱，包裝得像已建立的構念。",
+      "confidence": "high",
+      "note": "回應也指出「依賴是否削弱除錯能力，你沒有測量，也沒有時序資料」，兩個條件都滿足。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果越線／自創術語）",
+      "confidence": "high",
+      "note": "a1、a2 兩個問題列在「致命」，用語與引用格式列在較低一級的「錯誤」，總結也說「最要緊的是第二段的『導致』」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過」（介系詞）、「收集」、「數據」都是大陸用語。應改為「透過網路問卷蒐集資料」。",
+      "confidence": "high",
+      "note": "回應另指出「台灣用『迴歸』」，三項都有點到。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "中文行文的敘述引用應寫「Bastani 等人（2024）」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "同一構念出現兩個譯名，請統一（建議全用「知覺有用性」）。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控。「具有顯著正向影響」搭配理論（TAM）、路徑分析與控制變數，是商管慣例，不列問題。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "回應未出現此指控。引用隨機實驗時使用因果語言，符合例外規定。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命… ### 錯誤… ### 瑕疵… ### 整合修改版",
+      "confidence": "high",
+      "note": "三級之外另有「待核對」「通過項目」兩區，但三級結構與整合修改版都有。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "### 待核對（我未核對任何被引文獻原文）",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現排除清單中的任何詞彙。",
+      "confidence": "high",
+      "note": "全文沒有彭明輝、舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度或深而窄。",
+      "kind": "compliance"
+    }
+  ]
+}

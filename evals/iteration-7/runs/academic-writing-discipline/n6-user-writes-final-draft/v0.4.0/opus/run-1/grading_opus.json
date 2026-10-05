@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過」當介系詞是大陸用法，台灣慣用「透過」。",
+      "confidence": "high",
+      "note": "(a) 見第3點；(c) 見第1、2點：「導致」是最強的因果動詞，前面又只寫「部分學者認為」，以及「部分學者認為」沒有附引用；(b) 第7點也指出「對於……的問題」句型。三項都有命中。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "依你的要求，下面只列問題和修改方向，沒有附整合修改版。",
+      "confidence": "high",
+      "note": "回應主體是分級問題清單，沒有附整段修改稿。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

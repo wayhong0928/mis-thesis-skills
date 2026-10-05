@@ -1,0 +1,40 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "目前沒有說明既有研究做了什麼、還缺什麼。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "缺口：既有研究較少從心理因素（科技焦慮、自我效能）探討依賴程度。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未出現 CARS 或三個 move 的字眼",
+      "confidence": "low",
+      "note": "讀法一：必須明確使用 CARS/三 move 名稱，回應未提及故 fail。讀法二：實質上以現象→缺口→研究目的的結構檢查也算，回應的「建議的背景段落結構」近似此架構，可判 pass。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等排除詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

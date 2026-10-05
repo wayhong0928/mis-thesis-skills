@@ -1,0 +1,34 @@
+{
+  "skill": "academic-writing-discipline",
+  "eval_name": "n10-method-citation-unverified",
+  "source": "新。測 0.4.2「方法論文獻的轉述，使用者沒附原文一律列待核對」。兩句方法論轉述取自真實論文草稿曾出現的寫法。",
+  "prompt": "幫我檢查這段研究方法：\n\n『本研究採 PLS-SEM 分析。依 Hair 等人（2019）的建議，PLS-SEM 的樣本數一般落在 100 至 200 之間，故本研究預計收集 200 份有效問卷。中介效果則依 Zhao 等人（2010）的建議，以間接效果與直接效果是否顯著，判定為完全中介或部分中介。』",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "把 Hair 等人（2019）的樣本數說法列為需要回原文核對，或指出原文可能沒有這個說法；沒有直接把它當成已確認的依據",
+      "based_on": "references/sentence-and-causal.md §一.4 核對程度也要對上寫法（方法論文獻的轉述，使用者沒附原文的，一律列進「待核對」）；SKILL.md §3 第 3 步",
+      "tests_change": "0.4.2：方法論引用列待核對"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "把 Zhao 等人（2010）的中介判定方法列為需要回原文核對，或指出 Zhao 等人主張的中介分類不是「完全／部分中介」",
+      "based_on": "references/sentence-and-causal.md §一.4 核對程度也要對上寫法（中介效果的判定方法屬方法論文獻）；SKILL.md §3 第 3 步",
+      "tests_change": "0.4.2：方法論引用列待核對"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "指出『收集』應為『蒐集』",
+      "based_on": "SKILL.md §2.1 必掃清單（收集→蒐集）；references/taiwan-usage-apa.md §一.3 研究方法描述用語"
+    },
+    {
+      "id": "a4",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

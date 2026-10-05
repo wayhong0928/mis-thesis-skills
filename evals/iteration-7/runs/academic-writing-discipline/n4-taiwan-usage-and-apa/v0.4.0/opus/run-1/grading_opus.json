@@ -1,0 +1,64 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「被試」是大陸用語。問卷研究常寫「研究對象」或「填答者」",
+      "confidence": "high",
+      "note": "回應也把「收集數據」改為「蒐集資料」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "判別效度 | 區辨效度（或區別效度） | 統計術語",
+      "confidence": "low",
+      "note": "回應把這兩條列在「台灣學術用語」表內，給了台灣用法（區辨效度、模型適配），修改版後又說「沒有殘留大陸用語」，等於隱含認定原詞是大陸用語。但該列的說明只寫「統計術語」，沒有明講「大陸」。若斷言要求明確標示為大陸術語，可讀為 fail；若接受透過表格歸類與事後說明隱含指出，則為 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "「Fornell & Larcker（1981）」改成「Fornell 與 Larcker（1981）」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「Hair et al.（2017）」改成「Hair 等人（2017）」。中文行文用「等人」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "用的是半形括號，要改成全形「（2012）」",
+      "confidence": "high",
+      "note": "回應也指出半形逗號要改成全形「，」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；修改版仍保留「收斂效度」，只把判別效度改為區辨效度",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

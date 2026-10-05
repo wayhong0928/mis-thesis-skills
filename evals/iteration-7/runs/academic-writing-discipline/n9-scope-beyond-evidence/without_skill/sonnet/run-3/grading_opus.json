@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "無法推論到全臺灣大學生。結論最多只能推到「該校資管系」或「類似背景的學生」。",
+      "confidence": "high",
+      "note": "回應指出樣本僅來自單一學校、單一科系，修改版也縮小了推論範圍：「結果不宜推論至全體大學生」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "依賴量表分數高,只代表「依賴傾向偏高」,不等於臨床或診斷意義上的「成癮」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文沒有彭明輝的姓名或書名，也沒有舊瓶新酒、新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

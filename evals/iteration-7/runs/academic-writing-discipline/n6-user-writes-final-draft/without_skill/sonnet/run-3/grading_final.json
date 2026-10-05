@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過問卷調查發現」較偏大陸用語，台灣學術寫作多用「透過」或「以問卷調查發現」。",
+      "confidence": "high",
+      "note": "(a) 滿足；(c) 也滿足：「『部分學者認為』沒有指名，也沒有引用」，並指出從負相關滑到「導致學習能力下降」。至少兩項成立。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這段的主要問題如下，我只列問題，不改寫。",
+      "confidence": "high",
+      "note": "回應全程為問題清單，未附整段修改稿。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

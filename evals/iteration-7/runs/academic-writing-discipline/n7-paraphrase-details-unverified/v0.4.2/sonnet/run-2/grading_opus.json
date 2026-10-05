@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「成績並未低於對照組」：這是最需要確認的一處。",
+      "confidence": "high",
+      "note": "回應另列出樣本與設計（186 人、資管系大二、準實驗）、24 名新手、多數學生高估等具體待核對細節。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "在之後禁用 AI 的紙筆測驗中，這組的成績未顯著低於對照組。",
+      "confidence": "high",
+      "note": "回應在沒有原文的情況下，把修改版裡的「並未低於」改成「未顯著低於」，這是不同的統計比較說法。回應雖然也提醒使用者回原文確認，但修改版的文字已經改動，所以不屬於「只指出、未改動」的例外。186 名、資管系大二、準實驗、24 名、放聲思考法都有保留。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

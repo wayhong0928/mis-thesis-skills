@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「導致」是排除其他解釋後的確定性因果，門檻比「影響」高很多，你的證據撐不住。",
+      "confidence": "high",
+      "note": "改法為「回到第四章已有支持的「具有顯著正向影響」，並附上 β 與控制變數。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "第一章：「對……的影響為何」與第四章同一強度，前後一致，可用。",
+      "confidence": "high",
+      "note": "回應未出現此指控，第一章被列在通過項目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "這是合格寫法，不必改成「預測」。",
+      "confidence": "high",
+      "note": "回應未出現此指控，第四章被列在通過項目，並列出理論、PLS-SEM、控制變數三個條件。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "全文逐一核對，未見彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

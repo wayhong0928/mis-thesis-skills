@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過問卷調查發現」。偏向大陸用語，台灣學術寫作通常用「透過」；另「『部分學者』沒有引用來源」",
+      "confidence": "high",
+      "note": "滿足 (a)「通過→透過」與 (c) 部分學者無來源（亦提及相關不等於因果）；兩項皆對應原句位置。(b) 未提。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這段的問題，依嚴重程度排列：",
+      "confidence": "high",
+      "note": "回應主體為問題清單，未附整段修改稿，符合要求。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

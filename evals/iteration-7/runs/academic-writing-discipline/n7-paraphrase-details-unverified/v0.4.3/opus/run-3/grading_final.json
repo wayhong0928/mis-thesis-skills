@@ -1,0 +1,32 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「2. 陳與王（2023）的樣本與設計：186 人、大二、資管系、是否真的是準實驗（還是隨機分派的實驗）。」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「以 186 名資訊管理學系大二學生為對象進行準實驗」「該組成績也並未低於對照組」「以放聲思考法觀察 24 名新手」",
+      "confidence": "low",
+      "note": "兩種讀法：(1) 嚴格讀法，「資管系」被展開為「資訊管理學系」、「之後不能使用」改為「後續禁用」、加了「該組」屬措辭改動，但實質內容（系所、年級、數字、設計、比較方向）未變，判 pass；(2) 若要求逐字保留「資管系」則可能判 fail。『並未低於對照組』原樣保留，未改成「相當」或「無顯著差異」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

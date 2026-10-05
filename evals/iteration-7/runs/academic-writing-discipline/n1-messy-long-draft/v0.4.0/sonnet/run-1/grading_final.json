@@ -1,0 +1,96 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是自己的橫斷面路徑係數，「導致」的因果強度太高。… 改法：「知覺易用性對持續使用意圖同樣具有顯著正向影響（β = .22, p < .01）。」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「認知卸載侵蝕路徑」是自創名詞，包裝得像既有構念。… 並沒有測量自主除錯能力",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果越線／主張強度）… ### 錯誤（用語／APA／一致性）… ### 瑕疵（是否修由你判斷）",
+      "confidence": "high",
+      "note": "a1、a2 皆列於致命級，高於用語與引用格式的錯誤級。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「通過網路問卷收集數據」→「透過網路問卷蒐集資料」… 「多元回歸分析」→「多元迴歸分析」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "「Bastani et al.（2024）」→「Bastani 等人（2024）」，中文行文的敘述引用不用 et al.。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "譯名不一致：前面用「知覺有用性」，後面「感知有用性」，請統一",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "知覺有用性那句有 TAM 理論、SEM 與控制變數三個條件，「具有顯著正向影響」是合格寫法，不必動。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "隨機實驗可以用「導致」，這部分沒問題。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命… ### 錯誤… ### 瑕疵… ### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "我沒有核對 Bastani 等人（2024）和 Davis（1989）的原文。",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

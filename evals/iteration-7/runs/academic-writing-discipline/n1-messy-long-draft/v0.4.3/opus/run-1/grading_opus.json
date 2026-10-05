@@ -1,0 +1,96 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這是橫斷面的路徑係數。「導致」表示已經排除其他解釋，超出問卷資料能支持的程度。",
+      "confidence": "high",
+      "note": "改法：「知覺易用性對持續使用意圖亦具有顯著正向影響（β = .22, p < .01）。」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「認知卸載侵蝕路徑」是自創術語，包裝得像一個已經建立的構念。",
+      "confidence": "high",
+      "note": "也指出「自主除錯能力沒有測量」，兩個條件都滿足",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "### 致命（因果動詞越線／超出資料能支持的主張）",
+      "confidence": "high",
+      "note": "a1、a2 列在「致命」，用語與引用格式列在「錯誤」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "「研究者通過網路問卷收集數據」改為「研究者透過網路問卷蒐集資料」",
+      "confidence": "high",
+      "note": "三者都有指出，並另外指出「多元回歸分析」改為「多元迴歸分析」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "改法：「Bastani 等人（2024）以隨機分派實驗發現……」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "第二段寫「知覺有用性」，第三段寫「感知有用性」。請全篇統一用「知覺有用性」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控；列為通過項目：「寫『具有顯著正向影響』站得住」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "Bastani 等人是隨機實驗，所以這一句用「導致」沒有問題，可以保留。",
+      "confidence": "high",
+      "note": "回應未把這句判為因果越線，且說明了隨機實驗可以使用因果語言",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": true,
+      "evidence": "### 致命… ### 錯誤… ### 瑕疵… ### 整合修改版",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "本次稽核沒有核對被引用文獻的原文，轉述是否偏離原意請你自行對照",
+      "confidence": "high",
+      "note": "",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件等清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

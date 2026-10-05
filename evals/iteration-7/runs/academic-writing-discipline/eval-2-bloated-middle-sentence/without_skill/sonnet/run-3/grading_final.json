@@ -1,0 +1,41 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "主詞「本研究」和核心動詞「探討」被推到句子最後,前面塞了一大段背景鋪陳",
+      "confidence": "low",
+      "note": "讀法一:要求明確點出『由於……因此』句型中的過長原因子句。回應指出前面背景鋪陳過長,但未點名『由於……因此』句型。讀法二:只要指出原因子句過長即可,則可判 pass。",
+      "kind": "outcome",
+      "adjudicated": "assertion_ambiguous"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "拆成兩句,結構更清楚:近年生成式 AI 快速普及,大學生在課業與報告撰寫上日益依賴這類工具。本研究探討這種依賴對學習成效的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "「對於這類工具的使用產生了高度的依賴性」:名詞化堆疊(使用→產生→依賴性),可直接用動詞「依賴」",
+      "confidence": "low",
+      "note": "讀法一:需點出『對於……』介詞結構本身在拉長句子。回應指出的是名詞化堆疊,未提『對於』結構,故判 fail。讀法二:回應確實點出該段冗長並可精簡,若寬鬆解讀可算 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

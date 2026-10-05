@@ -1,0 +1,40 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "Hair 等人(2019)和 Hair 等人(2017)反對用單一經驗範圍決定樣本數。",
+      "confidence": "high",
+      "note": "回應未把該說法當成依據，指出原文沒有此建議，且結尾提醒「尤其是 Hair (2019) 的樣本數段落」須對照原文核對。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "Zhao 等人(2010)的核心論點是批評 Baron & Kenny 的完全/部分中介區分。",
+      "confidence": "high",
+      "note": "回應指出 Zhao 的分類是五分類而非完全／部分中介，也提醒送出前對照原文。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未出現此指出",
+      "confidence": "high",
+      "note": "回應引用「收集」時沒有指出應改為「蒐集」，也沒有提到用詞問題。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應全文沒有出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

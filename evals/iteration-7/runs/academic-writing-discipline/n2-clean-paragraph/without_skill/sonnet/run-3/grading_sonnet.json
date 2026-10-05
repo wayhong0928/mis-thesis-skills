@@ -1,0 +1,32 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": false,
+      "evidence": "前面寫「對持續使用意圖皆具有顯著正向影響」，後面又說無法排除反向解釋。",
+      "confidence": "high",
+      "note": "回應宣稱段落有前後語氣矛盾，並列出多項必須修改的問題（結構搬移、缺統計報告、因果用語），整體結論並非可直接用或小修，且包含不存在的邏輯矛盾指控。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": false,
+      "evidence": "橫斷面資料建議改用「正向預測」或「正向關聯」，這樣前後語氣才一致。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此類詞彙",
+      "confidence": "high",
+      "note": "回應中未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

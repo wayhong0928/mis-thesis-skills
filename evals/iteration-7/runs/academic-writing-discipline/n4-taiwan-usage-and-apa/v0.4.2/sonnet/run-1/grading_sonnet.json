@@ -1,0 +1,64 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "| 收集數據 | 「收集」「數據」是大陸用語 | 蒐集資料 |",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "| 判別效度 | 大陸用語 | 區辨效度（或「區別效度」） |",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "| Fornell & Larcker（1981） | 中文行文的敘述引用不用 \"&\" | Fornell 與 Larcker（1981） |",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "| Hair et al.（2017） | 中文行文不用 et al. | Hair 等人（2017） |",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "| Venkatesh 等人(2012) | 括號用了半形 | Venkatesh 等人（2012） |",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應表格未將收斂效度列為大陸用語，修改版保留「收斂效度」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現排除清單中的詞彙",
+      "confidence": "high",
+      "note": "回應全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞。",
+      "kind": "compliance"
+    }
+  ]
+}

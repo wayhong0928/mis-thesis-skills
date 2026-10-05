@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過」作介系詞是大陸用語，台灣用「透過」；「導致」是絕對因果用語…這句卻跳到因果",
+      "confidence": "high",
+      "note": "(a) 第 2 點對應原句並指出應為「透過」；(c) 第 1、3 點指出「導致」因果語氣過強且「部分學者」無引用；(b) 第 6 點也指出「對於……的問題」句型使主要動詞拖到句尾。三項皆有，超過兩項門檻。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "我只列問題，沒有附整合修改版，這是依你的要求略過的。",
+      "confidence": "high",
+      "note": "回應主體為分級問題清單，未附整段修改稿。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等任何排除詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

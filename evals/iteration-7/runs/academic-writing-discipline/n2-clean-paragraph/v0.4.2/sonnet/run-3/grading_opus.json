@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "可用（致命 0 處、錯誤 0 處、瑕疵 3 處、待核對 2 項）",
+      "confidence": "high",
+      "note": "錯誤級明確寫「無」，用語、等人、標點、譯名都判為正確。Venkatesh 等人（2012）的構念對應放在待核對，屬斷言允許的核對提醒。三項瑕疵（前置修飾、先行詞、反向解釋機制）都標為可選，不是實質錯誤指控。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「具有顯著正向影響」在這裡站得住，三個條件都齊：有理論（TAM）、有路徑分析、有控制性別與年級。",
+      "confidence": "high",
+      "note": "回應未出現此指控。回應明確認可原措辭，整合版也保留「具有顯著正向影響」，沒有要求改成「預測」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+[
+ {
+  "run": "academic-writing-discipline/eval-1-causal-verb-and-existence-abuse/v0.4.0/sonnet/run-2",
+  "id": "a6",
+  "final": false,
+  "evidence": "條件不齊時，應改成「顯著正相關」或「正向預測」。",
+  "cause": "grader_error",
+  "reason": "回應以三條件為判準，條件不齊就要求把「影響」改掉，正是斷言排除的理由。opus 只看到「無法判斷」那句。"
+ },
+ {
+  "run": "academic-writing-discipline/eval-1-causal-verb-and-existence-abuse/without_skill/sonnet/run-3",
+  "id": "a1",
+  "final": true,
+  "evidence": "「影響」暗示因果,「關係」只是相關。……兩個詞要統一,並與研究設計相符。",
+  "cause": "grader_error",
+  "reason": "回應點出同句因果與相關語言混用，並給全句相關版與全句影響版兩種統一寫法，符合斷言。sonnet 只摘到前半句。"
+ },
+ {
+  "run": "academic-writing-discipline/eval-2-bloated-middle-sentence/v0.4.0/sonnet/run-1",
+  "id": "a3",
+  "final": false,
+  "evidence": "弱動詞加抽象名詞：「對於這類工具的使用產生了高度的依賴性」可還原為「高度依賴這類工具」。",
+  "cause": "assertion_ambiguous",
+  "reason": "回應把這段歸為弱動詞加抽象名詞，沒有點出「對於……」結構在拉長句子。依 iteration-6 先例，要點名這段修飾本身在拉長句子才算。"
+ },
+ {
+  "run": "academic-writing-discipline/eval-2-bloated-middle-sentence/v0.4.0/sonnet/run-2",
+  "id": "a3",
+  "final": true,
+  "evidence": "以及「對於這類工具的使用」的修飾",
+  "cause": "grader_error",
+  "reason": "回應開頭把「對於這類工具的使用」列為造成中間肥大的修飾，與 iteration-6 without_skill run-1 判 pass 的先例相同。"
+ },
+ {
+  "run": "academic-writing-discipline/eval-2-bloated-middle-sentence/without_skill/sonnet/run-2",
+  "id": "a1",
+  "final": true,
+  "evidence": "「由於近年來……的快速發展與普及」：背景鋪陳過長",
+  "cause": "assertion_ambiguous",
+  "reason": "回應直接引用「由於」開頭的原因子句並指出過長，實質內容就是斷言要的；沒有寫出「由於……因此」四字不影響。"
+ },
+ {
+  "run": "academic-writing-discipline/eval-2-bloated-middle-sentence/without_skill/sonnet/run-3",
+  "id": "a1",
+  "final": true,
+  "evidence": "主詞「本研究」和核心動詞「探討」被推到句子最後,前面塞了一大段背景鋪陳",
+  "cause": "assertion_ambiguous",
+  "reason": "主句前的背景鋪陳就是原因子句，回應指出它過長，與 run-2 同樣判 pass。"
+ },
+ {
+  "run": "academic-writing-discipline/n3-causal-language-across-chapters/without_skill/sonnet/run-2",
+  "id": "a2",
+  "final": false,
+  "evidence": "「影響」帶有因果意涵。橫斷面設計較適合改問「關聯」或「預測」",
+  "cause": "grader_error",
+  "reason": "回應把第一章列為問題（輕微問題），理由是橫斷面不適合「影響」，結論是越線，不是附帶選項。"
+ },
+ {
+  "run": "academic-writing-discipline/n4-taiwan-usage-and-apa/without_skill/sonnet/run-2",
+  "id": "a4",
+  "final": false,
+  "evidence": "西文文獻可全用「等人」，或全用 et al.，不要混用",
+  "cause": "grader_error",
+  "reason": "回應明說全用 et al. 也可以，沒有指出中文行文應寫「等人」；修改版碰巧寫成等人不等於指出。"
+ },
+ {
+  "run": "academic-writing-discipline/n7-paraphrase-details-unverified/v0.4.0/opus/run-1",
+  "id": "a2",
+  "final": true,
+  "evidence": "在後續不得使用 AI 的紙筆測驗中，該組成績亦未低於對照組。",
+  "cause": "grader_error",
+  "reason": "斷言列出的 186 名、資管系大二（寫成全稱）、準實驗、24 名、放聲思考法都保留，比較說法仍是「未低於」。加了「程式設計」與作者名佔位符不在斷言範圍內，同類寫法在其他 run 都判 pass。"
+ },
+ {
+  "run": "academic-writing-discipline/n7-paraphrase-details-unverified/v0.4.2/sonnet/run-1",
+  "id": "a2",
+  "final": true,
+  "evidence": "以 186 名資訊管理系二年級學生為對象，採準實驗設計……成績也未低於對照組",
+  "cause": "grader_error",
+  "reason": "同上：只把資管系大二寫成全稱，比較說法沒變，與 0.4.0 各 run 判 pass 的標準一致。"
+ },
+ {
+  "run": "academic-writing-discipline/n7-paraphrase-details-unverified/v0.4.3/opus/run-1",
+  "id": "a2",
+  "final": true,
+  "evidence": "在後續禁用 AI 的紙筆測驗中，該組成績亦未低於對照組〔待核對：原文說法〕",
+  "cause": "grader_error",
+  "reason": "斷言列出的項目都保留，比較說法仍是「未低於」。加「程式設計」限定詞與改「參與者」不在斷言範圍，與 0.4.0 Opus run-1 的裁決標準一致。"
+ }
+]

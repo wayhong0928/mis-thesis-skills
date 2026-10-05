@@ -1,0 +1,64 @@
+{
+  "grader": "final (sonnet + adjudications)",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "被試應改為受試者，或研究參與者（較新的寫法）。 數據、收集應改為資料、蒐集。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "擬合應改為配適，如「模型配適度」。 判別效度也可寫作區別效度",
+      "confidence": "high",
+      "note": "回應將擬合改為配適（台灣用法），斷言列舉為模型適配，配適為同義台灣用法；判別效度亦給出區別效度。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "敘述式引用不用 `&`，`&` 只用在括號內 | Fornell 與 Larcker（1981）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "Hair et al.（2017） | 與前句「等人」不一致，中英混用 | Hair 等人（2017）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": true,
+      "evidence": "括號為半形，與其他處的全形不一致 | Venkatesh 等人（2012）；`，故本研究…`",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未將收斂效度判為大陸用語，修改示範中仍沿用「收斂效度」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應中未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

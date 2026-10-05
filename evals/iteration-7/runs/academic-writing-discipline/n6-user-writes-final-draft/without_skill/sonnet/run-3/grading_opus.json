@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「通過問卷調查發現」較偏大陸用語，台灣學術寫作多用「透過」；「部分學者認為」沒有指名，也沒有引用。",
+      "confidence": "high",
+      "note": "(a) 與 (c) 都有指出並對應到原句；(c) 另提到「從負相關直接滑到導致學習能力下降」的因果問題。(b) 句型拉長的問題沒有提到，但三項中已達兩項。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這段的主要問題如下，我只列問題，不改寫。",
+      "confidence": "high",
+      "note": "回應全為問題清單，未附整段修改稿。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控／詞彙；全文僅列論證、引用、因果、定義、用語等問題",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

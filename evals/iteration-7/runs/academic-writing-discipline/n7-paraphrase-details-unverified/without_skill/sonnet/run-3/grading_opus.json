@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "數字與對象：186 名、24 名、大二、資管系。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "在後續禁用 AI 的紙筆測驗中，其成績也未低於對照組",
+      "confidence": "high",
+      "note": "潤飾版保留 186 名、資訊管理系大二、準實驗研究、24 名、放聲思考法；「資管系」只是展開成全稱，「新手」補成「程式新手」不在斷言列舉項目內。另一種讀法：若把「程式新手」視為沒有原文依據的增補，可能被認為改動了轉述內容，但這不影響斷言點名的項目。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文沒有彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

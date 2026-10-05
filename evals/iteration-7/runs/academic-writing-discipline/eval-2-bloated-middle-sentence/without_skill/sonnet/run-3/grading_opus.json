@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "主詞「本研究」和核心動詞「探討」被推到句子最後,前面塞了一大段背景鋪陳",
+      "confidence": "low",
+      "note": "回應沒有點名「由於……因此」句型，但指出主句前塞了一大段背景鋪陳，這段背景就是原因子句。讀法一：實質上指出原因子句過長，判 pass。讀法二：斷言要求明確點出「由於……因此」句型，回應沒有，判 fail。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "近年生成式 AI 快速普及,大學生在課業與報告撰寫上日益依賴這類工具。本研究探討這種依賴對學習成效的影響。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "「對於這類工具的使用產生了高度的依賴性」:名詞化堆疊(使用→產生→依賴性),可直接用動詞「依賴」",
+      "confidence": "low",
+      "note": "回應有專門點評這一段，但指出的問題是名詞化堆疊（使用→產生→依賴性），沒有點名「對於……」介詞結構。讀法一：斷言要求點出「對於……」結構本身，回應沒有，判 fail。讀法二：回應已指出這段的結構在拉長句子並可精簡，實質相同，可判 pass。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文只談冗詞、名詞化與拆句，未提及任何排除清單詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

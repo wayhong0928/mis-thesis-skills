@@ -1,0 +1,32 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「成績並未低於對照組」：原文可能是「無顯著差異」，也可能是「平均分數較高」",
+      "confidence": "high",
+      "note": "回應另列出完成率、多數學生高估、24 名新手、186 與 24 樣本數、大二、期末專題等具體待核對項目",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "以 186 名資管系大二學生為對象，採準實驗設計……成績並未低於對照組〔待核對〕",
+      "confidence": "high",
+      "note": "修改版保留 186 名、資管系大二、準實驗、24 名、放聲思考法，『並未低於對照組』原句未改。「進行準實驗」改為「採準實驗設計」只是動詞結構調整，研究設計的內容沒有變。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應通篇沒有出現彭明輝、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "kind": "compliance"
+    }
+  ]
+}

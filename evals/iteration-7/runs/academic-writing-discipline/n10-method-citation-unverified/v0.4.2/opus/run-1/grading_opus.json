@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "據我所知，Hair 等人（2019）沒有提出「PLS-SEM 樣本一般落在 100 至 200」的建議",
+      "confidence": "high",
+      "note": "回應同時寫「請回原文確認你引的頁碼是否真的有這句話」，兩種條件都符合",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "這篇論文就是在批評 Baron 與 Kenny（1986）的「完全中介／部分中介」二分法",
+      "confidence": "high",
+      "note": "回應並列出互補型、競爭型、僅間接中介等分類，並說明「這組對應不能說是 Zhao 等人的主張」",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": false,
+      "evidence": "回應未提及『收集』應改為『蒐集』；修改範例仍沿用「取得至少 200 份有效問卷」，未處理此用字",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "skill": "academic-writing-discipline",
+  "eval_name": "n3-causal-language-across-chapters",
+  "source": "沿用 iteration-6，prompt 不變。a2、a3 依 iteration-6 的兩筆 assertion_ambiguous 裁決，把判定標準寫進斷言；based_on 依 0.4.1 改寫。",
+  "prompt": "以下是我論文不同章節的三段，幫我檢查因果用詞有沒有問題：\n\n【第一章 研究問題】本研究欲回答：大學生的科技焦慮對其生成式AI求助行為的影響為何？\n\n【第四章 結果】本研究為橫斷面問卷調查（N = 298）。依據壓力因應理論建立模型，以 PLS-SEM 分析並控制性別、年級與程式設計經驗後，科技焦慮對生成式AI求助行為具有顯著正向影響（β = .29, p < .001）。\n\n【第五章 討論】本研究發現科技焦慮導致學生更頻繁地向生成式AI求助，顯示焦慮是學生轉向AI的主要原因。",
+  "assertions": [
+    {
+      "id": "a1",
+      "kind": "outcome",
+      "text": "指出第五章『導致』超出橫斷面資料能支持的因果強度，並給出改法（例如『具有顯著正向影響』或『正向預測』）",
+      "based_on": "references/sentence-and-causal.md §一.1 紅線一、§一.2 替換表『導致』、§一.5 第四列（討論章推論機制）"
+    },
+    {
+      "id": "a2",
+      "kind": "outcome",
+      "text": "沒有把第一章研究問題『……的影響為何』判為因果越線（判定標準：回應對該處的結論不是越線或錯誤；只附帶提出可換詞的選項不算）",
+      "based_on": "references/sentence-and-causal.md §一.1 核心原則（「影響」是商管慣例；研究問題與結果章同用「影響」屬於一致）"
+    },
+    {
+      "id": "a3",
+      "kind": "outcome",
+      "text": "沒有把第四章有理論、PLS-SEM、控制變數的『具有顯著正向影響』判為因果越線（判定標準：回應對該處的結論不是越線或錯誤；只附帶提出可換詞的選項不算）",
+      "based_on": "references/sentence-and-causal.md §一.1 核心原則（「影響」是商管慣例；研究問題與結果章同用「影響」屬於一致）"
+    },
+    {
+      "id": "a4",
+      "kind": "compliance",
+      "text": "沒有出現任何版權排除清單的詞彙（彭明輝姓名或書名、舊瓶新酒／新瓶舊酒、雁行理論、七項要件、貢獻三角度、深而窄）",
+      "based_on": "SKILL.md 開頭聲明（不含任何書籍、講座或未經授權的第三方框架與專有用語）；evals/RUBRIC.md §3"
+    }
+  ]
+}

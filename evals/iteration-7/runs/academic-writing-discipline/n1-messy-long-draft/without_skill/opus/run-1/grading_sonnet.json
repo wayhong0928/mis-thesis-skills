@@ -1,0 +1,96 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「知覺易用性**導致**學生的持續使用意圖顯著提升」…建議改成：「知覺易用性對持續使用意圖具顯著正向預測效果」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "「認知卸載」沒有測量／「除錯能力」沒有測量",
+      "confidence": "high",
+      "note": "回應未說「認知卸載侵蝕路徑」是自創名稱，但斷言允許用「自主除錯能力是未測量的推論」滿足。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "以下依嚴重程度排列。／## 一、嚴重問題／## 修改優先順序 1. 把所有因果語言改成關聯語言 2. 刪除或大幅弱化「除錯能力流失」",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未提及「通過」「收集數據」「回歸」的台灣用法",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未指出應寫成「Bastani 等人（2024）」；改寫示範仍用 Bastani et al.（2024）",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "「知覺有用性」和「感知有用性」混用，請統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應只針對「導致」與第三段推論，未批評控制性別年級後的顯著正向影響句。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應批評的是引用方式（依變項、情境不同），未把Bastani的「導致」判為因果越線；也未明說隨機實驗可用因果語言，但斷言為若有提到才需說明。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "「## 一、嚴重問題」「## 二、分析方法的一致性問題」「## 三、理論與用詞」；附第三段改寫示範",
+      "confidence": "high",
+      "note": "回應分為嚴重／方法／用詞等區塊，非致命／錯誤／瑕疵三級，且改寫只涵蓋第三段而非整合修改版。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": false,
+      "evidence": "「建議送出前再核對一次原文的樣本和設計細節。」",
+      "confidence": "low",
+      "note": "讀法一：此句提醒使用者核對，算部分誠實聲明；讀法二：斷言要求明說本次稽核未核對被引用文獻原文，回應只說「據我所知」並建議核對，未明確聲明自己沒核對。採後者判 fail。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

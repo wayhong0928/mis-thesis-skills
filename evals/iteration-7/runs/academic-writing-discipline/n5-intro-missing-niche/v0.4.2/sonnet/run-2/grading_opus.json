@@ -1,0 +1,40 @@
+{
+  "grader": "opus",
+  "models_used": [
+    "claude-opus-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "這一節只有背景和研究目的，中間缺了「既有研究留下什麼缺口」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "在兩段之間補一到兩句，說明既有研究做到哪裡、哪裡還沒做。",
+      "confidence": "high",
+      "note": "回應另外也建議為「普及」主張補使用比例的引用，但那是第 2 點的獨立建議；針對缺口問題，建議補的內容明確是既有研究的不足。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "缺少研究缺口（緒論三個 move 中的 move ②）",
+      "confidence": "high",
+      "note": "回應沒有寫出「CARS」這個名稱，但用了 move ①②③ 的三段架構來分析，符合斷言的「或三個 move」。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a4",
+      "passed": true,
+      "evidence": "回應未出現此指控；全文未見彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞",
+      "confidence": "high",
+      "note": "",
+      "kind": "compliance"
+    }
+  ]
+}

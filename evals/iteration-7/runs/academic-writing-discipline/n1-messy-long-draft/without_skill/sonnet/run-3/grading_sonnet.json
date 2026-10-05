@@ -1,0 +1,96 @@
+{
+  "grader": "sonnet",
+  "models_used": [
+    "claude-sonnet-5-5"
+  ],
+  "verdicts": [
+    {
+      "id": "a1",
+      "passed": true,
+      "evidence": "「知覺易用性則導致學生的持續使用意圖顯著提升」：橫斷面問卷只能說「正向預測」或「顯著相關」，不能說「導致」。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a2",
+      "passed": true,
+      "evidence": "沒有測量「自主除錯能力」，也沒有任何前後變化。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a3",
+      "passed": true,
+      "evidence": "## 主要問題（建議優先處理）",
+      "confidence": "high",
+      "note": "a1、a2 置於「主要問題（建議優先處理）」，其他列於「方法與報告不一致」「其他」，輕重區分明確。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a4",
+      "passed": false,
+      "evidence": "回應未出現此指出",
+      "confidence": "high",
+      "note": "回應未提及「通過」「收集數據」「回歸」等台灣慣用語的問題；僅在修改示範中沿用「進一步的分析」，未明確指出。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a5",
+      "passed": false,
+      "evidence": "回應未出現此指出",
+      "confidence": "high",
+      "note": "回應全程沿用「Bastani et al.（2024）」，未建議改為「Bastani 等人」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a6",
+      "passed": true,
+      "evidence": "**用語不一**：「知覺有用性」與「感知有用性」請統一。",
+      "confidence": "high",
+      "note": "",
+      "kind": "outcome"
+    },
+    {
+      "id": "a7",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應僅質疑「導致」那句，修改示範中保留「知覺有用性…正向預測持續使用意圖」，未判為因果越線。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a8",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應沒有批評 Bastani 那句的「導致」，只指出引用不貼切（母體、任務不同），修改示範仍用「降低了」。",
+      "kind": "outcome"
+    },
+    {
+      "id": "a9",
+      "passed": false,
+      "evidence": "## 主要問題（建議優先處理）／## 方法與報告不一致／## 其他",
+      "confidence": "high",
+      "note": "回應分為主要問題、方法與報告不一致、其他三類，並非致命／錯誤／瑕疵三級；雖有附修改示範，但只是節錄，不是完整整合修改版。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a10",
+      "passed": true,
+      "evidence": "以上是憑記憶，請對照原文確認。",
+      "confidence": "low",
+      "note": "讀法一：只要說明未核對原文即可，此句成立。讀法二：需明確說「本次稽核沒有核對被引用文獻原文」；此句只針對 Bastani 的細節，範圍較窄。",
+      "kind": "procedure"
+    },
+    {
+      "id": "a11",
+      "passed": true,
+      "evidence": "回應未出現此指控",
+      "confidence": "high",
+      "note": "回應未出現彭明輝、舊瓶新酒、雁行理論、七項要件、貢獻三角度、深而窄等詞彙。",
+      "kind": "compliance"
+    }
+  ]
+}

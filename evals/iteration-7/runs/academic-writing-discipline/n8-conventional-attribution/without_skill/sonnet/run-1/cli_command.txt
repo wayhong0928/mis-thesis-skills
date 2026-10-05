@@ -1,0 +1,2 @@
+CLAUDE_CODE_DISABLE_CLAUDE_MDS=1 claude -p --model sonnet --output-format stream-json --verbose --setting-sources project,local --strict-mcp-config --tools Skill,Read,Glob,Grep --allowedTools Skill,Read,Glob,Grep
+(stdin: academic-writing-discipline__n8-conventional-attribution.txt; cwd: C:\Users\user\AppData\Local\Temp\claude\D--github-repo-Obsidian-Vault--------GAI--------claude-notes\026dd2bd-1d59-4d85-af84-ef29a2099fb1\scratchpad\it7\workdir)
