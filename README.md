@@ -31,6 +31,8 @@ Customize → Plugins → Add marketplace，輸入 `wayhong0928/mis-thesis-skill
 
 網頁版不支援 plugin marketplace，需要把單一 SKILL 資料夾（例如 `plugins/thesis-toolkit/skills/research-question-audit/`）另外包成 `.zip`，在 Customize → Skills 手動上傳。注意 Claude.ai 的 `description` 欄位上限是 200 字元，比 Claude Code 短，上傳前可能需要精簡。
 
+只用網頁版（Claude.ai、ChatGPT、Gemini）的話，可以改用 mis-thesis-guide 的[三段網頁簡版提示詞](https://wayhong0928.github.io/mis-thesis-guide/pages/prompts.html#skill-lite)，不必打包上傳。簡版沒有 references 裡的完整判準，差在哪裡寫在該頁各段下方。
+
 ### Codex（OpenAI）
 
 Codex 也支援開放的 [Agent Skills](https://agentskills.io/) 格式，讀取路徑是 `.agents/skills/`（而不是 Claude Code 用的 `.claude/skills/`）。可以把 SKILL 資料夾複製過去，或建 symlink 讓兩邊共用同一份檔案。這不是走 plugin marketplace 機制（那是 Claude 生態系專屬的打包方式），只是 SKILL.md 本身的開放格式。
