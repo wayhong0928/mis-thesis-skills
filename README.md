@@ -1,8 +1,8 @@
 # mis-thesis-skills
 
-論文研究方法與學術寫作的稽核工具組，把 [mis-thesis-guide](https://github.com/wayhong0928/mis-thesis-guide) 網站的部分內容做成可安裝的 Claude Code SKILL，取代同學自己複製貼上提示詞的方式。
+論文研究方法與學術寫作的稽核工具組，把 [mis-thesis-guide](https://wayhong0928.github.io/mis-thesis-guide/) 網站的部分內容做成可安裝的 Claude Code SKILL，取代同學自己複製貼上提示詞的方式。
 
-這是一個 [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)，收錄一個 plugin（`thesis-toolkit`），裡面包含三個 SKILL，對應論文 0→1 的三個階段：
+這是一個 [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)，收錄一個 plugin（`thesis-toolkit`），裡面包含三個 SKILL，對應論文 0→1 的三個階段。
 
 ## 內含的 SKILL
 
@@ -10,9 +10,19 @@
 |---|---|---|
 | `research-direction-finding` | 完全沒有研究方向、或只有一個大到不能當題目的領域興趣時，用起步策略與收斂漏斗（領域→主題→子題→題目→研究問題）一次推進一層，收出一句話的研究想法；每輪寫進度筆記 | 不稽核收出來的題目站不站得住腳（那是下一個 SKILL）；不代替使用者讀文獻 |
 | `research-question-audit` | 稽核已經想出來的研究問題／研究想法，抓邏輯、方法論、可行性上的漏洞；跑完稽核後可進入逐項引導模式，一項一項幫你想清楚該怎麼回答 | 不會替你從零發想題目；不涉及問卷題項編寫、統計分析實跑等執行細節 |
-| `academic-writing-discipline` | 稽核中文學術論述在句子與用詞層級的品質：因果動詞紀律、構句原則、台灣學術用語、APA 7、去 AI 感、章節結構寫法 | 不處理研究設計邏輯（那是上面那個 SKILL 的範圍）；**不再檢查文獻回顧的論證鏈**，v0.3.0 依評測結果移除，理由見下方「評測」 |
+| `academic-writing-discipline` | 稽核中文學術論述在句子與用詞層級的品質：因果動詞紀律、構句原則、台灣學術用語、APA 7、去 AI 感、章節結構寫法 | 不處理研究設計邏輯（那是上面那個 SKILL 的範圍）；**不再檢查文獻回顧的論證鏈**，v0.3.0 依評測結果移除，理由見 [CHANGELOG](plugins/thesis-toolkit/CHANGELOG.md) 0.3.0 一節 |
 
-三者的判準都可獨立溯源於公開學術方法學資源（詳見各 SKILL 的 `references/` 與 [mis-thesis-guide](https://github.com/wayhong0928/mis-thesis-guide) 網站上的 [「把教材做成可安裝的 SKILL」](https://github.com/wayhong0928/mis-thesis-guide) 一文，記錄了完整的設計與提煉過程）。
+三者的判準都可獨立溯源於公開學術方法學資源，詳見各 SKILL 的 `references/`。設計與提煉過程記錄在[〈把教材做成 SKILL〉](https://wayhong0928.github.io/ai-agent-notes/pages/skill-build.html)。
+
+## 用法
+
+裝好之後不用記指令，用中文講你要做什麼，Claude 會判斷要叫用哪一個 SKILL。想指定的話，可以輸入 `/thesis-toolkit:research-question-audit` 這類名稱。
+
+| 你說 | 叫用 | 它回 |
+|---|---|---|
+| 「老師叫我自己想題目，我完全沒方向」 | `research-direction-finding` | 先確認你是完全沒方向、有大方向，還是要從老師的計畫延伸。完全沒方向的話，先給一項今天就能做的作業，之後一輪推進一層，每輪把結論和排除的選項寫進進度筆記 |
+| 「我想研究遠距工作對員工倦怠的影響，幫我看這個題目站不站得住」 | `research-question-audit` | 一份稽核報告：七個檢查點各標通過、不通過、不確定或不適用，附理由；不通過和不確定的項目再翻成口試委員可能問的話。最後問你要不要一項一項想清楚 |
+| 貼一段文獻回顧，說「幫我檢查這段的寫法」 | `academic-writing-discipline` | 分致命、錯誤、瑕疵三級，列出原句、問題、改法，例如橫斷面資料寫「導致」、「通過問卷收集數據」這類大陸用語。最後附一版套好修法、可以直接用的整合修改版 |
 
 ## 安裝方式
 
@@ -37,11 +47,22 @@ Customize → Plugins → Add marketplace，輸入 `wayhong0928/mis-thesis-skill
 
 Codex 也支援開放的 [Agent Skills](https://agentskills.io/) 格式，讀取路徑是 `.agents/skills/`（而不是 Claude Code 用的 `.claude/skills/`）。可以把 SKILL 資料夾複製過去，或建 symlink 讓兩邊共用同一份檔案。這不是走 plugin marketplace 機制（那是 Claude 生態系專屬的打包方式），只是 SKILL.md 本身的開放格式。
 
+## 更新到新版
+
+第三方 marketplace 預設不會自動更新，有新版時要自己更新。在終端機執行：
+
+```
+claude plugin marketplace update mis-thesis-skills
+claude plugin update thesis-toolkit@mis-thesis-skills
+```
+
+也可以在 Claude Code 裡輸入 `/plugin`，到 Marketplaces 分頁選 `mis-thesis-skills`，選 **Update marketplace**；同一處選 **Enable auto-update**，之後就會自動更新。更新後開新的 session 就會載入新版，正在用的 session 可以輸入 `/reload-plugins` 套用。各版改了什麼見 [CHANGELOG](plugins/thesis-toolkit/CHANGELOG.md)。
+
 ## 評測
 
-三個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過評測：設計測試案例、比較「有無 SKILL」兩臂的輸出、逐條斷言評分。過程與發現記錄在 [`evals/`](evals/) 目錄。
+三個 SKILL 都用 Anthropic 官方的 [skill-creator](https://github.com/anthropics/skills) 流程跑過評測：設計測試案例、比較「有無 SKILL」兩臂的輸出、逐條斷言評分。
 
-三個 SKILL 都跑的最近一輪是 2026-09-28 的 [`evals/iteration-6/`](evals/iteration-6/)：18 個案例，Sonnet 5 每題 3 次、Opus 5.5 每題 1 次，比較沒裝、0.3.0、0.4.0 三個版本。主要數字只算「使用者實際拿到的東西對不對」這類斷言（outcome）：
+三個 SKILL 都跑的最近一輪是 2026-09-28 的 [`evals/iteration-6/`](evals/iteration-6/)：18 個案例，Sonnet 5 每題 3 次、Opus 5.5 每題 1 次。下表只算「使用者實際拿到的東西對不對」這類斷言（outcome）的通過率：
 
 | SKILL | 模型 | 沒裝 | 0.3.0 | 0.4.0 |
 |---|---|---|---|---|
@@ -52,23 +73,21 @@ Codex 也支援開放的 [Agent Skills](https://agentskills.io/) 格式，讀取
 | research-direction-finding | Sonnet | 0.55 | 0.93 | 0.98 |
 | | Opus | 0.65 | 1.00 | 1.00 |
 
-幾個讀這張表時要知道的事：
+案例由維護者設計，Opus 每題只跑 1 次，這些數字是方向性觀察，不是穩定的效果估計。怎麼讀這張表、0.4.1 之後的評測，以及更早的數字為什麼要保守看待，見 [`evals/README.md`](evals/README.md)。
 
-- 效益主要來自在地規則與「不要把合格的地方判成錯」。沒裝 SKILL 的模型會對已經改好的段落挑出不存在的錯誤、把合格的「影響」判成因果越線、抓不到「判別效度」「模型擬合」這類大陸統計術語，也會在使用者資訊不足時繼續追問。
-- Opus 5.5 沒裝 SKILL 也答得不差，差距比 Sonnet 小，但仍有 +0.20 到 +0.35。
-- 案例由維護者設計，Opus 每題只跑 1 次，這些數字是方向性觀察，不是穩定的效果估計。完整設定、逐題數字、評分者一致率（96.4%）與限制，見 `evals/iteration-6/README.md`。
+## 回報問題
 
-0.4.1 到 0.4.3 只改了 academic-writing-discipline，另外跑了兩輪：
-
-- [`evals/iteration-7/`](evals/iteration-7/)（2026-10-05）：13 個案例，Sonnet 每題 3 次、Opus 每題 1 次。0.4.2 有一個副作用：沒有原文時，會在修改稿裡改寫原作者的比較說法，所以沒有發布。0.4.3 修掉之後重測 6 題，其餘 7 題沿用 0.4.2 的結果。合併後的 outcome 通過率，0.4.0 → 0.4.3 是 Sonnet 0.950 → 0.974、Opus 0.985 → 1.000，假陽性 4 → 0、1 → 0。進步主要來自不再把「影響」誤判成因果越線。
-- [`evals/iteration-8/`](evals/iteration-8/)（2026-10-05）：驗證 0.4.1／0.4.2 新規則本身的效益，只跑 Sonnet，每臂 1 到 3 次。三項規則（轉述細節列待核對、範圍對上證據、方法論引用列待核對）0.4.0 試跑時就做到了。表格與版面那一項，判準寬嚴不同，結論也不同，所以無法判定。評測沒有顯示這四項規則讓 0.4.3 比 0.4.0 好。
-
-更早的 [`evals/iteration-5/`](evals/iteration-5/) 量的是 0.2.0。本輪發現當時沒裝 SKILL 的一臂很可能讀到了維護者本機的全域設定，那批數字要保守看待，細節同樣在 iteration-6 的 README。
+判準有錯、SKILL 沒被叫用或輸出不對，請到 [Issues](https://github.com/wayhong0928/mis-thesis-skills/issues) 回報，附上你貼的內容和它的回應。
 
 ## 授權
 
 MIT License，詳見 [LICENSE](LICENSE)。授權範圍僅限站方原創、可獨立溯源的判準與程式碼，不含任何書籍、講座或未經授權的第三方框架與專有用語。
 
-## 相關連結
+## 同系列
 
-- [mis-thesis-guide](https://github.com/wayhong0928/mis-thesis-guide) — 這個工具組的來源網站，含完整的研究方法與學術寫作教材
+| 資源 | 適合誰 |
+|---|---|
+| [mis-thesis-guide](https://wayhong0928.github.io/mis-thesis-guide/) | 研究方法與論文寫作的知識庫，查觀念、查判準 |
+| [一小時上手](https://wayhong0928.github.io/mis-thesis-guide/pages/ai-quickstart.html) | 只用 ChatGPT、Claude、Gemini 網頁版，想在一小時內建好論文助手（另有 [Claude Code、Codex 版](https://wayhong0928.github.io/mis-thesis-guide/pages/ai-quickstart-agent.html)） |
+| [thesis-notes-template](https://github.com/wayhong0928/thesis-notes-template) | 想用 Obsidian 做文獻筆記，要現成的模板和填寫規則 |
+| [mis-thesis-skills](https://github.com/wayhong0928/mis-thesis-skills) | 用 Claude Code 或 Codex，想讓 AI 照固定判準檢查題目與寫作 |
