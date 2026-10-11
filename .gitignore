@@ -11,3 +11,8 @@ Thumbs.db
 
 # eval 執行時抽出的 prompt 暫存檔（可由 evals/tools/extract_prompts.py 重新產生）
 evals/tools/_prompts/
+
+# iteration-9 觸發評測的原始輸出（含本機路徑與其他已安裝 skill 名稱，不公開）
+evals/iteration-9/raw/
+evals/iteration-9/work/
+evals/iteration-9/results.json

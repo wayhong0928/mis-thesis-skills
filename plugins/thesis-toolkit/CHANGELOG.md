@@ -1,5 +1,15 @@
 # thesis-toolkit 變更紀錄
 
+## 0.5.0（2026-10-11）
+
+新增 `thesis-roadmap`，三個既有 SKILL 不動。**只跑了觸發評測，輸出品質還沒有評測。**
+
+- 不確定自己在哪個階段、不知道該先用哪個 SKILL 時叫用。它判斷使用者在找方向、稽核題目還是寫章節，指出下一個 SKILL 並附開口範例；三個 SKILL 都不管的事（找文獻、假說、方法、統計、各章寫法、口試）指到 mis-thesis-guide 對應頁面。
+- 找方向的出口條件照搬 research-direction-finding 第 5 節。稽核題目後怎麼走（依 research-question-audit 第 3 節的總結三選一）、寫作時發現研究問題本身有問題要退回稽核題目，這兩條是依各 SKILL 的範圍推出來的轉接，SKILL.md 裡有註明。沒有新增稽核判準，也不強制順序。
+- 沒有做成強制階段或 hook：三個 SKILL 本來就各自寫了交棒條件，缺的是一個入口告訴使用者從哪裡開始。
+- description 寫明三種情況直接用對應的 SKILL，避免搶走原本的觸發。
+- 觸發評測（`evals/iteration-9/`，11 題，Sonnet 每題 2 次、Opus 1 次）：初版 31/33，錯的是「這個階段有工具可以幫我嗎」這種問法在 Sonnet 上沒叫用；description 補上「問某個階段有沒有工具可用」後 33/33。兩輪的反例（應叫用原本三個 SKILL 的 6 題）都是 18/18，沒有被搶走觸發。題目由維護者設計，第二輪是看了第一輪的失敗才改，只能看方向。
+
 ## 0.4.3（2026-10-05）
 
 只改 `academic-writing-discipline`，修 0.4.2 在評測中出現的副作用（`evals/iteration-7/VERDICT.md`）。

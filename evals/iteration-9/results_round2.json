@@ -1,0 +1,332 @@
+[
+ {
+  "case": "r1",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r1",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r1",
+  "expect": "thesis-roadmap",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r2",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r2",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r2",
+  "expect": "thesis-roadmap",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r3",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r3",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r3",
+  "expect": "thesis-roadmap",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r4",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r4",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r4",
+  "expect": "thesis-roadmap",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r5",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r5",
+  "expect": "thesis-roadmap",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "r5",
+  "expect": "thesis-roadmap",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:thesis-roadmap",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "d1",
+  "expect": "research-direction-finding",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-direction-finding",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "d1",
+  "expect": "research-direction-finding",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:research-direction-finding",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "d1",
+  "expect": "research-direction-finding",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-direction-finding",
+  "ok": true,
+  "plugin_050": true,
+  "result": "success"
+ },
+ {
+  "case": "d2",
+  "expect": "research-direction-finding",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-direction-finding",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "d2",
+  "expect": "research-direction-finding",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:research-direction-finding",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "d2",
+  "expect": "research-direction-finding",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-direction-finding",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "q1",
+  "expect": "research-question-audit",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-question-audit",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "q1",
+  "expect": "research-question-audit",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:research-question-audit",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "q1",
+  "expect": "research-question-audit",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-question-audit",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "q2",
+  "expect": "research-question-audit",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-question-audit",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "q2",
+  "expect": "research-question-audit",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:research-question-audit",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "q2",
+  "expect": "research-question-audit",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:research-question-audit",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "w1",
+  "expect": "academic-writing-discipline",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:academic-writing-discipline",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "w1",
+  "expect": "academic-writing-discipline",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:academic-writing-discipline",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "w1",
+  "expect": "academic-writing-discipline",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:academic-writing-discipline",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "w2",
+  "expect": "academic-writing-discipline",
+  "model": "sonnet",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:academic-writing-discipline",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "w2",
+  "expect": "academic-writing-discipline",
+  "model": "sonnet",
+  "rep": 2,
+  "first_skill": "thesis-toolkit:academic-writing-discipline",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ },
+ {
+  "case": "w2",
+  "expect": "academic-writing-discipline",
+  "model": "opus",
+  "rep": 1,
+  "first_skill": "thesis-toolkit:academic-writing-discipline",
+  "ok": true,
+  "plugin_050": true,
+  "result": "error_max_turns"
+ }
+]

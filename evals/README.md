@@ -19,6 +19,10 @@
 - [`iteration-7/`](iteration-7/)：13 個案例，Sonnet 每題 3 次、Opus 每題 1 次。0.4.2 有一個副作用：沒有原文時，會在修改稿裡改寫原作者的比較說法，所以沒有發布。0.4.3 修掉之後重測 6 題，其餘 7 題沿用 0.4.2 的結果。合併後的 outcome 通過率，0.4.0 → 0.4.3 是 Sonnet 0.950 → 0.974、Opus 0.985 → 1.000，假陽性 4 → 0、1 → 0。進步主要來自不再把「影響」誤判成因果越線。
 - [`iteration-8/`](iteration-8/)：驗證 0.4.1／0.4.2 新規則本身的效益，只跑 Sonnet，每臂 1 到 3 次。三項規則（轉述細節列待核對、範圍對上證據、方法論引用列待核對）0.4.0 試跑時就做到了。表格與版面那一項，判準寬嚴不同，結論也不同，所以無法判定。評測沒有顯示這四項規則讓 0.4.3 比 0.4.0 好。
 
+## iteration-9（2026-10-11，thesis-roadmap 觸發）
+
+[`iteration-9/`](iteration-9/) 只測 0.5.0 新增的 `thesis-roadmap` 會不會被正確叫用、會不會搶走另外三個 SKILL 的觸發，不評輸出品質。11 題，Sonnet 每題 2 次、Opus 1 次：初版 description 31/33，補一句之後 33/33，兩輪的反例都是 18/18。做法、題目與限制見該資料夾的 README。
+
 ## iteration-5 以前
 
 [`iteration-5/`](iteration-5/) 量的是 0.2.0。iteration-6 發現當時沒裝 SKILL 的一臂很可能讀到了維護者本機的全域設定，那批數字要保守看待，細節見 [`iteration-6/README.md`](iteration-6/README.md)。academic-writing-discipline 在 0.3.0 移除論證鏈檢查，依據的就是 iteration-5 的數字，見 [`iteration-5/README.md`](iteration-5/README.md) 與 [CHANGELOG](../plugins/thesis-toolkit/CHANGELOG.md)。
