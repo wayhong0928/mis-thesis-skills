@@ -10,7 +10,7 @@
 
 - `run_trigger.py` 用 `claude -p --plugin-dir` 載入 repo 裡的 plugin，記錄模型第一個 Skill 工具呼叫叫了哪一個 SKILL。
 - 參數：`--setting-sources project,local`（不載入使用者設定，所以已安裝的舊版 plugin 不會載入），`--max-turns 2`，在空資料夾執行，`CLAUDE_CODE_DISABLE_CLAUDE_MDS=1`。每次都確認 init 訊息載入的是 0.5.0。
-- 11 題：5 題應叫用 `thesis-roadmap`（r1–r5）。6 題應叫用原本的 SKILL：d1、d2 是 research-direction-finding，q1、q2 是 research-question-audit，w1、w2 是 academic-writing-discipline。d1、q1、w1、w2 取自各 SKILL 既有的 `evals.json`。
+- 11 題：5 題應叫用 `thesis-roadmap`（r1 到 r5）。6 題應叫用原本的 SKILL：d1、d2 是 research-direction-finding，q1、q2 是 research-question-audit，w1、w2 是 academic-writing-discipline。d1、d2、q1、w1、w2 取自既有的 `evals.json`，其中 q1 是 research-direction-finding 的邊界題（已經有研究想法，應該交給 research-question-audit）；r1 到 r5 與 q2 是這一輪新寫的。
 - 每題 Sonnet 跑 2 次、Opus 跑 1 次，共 33 次。
 - 環境是維護者的電腦，除了 thesis-toolkit 之外還載入了約 17 個其他 skill，會跟這四個 SKILL 競爭觸發。
 - 原始輸出（`raw/`）含本機路徑和其他已安裝 skill 的名稱，沒有放進 repo。腳本在跑完之後只改了路徑寫法（改成相對於 repo），題目與參數沒變。
