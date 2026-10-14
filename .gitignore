@@ -16,3 +16,9 @@ evals/tools/_prompts/
 evals/iteration-9/raw/
 evals/iteration-9/work/
 evals/iteration-9/results.json
+
+# iteration-10 用未發表碩論的真實段落，案例、回應、評分只留本機
+evals/iteration-10/local/
+evals/iteration-10/cases/
+evals/iteration-10/runs/
+evals/iteration-10/results.json

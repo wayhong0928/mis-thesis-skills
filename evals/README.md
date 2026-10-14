@@ -23,6 +23,10 @@
 
 [`iteration-9/`](iteration-9/) 只測 0.5.0 新增的 `thesis-roadmap` 會不會被正確叫用、會不會搶走另外三個 SKILL 的觸發，不評輸出品質。11 題，Sonnet 每題 2 次、Opus 1 次：初版 description 31/33，補一句之後 33/33，兩輪的反例都是 18/18。做法、題目與限制見該資料夾的 README。
 
+## iteration-10（2026-10-14，academic-writing-discipline 與 grep 基線）
+
+[`iteration-10/`](iteration-10/) 用兩篇未發表碩論的三段真實文字，植入 12 個錯（grep 抓得到、抓不到的各 6 個），另放 2 段原文當乾淨對照，比較 `grep-checks.sh`、沒裝 skill、0.5.2 三方。Sonnet 每臂每題 3 次。偵測合計 grep 6/12、沒裝 27/36、0.5.2 29/36；grep 抓得到的那 6 個，grep 全中，0.5.2 是 13/18。依事先寫定的規則，判定是「勝過 grep」與「比沒裝方向一致但不足」：skill 的差距集中在大陸用語，語意層的錯沒裝的模型已經抓得到，模型之外仍要跑 grep。另外發現 skill 內部對「值得注意的是」的規則互相矛盾（grep 清單寫應為空，用語檔寫最多 2 次）。案例、回應與評分只留在維護者本機，別人無法重跑。做法與限制見該資料夾的 SPEC 與 VERDICT。
+
 ## iteration-5 以前
 
 [`iteration-5/`](iteration-5/) 量的是 0.2.0。iteration-6 發現當時沒裝 SKILL 的一臂很可能讀到了維護者本機的全域設定，那批數字要保守看待，細節見 [`iteration-6/README.md`](iteration-6/README.md)。academic-writing-discipline 在 0.3.0 移除論證鏈檢查，依據的就是 iteration-5 的數字，見 [`iteration-5/README.md`](iteration-5/README.md) 與 [CHANGELOG](../plugins/thesis-toolkit/CHANGELOG.md)。
