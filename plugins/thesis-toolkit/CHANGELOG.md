@@ -1,5 +1,11 @@
 # thesis-toolkit 變更紀錄
 
+## 0.5.4（2026-10-17）
+
+只改 `academic-writing-discipline` 的 `grep-checks.sh`。**這次修改沒有重跑評測。**
+
+- 「值得注意的是」的規則原本互相矛盾。`grep-checks.sh` 把它列在「應為空」的 AI 套話組，`taiwan-usage-apa.md` 寫「全篇最多 2 次」，iteration-10 裡 0.5.2 有兩次照後者放過（`evals/iteration-10/VERDICT.md` 第三節 G 類）。現在統一成全篇最多 2 次，從 AI 套話組移出，另開一組計算出現次數，每份檔案應 ≤2。
+
 ## 0.5.3（2026-10-16）
 
 只改 `academic-writing-discipline`。**這次修改沒有重跑評測。**
