@@ -8,7 +8,7 @@
 
 **論文寫到一半，想知道題目站不站得住、這段文字的寫法有沒有問題時，裝進 Claude Code，用中文說你要做什麼就會開始檢查。**
 
-[![academic-writing-discipline 的寫作稽核實際輸出：一段第二章草稿跑 grep-checks.sh，因果動詞紀律與主張強度兩項檢查標出「導致」「證實」「最強」所在的行號](assets/writing-audit-example.png)](assets/writing-audit-example.png)
+[![academic-writing-discipline 的寫作稽核實際輸出。一段第二章草稿跑 grep-checks.sh，因果動詞紀律與主張強度兩項檢查標出「導致」「證實」「最強」所在的行號](assets/writing-audit-example.png)](assets/writing-audit-example.png)
 
 一段虛構的第二章草稿跑 `academic-writing-discipline` 附的 `grep-checks.sh`，這是實際輸出，只標出可疑句與行號，不會自動改稿。
 
@@ -111,7 +111,7 @@ MIT License，詳見 [LICENSE](LICENSE)。授權範圍僅限站方原創、可�
 | [Claude Code 工作流 template](https://wayhong0928.github.io/claude-workflow-template/) | Claude Code 設定 | 開場接上次進度，產出交給另一個 agent 驗收，論文跨很多 session 也不會斷。 |
 | [AI Agent 筆記](https://wayhong0928.github.io/ai-agent-notes/) | 網站 | Claude、Codex 這類 AI 代理工具的概念、設定和協作方式。 |
 
-整套流程怎麼走：[看整套流程怎麼走](https://wayhong0928.github.io/mis-thesis-guide/pages/ai-thesis-stages.html)
+[看整套流程怎麼走](https://wayhong0928.github.io/mis-thesis-guide/pages/ai-thesis-stages.html)
 <!-- family:cards:end -->
 
 ## 同系列
