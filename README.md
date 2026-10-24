@@ -6,16 +6,11 @@
 
 這是一個 [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)，收錄一個 plugin（`thesis-toolkit`），裡面包含三個稽核 SKILL，對應論文 0→1 的三個階段，另有一個流程導覽 SKILL 幫你判斷現在該用哪一個。
 
-## 內含的 SKILL
+**論文寫到一半，想知道題目站不站得住、這段文字的寫法有沒有問題時，裝進 Claude Code，用中文說你要做什麼就會開始檢查。**
 
-| SKILL | 管什麼 | 不管什麼 |
-|---|---|---|
-| `research-direction-finding` | 完全沒有研究方向、或只有一個大到不能當題目的領域興趣時，用起步策略與收斂漏斗（領域→主題→子題→題目→研究問題）一次推進一層，收出一句話的研究想法；每輪寫進度筆記 | 不稽核收出來的題目站不站得住腳（那是下一個 SKILL）；不代替使用者讀文獻 |
-| `research-question-audit` | 稽核已經想出來的研究問題／研究想法，抓邏輯、方法論、可行性上的漏洞；跑完稽核後可進入逐項引導模式，一項一項幫你想清楚該怎麼回答 | 不會替你從零發想題目；不涉及問卷題項編寫、統計分析實跑等執行細節 |
-| `academic-writing-discipline` | 稽核中文學術論述在句子與用詞層級的品質：因果動詞紀律、構句原則、台灣學術用語、APA 7、去 AI 感、章節結構寫法 | 不處理研究設計邏輯（那是上面那個 SKILL 的範圍）；**不再檢查文獻回顧的論證鏈**，v0.3.0 依評測結果移除，理由見 [CHANGELOG](plugins/thesis-toolkit/CHANGELOG.md) 0.3.0 一節 |
-| `thesis-roadmap` | 不確定自己在哪個階段、不知道下一步該用哪個 SKILL 時，判斷階段並指出下一步，附開口範例；三個 SKILL 都不管的事（找文獻、統計、口試）指到 mis-thesis-guide 對應頁面 | 不做任何稽核；不強制順序，三個稽核 SKILL 都能單獨用 |
+[![academic-writing-discipline 的寫作稽核實際輸出：一段第二章草稿跑 grep-checks.sh，因果動詞紀律與主張強度兩項檢查標出「導致」「證實」「最強」所在的行號](assets/writing-audit-example.png)](assets/writing-audit-example.png)
 
-三者的判準都可獨立溯源於公開學術方法學資源，詳見各 SKILL 的 `references/`。設計與提煉過程記錄在[〈把教材做成 SKILL〉](https://wayhong0928.github.io/ai-agent-notes/pages/skill-build.html)。
+一段虛構的第二章草稿跑 `academic-writing-discipline` 附的 `grep-checks.sh`，這是實際輸出，只標出可疑句與行號，不會自動改稿。
 
 ## 用法
 
@@ -51,6 +46,17 @@ Customize → Plugins → Add marketplace，輸入 `wayhong0928/mis-thesis-skill
 
 Codex 也支援開放的 [Agent Skills](https://agentskills.io/) 格式，讀取路徑是 `.agents/skills/`（而不是 Claude Code 用的 `.claude/skills/`）。可以把 SKILL 資料夾複製過去，或建 symlink 讓兩邊共用同一份檔案。這不是走 plugin marketplace 機制（那是 Claude 生態系專屬的打包方式），只是 SKILL.md 本身的開放格式。
 
+## 內含的 SKILL
+
+| SKILL | 管什麼 | 不管什麼 |
+|---|---|---|
+| `research-direction-finding` | 完全沒有研究方向、或只有一個大到不能當題目的領域興趣時，用起步策略與收斂漏斗（領域→主題→子題→題目→研究問題）一次推進一層，收出一句話的研究想法；每輪寫進度筆記 | 不稽核收出來的題目站不站得住腳（那是下一個 SKILL）；不代替使用者讀文獻 |
+| `research-question-audit` | 稽核已經想出來的研究問題／研究想法，抓邏輯、方法論、可行性上的漏洞；跑完稽核後可進入逐項引導模式，一項一項幫你想清楚該怎麼回答 | 不會替你從零發想題目；不涉及問卷題項編寫、統計分析實跑等執行細節 |
+| `academic-writing-discipline` | 稽核中文學術論述在句子與用詞層級的品質：因果動詞紀律、構句原則、台灣學術用語、APA 7、去 AI 感、章節結構寫法 | 不處理研究設計邏輯（那是上面那個 SKILL 的範圍）；**不再檢查文獻回顧的論證鏈**，v0.3.0 依評測結果移除，理由見 [CHANGELOG](plugins/thesis-toolkit/CHANGELOG.md) 0.3.0 一節 |
+| `thesis-roadmap` | 不確定自己在哪個階段、不知道下一步該用哪個 SKILL 時，判斷階段並指出下一步，附開口範例；三個 SKILL 都不管的事（找文獻、統計、口試）指到 mis-thesis-guide 對應頁面 | 不做任何稽核；不強制順序，三個稽核 SKILL 都能單獨用 |
+
+三者的判準都可獨立溯源於公開學術方法學資源，詳見各 SKILL 的 `references/`。設計與提煉過程記錄在[〈把教材做成 SKILL〉](https://wayhong0928.github.io/ai-agent-notes/pages/skill-build.html)。
+
 ## 更新到新版
 
 第三方 marketplace 預設不會自動更新，有新版時要自己更新。在終端機執行：
@@ -79,6 +85,12 @@ claude plugin update thesis-toolkit@mis-thesis-skills
 
 案例由維護者設計，Opus 每題只跑 1 次，這些數字是方向性觀察，不是穩定的效果估計。怎麼讀這張表、0.4.1 之後的評測，以及更早的數字為什麼要保守看待，見 [`evals/README.md`](evals/README.md)。
 
+## 限制
+
+- 三個稽核 SKILL 只指出問題、給改法，不替你讀文獻，也不跑統計。稽核結果要不要採用，仍要你自己判斷。
+- 評測案例由維護者設計，數字是方向性觀察（見上一節）。`thesis-roadmap` 的輸出品質還沒有評測。
+- Claude.ai 網頁版要手動打包上傳，Codex 要自己複製 SKILL 資料夾，這兩種裝法都不會自動更新。
+
 ## 回報問題
 
 判準有錯、SKILL 沒被叫用或輸出不對，請到 [Issues](https://github.com/wayhong0928/mis-thesis-skills/issues) 回報，附上你貼的內容和它的回應。
@@ -86,6 +98,21 @@ claude plugin update thesis-toolkit@mis-thesis-skills
 ## 授權
 
 MIT License，詳見 [LICENSE](LICENSE)。授權範圍僅限站方原創、可獨立溯源的判準與程式碼，不含任何書籍、講座或未經授權的第三方框架與專有用語。
+
+<!-- family:cards:start -->
+## 同一套的工具
+
+| 工具 | 類型 | 用途 |
+|---|---|---|
+| [論文指南](https://wayhong0928.github.io/mis-thesis-guide/) | 網站 | 研究方法、論文寫作和口試，每一站該怎麼做的說明。 |
+| **thesis-toolkit**（你在這裡） | Claude Code 外掛 | 幫你收斂題目、稽核研究問題、檢查學術寫法的 SKILL。 |
+| [論文筆記庫範本](https://wayhong0928.github.io/thesis-notes-template/) | Obsidian 範本 | 文獻筆記、構念卡和假說推導放在同一個筆記庫，寫第二、三章時直接取材。 |
+| [md-to-slides](https://wayhong0928.github.io/md-to-slides/) | 簡報工具 | 用 Markdown 寫簡報，挑場合和主題就有一份範例可以改。 |
+| [Claude Code 工作流 template](https://wayhong0928.github.io/claude-workflow-template/) | Claude Code 設定 | 開場接上次進度，產出交給另一個 agent 驗收，論文跨很多 session 也不會斷。 |
+| [AI Agent 筆記](https://wayhong0928.github.io/ai-agent-notes/) | 網站 | Claude、Codex 這類 AI 代理工具的概念、設定和協作方式。 |
+
+整套流程怎麼走：[看整套流程怎麼走](https://wayhong0928.github.io/mis-thesis-guide/pages/ai-thesis-stages.html)
+<!-- family:cards:end -->
 
 ## 同系列
 
